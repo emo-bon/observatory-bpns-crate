@@ -11,13 +11,13 @@
             "@type": "Dataset",
             "accessURL": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/ro-crate-metadata.json",
             "conformsTo": {
-                "@id": "https://data.emobon.embrc.eu/observatory-profile/0.13"
+                "@id": "https://data.emobon.embrc.eu/observatory-profile/0.14"
             },
             "contactPoint": {
                 "@type": "ContactPoint",
                 "email": "emobon@embrc.eu"
             },
-            "datePublished": "2024-01-18T14:52:41+00:00",
+            "datePublished": "2024-01-19T10:38:41+00:00",
             "description": "This RO-Crate/GitHub repository contains the EMO BON sampling event logsheets from the observatory BPNS",
             "hasPart": [
                 {
@@ -1322,7 +1322,7 @@
             "version": "<version>"
         },
         {
-            "@id": "https://data.emobon.embrc.eu/observatory-profile/0.13",
+            "@id": "https://data.emobon.embrc.eu/observatory-profile/0.14",
             "@type": "CreativeWork",
             "name": "<name>",
             "version": "<version>"
