@@ -31,6 +31,11 @@ jobs:
           REPO: ${{ github.repository }}
       - name: rocrate-to-pages
         uses: vliz-be-opsci/rocrate-to-pages@latest
+        with:
+          multiple_rocrates: true
+          release_management: false
+          include_draft: false
+          index_html: false
       - name: actions-gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
