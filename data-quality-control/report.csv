@@ -61,10 +61,6 @@ illegal depth,water,sampling,depth,256,Expected 2024-12-31,depth must be less th
 illegal depth,water,sampling,depth,257,Expected 2024-12-31,depth must be less than or equal to tot_depth_water_col (26),/github/workspace/logsheets/filtered/water_sampling.csv,EMOBONList,mandatory
 illegal depth,water,sampling,depth,258,Expected 2024-12-31,depth must be less than or equal to tot_depth_water_col (26),/github/workspace/logsheets/filtered/water_sampling.csv,EMOBONList,mandatory
 illegal depth,water,sampling,depth,259,Expected 2024-12-31,depth must be less than or equal to tot_depth_water_col (26),/github/workspace/logsheets/filtered/water_sampling.csv,EMOBONList,mandatory
-x after y violation,sediment,sampling,ship_date_seq,39,2022-07-18 00:00:00,ship_date_seq must be after ship_date (y = 2022-09-26 00:00:00),/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
-x after y violation,sediment,sampling,ship_date_seq,40,2022-07-18 00:00:00,ship_date_seq must be after ship_date (y = 2022-09-26 00:00:00),/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
-x after y violation,sediment,sampling,ship_date_seq,61,2022-07-18 00:00:00,ship_date_seq must be after ship_date (y = 2022-09-26 00:00:00),/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
-x after y violation,sediment,sampling,ship_date_seq,62,2022-07-18 00:00:00,ship_date_seq must be after ship_date (y = 2022-09-26 00:00:00),/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
 datatype mismatch,sediment,measured,diss_oxygen,122,Expected 12-2024,\,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,optional
 datatype mismatch,sediment,measured,diss_oxygen,123,Expected 12-2024,\,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,optional
 datatype mismatch,sediment,measured,diss_oxygen,124,Expected 12-2024,\,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,optional

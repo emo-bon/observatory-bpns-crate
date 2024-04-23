@@ -63,10 +63,6 @@ illegal depth,ws,depth,258,Expected 2024-12-31,,depth must be less than or equal
 illegal depth,ws,depth,259,Expected 2024-12-31,,depth must be less than or equal to tot_depth_water_col (26),/github/workspace/logsheets/filtered/water_sampling.csv,EMOBONList,False
 organization edmoid error,so,organization_edmoid,1,422; 449; 432; 2248,https://edmo.seadatanet.org/report/422;https://edmo.seadatanet.org/report/449;https://edmo.seadatanet.org/report/432;https://edmo.seadatanet.org/report/2248,organization edmoid should be a list of URIs,/github/workspace/logsheets/filtered/sediment_observatory.csv,EMOBONList,False
 organization edmoid error,wo,organization_edmoid,1,422;449;432;2248,https://edmo.seadatanet.org/report/422;https://edmo.seadatanet.org/report/449;https://edmo.seadatanet.org/report/432;https://edmo.seadatanet.org/report/2248,organization edmoid should be a list of URIs,/github/workspace/logsheets/filtered/water_observatory.csv,EMOBONList,False
-x after y violation,ss,ship_date_seq,39,2022-07-18 00:00:00,,ship_date_seq must be after ship_date (y = 2022-09-26 00:00:00),/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
-x after y violation,ss,ship_date_seq,40,2022-07-18 00:00:00,,ship_date_seq must be after ship_date (y = 2022-09-26 00:00:00),/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
-x after y violation,ss,ship_date_seq,61,2022-07-18 00:00:00,,ship_date_seq must be after ship_date (y = 2022-09-26 00:00:00),/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
-x after y violation,ss,ship_date_seq,62,2022-07-18 00:00:00,,ship_date_seq must be after ship_date (y = 2022-09-26 00:00:00),/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
 datatype mismatch,sm,diss_oxygen,122,Expected 12-2024,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,True
 datatype mismatch,sm,diss_oxygen,123,Expected 12-2024,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,True
 datatype mismatch,sm,diss_oxygen,124,Expected 12-2024,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,True
@@ -652,16 +648,16 @@ datatype mismatch,ss,ship_date_seq,29,2022-07-18 00:00:00,2022-07-18,,/github/wo
 datatype mismatch,ss,ship_date_seq,32,2022-07-18 00:00:00,2022-07-18,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
 datatype mismatch,ss,ship_date_seq,33,2022-02-22 00:00:00,2022-02-22,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
 datatype mismatch,ss,ship_date_seq,34,2022-02-22 00:00:00,2022-02-22,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
-datatype mismatch,ss,ship_date_seq,39,2022-07-18 00:00:00,2022-07-18,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
-datatype mismatch,ss,ship_date_seq,40,2022-07-18 00:00:00,2022-07-18,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
+datatype mismatch,ss,ship_date_seq,39,2023-07-18 00:00:00,2023-07-18,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
+datatype mismatch,ss,ship_date_seq,40,2023-07-18 00:00:00,2023-07-18,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
 datatype mismatch,ss,ship_date_seq,45,2023-07-18 00:00:00,2023-07-18,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
 datatype mismatch,ss,ship_date_seq,46,2023-07-18 00:00:00,2023-07-18,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
 datatype mismatch,ss,ship_date_seq,51,2023-06-01 00:00:00,2023-06-01,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
 datatype mismatch,ss,ship_date_seq,52,2023-10-17 00:00:00,2023-10-17,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
 datatype mismatch,ss,ship_date_seq,56,2022-11-15 00:00:00,2022-11-15,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
 datatype mismatch,ss,ship_date_seq,57,2022-11-15 00:00:00,2022-11-15,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
-datatype mismatch,ss,ship_date_seq,61,2022-07-18 00:00:00,2022-07-18,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
-datatype mismatch,ss,ship_date_seq,62,2022-07-18 00:00:00,2022-07-18,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
+datatype mismatch,ss,ship_date_seq,61,2023-07-18 00:00:00,2023-07-18,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
+datatype mismatch,ss,ship_date_seq,62,2023-07-18 00:00:00,2023-07-18,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
 datatype mismatch,ss,ship_date_seq,67,2022-11-15 00:00:00,2022-11-15,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
 datatype mismatch,ss,ship_date_seq,68,2022-11-15 00:00:00,2022-11-15,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
 missing value,ss,ship_date_seq,78,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
