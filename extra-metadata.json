@@ -9,7 +9,7 @@
             "emobon@embrc.eu"
         ],
         "description":"The sampling activity logsheets for this given observatory (see title).",
-        "dct:relation":["https://github.com/emo-bon/sequencing-data",],
+        "dct:relation":["https://github.com/emo-bon/sequencing-data"],
         "keywords":[
             "https://dwc.tdwg.org/terms/#materialsample",
             "https://schema.org/Dataset",
