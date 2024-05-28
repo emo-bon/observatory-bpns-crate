@@ -1,62 +1,31 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> . 
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix schema: <https://schema.org/> . 
+@prefix prov: <http://www.w3.org/ns/prov#> . 
+@prefix sosa: <http://www.w3.org/ns/sosa/> . 
+@prefix ssn: <http://www.w3.org/ns/ssn/> . 
+@prefix qudt: <http://qudt.org/schema/qudt/> . 
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix mr: <http://marineregions.org/ns/ontology#> .
+@prefix emobon: <http://www.embrc.eu/emobon/EmoBonOntology#> .
 
 
-
-@base <http://data.emobon.embrc.eu/emobon/observation/BPNS/water/EMOBON_BPNS_Wa_211223_20um_1> . 
+@base <http://data.emobon.embrc.eu/observatory-bpns-crate/water/measured/EMOBON_BPNS_Wa_211223_20um_1> . 
 
 <#chlorophyll>
     a sosa:Observation, schema:Observation ;
     sosa:observedProperty <http://vocab.nerc.ac.uk/collection/S27/current/CS002896/> ;
 
     sosa:hasResult [
-        a sosa:Result ; 
-        rdf:type qudt:QuantityValue ; 
+        a sosa:Result , qudt:QuantityValue ;
         qudt:numericValue '0.539'^^xsd:string ; 
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGPL/> ; 
     ] ;
     schema:measurementTechnique 'HPLC'^^xsd:string ;
-    sosa:hasFeatureOfInterest </emobon/sample/BPNS/water/EMOBON_BPNS_Wa_211223_20um_1> ; 
-.
-
-<#conduc>
-    a sosa:Observation, schema:Observation ;
-    sosa:observedProperty <http://vocab.nerc.ac.uk/collection/P01/current/CNDCZZ01/> ;
-
-    sosa:hasResult [
-        a sosa:Result ; 
-        rdf:type qudt:QuantityValue ; 
-        qudt:numericValue 'NA'^^xsd:string ; 
-        qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/MSCM/> ; 
-    ] ;
-    schema:measurementTechnique 'CTD broke and conductivity could not be measured'^^xsd:string ;
-    sosa:hasFeatureOfInterest </emobon/sample/BPNS/water/EMOBON_BPNS_Wa_211223_20um_1> ; 
-.
-
-<#density>
-    a sosa:Observation, schema:Observation ;
-    sosa:observedProperty <http://vocab.nerc.ac.uk/collection/P02/current/SIGT/> ;
-
-    sosa:hasResult [
-        a sosa:Result ; 
-        rdf:type qudt:QuantityValue ; 
-        qudt:numericValue 'NA'^^xsd:string ; 
-        qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGMC/> ; 
-    ] ;
-    schema:measurementTechnique 'NA'^^xsd:string ;
-    sosa:hasFeatureOfInterest </emobon/sample/BPNS/water/EMOBON_BPNS_Wa_211223_20um_1> ; 
-.
-
-<#diss_oxygen>
-    a sosa:Observation, schema:Observation ;
-    sosa:observedProperty <http://vocab.nerc.ac.uk/collection/P01/current/DOXMZZXX/> ;
-
-    sosa:hasResult [
-        a sosa:Result ; 
-        rdf:type qudt:QuantityValue ; 
-        qudt:numericValue 'NA'^^xsd:string ; 
-        qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ; 
-    ] ;
-    schema:measurementTechnique 'CTD broke and dissolved oxygen could not be measured'^^xsd:string ;
-    sosa:hasFeatureOfInterest </emobon/sample/BPNS/water/EMOBON_BPNS_Wa_211223_20um_1> ; 
+    sosa:hasFeatureOfInterest <> ; 
 .
 
 <#nitrate>
@@ -64,13 +33,12 @@
     sosa:observedProperty <http://vocab.nerc.ac.uk/collection/P01/current/NTRAZZXX/> ;
 
     sosa:hasResult [
-        a sosa:Result ; 
-        rdf:type qudt:QuantityValue ; 
+        a sosa:Result , qudt:QuantityValue ;
         qudt:numericValue '14.43'^^xsd:string ; 
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ; 
     ] ;
     schema:measurementTechnique 'SEAL QuAAtro analysis system + Skalar AutoAnalyser system'^^xsd:string ;
-    sosa:hasFeatureOfInterest </emobon/sample/BPNS/water/EMOBON_BPNS_Wa_211223_20um_1> ; 
+    sosa:hasFeatureOfInterest <> ; 
 .
 
 <#nitrite>
@@ -78,83 +46,12 @@
     sosa:observedProperty <http://vocab.nerc.ac.uk/collection/P01/current/NTRIZZXX/> ;
 
     sosa:hasResult [
-        a sosa:Result ; 
-        rdf:type qudt:QuantityValue ; 
+        a sosa:Result , qudt:QuantityValue ;
         qudt:numericValue '0.45'^^xsd:string ; 
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ; 
     ] ;
     schema:measurementTechnique 'SEAL QuAAtro analysis system + Skalar AutoAnalyser system'^^xsd:string ;
-    sosa:hasFeatureOfInterest </emobon/sample/BPNS/water/EMOBON_BPNS_Wa_211223_20um_1> ; 
-.
-
-<#pressure>
-    a sosa:Observation, schema:Observation ;
-    sosa:observedProperty <http://vocab.nerc.ac.uk/collection/S06/current/S0600274/> ;
-
-    sosa:hasResult [
-        a sosa:Result ; 
-        rdf:type qudt:QuantityValue ; 
-        qudt:numericValue 'NA'^^xsd:string ; 
-        qudt:unit <https://qudt.org/vocab/unit/ATM> ; 
-    ] ;
-    schema:measurementTechnique 'CTD broke and pressure could not be measured'^^xsd:string ;
-    sosa:hasFeatureOfInterest </emobon/sample/BPNS/water/EMOBON_BPNS_Wa_211223_20um_1> ; 
-.
-
-<#sea_subsurf_salinity>
-    a sosa:Observation, schema:Observation ;
-    sosa:observedProperty <http://vocab.nerc.ac.uk/collection/A05/current/EV_SALIN/> ;
-
-    sosa:hasResult [
-        a sosa:Result ; 
-        rdf:type qudt:QuantityValue ; 
-        qudt:numericValue 'NA'^^xsd:string ; 
-        qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ; 
-    ] ;
-    schema:measurementTechnique 'CTD broke and sea subsurface salinity could not be measured'^^xsd:string ;
-    sosa:hasFeatureOfInterest </emobon/sample/BPNS/water/EMOBON_BPNS_Wa_211223_20um_1> ; 
-.
-
-<#sea_subsurf_temp>
-    a sosa:Observation, schema:Observation ;
-    sosa:observedProperty <http://vocab.nerc.ac.uk/collection/P02/current/TEMP/> ;
-
-    sosa:hasResult [
-        a sosa:Result ; 
-        rdf:type qudt:QuantityValue ; 
-        qudt:numericValue 'NA'^^xsd:string ; 
-        qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ; 
-    ] ;
-    schema:measurementTechnique 'CTD broke and sea subsurface  temperature could not be measured'^^xsd:string ;
-    sosa:hasFeatureOfInterest </emobon/sample/BPNS/water/EMOBON_BPNS_Wa_211223_20um_1> ; 
-.
-
-<#sea_surf_salinity>
-    a sosa:Observation, schema:Observation ;
-    sosa:observedProperty <http://vocab.nerc.ac.uk/collection/A05/current/EV_SALIN/> ;
-
-    sosa:hasResult [
-        a sosa:Result ; 
-        rdf:type qudt:QuantityValue ; 
-        qudt:numericValue 'NA'^^xsd:string ; 
-        qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ; 
-    ] ;
-    schema:measurementTechnique 'CTD broke and sea surface salinity  could not be measured'^^xsd:string ;
-    sosa:hasFeatureOfInterest </emobon/sample/BPNS/water/EMOBON_BPNS_Wa_211223_20um_1> ; 
-.
-
-<#sea_surf_temp>
-    a sosa:Observation, schema:Observation ;
-    sosa:observedProperty <http://vocab.nerc.ac.uk/collection/P02/current/TEMP/> ;
-
-    sosa:hasResult [
-        a sosa:Result ; 
-        rdf:type qudt:QuantityValue ; 
-        qudt:numericValue 'NA'^^xsd:string ; 
-        qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ; 
-    ] ;
-    schema:measurementTechnique 'CTD broke and sea surface temperature could not be measured'^^xsd:string ;
-    sosa:hasFeatureOfInterest </emobon/sample/BPNS/water/EMOBON_BPNS_Wa_211223_20um_1> ; 
+    sosa:hasFeatureOfInterest <> ; 
 .
 
 <#silicate>
@@ -162,11 +59,10 @@
     sosa:observedProperty <http://vocab.nerc.ac.uk/collection/P02/current/SLCA/> ;
 
     sosa:hasResult [
-        a sosa:Result ; 
-        rdf:type qudt:QuantityValue ; 
+        a sosa:Result , qudt:QuantityValue ;
         qudt:numericValue '4.36'^^xsd:string ; 
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ; 
     ] ;
     schema:measurementTechnique 'SEAL QuAAtro analysis system + Skalar AutoAnalyser system'^^xsd:string ;
-    sosa:hasFeatureOfInterest </emobon/sample/BPNS/water/EMOBON_BPNS_Wa_211223_20um_1> ; 
+    sosa:hasFeatureOfInterest <> ; 
 .
