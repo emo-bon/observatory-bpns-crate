@@ -27,6 +27,9 @@
                     "@id": "README.md"
                 },
                 {
+                    "@id": "all_triples.ttl"
+                },
+                {
                     "@id": ".github/workflows/workflow.yml"
                 },
                 {
@@ -153,6 +156,12 @@
             "@label": "./README.md",
             "@type": "File",
             "encodingFormat": "text/markdown"
+        },
+        {
+            "@id": "all_triples.ttl",
+            "@label": "./all_triples.ttl",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
         },
         {
             "@id": ".github/workflows/workflow.yml",
