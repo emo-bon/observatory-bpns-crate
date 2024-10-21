@@ -1,4 +1,4 @@
-WARNING:py_data_rules.rule_factory:missing columns in table so: {'ha_id', 'ARMS_unit_id', 'field_replicated_units'}
-WARNING:py_data_rules.rule_factory:missing columns in table ss: {'deployment_date', 'preservative', 'samp_fraction', 'collection_date_arms', 'images_in_PlutoF', 'size_filter', 'crate_cover'}
+WARNING:py_data_rules.rule_factory:missing columns in table so: {'ARMS_unit_id', 'ha_id', 'field_replicated_units'}
+WARNING:py_data_rules.rule_factory:missing columns in table ss: {'collection_date_arms', 'images_in_PlutoF', 'size_filter', 'deployment_date', 'preservative', 'crate_cover', 'samp_fraction'}
 WARNING:py_data_rules.rule_factory:excess columns in table ss: {'noteworthy_env_cond'}
 WARNING:py_data_rules.rule_factory:excess columns in table ws: {'noteworthy_env_cond'}
