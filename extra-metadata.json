@@ -233,48 +233,48 @@
                 {
                     "@id": "sediment/measured",
                     "@type": "Dataset",
-                    "description": "Contains the turtle files created from the sediment logsheets",
-                    "prov:wasDerivedFrom": "https://github.com/emo-bon/observatory-bpns-crate/blob/main/logsheets/transformed/sediment_measured.csv",
+                    "description": "Contains Turtle files representing a knowledge graph of measurements made from samples associated to the sediment observatory, generated from the sediment logsheets.",
+                    "prov:wasDerivedFrom": "logsheets/transformed/sediment_measured.csv",
                     "prov:wasGeneratedBy": "XXX",
                     "prov:used": "https://github.com/emo-bon/observatory-profile/blob/main/templates/sediment_measured.ldt.ttl.j2"
                 },
                 {
                     "@id": "sediment/observatory",
                     "@type": "Dataset",
-                    "description": "Contains the turtle files created from the sediment logsheets",
-                    "prov:wasDerivedFrom": "https://github.com/emo-bon/observatory-bpns-crate/blob/main/logsheets/transformed/sediment_observatory.csv",
+                    "description": "Contains Turtle files representing a knowledge graph of the sediment observatory, generated from the sediment logsheets.",
+                    "prov:wasDerivedFrom": "logsheets/transformed/sediment_observatory.csv",
                     "prov:wasGeneratedBy": "XXX",
                     "prov:used": "https://github.com/emo-bon/observatory-profile/blob/main/templates/sediment_observatory.ldt.ttl.j2"
                 },
                 {
                     "@id": "sediment/sampling",
                     "@type": "Dataset",
-                    "description": "Contains the turtle files created from the sediment logsheets",
-                    "prov:wasDerivedFrom": "https://github.com/emo-bon/observatory-bpns-crate/blob/main/logsheets/transformed/sediment_sampling.csv",
+                    "description": "Contains Turtle files representing a knowledge graph of sediment sampling events and samples associated to the observatory, generated from the sediment logsheets",
+                    "prov:wasDerivedFrom": "logsheets/transformed/sediment_sampling.csv",
                     "prov:wasGeneratedBy": "XXX",
                     "prov:used": "https://github.com/emo-bon/observatory-profile/blob/main/templates/sediment_sampling.ldt.ttl.j2"
                 },
-             {
+                {
                     "@id": "water/measured",
                     "@type": "Dataset",
-                    "description": "Contains the turtle files created from the sediment logsheets",
-                    "prov:wasDerivedFrom": "https://github.com/emo-bon/observatory-bpns-crate/blob/main/logsheets/transformed/water_measured.csv",
+                    "description": "Contains Turtle files representing a knowledge graph of measurements made from samples associated to the water observatory, generated from the water logsheets.",
+                    "prov:wasDerivedFrom": "logsheets/transformed/water_measured.csv",
                     "prov:wasGeneratedBy": "XXX",
                     "prov:used": "https://github.com/emo-bon/observatory-profile/blob/main/templates/water_measured.ldt.ttl.j2"
                 },
                 {
                     "@id": "water/observatory",
                     "@type": "Dataset",
-                    "description": "Contains the turtle files created from the sediment logsheets",
-                    "prov:wasDerivedFrom": "https://github.com/emo-bon/observatory-bpns-crate/blob/main/logsheets/transformed/water_observatory.csv",
+                    "description": "Contains Turtle files representing a knowledge graph of the water observatory, generated from the water logsheets.",
+                    "prov:wasDerivedFrom": "hlogsheets/transformed/water_observatory.csv",
                     "prov:wasGeneratedBy": "XXX",
                     "prov:used": "https://github.com/emo-bon/observatory-profile/blob/main/templates/water_observatory.ldt.ttl.j2"
                 },
                 {
                     "@id": "water/sampling",
                     "@type": "Dataset",
-                    "description": "Contains the turtle files created from the sediment logsheets",
-                    "prov:wasDerivedFrom": "https://github.com/emo-bon/observatory-bpns-crate/blob/main/logsheets/transformed/water_sampling.csv",
+                    "description": "Contains Turtle files representing a knowledge graph of water sampling events and samples associated to the observatory, generated from the water logsheets",
+                    "prov:wasDerivedFrom": "logsheets/transformed/water_sampling.csv",
                     "prov:wasGeneratedBy": "XXX",
                     "prov:used": "https://github.com/emo-bon/observatory-profile/blob/main/templates/water_sampling.ldt.ttl.j2"
                 }
