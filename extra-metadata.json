@@ -12,6 +12,7 @@
             "@type": "Dataset",
             "license": "https://creativecommons.org/licenses/by/4.0/",
             "publisher": {"@id": "_:EMOBON"},
+            "dct:issued":"2023-06-23",
             "title": "observatory-bpns-crate",
             "dcat:contactPoint":[
                 {"@id": "_:KlaasD"},
@@ -117,6 +118,90 @@
                     "@type": "File",
                     "encodingFormat": "text/csv",
                     "prov:wasDerivedFrom": "https://docs.google.com/spreadsheets/d/1mEi4Bd2YR63WD0j54FQ6QkzcUw_As9Wilue9kaXO2DE/edit?usp=sharing"
+                },
+                {
+                    "@id": "logsheets/filtered/sediment_measured.csv",
+                    "@type": "File",
+                    "encodingFormat": "text/csv",
+                    "prov:wasDerivedFrom": "logsheets/raw/sediment_measured.csv",
+                    "prov:wasGeneratedBy": "to add reference to the python code responsible for transformed raw -> filtered"
+                },
+                {
+                    "@id": "logsheets/filtered/sediment_observatory.csv",
+                    "@type": "File",
+                    "encodingFormat": "text/csv",
+                    "prov:wasDerivedFrom": "logsheets/raw/sediment_observatory.csv",
+                    "prov:wasGeneratedBy": "XXX"
+                },
+                {
+                    "@id": "logsheets/filtered/sediment_sampling.csv",
+                    "@type": "File",
+                    "encodingFormat": "text/csv",
+                    "prov:wasDerivedFrom": "logsheets/raw/sediment_sampling.csv",
+                    "prov:wasGeneratedBy": "XXX"
+                },
+                {
+                    "@id": "logsheets/filtered/water_measured.csv",
+                    "@type": "File",
+                    "encodingFormat": "text/csv",
+                    "prov:wasDerivedFrom": "logsheets/raw/water_measured.csv",
+                    "prov:wasGeneratedBy": "XXX"
+                },
+                {
+                    "@id": "logsheets/filtered/water_observatory.csv",
+                    "@type": "File",
+                    "encodingFormat": "text/csv",
+                    "prov:wasDerivedFrom": "logsheets/raw/water_observatory.csv",
+                    "prov:wasGeneratedBy": "XXX"
+                },
+                {
+                    "@id": "logsheets/filtered/water_sampling.csv",
+                    "@type": "File",
+                    "encodingFormat": "text/csv",
+                    "prov:wasDerivedFrom": "logsheets/raw/water_sampling.csv",
+                    "prov:wasGeneratedBy": "XXX"
+                },
+                {
+                    "@id": "logsheets/transformed/sediment_measured.csv",
+                    "@type": "File",
+                    "encodingFormat": "text/csv",
+                    "prov:wasDerivedFrom": "logsheets/filtered/sediment_measured.csv",
+                    "prov:wasGeneratedBy": "to add reference to the python code responsible for filtered -> transformed"
+                },
+                {
+                    "@id": "logsheets/transformed/sediment_observatory.csv",
+                    "@type": "File",
+                    "encodingFormat": "text/csv",
+                    "prov:wasDerivedFrom": "logsheets/filtered/sediment_observatory.csv",
+                    "prov:wasGeneratedBy": "XXX"
+                },
+                {
+                    "@id": "logsheets/transformed/sediment_sampling.csv",
+                    "@type": "File",
+                    "encodingFormat": "text/csv",
+                    "prov:wasDerivedFrom": "logsheets/filtered/sediment_sampling.csv",
+                    "prov:wasGeneratedBy": "XXX"
+                },
+                {
+                    "@id": "logsheets/transformed/water_measured.csv",
+                    "@type": "File",
+                    "encodingFormat": "text/csv",
+                    "prov:wasDerivedFrom": "logsheets/filtered/water_measured.csv",
+                    "prov:wasGeneratedBy": "XXX"
+                },
+                {
+                    "@id": "logsheets/transformed/water_observatory.csv",
+                    "@type": "File",
+                    "encodingFormat": "text/csv",
+                    "prov:wasDerivedFrom": "logsheets/filtered/water_observatory.csv",
+                    "prov:wasGeneratedBy": "XXX"
+                },
+                {
+                    "@id": "logsheets/transformed/water_sampling.csv",
+                    "@type": "File",
+                    "encodingFormat": "text/csv",
+                    "prov:wasDerivedFrom": "logsheets/filtered/water_sampling.csv",
+                    "prov:wasGeneratedBy": "XXX"
                 },
                  {
                     "@id": "data-quality-control/",
