@@ -49,12 +49,17 @@
                 {"@id":"_:KUL"},
                 {"@id":"_:KlaasD"}
             ],
-            "spatial": {
+            "dct:spatial": {
                 "@type":"dct:Location",
                 "dcat:centroid": "POINT(( 2.808331 51.433331 ))",
                 "dct:isPartOf": {
                     "@id":"http://marineregions.org/mrgid/26567"
                 }
+            },
+            "dct:temporal": {
+                "@type":"dct:PeriodOfTime" ,
+                "dcat:startDate":"2021-07-01", 
+                "dcat:endDate":"2024-10-22"
             },
             "hasPart": [
                 {
