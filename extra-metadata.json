@@ -17,7 +17,7 @@
             "dcat:contactPoint":[
                 {"@id": "_:KlaasD"},
                 {"@id": "_:OpSci"},
-                {"@type": "vcard:Contact", "email": "emobon@embrc.eu"}
+                {"@type": "_:EMOBON"}
             ],
             "description":"The sampling activity logsheets for this given observatory (see title).",
             "dct:relation":[
@@ -295,6 +295,18 @@
             "email":"opsci@vliz.be"
         },
         {
+            "@id":"_:EMOBON",
+            "@type":"Project",
+            "name":"EMO BON",
+            "email":"emobon@embrc.eu",
+            "url":"https://www.embrc.eu/emo-bon",
+            "parentOrganization": {"@id": "https://ror.org/0038zss60"}
+        },
+        {
+            "@id":"https://ror.org/0038zss60",
+            "email": "secretariat@embrc.eu"
+        },
+        {
             "@id":"_:VLIZ",
             "@type":"Organization",
             "name":"Flanders Marine Institute",
@@ -318,12 +330,6 @@
             "@type":"Organization",
             "name":"Katholieke Universiteit Leuven",
             "identifier":"https://edmo.seadatanet.org/report/2248"
-        },
-        {
-            "@id":"_:EMOBON",
-            "@type":"Organization",
-            "name":"EMO BON",
-            "url":"https://www.embrc.eu/emo-bon"
         }
     ]
 }
