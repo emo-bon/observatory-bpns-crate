@@ -24,18 +24,26 @@
                 {"@id": "https://github.com/emo-bon/sequencing-data"}
             ],
             "keywords":[
-                "https://dwc.tdwg.org/terms/#materialsample",
-                "EMO BON",
-                "https://vocabularyserver.com/asfa/index.php?tema=2185&/Biodiversity",
-                "https://vocabularyserver.com/asfa/index.php?tema=2091&/benthic-communities",
-                "https://vocabularyserver.com/asfa/index.php?tema=3505&/Long-term-changes",
-                "https://vocabularyserver.com/asfa/index.php?tema=2146&/biology",
-                "https://vocabularyserver.com/asfa/index.php?tema=1150&/marine-environment",
-                "https://vocabularyserver.com/asfa/index.php?tema=2365&/genetics",
-                "https://vocabularyserver.com/asfa/index.php?tema=6369&/sediment-samples",
-                "https://vocabularyserver.com/asfa/index.php?tema=3248&/water-samples",
-                "https://www.w3.org/TR/vocab-ssn/#SOSASampling",
-                "https://rs.tdwg.org/terms/Event"
+                "sample",
+                "measurement",
+                "biodiversity",
+                "long-term-changes",
+                "marine-environment",
+                "genetics",
+                "sediment-samples",
+                "water-samples",
+                "benthic-communities"
+            ],
+            "dcat:theme":[
+                "http://semanticscience.org/resource/SIO_001050",
+                "http://purl.obolibrary.org/obo/ExO_0000067",
+                "https://vocabularyserver.com/asfa/?tema=2185",
+                "https://vocabularyserver.com/asfa/?tema=3505",
+                "https://vocabularyserver.com/asfa/?tema=1150",
+                "https://vocabularyserver.com/asfa/?tema=2365",
+                "https://vocabularyserver.com/asfa/?tema=6369",
+                "https://vocabularyserver.com/asfa/?tema=3248",
+                "https://vocabularyserver.com/asfa/?tema=2091",
             ],
             "maintainer":[
                 {"@id":"_:OpSci"},
