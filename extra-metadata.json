@@ -17,7 +17,7 @@
             "dcat:contactPoint":[
                 {"@id": "_:KlaasD"},
                 {"@id": "_:OpSci"},
-                {"@type": "_:EMOBON"}
+                {"@id": "_:EMOBON"}
             ],
             "description":"The sampling activity logsheets for this given observatory (see title).",
             "dct:relation":[
