@@ -15,11 +15,9 @@
             "datePublished":"2023-06-23",
             "name": "observatory-bpns-crate",
             "dcat:contactPoint":[
-                {"@id": "_:KlaasD"},
-                {"@id": "_:OpSci"},
-                {"@id": "_:EMOBON"}
+                {"@id": "_:KlaasD"}
             ],
-            "description":"The sampling activity logsheets for this given observatory (see title).",
+            "description":"The sampling activity logsheets for this given observatory",
             "dct:relation":[
                 {"@id": "https://github.com/emo-bon/sequencing-data"}
             ],
@@ -47,14 +45,14 @@
             ],
             "maintainer":[
                 {"@id":"_:OpSci"},
-                {"@id":"_:EMOBON"}
+                {"@id":"_:EMOBON"},
+                {"@id":"_:KlaasD"}
             ],
             "provider":[
                 {"@id":"_:VLIZ"},
                 {"@id":"_:UGENT"},
                 {"@id":"_:RBINS"},
-                {"@id":"_:KUL"},
-                {"@id":"_:KlaasD"}
+                {"@id":"_:KUL"}
             ],
             "spatialCoverage": {
                 "@type": "Place",
@@ -73,63 +71,70 @@
                 {
                     "@id": "logsheets/",
                     "@type": "Dataset",
-                    "description": "The folder containing the logsheets from this observatory"
+                    "description": "The folder containing the all logsheets from this observatory"
                 },
                 {
                     "@id": "logsheets/raw/",
                     "@type": "Dataset",
-                    "description":"The folder containing the logsheets as harvested from the google drive"
+                    "description":"The folder containing the logsheets harvested from the EMO BON google drive"
                 },
                 {
                     "@id": "logsheets/transformed/",
                     "@type": "Dataset",
-                    "description":"tbd"
+                    "description":"The folder containing the loghsheets filtered on a timeframe and corrected following quality control rules"
                 },
                 {
                     "@id": "logsheets/filtered/",
                     "@type": "Dataset",
-                    "description":"tbd"
+                    "description":"The folder containing the logsheets filtered on a timeframe"
                 },
                 {
                     "@id": "logsheets/raw/sediment_measured.csv",
                     "@type": "File",
                     "encodingFormat": "text/csv",
+                    "description":"The measurements logsheet for the sediment observatory",
                     "prov:wasDerivedFrom": "https://docs.google.com/spreadsheets/d/1zc0bZdpl-Eoi35lI_5BGkElbscplyQRyNPLkSgeEyEQ/edit?usp=sharing"
                 },
                 {
                     "@id": "logsheets/raw/sediment_observatory.csv",
                     "@type": "File",
                     "encodingFormat": "text/csv",
+                    "description":"The observatory logsheet for the sediment observatory",
                     "prov:wasDerivedFrom": "https://docs.google.com/spreadsheets/d/1zc0bZdpl-Eoi35lI_5BGkElbscplyQRyNPLkSgeEyEQ/edit?usp=sharing"
                 },
                 {
                     "@id": "logsheets/raw/sediment_sampling.csv",
                     "@type": "File",
                     "encodingFormat": "text/csv",
+                    "description":"The sampling logsheet for the sediment observatory",
                     "prov:wasDerivedFrom": "https://docs.google.com/spreadsheets/d/1zc0bZdpl-Eoi35lI_5BGkElbscplyQRyNPLkSgeEyEQ/edit?usp=sharing"
                 },
                 {
                     "@id": "logsheets/raw/water_measured.csv",
                     "@type": "File",
                     "encodingFormat": "text/csv",
+                    "description":"The measurements logsheet for the water observatory",
                     "prov:wasDerivedFrom": "https://docs.google.com/spreadsheets/d/1mEi4Bd2YR63WD0j54FQ6QkzcUw_As9Wilue9kaXO2DE/edit?usp=sharing"
                 },
                 {
                     "@id": "logsheets/raw/water_observatory.csv",
                     "@type": "File",
                     "encodingFormat": "text/csv",
+                    "description":"The observtory logsheet for the water observatory",
                     "prov:wasDerivedFrom": "https://docs.google.com/spreadsheets/d/1mEi4Bd2YR63WD0j54FQ6QkzcUw_As9Wilue9kaXO2DE/edit?usp=sharing"
                 },
                 {
                     "@id": "logsheets/raw/water_sampling.csv",
                     "@type": "File",
                     "encodingFormat": "text/csv",
+                    "description":"The sampling logsheet for the water observatory",
                     "prov:wasDerivedFrom": "https://docs.google.com/spreadsheets/d/1mEi4Bd2YR63WD0j54FQ6QkzcUw_As9Wilue9kaXO2DE/edit?usp=sharing"
                 },
                 {
                     "@id": "logsheets/filtered/sediment_measured.csv",
                     "@type": "File",
                     "encodingFormat": "text/csv",
+                    "description":"The measurements logsheet for the sediment observatory",
                     "prov:wasDerivedFrom": "logsheets/raw/sediment_measured.csv",
                     "prov:wasGeneratedBy": "to add reference to the python code responsible for transformed raw -> filtered"
                 },
@@ -137,6 +142,7 @@
                     "@id": "logsheets/filtered/sediment_observatory.csv",
                     "@type": "File",
                     "encodingFormat": "text/csv",
+                    "description":"The observatory logsheet for the sediment observatory",
                     "prov:wasDerivedFrom": "logsheets/raw/sediment_observatory.csv",
                     "prov:wasGeneratedBy": "XXX"
                 },
@@ -144,6 +150,7 @@
                     "@id": "logsheets/filtered/sediment_sampling.csv",
                     "@type": "File",
                     "encodingFormat": "text/csv",
+                    "description":"The sampling logsheet for the sediment observatory",
                     "prov:wasDerivedFrom": "logsheets/raw/sediment_sampling.csv",
                     "prov:wasGeneratedBy": "XXX"
                 },
@@ -151,6 +158,7 @@
                     "@id": "logsheets/filtered/water_measured.csv",
                     "@type": "File",
                     "encodingFormat": "text/csv",
+                    "description":"The measurements logsheet for the water observatory",
                     "prov:wasDerivedFrom": "logsheets/raw/water_measured.csv",
                     "prov:wasGeneratedBy": "XXX"
                 },
@@ -158,6 +166,7 @@
                     "@id": "logsheets/filtered/water_observatory.csv",
                     "@type": "File",
                     "encodingFormat": "text/csv",
+                    "description":"The observatory logsheet for the water observatory",
                     "prov:wasDerivedFrom": "logsheets/raw/water_observatory.csv",
                     "prov:wasGeneratedBy": "XXX"
                 },
@@ -165,6 +174,7 @@
                     "@id": "logsheets/filtered/water_sampling.csv",
                     "@type": "File",
                     "encodingFormat": "text/csv",
+                    "description":"The sampling logsheet for the water observatory",
                     "prov:wasDerivedFrom": "logsheets/raw/water_sampling.csv",
                     "prov:wasGeneratedBy": "XXX"
                 },
@@ -172,6 +182,7 @@
                     "@id": "logsheets/transformed/sediment_measured.csv",
                     "@type": "File",
                     "encodingFormat": "text/csv",
+                    "description":"The measurements logsheet for the sediment observatory",
                     "prov:wasDerivedFrom": "logsheets/filtered/sediment_measured.csv",
                     "prov:wasGeneratedBy": "to add reference to the python code responsible for filtered -> transformed"
                 },
@@ -179,6 +190,7 @@
                     "@id": "logsheets/transformed/sediment_observatory.csv",
                     "@type": "File",
                     "encodingFormat": "text/csv",
+                    "description":"The observatory logsheet for the sediment observatory",
                     "prov:wasDerivedFrom": "logsheets/filtered/sediment_observatory.csv",
                     "prov:wasGeneratedBy": "XXX"
                 },
@@ -186,6 +198,7 @@
                     "@id": "logsheets/transformed/sediment_sampling.csv",
                     "@type": "File",
                     "encodingFormat": "text/csv",
+                    "description":"The sampling logsheet for the sediment observatory",
                     "prov:wasDerivedFrom": "logsheets/filtered/sediment_sampling.csv",
                     "prov:wasGeneratedBy": "XXX"
                 },
@@ -193,6 +206,7 @@
                     "@id": "logsheets/transformed/water_measured.csv",
                     "@type": "File",
                     "encodingFormat": "text/csv",
+                    "description":"The measurements logsheet for the water observatory",
                     "prov:wasDerivedFrom": "logsheets/filtered/water_measured.csv",
                     "prov:wasGeneratedBy": "XXX"
                 },
@@ -200,6 +214,7 @@
                     "@id": "logsheets/transformed/water_observatory.csv",
                     "@type": "File",
                     "encodingFormat": "text/csv",
+                    "description":"The observatory logsheet for the water observatory",
                     "prov:wasDerivedFrom": "logsheets/filtered/water_observatory.csv",
                     "prov:wasGeneratedBy": "XXX"
                 },
@@ -207,12 +222,14 @@
                     "@id": "logsheets/transformed/water_sampling.csv",
                     "@type": "File",
                     "encodingFormat": "text/csv",
+                    "description":"The sampling logsheet for the water observatory",
                     "prov:wasDerivedFrom": "logsheets/filtered/water_sampling.csv",
                     "prov:wasGeneratedBy": "XXX"
                 },
                  {
                     "@id": "data-quality-control/",
                     "@type": "Dataset",
+                    "description":"The folder containing the outputs of the quality control code",
                     "prov:wasGeneratedBy": "XXX"
                 },
                 {
@@ -235,12 +252,12 @@
                 {
                     "@id": "sediment/",
                     "@type": "Dataset",
-                    "description": "Contains the turtle files created from the sediment logsheets"
+                    "description": "The folder containing the Turtle files created from the sediment logsheets"
                 },
                 {
                     "@id": "sediment/measured",
                     "@type": "Dataset",
-                    "description": "Contains Turtle files representing a knowledge graph of measurements made from samples associated to the sediment observatory, generated from the sediment logsheets.",
+                    "description": "The folder containing the Turtle files of the measurements of the sediment observatory, generated from the quality-controlled logsheets.",
                     "prov:wasDerivedFrom": "logsheets/transformed/sediment_measured.csv",
                     "prov:wasGeneratedBy": "XXX",
                     "prov:used": "https://github.com/emo-bon/observatory-profile/blob/main/templates/sediment_measured.ldt.ttl.j2"
@@ -248,7 +265,7 @@
                 {
                     "@id": "sediment/observatory",
                     "@type": "Dataset",
-                    "description": "Contains Turtle files representing a knowledge graph of the sediment observatory, generated from the sediment logsheets.",
+                    "description": "The folder containing the Turtle files of the observatory details of the sediment observatory, generated from the quality-controlled logsheets.",
                     "prov:wasDerivedFrom": "logsheets/transformed/sediment_observatory.csv",
                     "prov:wasGeneratedBy": "XXX",
                     "prov:used": "https://github.com/emo-bon/observatory-profile/blob/main/templates/sediment_observatory.ldt.ttl.j2"
@@ -256,7 +273,7 @@
                 {
                     "@id": "sediment/sampling",
                     "@type": "Dataset",
-                    "description": "Contains Turtle files representing a knowledge graph of sediment sampling events and samples associated to the observatory, generated from the sediment logsheets",
+                    "description": "The folder containing the Turtle files of the sampling details of the sediment observatory, generated from the quality-controlled logsheets.",
                     "prov:wasDerivedFrom": "logsheets/transformed/sediment_sampling.csv",
                     "prov:wasGeneratedBy": "XXX",
                     "prov:used": "https://github.com/emo-bon/observatory-profile/blob/main/templates/sediment_sampling.ldt.ttl.j2"
@@ -264,7 +281,7 @@
                 {
                     "@id": "water/measured",
                     "@type": "Dataset",
-                    "description": "Contains Turtle files representing a knowledge graph of measurements made from samples associated to the water observatory, generated from the water logsheets.",
+                    "description":"The folder containing the Turtle files of the measurements of the water observatory, generated from the quality-controlled logsheets.",
                     "prov:wasDerivedFrom": "logsheets/transformed/water_measured.csv",
                     "prov:wasGeneratedBy": "XXX",
                     "prov:used": "https://github.com/emo-bon/observatory-profile/blob/main/templates/water_measured.ldt.ttl.j2"
@@ -272,7 +289,7 @@
                 {
                     "@id": "water/observatory",
                     "@type": "Dataset",
-                    "description": "Contains Turtle files representing a knowledge graph of the water observatory, generated from the water logsheets.",
+                    "description": "The folder containing the Turtle files of the observatory details of the water observatory, generated from the quality-controlled logsheets.",
                     "prov:wasDerivedFrom": "hlogsheets/transformed/water_observatory.csv",
                     "prov:wasGeneratedBy": "XXX",
                     "prov:used": "https://github.com/emo-bon/observatory-profile/blob/main/templates/water_observatory.ldt.ttl.j2"
@@ -280,7 +297,7 @@
                 {
                     "@id": "water/sampling",
                     "@type": "Dataset",
-                    "description": "Contains Turtle files representing a knowledge graph of water sampling events and samples associated to the observatory, generated from the water logsheets",
+                    "description": "The folder containing the Turtle files of the smpling details of the water observatory, generated from the quality-controlled logsheets.",
                     "prov:wasDerivedFrom": "logsheets/transformed/water_sampling.csv",
                     "prov:wasGeneratedBy": "XXX",
                     "prov:used": "https://github.com/emo-bon/observatory-profile/blob/main/templates/water_sampling.ldt.ttl.j2"
@@ -311,6 +328,7 @@
         },
         {
             "@id":"https://ror.org/0038zss60",
+            "name":"EMBRC-ERIC",
             "email": "secretariat@embrc.eu"
         },
         {
