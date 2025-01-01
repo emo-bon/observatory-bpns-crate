@@ -117,6 +117,46 @@ source_mat_id error,water,sampling,source_mat_id,77,EMOBON_BPNS_Wa_77,source_mat
 source_mat_id error,water,sampling,source_mat_id,78,EMOBON_BPNS_Wa_78,source_mat_id should match ^EMOBON_BPNS_Wa_211223_NAum_3$,/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,mandatory
 source_mat_id error,water,sampling,source_mat_id,79,EMOBON_BPNS_Wa_79,source_mat_id should match ^EMOBON_BPNS_Wa_211223_NAum_4$,/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,mandatory
 source_mat_id error,water,sampling,source_mat_id,80,EMOBON_BPNS_Wa_80,source_mat_id should match ^EMOBON_BPNS_Wa_211223_NAum_blank_1$,/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,mandatory
+membership violation,sediment,sampling,comm_samp,194,<empty>,"comm_samp must be in ['micro', 'meio', 'macro', 'blank']",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+membership violation,sediment,sampling,comm_samp,195,<empty>,"comm_samp must be in ['micro', 'meio', 'macro', 'blank']",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+missing value,sediment,measured,redox_potential,1,<empty>,\,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,mandatory
+missing value,sediment,measured,redox_potential,2,<empty>,\,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,mandatory
+missing value,sediment,measured,redox_potential,3,<empty>,\,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,mandatory
+missing value,sediment,measured,redox_potential,4,<empty>,\,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,mandatory
+missing value,sediment,measured,redox_potential,5,<empty>,\,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,mandatory
+missing value,sediment,measured,redox_potential,6,<empty>,\,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,mandatory
+missing value,sediment,measured,redox_potential,7,<empty>,\,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,mandatory
+missing value,sediment,measured,redox_potential,8,<empty>,\,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,mandatory
+missing value,sediment,measured,redox_potential,9,<empty>,\,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,mandatory
+missing value,sediment,measured,redox_potential,10,<empty>,\,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,mandatory
+missing value,sediment,measured,redox_potential,11,<empty>,\,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,mandatory
+missing value,sediment,measured,redox_potential,12,<empty>,\,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,mandatory
+missing value,sediment,measured,redox_potential,13,<empty>,\,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,mandatory
+missing value,sediment,measured,redox_potential,14,<empty>,\,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,mandatory
+missing value,sediment,measured,redox_potential,15,<empty>,\,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,mandatory
+missing value,sediment,measured,redox_potential,16,<empty>,\,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,mandatory
+missing value,sediment,measured,redox_potential,17,<empty>,\,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,mandatory
+missing value,sediment,measured,redox_potential,18,<empty>,\,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,mandatory
+missing value,sediment,measured,redox_potential,19,<empty>,\,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,mandatory
+missing value,sediment,measured,redox_potential,20,<empty>,\,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,mandatory
+missing value,sediment,measured,redox_potential,21,<empty>,\,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,mandatory
+missing value,sediment,measured,redox_potential,22,<empty>,\,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,mandatory
+missing value,sediment,measured,redox_potential,23,<empty>,\,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,mandatory
+missing value,sediment,measured,redox_potential,24,<empty>,\,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,mandatory
+missing value,sediment,measured,redox_potential,25,<empty>,\,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,mandatory
+missing value,sediment,measured,redox_potential,26,<empty>,\,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,mandatory
+missing value,sediment,measured,redox_potential,27,<empty>,\,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,mandatory
+missing value,sediment,measured,redox_potential,28,<empty>,\,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,mandatory
+missing value,sediment,measured,redox_potential,29,<empty>,\,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,mandatory
+missing value,sediment,measured,redox_potential,30,<empty>,\,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,mandatory
+missing value,sediment,measured,redox_potential,31,<empty>,\,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,mandatory
+missing value,sediment,measured,redox_potential,32,<empty>,\,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,mandatory
+missing value,sediment,measured,redox_potential,33,<empty>,\,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,mandatory
+missing value,sediment,measured,redox_potential,34,<empty>,\,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,mandatory
+missing value,sediment,measured,redox_potential,35,<empty>,\,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,mandatory
+missing value,sediment,measured,redox_potential,36,<empty>,\,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,mandatory
+missing value,sediment,measured,redox_potential,37,<empty>,\,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,mandatory
+missing value,sediment,measured,redox_potential,38,<empty>,\,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,mandatory
 datatype mismatch,sediment,measured,sea_surf_salinity,33,CTD,\,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,optional
 datatype mismatch,sediment,measured,sea_surf_salinity,34,CTD,\,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,optional
 missing value,sediment,sampling,ENA_accession_number_sample,1,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDAnyURI,mandatory
@@ -134,6 +174,54 @@ missing value,sediment,sampling,ENA_accession_number_sample,29,<empty>,\,/github
 missing value,sediment,sampling,ENA_accession_number_sample,32,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDAnyURI,mandatory
 missing value,sediment,sampling,ENA_accession_number_sample,33,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDAnyURI,mandatory
 missing value,sediment,sampling,ENA_accession_number_sample,34,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDAnyURI,mandatory
+missing value,sediment,sampling,ENA_accession_number_sample,194,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDAnyURI,mandatory
+missing value,sediment,sampling,ENA_accession_number_sample,195,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDAnyURI,mandatory
+missing value,sediment,sampling,arr_date_hq,194,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
+missing value,sediment,sampling,arr_date_hq,195,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
+missing value,sediment,sampling,arr_date_seq,194,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
+missing value,sediment,sampling,arr_date_seq,195,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
+missing value,sediment,sampling,collection_date,194,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
+missing value,sediment,sampling,collection_date,195,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
+missing value,sediment,sampling,depth,194,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+missing value,sediment,sampling,depth,195,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+missing value,sediment,sampling,env_material,194,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,EMOBONList,mandatory
+missing value,sediment,sampling,env_material,195,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,EMOBONList,mandatory
+missing value,sediment,sampling,investigation_type,194,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+missing value,sediment,sampling,investigation_type,195,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+missing value,sediment,sampling,long_store,194,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDBoolean,mandatory
+missing value,sediment,sampling,long_store,195,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDBoolean,mandatory
+missing value,sediment,sampling,samp_collect_device,194,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+missing value,sediment,sampling,samp_collect_device,195,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+missing value,sediment,sampling,samp_description,194,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+missing value,sediment,sampling,samp_description,195,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+missing value,sediment,sampling,samp_size_mass,194,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDFloat,mandatory
+missing value,sediment,sampling,samp_size_mass,195,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDFloat,mandatory
+missing value,sediment,sampling,samp_mat_process,194,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+missing value,sediment,sampling,samp_mat_process,195,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+missing value,sediment,sampling,samp_mat_process_dev,194,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+missing value,sediment,sampling,samp_mat_process_dev,195,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+missing value,sediment,sampling,samp_store_loc,194,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+missing value,sediment,sampling,samp_store_loc,195,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+missing value,sediment,sampling,samp_store_temp,194,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+missing value,sediment,sampling,samp_store_temp,195,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+missing value,sediment,sampling,sampl_person,194,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+missing value,sediment,sampling,sampl_person,195,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+missing value,sediment,sampling,sampling_event,194,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+missing value,sediment,sampling,sampling_event,195,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+datatype mismatch,sediment,sampling,ship_date,194,to ship,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
+datatype mismatch,sediment,sampling,ship_date,195,to ship,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
+missing value,sediment,sampling,ship_date_seq,194,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
+missing value,sediment,sampling,ship_date_seq,195,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
+missing value,sediment,sampling,size_frac_low,194,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDFloat,mandatory
+missing value,sediment,sampling,size_frac_low,195,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDFloat,mandatory
+missing value,sediment,sampling,size_frac_up,194,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDFloat,mandatory
+missing value,sediment,sampling,size_frac_up,195,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDFloat,mandatory
+missing value,sediment,sampling,store_person,194,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+missing value,sediment,sampling,store_person,195,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+missing value,sediment,sampling,store_temp_hq,194,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDFloat,mandatory
+missing value,sediment,sampling,store_temp_hq,195,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDFloat,mandatory
+missing value,sediment,sampling,tax_id,194,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDAnyURI,mandatory
+missing value,sediment,sampling,tax_id,195,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDAnyURI,mandatory
 missing value,sediment,sampling,failure,1,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDBoolean,mandatory
 missing value,sediment,sampling,failure,2,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDBoolean,mandatory
 missing value,sediment,sampling,failure,23,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDBoolean,mandatory
@@ -141,6 +229,18 @@ missing value,sediment,sampling,failure,24,<empty>,\,/github/workspace/logsheets
 missing value,sediment,sampling,failure,28,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDBoolean,mandatory
 missing value,sediment,sampling,failure,29,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDBoolean,mandatory
 missing value,sediment,sampling,failure,32,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDBoolean,mandatory
+missing value,sediment,sampling,failure,194,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDBoolean,mandatory
+missing value,sediment,sampling,failure,195,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDBoolean,mandatory
+missing value,sediment,sampling,scientific_name,194,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+missing value,sediment,sampling,scientific_name,195,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+missing value,sediment,sampling,comm_samp,194,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+missing value,sediment,sampling,comm_samp,195,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+missing value,sediment,sampling,source_mat_id,194,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+missing value,sediment,sampling,source_mat_id,195,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+missing value,sediment,sampling,samp_store_date,194,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
+missing value,sediment,sampling,samp_store_date,195,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
+missing value,sediment,sampling,replicate,194,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+missing value,sediment,sampling,replicate,195,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 missing value,sediment,sampling,failure_comment,1,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 missing value,sediment,sampling,failure_comment,2,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 missing value,sediment,sampling,failure_comment,23,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
@@ -148,6 +248,8 @@ missing value,sediment,sampling,failure_comment,24,<empty>,\,/github/workspace/l
 missing value,sediment,sampling,failure_comment,28,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 missing value,sediment,sampling,failure_comment,29,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 missing value,sediment,sampling,failure_comment,32,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+missing value,sediment,sampling,failure_comment,194,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+missing value,sediment,sampling,failure_comment,195,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 datatype mismatch,water,measured,silicate,41,Expected 12-2024,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,optional
 datatype mismatch,water,measured,silicate,42,Expected 12-2024,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,optional
 datatype mismatch,water,measured,silicate,43,Expected 12-2024,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,optional
