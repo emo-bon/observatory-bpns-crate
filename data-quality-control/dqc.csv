@@ -119,10 +119,12 @@ source_mat_id error,ws,source_mat_id,77,EMOBON_BPNS_Wa_77,,source_mat_id should 
 source_mat_id error,ws,source_mat_id,78,EMOBON_BPNS_Wa_78,,source_mat_id should match ^EMOBON_BPNS_Wa_211223_NAum_3$,/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
 source_mat_id error,ws,source_mat_id,79,EMOBON_BPNS_Wa_79,,source_mat_id should match ^EMOBON_BPNS_Wa_211223_NAum_4$,/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
 source_mat_id error,ws,source_mat_id,80,EMOBON_BPNS_Wa_80,,source_mat_id should match ^EMOBON_BPNS_Wa_211223_NAum_blank_1$,/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
-membership violation,ss,comm_samp,194,,,"comm_samp must be in ['micro', 'meio', 'macro', 'blank']",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
-membership violation,ss,comm_samp,195,,,"comm_samp must be in ['micro', 'meio', 'macro', 'blank']",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
 datatype mismatch,sm,ph,35,"5,96",5.96,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,False
 datatype mismatch,sm,ph,36,"5,96",5.96,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,False
+missing value,sm,ph,194,,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,False
+missing value,sm,ph,195,,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,False
+missing value,sm,ph_method,194,,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDString,False
+missing value,sm,ph_method,195,,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDString,False
 missing value,sm,redox_potential,1,,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,False
 missing value,sm,redox_potential,2,,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,False
 missing value,sm,redox_potential,3,,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,False
@@ -161,8 +163,18 @@ missing value,sm,redox_potential,35,,,,/github/workspace/logsheets/filtered/sedi
 missing value,sm,redox_potential,36,,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,False
 missing value,sm,redox_potential,37,,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,False
 missing value,sm,redox_potential,38,,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,False
-datatype mismatch,sm,sea_surf_salinity,33,CTD,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,True
-datatype mismatch,sm,sea_surf_salinity,34,CTD,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,True
+missing value,sm,redox_potential,194,,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,False
+missing value,sm,redox_potential,195,,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,False
+missing value,sm,sea_surf_temp,194,,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,False
+missing value,sm,sea_surf_temp,195,,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,False
+missing value,sm,sea_surf_temp_method,194,,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDString,False
+missing value,sm,sea_surf_temp_method,195,,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDString,False
+missing value,sm,sediment_temp,194,,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,False
+missing value,sm,sediment_temp,195,,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,False
+missing value,sm,sediment_temp_method,194,,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDString,False
+missing value,sm,sediment_temp_method,195,,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDString,False
+missing value,sm,source_mat_id,194,,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDString,False
+missing value,sm,source_mat_id,195,,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDString,False
 datatype mismatch,so,contact_orcid,1,0000-0002-8559-3508,https://orcid.org/0000-0002-8559-3508,,/github/workspace/logsheets/filtered/sediment_observatory.csv,XSDAnyURI,True
 datatype mismatch,so,loc_broad_ocean_mrgid,1,1912,http://marineregions.org/mrgid/1912,,/github/workspace/logsheets/filtered/sediment_observatory.csv,XSDAnyURI,False
 datatype mismatch,so,loc_loc_mrgid,1,26567,http://marineregions.org/mrgid/26567,,/github/workspace/logsheets/filtered/sediment_observatory.csv,XSDAnyURI,False
@@ -522,8 +534,6 @@ missing value,ss,failure,194,,,,/github/workspace/logsheets/filtered/sediment_sa
 missing value,ss,failure,195,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDBoolean,False
 missing value,ss,scientific_name,194,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
 missing value,ss,scientific_name,195,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
-missing value,ss,comm_samp,194,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
-missing value,ss,comm_samp,195,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
 missing value,ss,source_mat_id,194,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
 missing value,ss,source_mat_id,195,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
 datatype mismatch,ss,samp_store_date,1,2021-07-01 00:00:00,2021-07-01,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
@@ -1330,7 +1340,7 @@ datatype mismatch,ws,samp_store_date,61,2021-12-23 16:00:00,2021-12-23,,/github/
 datatype mismatch,ws,samp_store_date,62,2021-12-23 16:00:00,2021-12-23,,/github/workspace/logsheets/filtered/water_sampling.csv,XSDDate,False
 datatype mismatch,ws,samp_store_date,63,2021-12-23 16:00:00,2021-12-23,,/github/workspace/logsheets/filtered/water_sampling.csv,XSDDate,False
 datatype mismatch,ws,samp_store_date,64,2021-12-23 16:00:00,2021-12-23,,/github/workspace/logsheets/filtered/water_sampling.csv,XSDDate,False
-missing value,ws,samp_store_date,65,,,,/github/workspace/logsheets/filtered/water_sampling.csv,XSDDate,False
+datatype mismatch,ws,samp_store_date,65,2021-12-23 16:00:00,2021-12-23,,/github/workspace/logsheets/filtered/water_sampling.csv,XSDDate,False
 datatype mismatch,ws,samp_store_date,66,2021-12-23 16:00:00,2021-12-23,,/github/workspace/logsheets/filtered/water_sampling.csv,XSDDate,False
 datatype mismatch,ws,samp_store_date,67,2021-12-23 16:00:00,2021-12-23,,/github/workspace/logsheets/filtered/water_sampling.csv,XSDDate,False
 datatype mismatch,ws,samp_store_date,68,2021-12-23 16:00:00,2021-12-23,,/github/workspace/logsheets/filtered/water_sampling.csv,XSDDate,False
