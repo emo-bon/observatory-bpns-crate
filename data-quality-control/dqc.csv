@@ -39,6 +39,8 @@ source_mat_id error,ss,source_mat_id,35,EMOBON_BPNS_So_35,,source_mat_id should 
 source_mat_id error,ss,source_mat_id,36,EMOBON_BPNS_So_36,,source_mat_id should match ^EMOBON_BPNS_So_211223_micro_4$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
 source_mat_id error,ss,source_mat_id,37,EMOBON_BPNS_So_37,,source_mat_id should match ^EMOBON_BPNS_So_211223_micro_blank_1$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
 source_mat_id error,ss,source_mat_id,38,EMOBON_BPNS_So_38,,source_mat_id should match ^EMOBON_BPNS_So_211223_micro_blank_2$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
+source_mat_id error,ss,source_mat_id,194,,,source_mat_id is missing,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
+source_mat_id error,ss,source_mat_id,195,,,source_mat_id is missing,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
 source_mat_id error,ws,source_mat_id,1,EMOBON_BPNS_Wa_1,,source_mat_id should match ^EMOBON_BPNS_Wa_210701_200um_1$,/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
 source_mat_id error,ws,source_mat_id,2,EMOBON_BPNS_Wa_2,,source_mat_id should match ^EMOBON_BPNS_Wa_210701_200um_2$,/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
 source_mat_id error,ws,source_mat_id,3,EMOBON_BPNS_Wa_3,,source_mat_id should match ^EMOBON_BPNS_Wa_210701_200um_3$,/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
