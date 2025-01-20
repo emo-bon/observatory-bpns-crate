@@ -11,13 +11,13 @@
             "@type": "Dataset",
             "accessURL": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/ro-crate-metadata.json",
             "conformsTo": {
-                "@id": "https://data.emobon.embrc.eu/observatory-profile/0.22"
+                "@id": "https://data.emobon.embrc.eu/observatory-profile/0.33"
             },
             "contactPoint": {
                 "@type": "ContactPoint",
                 "email": "emobon@embrc.eu"
             },
-            "datePublished": "2024-05-28T09:44:17+00:00",
+            "datePublished": "2025-01-20T11:17:12+00:00",
             "description": "This RO-Crate/GitHub repository contains the EMO BON sampling event logsheets from the observatory BPNS",
             "hasPart": [
                 {
@@ -25,9 +25,6 @@
                 },
                 {
                     "@id": "README.md"
-                },
-                {
-                    "@id": "all-triples.ttl"
                 },
                 {
                     "@id": ".github/workflows/workflow.yml"
@@ -125,8 +122,7 @@
             ],
             "license": "https://creativecommons.org/licenses/by/4.0/",
             "publisher": "https://www.embrc.eu/emo-bon",
-            "title": "observatory-bpns-crate",
-            "version": "<version>"
+            "title": "observatory-bpns-crate"
         },
         {
             "@id": "ro-crate-metadata.json",
@@ -136,14 +132,12 @@
             },
             "conformsTo": {
                 "@id": "https://w3id.org/ro/crate/1.1"
-            },
-            "version": "<version>"
+            }
         },
         {
-            "@id": "https://data.emobon.embrc.eu/observatory-profile/0.22",
+            "@id": "https://data.emobon.embrc.eu/observatory-profile/0.33",
             "@type": "CreativeWork",
-            "name": "<name>",
-            "version": "<version>"
+            "name": "<name>"
         },
         {
             "@id": ".gitignore",
@@ -156,12 +150,6 @@
             "@label": "./README.md",
             "@type": "File",
             "encodingFormat": "text/markdown"
-        },
-        {
-            "@id": "all-triples.ttl",
-            "@label": "./all-triples.ttl",
-            "@type": "File",
-            "encodingFormat": "text/turtle"
         },
         {
             "@id": ".github/workflows/workflow.yml",
@@ -221,7 +209,6 @@
             "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets/sediment_measured.csv",
             "encodingFormat": "text/csv",
             "keywords": [
-                "metadata",
                 "http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement",
                 "http://purl.obolibrary.org/obo/ENVO_03000033"
             ]
@@ -234,7 +221,6 @@
             "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets/sediment_observatory.csv",
             "encodingFormat": "text/csv",
             "keywords": [
-                "metadata",
                 "https://purl.org/dc/terms/Location",
                 "https://schema.org/ContactPoint",
                 "http://purl.obolibrary.org/obo/ENVO_03000033"
@@ -248,7 +234,6 @@
             "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets/sediment_sampling.csv",
             "encodingFormat": "text/csv",
             "keywords": [
-                "metadata",
                 "https://rs.tdwg.org/terms/Event",
                 "http://purl.obolibrary.org/obo/ENVO_03000033"
             ]
@@ -261,7 +246,6 @@
             "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets/water_measured.csv",
             "encodingFormat": "text/csv",
             "keywords": [
-                "metadata",
                 "http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement",
                 "http://purl.obolibrary.org/obo/ENVO_06105011"
             ]
@@ -274,7 +258,6 @@
             "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets/water_observatory.csv",
             "encodingFormat": "text/csv",
             "keywords": [
-                "metadata",
                 "https://purl.org/dc/terms/Location",
                 "https://schema.org/ContactPoint",
                 "http://purl.obolibrary.org/obo/ENVO_06105011"
@@ -288,7 +271,6 @@
             "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets/water_sampling.csv",
             "encodingFormat": "text/csv",
             "keywords": [
-                "metadata",
                 "https://rs.tdwg.org/terms/Event",
                 "http://purl.obolibrary.org/obo/ENVO_06105011"
             ]
@@ -306,7 +288,6 @@
             "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets-filtered/sediment_measured.csv",
             "encodingFormat": "text/csv",
             "keywords": [
-                "metadata",
                 "http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement",
                 "http://purl.obolibrary.org/obo/ENVO_03000033"
             ]
@@ -319,7 +300,6 @@
             "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets-filtered/sediment_observatory.csv",
             "encodingFormat": "text/csv",
             "keywords": [
-                "metadata",
                 "https://purl.org/dc/terms/Location",
                 "https://schema.org/ContactPoint",
                 "http://purl.obolibrary.org/obo/ENVO_03000033"
@@ -333,7 +313,6 @@
             "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets-filtered/sediment_sampling.csv",
             "encodingFormat": "text/csv",
             "keywords": [
-                "metadata",
                 "https://rs.tdwg.org/terms/Event",
                 "http://purl.obolibrary.org/obo/ENVO_03000033"
             ]
@@ -346,7 +325,6 @@
             "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets-filtered/water_measured.csv",
             "encodingFormat": "text/csv",
             "keywords": [
-                "metadata",
                 "http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement",
                 "http://purl.obolibrary.org/obo/ENVO_06105011"
             ]
@@ -359,7 +337,6 @@
             "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets-filtered/water_observatory.csv",
             "encodingFormat": "text/csv",
             "keywords": [
-                "metadata",
                 "https://purl.org/dc/terms/Location",
                 "https://schema.org/ContactPoint",
                 "http://purl.obolibrary.org/obo/ENVO_06105011"
@@ -373,7 +350,6 @@
             "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets-filtered/water_sampling.csv",
             "encodingFormat": "text/csv",
             "keywords": [
-                "metadata",
                 "https://rs.tdwg.org/terms/Event",
                 "http://purl.obolibrary.org/obo/ENVO_06105011"
             ]
@@ -391,7 +367,6 @@
             "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets-transformed/sediment_measured.csv",
             "encodingFormat": "text/csv",
             "keywords": [
-                "metadata",
                 "http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement",
                 "http://purl.obolibrary.org/obo/ENVO_03000033"
             ]
@@ -404,7 +379,6 @@
             "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets-transformed/sediment_observatory.csv",
             "encodingFormat": "text/csv",
             "keywords": [
-                "metadata",
                 "https://purl.org/dc/terms/Location",
                 "https://schema.org/ContactPoint",
                 "http://purl.obolibrary.org/obo/ENVO_03000033"
@@ -418,7 +392,6 @@
             "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets-transformed/sediment_sampling.csv",
             "encodingFormat": "text/csv",
             "keywords": [
-                "metadata",
                 "https://rs.tdwg.org/terms/Event",
                 "http://purl.obolibrary.org/obo/ENVO_03000033"
             ]
@@ -431,7 +404,6 @@
             "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets-transformed/water_measured.csv",
             "encodingFormat": "text/csv",
             "keywords": [
-                "metadata",
                 "http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement",
                 "http://purl.obolibrary.org/obo/ENVO_06105011"
             ]
@@ -444,7 +416,6 @@
             "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets-transformed/water_observatory.csv",
             "encodingFormat": "text/csv",
             "keywords": [
-                "metadata",
                 "https://purl.org/dc/terms/Location",
                 "https://schema.org/ContactPoint",
                 "http://purl.obolibrary.org/obo/ENVO_06105011"
@@ -458,7 +429,6 @@
             "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets-transformed/water_sampling.csv",
             "encodingFormat": "text/csv",
             "keywords": [
-                "metadata",
                 "https://rs.tdwg.org/terms/Event",
                 "http://purl.obolibrary.org/obo/ENVO_06105011"
             ]

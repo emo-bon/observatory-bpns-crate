@@ -1,186 +1,405 @@
 {
-    "./":{
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "publisher": {"@id": "_:EMOBON"},
-        "title": "observatory-bpns-crate",
-        "dcat:contactPoint":[
-            "_:KlaasD",
-            "opsci@vliz.be",
-            "emobon@embrc.eu"
-        ],
-        "description":"The sampling activity logsheets for this given observatory (see title).",
-        "dct:relation":["https://github.com/emo-bon/sequencing-data"],
-        "keywords":[
-            "https://dwc.tdwg.org/terms/#materialsample",
-            "https://schema.org/Dataset",
-            "EMO BON",
-            "https://vocabularyserver.com/asfa/index.php?tema=2185&/Biodiversity",
-            "https://vocabularyserver.com/asfa/index.php?tema=2091&/benthic-communities",
-            "https://vocabularyserver.com/asfa/index.php?tema=3505&/Long-term-changes",
-            "https://vocabularyserver.com/asfa/index.php?tema=2146&/biology",
-            "https://vocabularyserver.com/asfa/index.php?tema=1150&/marine-environment",
-            "https://vocabularyserver.com/asfa/index.php?tema=2365&/genetics",
-            "https://vocabularyserver.com/asfa/index.php?tema=6369&/sediment-samples",
-            "https://vocabularyserver.com/asfa/index.php?tema=3248&/water-samples",
-            "https://www.w3.org/TR/vocab-ssn/#SOSASampling",
-            "https://rs.tdwg.org/terms/Event",
-            "https://schema.org/Dataset"
-        ],
-        "maintainer":[
-            {"@id":"_:OpSci"},
-            {"@id":"_:EMOBON"}
-        ],
-        "provider":[
-            {"@id":"_:VLIZ"},
-            {"@id":"_:UGENT"},
-            {"@id":"_:RBINS"},
-            {"@id":"_:KUL"},
-            {"@id":"_:KlaasD"}
-        ],
-        "spatial": {
-            "@type":"    http://purl.org/dc/terms/Location",
-            "dcat:centroid": "POINT(( 2.808331 51.433331 ))"
-            "http://purl.org/dc/terms/isPartOf": "http://marineregions.org/mrgid/26567"
+    "@context": {
+        "@vocab": "https://w3id.org/ro/crate/1.2-DRAFT",
+        "prov": "http://www.w3.org/ns/prov#",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "dct": "http://purl.org/dc/terms/",
+        "vcard": "http://www.w3.org/2006/vcard/ns#"
+    },
+    "@graph": [
+        {
+            "@id":"./",
+            "@type": ["Dataset", "dcat:Dataset"],
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "publisher": {"@id": "_:EMOBON"},
+            "datePublished":"2023-06-23",
+            "name": "observatory-bpns-crate",
+            "dcat:contactPoint":[
+                {"@id": "_:KlaasD"}
+            ],
+            "description":"The sampling activity logsheets for this given observatory",
+            "dct:relation":[
+                {"@id": "https://github.com/emo-bon/sequencing-data"}
+            ],
+            "keywords":[
+                "sample",
+                "measurement",
+                "biodiversity",
+                "long-term-changes",
+                "marine-environment",
+                "genetics",
+                "sediment-samples",
+                "water-samples",
+                "benthic-communities"
+            ],
+            "dcat:theme":[
+                {"@id":"http://semanticscience.org/resource/SIO_001050"},
+                {"@id":"http://purl.obolibrary.org/obo/ExO_0000067"},
+                {"@id":"https://vocabularyserver.com/asfa/?tema=2185"},
+                {"@id":"https://vocabularyserver.com/asfa/?tema=3505"},
+                {"@id":"https://vocabularyserver.com/asfa/?tema=1150"},
+                {"@id":"https://vocabularyserver.com/asfa/?tema=2365"},
+                {"@id":"https://vocabularyserver.com/asfa/?tema=6369"},
+                {"@id":"https://vocabularyserver.com/asfa/?tema=3248"},
+                {"@id":"https://vocabularyserver.com/asfa/?tema=2091"}
+            ],
+            "maintainer":[
+                {"@id":"_:OpSci"},
+                {"@id":"_:EMOBON"},
+                {"@id":"_:KlaasD"}
+            ],
+            "provider":[
+                {"@id":"_:VLIZ"},
+                {"@id":"_:UGENT"},
+                {"@id":"_:RBINS"},
+                {"@id":"_:KUL"}
+            ],
+            "spatialCoverage": {
+                "@type": "Place",
+                "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": 51.433331,
+                    "longitude": 2.808331
+                },
+                "containedInPlace": {
+                    "@type": "Place",
+                    "@id": "http://marineregions.org/mrgid/26567"
+                }
+            },
+            "temporalCoverage": "2021-07-01/2024-10-22",
+            "hasPart": [
+                {
+                    "@id": "logsheets/",
+                    "@type": "Dataset",
+                    "description": "The folder containing the all logsheets from this observatory"
+                },
+                {
+                    "@id": "logsheets/raw/",
+                    "@type": "Dataset",
+                    "description":"The folder containing the logsheets harvested from the EMO BON google drive"
+                },
+                {
+                    "@id": "logsheets/transformed/",
+                    "@type": "Dataset",
+                    "description":"The folder containing the loghsheets filtered on a timeframe and corrected following quality control rules"
+                },
+                {
+                    "@id": "logsheets/filtered/",
+                    "@type": "Dataset",
+                    "description":"The folder containing the logsheets filtered on a timeframe"
+                },
+                {
+                    "@id": "logsheets/raw/sediment_measured.csv",
+                    "@type": "File",
+                    "encodingFormat": "text/csv",
+                    "description":"The measurements logsheet for the sediment observatory",
+                    "prov:wasDerivedFrom": "https://docs.google.com/spreadsheets/d/1zc0bZdpl-Eoi35lI_5BGkElbscplyQRyNPLkSgeEyEQ/edit?usp=sharing"
+                },
+                {
+                    "@id": "logsheets/raw/sediment_observatory.csv",
+                    "@type": "File",
+                    "encodingFormat": "text/csv",
+                    "description":"The observatory logsheet for the sediment observatory",
+                    "prov:wasDerivedFrom": "https://docs.google.com/spreadsheets/d/1zc0bZdpl-Eoi35lI_5BGkElbscplyQRyNPLkSgeEyEQ/edit?usp=sharing"
+                },
+                {
+                    "@id": "logsheets/raw/sediment_sampling.csv",
+                    "@type": "File",
+                    "encodingFormat": "text/csv",
+                    "description":"The sampling logsheet for the sediment observatory",
+                    "prov:wasDerivedFrom": "https://docs.google.com/spreadsheets/d/1zc0bZdpl-Eoi35lI_5BGkElbscplyQRyNPLkSgeEyEQ/edit?usp=sharing"
+                },
+                {
+                    "@id": "logsheets/raw/water_measured.csv",
+                    "@type": "File",
+                    "encodingFormat": "text/csv",
+                    "description":"The measurements logsheet for the water observatory",
+                    "prov:wasDerivedFrom": "https://docs.google.com/spreadsheets/d/1mEi4Bd2YR63WD0j54FQ6QkzcUw_As9Wilue9kaXO2DE/edit?usp=sharing"
+                },
+                {
+                    "@id": "logsheets/raw/water_observatory.csv",
+                    "@type": "File",
+                    "encodingFormat": "text/csv",
+                    "description":"The observtory logsheet for the water observatory",
+                    "prov:wasDerivedFrom": "https://docs.google.com/spreadsheets/d/1mEi4Bd2YR63WD0j54FQ6QkzcUw_As9Wilue9kaXO2DE/edit?usp=sharing"
+                },
+                {
+                    "@id": "logsheets/raw/water_sampling.csv",
+                    "@type": "File",
+                    "encodingFormat": "text/csv",
+                    "description":"The sampling logsheet for the water observatory",
+                    "prov:wasDerivedFrom": "https://docs.google.com/spreadsheets/d/1mEi4Bd2YR63WD0j54FQ6QkzcUw_As9Wilue9kaXO2DE/edit?usp=sharing"
+                },
+                {
+                    "@id": "logsheets/filtered/sediment_measured.csv",
+                    "@type": "File",
+                    "encodingFormat": "text/csv",
+                    "description":"The measurements logsheet for the sediment observatory",
+                    "prov:wasDerivedFrom": "logsheets/raw/sediment_measured.csv",
+                    "prov:wasGeneratedBy": "to add reference to the python code responsible for transformed raw -> filtered"
+                },
+                {
+                    "@id": "logsheets/filtered/sediment_observatory.csv",
+                    "@type": "File",
+                    "encodingFormat": "text/csv",
+                    "description":"The observatory logsheet for the sediment observatory",
+                    "prov:wasDerivedFrom": "logsheets/raw/sediment_observatory.csv",
+                    "prov:wasGeneratedBy": "XXX"
+                },
+                {
+                    "@id": "logsheets/filtered/sediment_sampling.csv",
+                    "@type": "File",
+                    "encodingFormat": "text/csv",
+                    "description":"The sampling logsheet for the sediment observatory",
+                    "prov:wasDerivedFrom": "logsheets/raw/sediment_sampling.csv",
+                    "prov:wasGeneratedBy": "XXX"
+                },
+                {
+                    "@id": "logsheets/filtered/water_measured.csv",
+                    "@type": "File",
+                    "encodingFormat": "text/csv",
+                    "description":"The measurements logsheet for the water observatory",
+                    "prov:wasDerivedFrom": "logsheets/raw/water_measured.csv",
+                    "prov:wasGeneratedBy": "XXX"
+                },
+                {
+                    "@id": "logsheets/filtered/water_observatory.csv",
+                    "@type": "File",
+                    "encodingFormat": "text/csv",
+                    "description":"The observatory logsheet for the water observatory",
+                    "prov:wasDerivedFrom": "logsheets/raw/water_observatory.csv",
+                    "prov:wasGeneratedBy": "XXX"
+                },
+                {
+                    "@id": "logsheets/filtered/water_sampling.csv",
+                    "@type": "File",
+                    "encodingFormat": "text/csv",
+                    "description":"The sampling logsheet for the water observatory",
+                    "prov:wasDerivedFrom": "logsheets/raw/water_sampling.csv",
+                    "prov:wasGeneratedBy": "XXX"
+                },
+                {
+                    "@id": "logsheets/transformed/sediment_measured.csv",
+                    "@type": "File",
+                    "encodingFormat": "text/csv",
+                    "description":"The measurements logsheet for the sediment observatory",
+                    "prov:wasDerivedFrom": "logsheets/filtered/sediment_measured.csv",
+                    "prov:wasGeneratedBy": "to add reference to the python code responsible for filtered -> transformed"
+                },
+                {
+                    "@id": "logsheets/transformed/sediment_observatory.csv",
+                    "@type": "File",
+                    "encodingFormat": "text/csv",
+                    "description":"The observatory logsheet for the sediment observatory",
+                    "prov:wasDerivedFrom": "logsheets/filtered/sediment_observatory.csv",
+                    "prov:wasGeneratedBy": "XXX"
+                },
+                {
+                    "@id": "logsheets/transformed/sediment_sampling.csv",
+                    "@type": "File",
+                    "encodingFormat": "text/csv",
+                    "description":"The sampling logsheet for the sediment observatory",
+                    "prov:wasDerivedFrom": "logsheets/filtered/sediment_sampling.csv",
+                    "prov:wasGeneratedBy": "XXX"
+                },
+                {
+                    "@id": "logsheets/transformed/water_measured.csv",
+                    "@type": "File",
+                    "encodingFormat": "text/csv",
+                    "description":"The measurements logsheet for the water observatory",
+                    "prov:wasDerivedFrom": "logsheets/filtered/water_measured.csv",
+                    "prov:wasGeneratedBy": "XXX"
+                },
+                {
+                    "@id": "logsheets/transformed/water_observatory.csv",
+                    "@type": "File",
+                    "encodingFormat": "text/csv",
+                    "description":"The observatory logsheet for the water observatory",
+                    "prov:wasDerivedFrom": "logsheets/filtered/water_observatory.csv",
+                    "prov:wasGeneratedBy": "XXX"
+                },
+                {
+                    "@id": "logsheets/transformed/water_sampling.csv",
+                    "@type": "File",
+                    "encodingFormat": "text/csv",
+                    "description":"The sampling logsheet for the water observatory",
+                    "prov:wasDerivedFrom": "logsheets/filtered/water_sampling.csv",
+                    "prov:wasGeneratedBy": "XXX"
+                },
+                 {
+                    "@id": "data-quality-control/",
+                    "@type": "Dataset",
+                    "description":"The folder containing the outputs of the quality control code",
+                    "prov:wasGeneratedBy": "XXX"
+                },
+                {
+                    "@id": "data-quality-control/dqc.csv",
+                    "@type": "File",
+                    "encodingFormat": "text/csv",
+                    "description": "The quality control report: checks 1"
+                },
+                {
+                    "@id": "data-quality-control/logfile",
+                    "@type": "Dataset",
+                    "description": "The quality control report: checks 2"
+                },
+                {
+                    "@id": "data-quality-control/report.csv",
+                    "@type": "File",
+                    "encodingFormat": "text/csv",
+                    "description": "The quality control report: checks 3"
+                },
+                {
+                    "@id": "sediment/",
+                    "@type": "Dataset",
+                    "description": "The folder containing the Turtle files created from the sediment logsheets"
+                },
+                {
+                    "@id": "sediment/measured",
+                    "@type": "Dataset",
+                    "description": "The folder containing the Turtle files of the measurements of the sediment observatory, generated from the quality-controlled logsheets.",
+                    "prov:wasDerivedFrom": "logsheets/transformed/sediment_measured.csv",
+                    "prov:wasGeneratedBy": "XXX",
+                    "prov:used": "https://github.com/emo-bon/observatory-profile/blob/main/templates/sediment_measured.ldt.ttl.j2"
+                },
+                {
+                    "@id": "sediment/observatory",
+                    "@type": "Dataset",
+                    "description": "The folder containing the Turtle files of the observatory details of the sediment observatory, generated from the quality-controlled logsheets.",
+                    "prov:wasDerivedFrom": "logsheets/transformed/sediment_observatory.csv",
+                    "prov:wasGeneratedBy": "XXX",
+                    "prov:used": "https://github.com/emo-bon/observatory-profile/blob/main/templates/sediment_observatory.ldt.ttl.j2"
+                },
+                {
+                    "@id": "sediment/sampling",
+                    "@type": "Dataset",
+                    "description": "The folder containing the Turtle files of the sampling details of the sediment observatory, generated from the quality-controlled logsheets.",
+                    "prov:wasDerivedFrom": "logsheets/transformed/sediment_sampling.csv",
+                    "prov:wasGeneratedBy": "XXX",
+                    "prov:used": "https://github.com/emo-bon/observatory-profile/blob/main/templates/sediment_sampling.ldt.ttl.j2"
+                },
+                {
+                    "@id": "water/measured",
+                    "@type": "Dataset",
+                    "description":"The folder containing the Turtle files of the measurements of the water observatory, generated from the quality-controlled logsheets.",
+                    "prov:wasDerivedFrom": "logsheets/transformed/water_measured.csv",
+                    "prov:wasGeneratedBy": "XXX",
+                    "prov:used": "https://github.com/emo-bon/observatory-profile/blob/main/templates/water_measured.ldt.ttl.j2"
+                },
+                {
+                    "@id": "water/observatory",
+                    "@type": "Dataset",
+                    "description": "The folder containing the Turtle files of the observatory details of the water observatory, generated from the quality-controlled logsheets.",
+                    "prov:wasDerivedFrom": "hlogsheets/transformed/water_observatory.csv",
+                    "prov:wasGeneratedBy": "XXX",
+                    "prov:used": "https://github.com/emo-bon/observatory-profile/blob/main/templates/water_observatory.ldt.ttl.j2"
+                },
+                {
+                    "@id": "water/sampling",
+                    "@type": "Dataset",
+                    "description": "The folder containing the Turtle files of the smpling details of the water observatory, generated from the quality-controlled logsheets.",
+                    "prov:wasDerivedFrom": "logsheets/transformed/water_sampling.csv",
+                    "prov:wasGeneratedBy": "XXX",
+                    "prov:used": "https://github.com/emo-bon/observatory-profile/blob/main/templates/water_sampling.ldt.ttl.j2"
+                }
+            ]
+        },
+        {
+            "@id":"_:KlaasD",
+            "@type": "Person", 
+            "name": "Klaas Deneudt",
+            "email": "klaas.deneudt@vliz.be",
+            "identifier": "https://orcid.org/0000-0002-8559-3508",
+            "affiliation": "_:VLIZ"
+        },
+        {
+            "@id":"_:OpSci",
+            "@type":"Organization",
+            "parentOrganization":"_:VLIZ",
+            "email":"opsci@vliz.be"
+        },
+        {
+            "@id":"_:EMOBON",
+            "@type":"Project",
+            "name":"EMO BON",
+            "email":"emobon@embrc.eu",
+            "url":"https://www.embrc.eu/emo-bon",
+            "parentOrganization": {"@id": "https://ror.org/0038zss60"}
+        },
+        {
+            "@id":"https://ror.org/0038zss60",
+            "name":"EMBRC-ERIC",
+            "email": "secretariat@embrc.eu"
+        },
+        {
+            "@id":"_:VLIZ",
+            "@type":"Organization",
+            "name":"Flanders Marine Institute",
+            "identifier":"https://edmo.seadatanet.org/report/422",
+            "url":"https://www.vliz.be/en"
+        },
+        {
+            "@id":"_:UGENT",
+            "@type":"Organization",
+            "name":"Ghent University",
+            "identifier":"https://edmo.seadatanet.org/report/449"
+        },
+        {
+            "@id":"_:RBINS",
+            "@type":"Organization",
+            "name":"Royal Belgian Institute of Natural Sciences",
+            "identifier":"https://edmo.seadatanet.org/report/432"
+        },
+        {
+            "@id":"_:KUL",
+            "@type":"Organization",
+            "name":"Katholieke Universiteit Leuven",
+            "identifier":"https://edmo.seadatanet.org/report/2248"
+        },
+        {
+            "@id":"http://semanticscience.org/resource/SIO_001050",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "sample"
+        },
+        {
+            "@id":"http://purl.obolibrary.org/obo/ExO_0000067",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "measurement"
+        },
+        {
+            "@id":"https://vocabularyserver.com/asfa/?tema=2185",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "Biodiversity"
+        },
+        {
+            "@id":"https://vocabularyserver.com/asfa/?tema=3505",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "Long-term changes"
+        },
+        {
+            "@id":"https://vocabularyserver.com/asfa/?tema=1150",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "Marine environment"
+        },
+        {
+            "@id":"https://vocabularyserver.com/asfa/?tema=2365",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "Genetics"
+        },
+        {
+            "@id":"https://vocabularyserver.com/asfa/?tema=6369",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "Sediment samples"
+        },
+        {
+            "@id":"https://vocabularyserver.com/asfa/?tema=3248",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "Water samples"
+        },
+        {
+            "@id":"https://vocabularyserver.com/asfa/?tema=2091",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "Benthic communities"
         }
-    },
-    "_:KlaasD":{
-        "@type": "Person", 
-        "name": "Klaas Deneudt",
-        "email": "klaas.deneudt@vliz.be",
-        "identifier": "https://orcid.org/0000-0002-8559-3508",
-        "affiliation": "_:VLIZ"
-    },
-    "_:OpSci":{
-        "@type":"Organization",
-        "parentOrganization":"_:VLIZ",
-        "email":"opsci@vliz.be"
-    },
-    "_:VLIZ":{
-        "@type":"Organization",
-        "name":"Flanders Marine Institute",
-        "identifier":"https://edmo.seadatanet.org/report/422",
-        "url":"https://www.vliz.be/en"
-    },
-        "_:UGENT":{
-        "@type":"Organization",
-        "name":"Ghent University",
-        "identifier":"https://edmo.seadatanet.org/report/449"
-    },
-        "_:RBINS":{
-        "@type":"Organization",
-        "name":"Royal Belgian Institute of Natural Sciences",
-        "identifier":"https://edmo.seadatanet.org/report/432"
-    },
-        "_:KUL":{
-        "@type":"Organization",
-        "name":"Katholieke Universiteit Leuven",
-        "identifier":"https://edmo.seadatanet.org/report/2248"
-    },
-    "_:EMOBON":{
-        "@type":"Organization",
-        "name":"EMO BON",
-        "url":"https://www.embrc.eu/emo-bon"
-    },
-    {
-        "@id": "logsheets/",
-        "description": "The folder containing the logsheets from this observatory"
-    },
-    {
-        "@id": "logsheets/raw/",
-        "description":"The folder containing the logsheets as harvested from the google drive"
-    },
-    {
-        "@id": "logsheets/transformed/",
-        "description":"tbd"
-    },
-    {
-        "@id": "logsheets/filtered/",
-        "description":"tbd"
-    },
-    {
-        "@id": "logsheets/raw/sediment_measured.csv",
-        "prov:wasDerivedFrom": "https://docs.google.com/spreadsheets/d/1zc0bZdpl-Eoi35lI_5BGkElbscplyQRyNPLkSgeEyEQ/edit?usp=sharing"
-    },
-    {
-        "@id": "logsheets/raw/sediment_observatory.csv",
-        "prov:wasDerivedFrom": "https://docs.google.com/spreadsheets/d/1zc0bZdpl-Eoi35lI_5BGkElbscplyQRyNPLkSgeEyEQ/edit?usp=sharing"
-    },
-    {
-        "@id": "logsheets/raw/sediment_sampling.csv",
-        "prov:wasDerivedFrom": "https://docs.google.com/spreadsheets/d/1zc0bZdpl-Eoi35lI_5BGkElbscplyQRyNPLkSgeEyEQ/edit?usp=sharing"
-    },
-    {
-        "@id": "logsheets/raw/water_measured.csv",
-        "prov:wasDerivedFrom": "https://docs.google.com/spreadsheets/d/1mEi4Bd2YR63WD0j54FQ6QkzcUw_As9Wilue9kaXO2DE/edit?usp=sharing"
-    },
-    {
-        "@id": "logsheets/raw/water_observatory.csv",
-        "prov:wasDerivedFrom": "https://docs.google.com/spreadsheets/d/1mEi4Bd2YR63WD0j54FQ6QkzcUw_As9Wilue9kaXO2DE/edit?usp=sharing"
-    },
-    {
-        "@id": "logsheets/raw/water_sampling.csv",
-        "prov:wasDerivedFrom": "https://docs.google.com/spreadsheets/d/1mEi4Bd2YR63WD0j54FQ6QkzcUw_As9Wilue9kaXO2DE/edit?usp=sharing"
-    },
-     {
-        "@id": "data-quality-control/",
-         "prov:wasGeneratedBy": "XXX"
-    },
-    {
-        "@id": "data-quality-control/dqc.csv",
-         "description": "The quality control report: checks 1"
-    },
-    {
-        "@id": "data-quality-control/logfile",
-         "description": "The quality control report: checks 2"
-    },
-    {
-        "@id": "data-quality-control/report.csv",
-         "description": "The quality control report: checks 3"
-    },
-    {
-        "@id": "sediment/",
-        "description": "Contains the turtle files created from the sediment logsheets"
-    },
-    {
-        "@id": "sediment/measured",
-        "description": "Contains the turtle files created from the sediment logsheets",
-        "prov:wasDerivedFrom": "https://github.com/emo-bon/observatory-bpns-crate/blob/main/logsheets/transformed/sediment_measured.csv",
-        "prov:wasGeneratedBy": "XXX",
-        "prov:used": "https://github.com/emo-bon/observatory-profile/blob/main/templates/sediment_measured.ldt.ttl.j2"
-    },
-    {
-        "@id": "sediment/observatory",
-        "description": "Contains the turtle files created from the sediment logsheets",
-        "prov:wasDerivedFrom": "https://github.com/emo-bon/observatory-bpns-crate/blob/main/logsheets/transformed/sediment_observatory.csv",
-        "prov:wasGeneratedBy": "XXX",
-        "prov:used": "https://github.com/emo-bon/observatory-profile/blob/main/templates/sediment_observatory.ldt.ttl.j2"
-    },
-    {
-        "@id": "sediment/sampling",
-        "description": "Contains the turtle files created from the sediment logsheets",
-        "prov:wasDerivedFrom": "https://github.com/emo-bon/observatory-bpns-crate/blob/main/logsheets/transformed/sediment_sampling.csv",
-        "prov:wasGeneratedBy": "XXX",
-        "prov:used": "https://github.com/emo-bon/observatory-profile/blob/main/templates/sediment_sampling.ldt.ttl.j2"
-    },
- {
-        "@id": "water/measured",
-        "description": "Contains the turtle files created from the sediment logsheets",
-        "prov:wasDerivedFrom": "https://github.com/emo-bon/observatory-bpns-crate/blob/main/logsheets/transformed/water_measured.csv",
-        "prov:wasGeneratedBy": "XXX",
-        "prov:used": "https://github.com/emo-bon/observatory-profile/blob/main/templates/water_measured.ldt.ttl.j2"
-    },
-    {
-        "@id": "water/observatory",
-        "description": "Contains the turtle files created from the sediment logsheets",
-        "prov:wasDerivedFrom": "https://github.com/emo-bon/observatory-bpns-crate/blob/main/logsheets/transformed/water_observatory.csv",
-        "prov:wasGeneratedBy": "XXX",
-        "prov:used": "https://github.com/emo-bon/observatory-profile/blob/main/templates/water_observatory.ldt.ttl.j2"
-    },
-    {
-        "@id": "water/sampling",
-        "description": "Contains the turtle files created from the sediment logsheets",
-        "prov:wasDerivedFrom": "https://github.com/emo-bon/observatory-bpns-crate/blob/main/logsheets/transformed/water_sampling.csv",
-        "prov:wasGeneratedBy": "XXX",
-        "prov:used": "https://github.com/emo-bon/observatory-profile/blob/main/templates/water_sampling.ldt.ttl.j2"
-    }
+    ]
 }
