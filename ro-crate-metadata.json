@@ -14,6 +14,7 @@
                 "@id": "https://data.emobon.embrc.eu/observatory-profile/0.33"
             },
             "contactPoint": {
+                "@id": "missingDummyID",
                 "@type": "ContactPoint",
                 "email": "emobon@embrc.eu"
             },
