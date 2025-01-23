@@ -45,6 +45,9 @@
                     "@id": ".github/"
                 },
                 {
+                    "@id":"all-triples.ttl"
+                },
+                {
                     "@id": "config/"
                 },
                 {
@@ -133,6 +136,11 @@
             "conformsTo": {
                 "@id": "https://w3id.org/ro/crate/1.1"
             }
+        },
+        {
+            "@id":"all-triples.ttl",
+            "@type":"File",
+            "encodingFormat":"text/turtle"
         },
         {
             "@id": "https://data.emobon.embrc.eu/observatory-profile/0.33",
