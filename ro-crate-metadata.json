@@ -136,7 +136,12 @@
             }
         },
         {
-            "@id": "https://data.emobon.embrc.eu/observatory-profile/0.22",
+            "@id":"all-triples.ttl",
+            "@type":"File",
+            "encodingFormat":"text/turtle"
+        },
+        {
+            "@id": "https://data.emobon.embrc.eu/observatory-profile/latest",
             "@type": "CreativeWork",
             "name": "<name>"
         },
