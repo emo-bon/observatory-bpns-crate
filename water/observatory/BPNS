@@ -10,7 +10,6 @@
 @prefix sf: <http://www.opengis.net/ont/sf#> .
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix mr: <http://marineregions.org/ns/ontology#> .
-#@prefix emobon: <http://www.embrc.eu/emobon/EmoBonOntology#> .
 @prefix emobon-sequence: <https://data.emobon.embrc.eu/ns/sequence#> .
 @prefix emobon-core: <https://data.emobon.embrc.eu/ns/core#> .
 @prefix emobon-sampling: <https://data.emobon.embrc.eu/ns/sampling#> .
@@ -27,16 +26,16 @@
         a schema:Project ;
         schema:name 'EMOBON'^^xsd:string ;
         schema:description "The EMO BON project"^^xsd:string ;
-        emobon-sampling:enaProjAccNum 'https://www.ebi.ac.uk/ena/browser/view/PRJEB51688'^^xsd:anyURI ;
+        emobon-core:enaProjAccNum 'https://www.ebi.ac.uk/ena/browser/view/PRJEB51688'^^xsd:anyURI ;
     ] ;
-    emobon:siteInfo 'Station that has historic data going back to 1980’s and has monthly environmental measurements since 2001. Site participated in Ocean Sampling day activities for years 2012 2017 2018 2019 2020 and OSD12x. Parallel genomic biodiversity sampling in 2014 and monthly in 2016. The spring phytoplankton bloom (expressed as chlorophyll a) typically occurs between March to May. A spring diatom community is ‘followed’ by a bloom of Phaeocystis globosa and a summer diatom bloom. (Desmit. et al. 2015). A number of potentially harmful algal species occur such as Pseudo-nitzschia and several dinoflagellate genera (e.g. Prorocentrum Alexandrium..). (Nohe et al. 2019). BPNS is characterised by high antropogenic activity (Intense shipping traffic offshore windmill farms dredging etc.)'^^xsd:string ;
+    emobon-core:siteInfo 'Station that has historic data going back to 1980’s and has monthly environmental measurements since 2001. Site participated in Ocean Sampling day activities for years 2012 2017 2018 2019 2020 and OSD12x. Parallel genomic biodiversity sampling in 2014 and monthly in 2016. The spring phytoplankton bloom (expressed as chlorophyll a) typically occurs between March to May. A spring diatom community is ‘followed’ by a bloom of Phaeocystis globosa and a summer diatom bloom. (Desmit. et al. 2015). A number of potentially harmful algal species occur such as Pseudo-nitzschia and several dinoflagellate genera (e.g. Prorocentrum Alexandrium..). (Nohe et al. 2019). BPNS is characterised by high antropogenic activity (Intense shipping traffic offshore windmill farms dredging etc.)'^^xsd:string ;
     emobon-core:broadBiome  'marine biome [ENVO:00000447]'^^xsd:string,  'marine pelagic biome [ENVO:01000023]'^^xsd:string;
     emobon-core:localBiome 'marine pelagic feature [ENVO:01000044]'^^xsd:string, 'marine water body [ENVO:00001999]'^^xsd:string, 'costal water body [ENVO:02000049]'^^xsd:string;
-    emobon-sampling:marineRegionName 'North Atlantic Ocean'^^xsd:string ;
+    emobon-core:marineRegionName 'North Atlantic Ocean'^^xsd:string ;
     emobon-core:marineRegion 'http://marineregions.org/mrgid/1912'^^xsd:anyURI ;
-    emobon-sampling:marineRegionName 'North Sea'^^xsd:string ;
+    emobon-core:marineRegionName 'North Sea'^^xsd:string ;
     emobon-core:marineRegion 'http://marineregions.org/mrgid/2350'^^xsd:anyURI ;
-    emobon-sampling:marineRegionName 'Belgian part of the North Sea'^^xsd:string ;
+    emobon-core:marineRegionName 'Belgian part of the North Sea'^^xsd:string ;
     emobon-core:marineRegion 'http://marineregions.org/mrgid/26567'^^xsd:anyURI ;
     emobon-core:geoLocation [ 
         a sf:Point ; 
@@ -84,13 +83,13 @@
             schema:addressCountry 'Belgium'^^xsd:string ;
         ] ; 
     ] ;
-    emobon-sampling:waterColumnDepth [
+    emobon-core:waterColumnDepth [
         a qudt:QuantityValue ;
             qudt:numericValue '26.0'^^xsd:double ;
         ] ;
-    emobon-sampling:originCountry 'Belgium'^^xsd:string ;
-    emobon-sampling:enaStudyAccNum 'https://www.ebi.ac.uk/ena/browser/view/PRJEB51652'^^xsd:anyURI ;
-    emobon-sampling:hasMixsPackage 'water'^^xsd:string ; 
+    emobon-core:originCountry 'Belgium'^^xsd:string ;
+    emobon-core:enaStudyAccNum 'https://www.ebi.ac.uk/ena/browser/view/PRJEB51652'^^xsd:anyURI ;
+    emobon-core:hasMixsPackage 'water'^^xsd:string ; 
 .
 
 

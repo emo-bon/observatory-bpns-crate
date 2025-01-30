@@ -4693,11 +4693,11 @@
     sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/measured/EMOBON_BPNS_So_221212_micro_1> ;
     sosa:hasResult [ a qudt:QuantityValue,
                 sosa:Result ;
-            qudt:numericValue "9.149678"^^xsd:string ;
+            qudt:numericValue "-1.8901"^^xsd:string ;
             qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ],
         [ a qudt:QuantityValue,
                 sosa:Result ;
-            qudt:numericValue "-1.8901"^^xsd:string ;
+            qudt:numericValue "9.149678"^^xsd:string ;
             qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ] ;
     sosa:observedProperty <http://vocab.nerc.ac.uk/collection/P01/current/DOXMZZXX/> ;
     schema:measurementTechnique "CTD"^^xsd:string .
@@ -4729,11 +4729,11 @@
     sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/measured/EMOBON_BPNS_So_221212_micro_1> ;
     sosa:hasResult [ a qudt:QuantityValue,
                 sosa:Result ;
-            qudt:numericValue "32.018"^^xsd:string ;
+            qudt:numericValue "33.238"^^xsd:string ;
             qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ],
         [ a qudt:QuantityValue,
                 sosa:Result ;
-            qudt:numericValue "33.238"^^xsd:string ;
+            qudt:numericValue "32.018"^^xsd:string ;
             qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ] ;
     sosa:observedProperty <http://vocab.nerc.ac.uk/collection/A05/current/EV_SALIN/> ;
     schema:measurementTechnique "CTD"^^xsd:string .
@@ -4743,11 +4743,11 @@
     sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/measured/EMOBON_BPNS_So_221212_micro_1> ;
     sosa:hasResult [ a qudt:QuantityValue,
                 sosa:Result ;
-            qudt:numericValue "9.135"^^xsd:string ;
+            qudt:numericValue "6.812"^^xsd:string ;
             qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ],
         [ a qudt:QuantityValue,
                 sosa:Result ;
-            qudt:numericValue "6.812"^^xsd:string ;
+            qudt:numericValue "9.135"^^xsd:string ;
             qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
     sosa:observedProperty <http://vocab.nerc.ac.uk/collection/P02/current/TEMP/> ;
     schema:measurementTechnique "CTD"^^xsd:string .
@@ -4757,11 +4757,11 @@
     sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/measured/EMOBON_BPNS_So_221212_micro_1> ;
     sosa:hasResult [ a qudt:QuantityValue,
                 sosa:Result ;
-            qudt:numericValue "7.8"^^xsd:string ;
+            qudt:numericValue "7.326"^^xsd:string ;
             qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ],
         [ a qudt:QuantityValue,
                 sosa:Result ;
-            qudt:numericValue "7.326"^^xsd:string ;
+            qudt:numericValue "7.8"^^xsd:string ;
             qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
     sosa:observedProperty <https://vocab.lternet.edu/vocab/vocab/index.php?tema=530&/soil-temperature> ;
     schema:measurementTechnique "CTD"^^xsd:string .
@@ -6906,56 +6906,6 @@
             dct:identifier <https://vocab.lternet.edu/vocab/vocab/index.php?tema=530> ] ;
     schema:measurementTechnique "CTD"^^xsd:string .
 
-<http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/observatory/BPNS> a emobon-core:Observatory ;
-    dct:isPartOf [ a schema:Project ;
-            emobon-sampling:enaProjAccNum "https://www.ebi.ac.uk/ena/browser/view/PRJEB51688"^^xsd:anyURI ;
-            schema:description "The EMO BON project"^^xsd:string ;
-            schema:name "EMOBON"^^xsd:string ] ;
-    emobon-core:broadBiome "marine benthic biome[ENVO_01000024]"^^xsd:string,
-        "marine biome [ENVO:00000447]"^^xsd:string ;
-    emobon-core:geoLocation [ a sf:Point ;
-            geo:asWKT "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point (51.433331 2.808331)" ] ;
-    emobon-core:localBiome "shallow_marine_sediment_[ENVO:03000034]"^^xsd:string ;
-    emobon-core:marineRegion "http://marineregions.org/mrgid/1912"^^xsd:anyURI,
-        "http://marineregions.org/mrgid/2350"^^xsd:anyURI,
-        "http://marineregions.org/mrgid/26567"^^xsd:anyURI ;
-    emobon-core:observatoryId "BPNS"^^xsd:string ;
-    emobon-core:observatorySampleId "BPNS So"^^xsd:string ;
-    emobon-core:sampleType <https://data.emobon.embrc.eu/ns/core_vocab#2> ;
-    emobon-sampling:enaStudyAccNum "https://www.ebi.ac.uk/ena/browser/view/PRJEB51652"^^xsd:anyURI ;
-    emobon-sampling:hasMixsPackage "sediment"^^xsd:string ;
-    emobon-sampling:marineRegionName "Belgian part of the North Sea"^^xsd:string,
-        "North Atlantic Ocean"^^xsd:string,
-        "North Sea"^^xsd:string ;
-    emobon-sampling:originCountry "Belgium"^^xsd:string ;
-    emobon-sampling:siteInfo "Station that has historic data going back to 1980’s and has monthly environmental measurements since 2001. Site participated in Ocean Sampling day activities for years 2012; 2017; 2018; 2019; 2020 and OSD12x. Parallel genomic biodiversity sampling in 2014 and monthly in 2016. The spring phytoplankton bloom (expressed as chlorophyll a) typically occurs between March to May. A spring diatom community is ‘followed’ by a bloom of Phaeocystis globosa and a summer diatom bloom. (Desmit. et al. 2015). A number of potentially harmful algal species occur such as Pseudo-nitzschia and several dinoflagellate genera (e.g. Prorocentrum; Alexandrium..). (Nohe et al. 2019). BPNS is characterised by high antropogenic activity (Intense shipping traffic; offshore windmill farms; dredging; etc.)"^^xsd:string ;
-    emobon-sampling:waterColumnDepth [ a qudt:QuantityValue ;
-            qudt:numericValue 2.6e+01 ] ;
-    schema:contactPoint [ a emobon-core:Organization ;
-            emobon-core:edmoId "https://edmo.seadatanet.org/report/2248"^^xsd:anyURI ;
-            schema:address [ a schema:PostalAddress ;
-                    schema:addressCountry "Belgium"^^xsd:string ] ;
-            schema:legalName "Katholieke Universiteit Leuven"^^xsd:string ],
-        [ a emobon-core:Organization ;
-            emobon-core:edmoId "https://edmo.seadatanet.org/report/422"^^xsd:anyURI ;
-            schema:address [ a schema:PostalAddress ;
-                    schema:addressCountry "Belgium"^^xsd:string ;
-                    schema:member [ a schema:Person ;
-                            schema:email "klaas.deneudt@vliz.be"^^xsd:string ;
-                            schema:identifier "https://orcid.org/0000-0002-8559-3508"^^xsd:anyURI ;
-                            schema:name "Klaas Deneudt"^^xsd:string ] ] ;
-            schema:legalName "Flanders Marine Institute (VLIZ)"^^xsd:string ],
-        [ a emobon-core:Organization ;
-            emobon-core:edmoId "https://edmo.seadatanet.org/report/449"^^xsd:anyURI ;
-            schema:address [ a schema:PostalAddress ;
-                    schema:addressCountry "Belgium"^^xsd:string ] ;
-            schema:legalName "Ghent University"^^xsd:string ],
-        [ a emobon-core:Organization ;
-            emobon-core:edmoId "https://edmo.seadatanet.org/report/432"^^xsd:anyURI ;
-            schema:address [ a schema:PostalAddress ;
-                    schema:addressCountry "Belgium"^^xsd:string ] ;
-            schema:legalName "Royal Belgian Institute of Natural Sciences"^^xsd:string ] .
-
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/BPNS_So_210701> a prov:Activity,
         sosa:Sampling ;
     dct:type "sampling"^^xsd:string ;
@@ -7028,9 +6978,14 @@
             rdfs:label "SoSOP3"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "SoSOP3"^^xsd:string ] ;
-    emobon-sampling:originCountry "Belgium"^^xsd:string ;
-    emobon-sampling:tidalStage "ebb_tide"^^xsd:string ;
-    emobon-sampling:waterColumnDepth "26"^^xsd:string .
+    emobon-core:originCountry "Belgium"^^xsd:string ;
+    emobon-core:waterColumnDepth "26"^^xsd:string ;
+    emobon-sampling:bioCommunity "meio"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment [ENVO:00002007]"^^xsd:string ;
+    emobon-sampling:investigationType "mimarks-specimen"^^xsd:string ;
+    emobon-sampling:linkedToObservatory <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/observatory/BPNS> ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=33208"^^xsd:anyURI ;
+    emobon-sampling:tidalStage "ebb_tide"^^xsd:string .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/BPNS_So_210726> a prov:Activity,
         sosa:Sampling ;
@@ -7089,8 +7044,7 @@
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0002-8781-7915"^^xsd:anyURI ;
             schema:name "Jonas Mortelmans"^^xsd:string ] ;
-    sosa:hasFeatureOfInterest "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=256318"^^xsd:anyURI,
-        "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=32644"^^xsd:anyURI,
+    sosa:hasFeatureOfInterest "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=32644"^^xsd:anyURI,
         "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI,
         "metagenome"^^xsd:string,
         "micro"^^xsd:string,
@@ -7134,9 +7088,15 @@
             rdfs:label "SoSOP3"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "SoSOP3"^^xsd:string ] ;
-    emobon-sampling:originCountry "Belgium"^^xsd:string ;
-    emobon-sampling:tidalStage "flood_tide"^^xsd:string ;
-    emobon-sampling:waterColumnDepth "26"^^xsd:string .
+    emobon-core:originCountry "Belgium"^^xsd:string ;
+    emobon-core:waterColumnDepth "26"^^xsd:string ;
+    emobon-sampling:bioCommunity "micro"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment [ENVO:00002007]"^^xsd:string ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:linkedToObservatory <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/observatory/BPNS> ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=256318"^^xsd:anyURI,
+        "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI ;
+    emobon-sampling:tidalStage "flood_tide"^^xsd:string .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/BPNS_So_210825> a prov:Activity,
         sosa:Sampling ;
@@ -7195,8 +7155,7 @@
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
             schema:name "Sander Delacauw"^^xsd:string ] ;
-    sosa:hasFeatureOfInterest "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=256318"^^xsd:anyURI,
-        "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=32644"^^xsd:anyURI,
+    sosa:hasFeatureOfInterest "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=32644"^^xsd:anyURI,
         "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI,
         "metagenome"^^xsd:string,
         "micro"^^xsd:string,
@@ -7235,16 +7194,22 @@
         [ a sosa:Procedure ;
             rdfs:label "SoSOP3"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "SoSOP3"^^xsd:string ],
-        [ a sosa:Procedure ;
             rdfs:label "SoSOP3"^^xsd:string ;
             rdfs:comment "Tube broke"^^xsd:string ],
         [ a sosa:Procedure ;
+            rdfs:label "SoSOP3"^^xsd:string ],
+        [ a sosa:Procedure ;
             rdfs:label "SoSOP3"^^xsd:string ;
             rdfs:comment "Tube broke"^^xsd:string ] ;
-    emobon-sampling:originCountry "Belgium"^^xsd:string ;
-    emobon-sampling:tidalStage "ebb_tide"^^xsd:string ;
-    emobon-sampling:waterColumnDepth "26"^^xsd:string .
+    emobon-core:originCountry "Belgium"^^xsd:string ;
+    emobon-core:waterColumnDepth "26"^^xsd:string ;
+    emobon-sampling:bioCommunity "micro"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment [ENVO:00002007]"^^xsd:string ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:linkedToObservatory <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/observatory/BPNS> ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=256318"^^xsd:anyURI,
+        "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI ;
+    emobon-sampling:tidalStage "ebb_tide"^^xsd:string .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/BPNS_So_211028> a prov:Activity,
         sosa:Sampling ;
@@ -7262,38 +7227,6 @@
             schema:name "Sander Delacauw"^^xsd:string ],
         [ a prov:Person,
                 schema:Person ;
-            schema:identifier "https://orcid.org/0000-0002-5662-5689"^^xsd:anyURI ;
-            schema:name "Lara Macheriotou"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
-            schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
-            schema:name "Sander Delacauw"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
-            schema:identifier "https://orcid.org/0000-0002-5662-5689"^^xsd:anyURI ;
-            schema:name "Lara Macheriotou"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
-            schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
-            schema:name "Sander Delacauw"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
-            schema:identifier "https://orcid.org/0000-0002-5662-5689"^^xsd:anyURI ;
-            schema:name "Lara Macheriotou"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
-            schema:identifier "https://orcid.org/0000-0002-5662-5689"^^xsd:anyURI ;
-            schema:name "Lara Macheriotou"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
-            schema:identifier "https://orcid.org/0000-0002-5662-5689"^^xsd:anyURI ;
-            schema:name "Lara Macheriotou"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
-            schema:identifier "https://orcid.org/0000-0002-5662-5689"^^xsd:anyURI ;
-            schema:name "Lara Macheriotou"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
             schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
             schema:name "Sander Delacauw"^^xsd:string ],
         [ a prov:Person,
@@ -7310,28 +7243,8 @@
             schema:name "Sander Delacauw"^^xsd:string ],
         [ a prov:Person,
                 schema:Person ;
-            schema:identifier "https://orcid.org/0000-0002-5662-5689"^^xsd:anyURI ;
-            schema:name "Lara Macheriotou"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
-            schema:identifier "https://orcid.org/0000-0002-5662-5689"^^xsd:anyURI ;
-            schema:name "Lara Macheriotou"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
             schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
             schema:name "Sander Delacauw"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
-            schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
-            schema:name "Sander Delacauw"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
-            schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
-            schema:name "Sander Delacauw"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
-            schema:identifier "https://orcid.org/0000-0002-5662-5689"^^xsd:anyURI ;
-            schema:name "Lara Macheriotou"^^xsd:string ],
         [ a prov:Person,
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
@@ -7362,8 +7275,24 @@
             schema:name "Sander Delacauw"^^xsd:string ],
         [ a prov:Person,
                 schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-5662-5689"^^xsd:anyURI ;
+            schema:name "Lara Macheriotou"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-5662-5689"^^xsd:anyURI ;
+            schema:name "Lara Macheriotou"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
             schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
             schema:name "Sander Delacauw"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
+            schema:name "Sander Delacauw"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-5662-5689"^^xsd:anyURI ;
+            schema:name "Lara Macheriotou"^^xsd:string ],
         [ a prov:Person,
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
@@ -7378,14 +7307,49 @@
             schema:name "Sander Delacauw"^^xsd:string ],
         [ a prov:Person,
                 schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-5662-5689"^^xsd:anyURI ;
+            schema:name "Lara Macheriotou"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-5662-5689"^^xsd:anyURI ;
+            schema:name "Lara Macheriotou"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-5662-5689"^^xsd:anyURI ;
+            schema:name "Lara Macheriotou"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-5662-5689"^^xsd:anyURI ;
+            schema:name "Lara Macheriotou"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
             schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
             schema:name "Sander Delacauw"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
+            schema:name "Sander Delacauw"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-5662-5689"^^xsd:anyURI ;
+            schema:name "Lara Macheriotou"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
+            schema:name "Sander Delacauw"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
+            schema:name "Sander Delacauw"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-5662-5689"^^xsd:anyURI ;
+            schema:name "Lara Macheriotou"^^xsd:string ],
         [ a prov:Person,
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
             schema:name "Sander Delacauw"^^xsd:string ] ;
-    sosa:hasFeatureOfInterest "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=256318"^^xsd:anyURI,
-        "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=32644"^^xsd:anyURI,
+    sosa:hasFeatureOfInterest "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=32644"^^xsd:anyURI,
         "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=33208"^^xsd:anyURI,
         "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI,
         "macro"^^xsd:string,
@@ -7493,9 +7457,19 @@
             rdfs:label "SoSOP3"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "SoSOP3"^^xsd:string ] ;
-    emobon-sampling:originCountry "Belgium"^^xsd:string ;
-    emobon-sampling:tidalStage "ebb_tide"^^xsd:string ;
-    emobon-sampling:waterColumnDepth "26"^^xsd:string .
+    emobon-core:originCountry "Belgium"^^xsd:string ;
+    emobon-core:waterColumnDepth "26"^^xsd:string ;
+    emobon-sampling:bioCommunity "macro"^^xsd:string,
+        "meio"^^xsd:string,
+        "micro"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment [ENVO:00002007]"^^xsd:string ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string,
+        "mimarks-specimen"^^xsd:string ;
+    emobon-sampling:linkedToObservatory <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/observatory/BPNS> ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=256318"^^xsd:anyURI,
+        "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=33208"^^xsd:anyURI,
+        "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI ;
+    emobon-sampling:tidalStage "ebb_tide"^^xsd:string .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/BPNS_So_211223> a prov:Activity,
         sosa:Sampling ;
@@ -7554,8 +7528,7 @@
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
             schema:name "Rune Lagaisse"^^xsd:string ] ;
-    sosa:hasFeatureOfInterest "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=256318"^^xsd:anyURI,
-        "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=32644"^^xsd:anyURI,
+    sosa:hasFeatureOfInterest "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=32644"^^xsd:anyURI,
         "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI,
         "metagenome"^^xsd:string,
         "micro"^^xsd:string,
@@ -7611,9 +7584,15 @@
         [ a sosa:Procedure ;
             rdfs:label "SoSOP3"^^xsd:string ;
             rdfs:comment "Problem with underway data"^^xsd:string ] ;
-    emobon-sampling:originCountry "Belgium"^^xsd:string ;
-    emobon-sampling:tidalStage "ebb_tide"^^xsd:string ;
-    emobon-sampling:waterColumnDepth "26"^^xsd:string .
+    emobon-core:originCountry "Belgium"^^xsd:string ;
+    emobon-core:waterColumnDepth "26"^^xsd:string ;
+    emobon-sampling:bioCommunity "micro"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment [ENVO:00002007]"^^xsd:string ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:linkedToObservatory <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/observatory/BPNS> ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=256318"^^xsd:anyURI,
+        "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI ;
+    emobon-sampling:tidalStage "ebb_tide"^^xsd:string .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/BPNS_So_220322> a prov:Activity,
         sosa:Sampling ;
@@ -7671,13 +7650,13 @@
             rdfs:comment "Problem with underway data"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "SoSOP3"^^xsd:string ;
-            rdfs:comment "Tube broke, Problem with underway data"^^xsd:string ],
+            rdfs:comment "Problem with underway data"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "SoSOP3"^^xsd:string ;
             rdfs:comment "Problem with underway data"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "SoSOP3"^^xsd:string ;
-            rdfs:comment "Problem with underway data"^^xsd:string ] .
+            rdfs:comment "Tube broke, Problem with underway data"^^xsd:string ] .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/BPNS_So_220420> a prov:Activity,
         sosa:Sampling ;
@@ -7821,10 +7800,6 @@
     prov:startedAtTime "2022-06-01"^^xsd:string ;
     prov:wasAssociatedWith [ a prov:Person,
                 schema:Person ;
-            schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
-            schema:name "Rune Lagaisse"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
             schema:identifier "https://orcid.org/0000-0002-5662-5689"^^xsd:anyURI ;
             schema:name "Lara Macheriotou"^^xsd:string ],
         [ a prov:Person,
@@ -7859,6 +7834,10 @@
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0002-5662-5689"^^xsd:anyURI ;
             schema:name "Lara Macheriotou"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
+            schema:name "Rune Lagaisse"^^xsd:string ],
         [ a prov:Person,
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0002-5662-5689"^^xsd:anyURI ;
@@ -8259,10 +8238,6 @@
             schema:name "Rune Lagaisse"^^xsd:string ],
         [ a prov:Person,
                 schema:Person ;
-            schema:identifier "https://orcid.org/0000-0002-5662-5689"^^xsd:anyURI ;
-            schema:name "Lara Macheriotou"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
             schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
             schema:name "Rune Lagaisse"^^xsd:string ],
         [ a prov:Person,
@@ -8273,10 +8248,6 @@
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0002-5662-5689"^^xsd:anyURI ;
             schema:name "Lara Macheriotou"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
-            schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
-            schema:name "Rune Lagaisse"^^xsd:string ],
         [ a prov:Person,
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0002-5662-5689"^^xsd:anyURI ;
@@ -8299,6 +8270,14 @@
             schema:name "Lara Macheriotou"^^xsd:string ],
         [ a prov:Person,
                 schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-5662-5689"^^xsd:anyURI ;
+            schema:name "Lara Macheriotou"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-5662-5689"^^xsd:anyURI ;
+            schema:name "Lara Macheriotou"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
             schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
             schema:name "Rune Lagaisse"^^xsd:string ],
         [ a prov:Person,
@@ -8307,8 +8286,8 @@
             schema:name "Lara Macheriotou"^^xsd:string ],
         [ a prov:Person,
                 schema:Person ;
-            schema:identifier "https://orcid.org/0000-0002-5662-5689"^^xsd:anyURI ;
-            schema:name "Lara Macheriotou"^^xsd:string ],
+            schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
+            schema:name "Rune Lagaisse"^^xsd:string ],
         [ a prov:Person,
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0002-5662-5689"^^xsd:anyURI ;
@@ -8341,27 +8320,27 @@
     sosa:madeBySampler "Van Veen Grab"^^xsd:string ;
     sosa:resultTime "2023-04-25"^^xsd:string ;
     sosa:usedProcedure [ a sosa:Procedure ;
+            rdfs:label "SoSOP3"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "SoSOP3"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "SoSOP3"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "SoSOP3"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "SoSOP3"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "SoSOP3"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "SoSOP3"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "SoSOP3"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "SoSOP3"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "SoSOP3"^^xsd:string ],
+        [ a sosa:Procedure ;
             rdfs:label "SoSOP4"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "SoSOP3"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "SoSOP3"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "SoSOP3"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "SoSOP3"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "SoSOP3"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "SoSOP3"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "SoSOP3"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "SoSOP3"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "SoSOP3"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "SoSOP3"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "SoSOP3"^^xsd:string ],
         [ a sosa:Procedure ;
@@ -8383,29 +8362,11 @@
     prov:startedAtTime "2023-06-21"^^xsd:string ;
     prov:wasAssociatedWith [ a prov:Person,
                 schema:Person ;
-            schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
-            schema:name "Rune Lagaisse"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
             schema:name "Annelien Rigaux"^^xsd:string ],
         [ a prov:Person,
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
             schema:name "Rune Lagaisse"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
-            schema:name "Annelien Rigaux"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
-            schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
-            schema:name "Rune Lagaisse"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
-            schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
-            schema:name "Rune Lagaisse"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
-            schema:name "Annelien Rigaux"^^xsd:string ],
         [ a prov:Person,
                 schema:Person ;
             schema:name "Annelien Rigaux"^^xsd:string ],
@@ -8419,7 +8380,25 @@
         [ a prov:Person,
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
-            schema:name "Rune Lagaisse"^^xsd:string ] ;
+            schema:name "Rune Lagaisse"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
+            schema:name "Rune Lagaisse"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
+            schema:name "Rune Lagaisse"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:name "Annelien Rigaux"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
+            schema:name "Rune Lagaisse"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:name "Annelien Rigaux"^^xsd:string ] ;
     sosa:hasFeatureOfInterest "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=32644"^^xsd:anyURI,
         "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=33208"^^xsd:anyURI,
         "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI,
@@ -35520,15 +35499,6 @@
             dct:identifier <http://vocab.nerc.ac.uk/collection/P02/current/SLCA/> ] ;
     schema:measurementTechnique "SEAL QuAAtro analysis system + Skalar AutoAnalyser system"^^xsd:string .
 
-<http://data.emobon.embrc.eu/observatory-bpns-crate/water/observatory/BPNS> a emobon-core:Observatory ;
-    dct:isPartOf [ a schema:Project ;
-            emobon-sampling:enaProjAccNum "https://www.ebi.ac.uk/ena/browser/view/PRJEB51688"^^xsd:anyURI ;
-            schema:description "The EMO BON project"^^xsd:string ;
-            schema:name "EMOBON"^^xsd:string ] ;
-    emobon-core:observatoryId "BPNS"^^xsd:string ;
-    emobon-core:observatorySampleId "BPNS Wa"^^xsd:string ;
-    emobon-core:sampleType <https://data.emobon.embrc.eu/ns/core_vocab#3> .
-
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/sampling/BPNS_Wa_210701> a prov:Activity,
         sosa:Sampling ;
     dct:type "sampling"^^xsd:string ;
@@ -35675,24 +35645,6 @@
             rdfs:label "WaSOP1"^^xsd:string ;
             rdfs:comment "Since the pump and the filtration units had not yet arrived 20L of water was taken and frozen. These were filtered 8 weeks later."^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ;
-            rdfs:comment "Since the pump and the filtration units had not yet arrived 20L of water was taken and frozen. These were filtered 8 weeks later."^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP2"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ;
-            rdfs:comment "Since the pump and the filtration units had not yet arrived 20L of water was taken and frozen. These were filtered 8 weeks later."^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ;
-            rdfs:comment "Since the pump and the filtration units had not yet arrived 20L of water was taken and frozen. These were filtered 8 weeks later."^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ;
-            rdfs:comment "Since the pump and the filtration units had not yet arrived 20L of water was taken and frozen. These were filtered 8 weeks later."^^xsd:string ],
-        [ a sosa:Procedure ;
             rdfs:label "WaSOP3"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ;
@@ -35703,26 +35655,6 @@
             rdfs:label "WaSOP1"^^xsd:string ;
             rdfs:comment "Since the pump and the filtration units had not yet arrived 20L of water was taken and frozen. These were filtered 8 weeks later."^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP2"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP2"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ;
-            rdfs:comment "Since the pump and the filtration units had not yet arrived 20L of water was taken and frozen. These were filtered 8 weeks later."^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ;
-            rdfs:comment "Since the pump and the filtration units had not yet arrived 20L of water was taken and frozen. These were filtered 8 weeks later."^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ;
-            rdfs:comment "Since the pump and the filtration units had not yet arrived 20L of water was taken and frozen. These were filtered 8 weeks later."^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ;
-            rdfs:comment "Since the pump and the filtration units had not yet arrived 20L of water was taken and frozen. These were filtered 8 weeks later."^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP2"^^xsd:string ],
-        [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ;
             rdfs:comment "Since the pump and the filtration units had not yet arrived 20L of water was taken and frozen. These were filtered 8 weeks later."^^xsd:string ],
         [ a sosa:Procedure ;
@@ -35730,12 +35662,57 @@
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ;
             rdfs:comment "Since the pump and the filtration units had not yet arrived 20L of water was taken and frozen. These were filtered 8 weeks later."^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ;
+            rdfs:comment "Since the pump and the filtration units had not yet arrived 20L of water was taken and frozen. These were filtered 8 weeks later."^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP2"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP3"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ;
+            rdfs:comment "Since the pump and the filtration units had not yet arrived 20L of water was taken and frozen. These were filtered 8 weeks later."^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP2"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ;
+            rdfs:comment "Since the pump and the filtration units had not yet arrived 20L of water was taken and frozen. These were filtered 8 weeks later."^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ;
+            rdfs:comment "Since the pump and the filtration units had not yet arrived 20L of water was taken and frozen. These were filtered 8 weeks later."^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP3"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ;
+            rdfs:comment "Since the pump and the filtration units had not yet arrived 20L of water was taken and frozen. These were filtered 8 weeks later."^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ;
+            rdfs:comment "Since the pump and the filtration units had not yet arrived 20L of water was taken and frozen. These were filtered 8 weeks later."^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ;
+            rdfs:comment "Since the pump and the filtration units had not yet arrived 20L of water was taken and frozen. These were filtered 8 weeks later."^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP3"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ;
+            rdfs:comment "Since the pump and the filtration units had not yet arrived 20L of water was taken and frozen. These were filtered 8 weeks later."^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP2"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP2"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ;
             rdfs:comment "Since the pump and the filtration units had not yet arrived 20L of water was taken and frozen. These were filtered 8 weeks later."^^xsd:string ] ;
-    emobon-sampling:originCountry "Belgium"^^xsd:string ;
-    emobon-sampling:tidalStage "ebb_tide"^^xsd:string ;
-    emobon-sampling:waterColumnDepth "26"^^xsd:string .
+    emobon-core:originCountry "Belgium"^^xsd:string ;
+    emobon-core:waterColumnDepth "26"^^xsd:string ;
+    emobon-sampling:bioCommunity ""^^xsd:string ;
+    emobon-sampling:environmentMaterial "coastal sea water [ENVO:00002150]"^^xsd:string,
+        "seawater [ENVO:00002149]"^^xsd:string,
+        "surface water [ENVO:00002042]"^^xsd:string ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:linkedToObservatory <http://data.emobon.embrc.eu/observatory-bpns-crate/water/observatory/BPNS> ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=1874687"^^xsd:anyURI ;
+    emobon-sampling:tidalStage "ebb_tide"^^xsd:string .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/sampling/BPNS_Wa_210825> a prov:Activity,
         sosa:Sampling ;
@@ -35886,25 +35863,19 @@
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ],
-        [ a sosa:Procedure ;
             rdfs:label "WaSOP2"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
             rdfs:label "WaSOP3"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
@@ -35912,9 +35883,7 @@
         [ a sosa:Procedure ;
             rdfs:label "WaSOP2"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
+            rdfs:label "WaSOP3"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP2"^^xsd:string ],
         [ a sosa:Procedure ;
@@ -35924,12 +35893,27 @@
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
             rdfs:label "WaSOP3"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP3"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ] ;
-    emobon-sampling:originCountry "Belgium"^^xsd:string ;
-    emobon-sampling:tidalStage "ebb_tide"^^xsd:string ;
-    emobon-sampling:waterColumnDepth "26"^^xsd:string .
+    emobon-core:originCountry "Belgium"^^xsd:string ;
+    emobon-core:waterColumnDepth "26"^^xsd:string ;
+    emobon-sampling:bioCommunity ""^^xsd:string ;
+    emobon-sampling:environmentMaterial "coastal sea water [ENVO:00002150]"^^xsd:string,
+        "seawater [ENVO:00002149]"^^xsd:string,
+        "surface water [ENVO:00002042]"^^xsd:string ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:linkedToObservatory <http://data.emobon.embrc.eu/observatory-bpns-crate/water/observatory/BPNS> ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=1874687"^^xsd:anyURI ;
+    emobon-sampling:tidalStage "ebb_tide"^^xsd:string .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/sampling/BPNS_Wa_211028> a prov:Activity,
         sosa:Sampling ;
@@ -36045,7 +36029,6 @@
             schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
             schema:name "Sander Delacauw"^^xsd:string ] ;
     sosa:hasFeatureOfInterest "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=1874687"^^xsd:anyURI,
-        "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=256318"^^xsd:anyURI,
         "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=32644"^^xsd:anyURI,
         ""^^xsd:string,
         "MilliQ water [ENVO:00003065]"^^xsd:string,
@@ -36085,19 +36068,11 @@
     sosa:resultTime "2021-10-28"^^xsd:date,
         "2021-10-28"^^xsd:string ;
     sosa:usedProcedure [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP2"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
             rdfs:label "WaSOP3"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP2"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP3"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP3"^^xsd:string ],
         [ a sosa:Procedure ;
@@ -36105,15 +36080,9 @@
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP2"^^xsd:string ],
-        [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP2"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
@@ -36127,6 +36096,18 @@
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
+            rdfs:label "WaSOP2"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP2"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP2"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
             rdfs:label "WaSOP3"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP2"^^xsd:string ],
@@ -36135,10 +36116,21 @@
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ] ;
-    emobon-sampling:originCountry "Belgium"^^xsd:string ;
-    emobon-sampling:tidalStage "ebb_tide"^^xsd:string ;
-    emobon-sampling:waterColumnDepth "26"^^xsd:string .
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ] ;
+    emobon-core:originCountry "Belgium"^^xsd:string ;
+    emobon-core:waterColumnDepth "26"^^xsd:string ;
+    emobon-sampling:bioCommunity ""^^xsd:string ;
+    emobon-sampling:environmentMaterial "MilliQ water [ENVO:00003065]"^^xsd:string,
+        "coastal sea water [ENVO:00002150]"^^xsd:string,
+        "seawater [ENVO:00002149]"^^xsd:string,
+        "surface water [ENVO:00002042]"^^xsd:string ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:linkedToObservatory <http://data.emobon.embrc.eu/observatory-bpns-crate/water/observatory/BPNS> ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=1874687"^^xsd:anyURI,
+        "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=256318"^^xsd:anyURI ;
+    emobon-sampling:tidalStage "ebb_tide"^^xsd:string .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/sampling/BPNS_Wa_211223> a prov:Activity,
         sosa:Sampling ;
@@ -36159,22 +36151,6 @@
             schema:name "Rune Lagaisse"^^xsd:string ],
         [ a prov:Person,
                 schema:Person ;
-            schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
-            schema:name "Rune Lagaisse"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
-            schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
-            schema:name "Rune Lagaisse"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
-            schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
-            schema:name "Sander Delacauw"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
-            schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
-            schema:name "Sander Delacauw"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
             schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
             schema:name "Sander Delacauw"^^xsd:string ],
         [ a prov:Person,
@@ -36183,36 +36159,8 @@
             schema:name "Rune Lagaisse"^^xsd:string ],
         [ a prov:Person,
                 schema:Person ;
-            schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
-            schema:name "Sander Delacauw"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
-            schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
-            schema:name "Sander Delacauw"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
-            schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
-            schema:name "Sander Delacauw"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
             schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
             schema:name "Rune Lagaisse"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
-            schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
-            schema:name "Sander Delacauw"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
-            schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
-            schema:name "Sander Delacauw"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
-            schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
-            schema:name "Rune Lagaisse"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
-            schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
-            schema:name "Sander Delacauw"^^xsd:string ],
         [ a prov:Person,
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
@@ -36239,12 +36187,56 @@
             schema:name "Sander Delacauw"^^xsd:string ],
         [ a prov:Person,
                 schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
+            schema:name "Sander Delacauw"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
             schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
             schema:name "Rune Lagaisse"^^xsd:string ],
         [ a prov:Person,
                 schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
+            schema:name "Sander Delacauw"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
+            schema:name "Sander Delacauw"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
             schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
-            schema:name "Rune Lagaisse"^^xsd:string ] ;
+            schema:name "Rune Lagaisse"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
+            schema:name "Sander Delacauw"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
+            schema:name "Rune Lagaisse"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
+            schema:name "Sander Delacauw"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
+            schema:name "Rune Lagaisse"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
+            schema:name "Sander Delacauw"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
+            schema:name "Rune Lagaisse"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
+            schema:name "Sander Delacauw"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
+            schema:name "Sander Delacauw"^^xsd:string ] ;
     sosa:hasFeatureOfInterest "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=1874687"^^xsd:anyURI,
         "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=32644"^^xsd:anyURI,
         ""^^xsd:string,
@@ -36286,11 +36278,26 @@
             rdfs:label "WaSOP1"^^xsd:string ;
             rdfs:comment "sample was taking by hauling buckets of surface water; depth was not acquired from the CTD measurement but it was estimated from the researchers"^^xsd:string ],
         [ a sosa:Procedure ;
+            rdfs:label "WaSOP2"^^xsd:string ;
+            rdfs:comment "depth was not acquired from the CTD measurement but it was estimated from the researchers"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ;
+            rdfs:comment "sample was taking by hauling buckets of surface water; depth was not acquired from the CTD measurement but it was estimated from the researchers"^^xsd:string ],
+        [ a sosa:Procedure ;
             rdfs:label "WaSOP3"^^xsd:string ;
             rdfs:comment "depth was not acquired from the CTD measurement but it was estimated from the researchers"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP3"^^xsd:string ;
             rdfs:comment "depth was not acquired from the CTD measurement but it was estimated from the researchers"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP3"^^xsd:string ;
+            rdfs:comment "depth was not acquired from the CTD measurement but it was estimated from the researchers"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ;
+            rdfs:comment "sample was taking by hauling buckets of surface water; depth was not acquired from the CTD measurement but it was estimated from the researchers"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ;
+            rdfs:comment "sample was taking by hauling buckets of surface water; depth was not acquired from the CTD measurement but it was estimated from the researchers"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP3"^^xsd:string ;
             rdfs:comment "depth was not acquired from the CTD measurement but it was estimated from the researchers"^^xsd:string ],
@@ -36313,18 +36320,6 @@
             rdfs:label "WaSOP1"^^xsd:string ;
             rdfs:comment "sample was taking by hauling buckets of surface water; depth was not acquired from the CTD measurement but it was estimated from the researchers"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ;
-            rdfs:comment "sample was taking by hauling buckets of surface water; depth was not acquired from the CTD measurement but it was estimated from the researchers"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP2"^^xsd:string ;
-            rdfs:comment "depth was not acquired from the CTD measurement but it was estimated from the researchers"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ;
-            rdfs:comment "sample was taking by hauling buckets of surface water; depth was not acquired from the CTD measurement but it was estimated from the researchers"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ;
-            rdfs:comment "sample was taking by hauling buckets of surface water; depth was not acquired from the CTD measurement but it was estimated from the researchers"^^xsd:string ],
-        [ a sosa:Procedure ;
             rdfs:label "WaSOP3"^^xsd:string ;
             rdfs:comment "depth was not acquired from the CTD measurement but it was estimated from the researchers"^^xsd:string ],
         [ a sosa:Procedure ;
@@ -36337,6 +36332,9 @@
             rdfs:label "WaSOP1"^^xsd:string ;
             rdfs:comment "sample was taking by hauling buckets of surface water; depth was not acquired from the CTD measurement but it was estimated from the researchers"^^xsd:string ],
         [ a sosa:Procedure ;
+            rdfs:label "WaSOP2"^^xsd:string ;
+            rdfs:comment "depth was not acquired from the CTD measurement but it was estimated from the researchers"^^xsd:string ],
+        [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ;
             rdfs:comment "sample was taking by hauling buckets of surface water; depth was not acquired from the CTD measurement but it was estimated from the researchers"^^xsd:string ],
         [ a sosa:Procedure ;
@@ -36347,16 +36345,17 @@
             rdfs:comment "sample was taking by hauling buckets of surface water; depth was not acquired from the CTD measurement but it was estimated from the researchers"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ;
-            rdfs:comment "sample was taking by hauling buckets of surface water; depth was not acquired from the CTD measurement but it was estimated from the researchers"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ;
-            rdfs:comment "depth was not acquired from the CTD measurement but it was estimated from the researchers"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP2"^^xsd:string ;
-            rdfs:comment "depth was not acquired from the CTD measurement but it was estimated from the researchers"^^xsd:string ] ;
-    emobon-sampling:originCountry "Belgium"^^xsd:string ;
-    emobon-sampling:tidalStage "ebb_tide"^^xsd:string ;
-    emobon-sampling:waterColumnDepth "26"^^xsd:string .
+            rdfs:comment "sample was taking by hauling buckets of surface water; depth was not acquired from the CTD measurement but it was estimated from the researchers"^^xsd:string ] ;
+    emobon-core:originCountry "Belgium"^^xsd:string ;
+    emobon-core:waterColumnDepth "26"^^xsd:string ;
+    emobon-sampling:bioCommunity ""^^xsd:string ;
+    emobon-sampling:environmentMaterial "coastal sea water [ENVO:00002150]"^^xsd:string,
+        "seawater [ENVO:00002149]"^^xsd:string,
+        "surface water [ENVO:00002042]"^^xsd:string ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:linkedToObservatory <http://data.emobon.embrc.eu/observatory-bpns-crate/water/observatory/BPNS> ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=1874687"^^xsd:anyURI ;
+    emobon-sampling:tidalStage "ebb_tide"^^xsd:string .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/sampling/BPNS_Wa_220322> a prov:Activity,
         sosa:Sampling ;
@@ -36481,7 +36480,19 @@
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
+            rdfs:label "WaSOP3"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP3"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP3"^^xsd:string ],
+        [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP2"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP3"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
@@ -36495,25 +36506,13 @@
         [ a sosa:Procedure ;
             rdfs:label "WaSOP3"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP2"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP2"^^xsd:string ],
-        [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ],
-        [ a sosa:Procedure ;
             rdfs:label "WaSOP2"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
+            rdfs:label "WaSOP2"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ] .
 
@@ -36637,11 +36636,44 @@
         "WP2"^^xsd:string ;
     sosa:resultTime "2022-04-20"^^xsd:string ;
     sosa:usedProcedure [ a sosa:Procedure ;
+            rdfs:label "WaSOP3"^^xsd:string ;
+            rdfs:comment "Failed; extreme bloom conditions"^^xsd:string ],
+        [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ;
             rdfs:comment "Extreme bloom conditions; pipes kept busting; exact volume filtered unknown"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP3"^^xsd:string ;
             rdfs:comment "Failed; extreme bloom conditions"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP2"^^xsd:string ;
+            rdfs:comment "Failed; extreme bloom conditions"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP2"^^xsd:string ;
+            rdfs:comment "Failed; extreme bloom conditions"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ;
+            rdfs:comment "Extreme bloom conditions; pipes kept busting; exact volume filtered unknown"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP3"^^xsd:string ;
+            rdfs:comment "Failed; extreme bloom conditions"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP2"^^xsd:string ;
+            rdfs:comment "Failed; extreme bloom conditions"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ;
+            rdfs:comment "Extreme bloom conditions; pipes kept busting; exact volume filtered unknown"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ;
+            rdfs:comment "Extreme bloom conditions; pipes kept busting; exact volume filtered unknown"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ;
+            rdfs:comment "Extreme bloom conditions; pipes kept busting; exact volume filtered unknown"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP3"^^xsd:string ;
+            rdfs:comment "Failed; extreme bloom conditions"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ;
+            rdfs:comment "Extreme bloom conditions; pipes kept busting; exact volume filtered unknown"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ;
             rdfs:comment "Extreme bloom conditions; pipes kept busting; exact volume filtered unknown"^^xsd:string ],
@@ -36654,39 +36686,6 @@
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ;
             rdfs:comment "Extreme bloom conditions; pipes kept busting; exact volume filtered unknown"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP2"^^xsd:string ;
-            rdfs:comment "Failed; extreme bloom conditions"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ;
-            rdfs:comment "Extreme bloom conditions; pipes kept busting; exact volume filtered unknown"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ;
-            rdfs:comment "Extreme bloom conditions; pipes kept busting; exact volume filtered unknown"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ;
-            rdfs:comment "Extreme bloom conditions; pipes kept busting; exact volume filtered unknown"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP2"^^xsd:string ;
-            rdfs:comment "Failed; extreme bloom conditions"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ;
-            rdfs:comment "Extreme bloom conditions; pipes kept busting; exact volume filtered unknown"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP2"^^xsd:string ;
-            rdfs:comment "Failed; extreme bloom conditions"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ;
-            rdfs:comment "Extreme bloom conditions; pipes kept busting; exact volume filtered unknown"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ;
-            rdfs:comment "Failed; extreme bloom conditions"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ;
-            rdfs:comment "Failed; extreme bloom conditions"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ;
-            rdfs:comment "Failed; extreme bloom conditions"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ;
             rdfs:comment "Extreme bloom conditions; pipes kept busting; exact volume filtered unknown"^^xsd:string ],
@@ -36820,6 +36819,13 @@
     sosa:usedProcedure [ a sosa:Procedure ;
             rdfs:label "WaSOP2"^^xsd:string ],
         [ a sosa:Procedure ;
+            rdfs:label "WaSOP3"^^xsd:string ;
+            rdfs:comment "bloom; filtrations failed; nothing went through filter after 1h of filtration; discarded top water but did freeze samples (visible material on top)"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP2"^^xsd:string ],
@@ -36827,6 +36833,8 @@
             rdfs:label "WaSOP3"^^xsd:string ;
             rdfs:comment "bloom; filtrations failed; nothing went through filter after 1h of filtration; discarded top water but did freeze samples (visible material on top)"^^xsd:string ],
         [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
             rdfs:label "WaSOP2"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
@@ -36834,16 +36842,8 @@
             rdfs:label "WaSOP3"^^xsd:string ;
             rdfs:comment "bloom; filtrations failed; nothing went through filter after 1h of filtration; discarded top water but did freeze samples (visible material on top)"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP2"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
             rdfs:label "WaSOP3"^^xsd:string ;
             rdfs:comment "bloom; filtrations failed; nothing went through filter after 1h of filtration; discarded top water but did freeze samples (visible material on top)"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
@@ -36858,10 +36858,9 @@
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ;
-            rdfs:comment "bloom; filtrations failed; nothing went through filter after 1h of filtration; discarded top water but did freeze samples (visible material on top)"^^xsd:string ],
+            rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ] .
+            rdfs:label "WaSOP2"^^xsd:string ] .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/sampling/BPNS_Wa_220819> a prov:Activity,
         sosa:Sampling ;
@@ -36987,13 +36986,25 @@
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP2"^^xsd:string ],
+            rdfs:label "WaSOP3"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP2"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
+            rdfs:label "WaSOP2"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP3"^^xsd:string ],
+        [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP2"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP3"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
@@ -37001,27 +37012,15 @@
         [ a sosa:Procedure ;
             rdfs:label "WaSOP3"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP2"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP2"^^xsd:string ],
-        [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP3"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ],
-        [ a sosa:Procedure ;
             rdfs:label "WaSOP2"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ] .
+            rdfs:label "WaSOP2"^^xsd:string ] .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/sampling/BPNS_Wa_221027> a prov:Activity,
         sosa:Sampling ;
@@ -37145,8 +37144,6 @@
     sosa:usedProcedure [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ],
-        [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP3"^^xsd:string ],
@@ -37159,19 +37156,9 @@
         [ a sosa:Procedure ;
             rdfs:label "WaSOP3"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ],
-        [ a sosa:Procedure ;
             rdfs:label "WaSOP2"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
+            rdfs:label "WaSOP3"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
@@ -37181,7 +37168,19 @@
         [ a sosa:Procedure ;
             rdfs:label "WaSOP3"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP2"^^xsd:string ] .
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP3"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP2"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ] .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/sampling/BPNS_Wa_221212> a prov:Activity,
         sosa:Sampling ;
@@ -37304,27 +37303,38 @@
     sosa:resultTime "2022-12-12"^^xsd:string ;
     sosa:usedProcedure [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ;
-            rdfs:comment "label faded; random relabel; might be 3um R1 or 3um R2 or 0.2um R2"^^xsd:string ],
+            rdfs:comment "label faded; random relabel; might be 3um R3 or 3um R4 or blank 0.2um or blank 3, no shield yet"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP2"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP3"^^xsd:string ],
         [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ;
+            rdfs:comment "label faded; random relabel; might be 3um R3 or 3um R4 or blank 0.2um or blank 3"^^xsd:string ],
+        [ a sosa:Procedure ;
             rdfs:label "WaSOP2"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP2"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP2"^^xsd:string ;
+            rdfs:comment "ran out of filters; used alternative 0.22µm"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP3"^^xsd:string ;
             rdfs:comment "ran out of filters; used alternative 0.22µm"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP2"^^xsd:string ],
-        [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ;
-            rdfs:comment "label faded; random relabel; might be 3um R3 or 3um R4 or blank 0.2um or blank 3, no shield yet"^^xsd:string ],
+            rdfs:comment "label faded; random relabel; might be 3um R1 or 3um R2 or 0.2um R2"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
+            rdfs:label "WaSOP3"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP3"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ;
             rdfs:comment "label faded; random relabel; might be 3um R1 or 3um R2 or 0.2um R2"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ;
-            rdfs:comment "label faded; random relabel; might be 3um R3 or 3um R4 or blank 0.2um or blank 3, no shield yet"^^xsd:string ],
+            rdfs:label "WaSOP2"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ;
             rdfs:comment "label faded; random relabel; might be 3um R3 or 3um R4 or blank 0.2um or blank 3"^^xsd:string ],
@@ -37333,24 +37343,13 @@
         [ a sosa:Procedure ;
             rdfs:label "WaSOP3"^^xsd:string ],
         [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ;
             rdfs:comment "label faded; random relabel; might be 3um R1 or 3um R2 or 0.2um R2"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP2"^^xsd:string ;
-            rdfs:comment "ran out of filters; used alternative 0.22µm"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP2"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP2"^^xsd:string ],
-        [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ;
-            rdfs:comment "label faded; random relabel; might be 3um R3 or 3um R4 or blank 0.2um or blank 3"^^xsd:string ] .
+            rdfs:comment "label faded; random relabel; might be 3um R3 or 3um R4 or blank 0.2um or blank 3, no shield yet"^^xsd:string ] .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/sampling/BPNS_Wa_230216> a prov:Activity,
         sosa:Sampling ;
@@ -37472,9 +37471,23 @@
         "WP2"^^xsd:string ;
     sosa:resultTime "2023-02-16"^^xsd:string ;
     sosa:usedProcedure [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
+            rdfs:label "WaSOP2"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP3"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ;
+            rdfs:comment "no shield yet"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP3"^^xsd:string ;
+            rdfs:comment "no shield yet"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP3"^^xsd:string ;
+            rdfs:comment "no shield yet"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP3"^^xsd:string ;
+            rdfs:comment "no shield yet"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP2"^^xsd:string ;
             rdfs:comment "no shield yet"^^xsd:string ],
@@ -37485,22 +37498,19 @@
             rdfs:label "WaSOP1"^^xsd:string ;
             rdfs:comment "no shield yet"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP2"^^xsd:string ;
-            rdfs:comment "no shield yet"^^xsd:string ],
+            rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP2"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ;
             rdfs:comment "no shield yet"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ;
+            rdfs:label "WaSOP2"^^xsd:string ;
             rdfs:comment "no shield yet"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ;
+            rdfs:label "WaSOP1"^^xsd:string ;
             rdfs:comment "no shield yet"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP3"^^xsd:string ],
@@ -37508,18 +37518,7 @@
             rdfs:label "WaSOP2"^^xsd:string ;
             rdfs:comment "no shield yet"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP2"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ;
-            rdfs:comment "no shield yet"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ;
-            rdfs:comment "no shield yet"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ;
-            rdfs:comment "no shield yet"^^xsd:string ],
+            rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ;
             rdfs:comment "no shield yet"^^xsd:string ] .
@@ -37644,25 +37643,11 @@
         "WP2"^^xsd:string ;
     sosa:resultTime "2023-06-21"^^xsd:string ;
     sosa:usedProcedure [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP2"^^xsd:string ],
-        [ a sosa:Procedure ;
             rdfs:label "WaSOP2"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP3"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
             rdfs:label "WaSOP3"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP2"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
@@ -37674,9 +37659,23 @@
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ],
+            rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP3"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP2"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP3"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP2"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP3"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP2"^^xsd:string ],
         [ a sosa:Procedure ;
@@ -37808,19 +37807,15 @@
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP2"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP2"^^xsd:string ],
+            rdfs:label "WaSOP3"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP3"^^xsd:string ],
         [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
             rdfs:label "WaSOP2"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
@@ -37832,9 +37827,11 @@
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ],
+            rdfs:label "WaSOP2"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ],
+            rdfs:label "WaSOP2"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
@@ -37842,41 +37839,38 @@
         [ a sosa:Procedure ;
             rdfs:label "WaSOP2"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ] .
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP3"^^xsd:string ] .
 
 <file:///github/workspace/> a schema1:Dataset ;
-    dct:conformsTo <https://data.emobon.embrc.eu/observatory-profile/0.22> ;
-    schema1:contactPoint <file:///github/workspace/dummyID> ;
-    schema1:datePublished "2025-01-30T11:12:58+00:00" ;
+    dct:conformsTo <https://data.emobon.embrc.eu/observatory-profile/latest> ;
+    schema1:contactPoint <https://ror.org/0038zss60> ;
+    schema1:datePublished "2025-01-30T13:54:59+00:00" ;
     schema1:description "This RO-Crate/GitHub repository contains the EMO BON sampling event logsheets from the observatory BPNS" ;
-    schema1:hasPart <file:///github/workspace/.github/>,
-        <file:///github/workspace/.github/workflows/workflow.yml>,
-        <file:///github/workspace/.gitignore>,
-        <file:///github/workspace/README.md>,
-        <file:///github/workspace/config/>,
-        <file:///github/workspace/config/workflow_properties.yml>,
+    schema1:hasPart <file:///github/workspace/README.md>,
         <file:///github/workspace/data-quality-control/>,
         <file:///github/workspace/data-quality-control/dqc.csv>,
         <file:///github/workspace/data-quality-control/logfile>,
         <file:///github/workspace/data-quality-control/report.csv>,
-        <file:///github/workspace/logsheets-filtered/>,
-        <file:///github/workspace/logsheets-filtered/sediment_measured.csv>,
-        <file:///github/workspace/logsheets-filtered/sediment_observatory.csv>,
-        <file:///github/workspace/logsheets-filtered/sediment_sampling.csv>,
-        <file:///github/workspace/logsheets-filtered/water_measured.csv>,
-        <file:///github/workspace/logsheets-filtered/water_observatory.csv>,
-        <file:///github/workspace/logsheets-filtered/water_sampling.csv>,
-        <file:///github/workspace/logsheets-transformed/>,
-        <file:///github/workspace/logsheets-transformed/sediment_measured.csv>,
-        <file:///github/workspace/logsheets-transformed/sediment_observatory.csv>,
-        <file:///github/workspace/logsheets-transformed/sediment_sampling.csv>,
-        <file:///github/workspace/logsheets-transformed/water_measured.csv>,
-        <file:///github/workspace/logsheets-transformed/water_observatory.csv>,
-        <file:///github/workspace/logsheets-transformed/water_sampling.csv>,
         <file:///github/workspace/logsheets/>,
+        <file:///github/workspace/logsheets/filtered/>,
+        <file:///github/workspace/logsheets/filtered/sediment_measured.csv>,
+        <file:///github/workspace/logsheets/filtered/sediment_observatory.csv>,
+        <file:///github/workspace/logsheets/filtered/sediment_sampling.csv>,
+        <file:///github/workspace/logsheets/filtered/water_measured.csv>,
+        <file:///github/workspace/logsheets/filtered/water_observatory.csv>,
+        <file:///github/workspace/logsheets/filtered/water_sampling.csv>,
         <file:///github/workspace/logsheets/sediment_measured.csv>,
         <file:///github/workspace/logsheets/sediment_observatory.csv>,
         <file:///github/workspace/logsheets/sediment_sampling.csv>,
+        <file:///github/workspace/logsheets/transformed/>,
+        <file:///github/workspace/logsheets/transformed/sediment_measured.csv>,
+        <file:///github/workspace/logsheets/transformed/sediment_observatory.csv>,
+        <file:///github/workspace/logsheets/transformed/sediment_sampling.csv>,
+        <file:///github/workspace/logsheets/transformed/water_measured.csv>,
+        <file:///github/workspace/logsheets/transformed/water_observatory.csv>,
+        <file:///github/workspace/logsheets/transformed/water_sampling.csv>,
         <file:///github/workspace/logsheets/water_measured.csv>,
         <file:///github/workspace/logsheets/water_observatory.csv>,
         <file:///github/workspace/logsheets/water_sampling.csv> ;
@@ -37889,21 +37883,8 @@
     schema1:title "observatory-bpns-crate" ;
     ns1:accessURL "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/ro-crate-metadata.json" .
 
-<file:///github/workspace/.github/> a schema1:Dataset .
-
-<file:///github/workspace/.github/workflows/workflow.yml> a schema1:MediaObject ;
-    schema1:encodingFormat "application/x-yaml" .
-
-<file:///github/workspace/.gitignore> a schema1:MediaObject ;
-    schema1:encodingFormat "text/plain" .
-
 <file:///github/workspace/README.md> a schema1:MediaObject ;
     schema1:encodingFormat "text/markdown" .
-
-<file:///github/workspace/config/> a schema1:Dataset .
-
-<file:///github/workspace/config/workflow_properties.yml> a schema1:MediaObject ;
-    schema1:encodingFormat "application/x-yaml" .
 
 <file:///github/workspace/data-quality-control/> a schema1:Dataset .
 
@@ -37916,102 +37897,53 @@
 <file:///github/workspace/data-quality-control/report.csv> a schema1:MediaObject ;
     schema1:encodingFormat "text/csv" .
 
-<file:///github/workspace/dummyID> a schema1:ContactPoint ;
-    schema1:email "emobon@embrc.eu" .
-
-<file:///github/workspace/logsheets-filtered/> a schema1:Dataset .
-
-<file:///github/workspace/logsheets-filtered/sediment_measured.csv> a schema1:MediaObject ;
-    schema1:description "Filtered logsheet of the environmental measurements from the sediment sampling events" ;
-    schema1:downloadUrl "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets-filtered/sediment_measured.csv" ;
-    schema1:encodingFormat "text/csv" ;
-    schema1:keywords "http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement",
-        "http://purl.obolibrary.org/obo/ENVO_03000033" .
-
-<file:///github/workspace/logsheets-filtered/sediment_observatory.csv> a schema1:MediaObject ;
-    schema1:description "Filtered logsheet of the observatory metadata from the sediment sampling events" ;
-    schema1:downloadUrl "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets-filtered/sediment_observatory.csv" ;
-    schema1:encodingFormat "text/csv" ;
-    schema1:keywords "http://purl.obolibrary.org/obo/ENVO_03000033",
-        "https://purl.org/dc/terms/Location",
-        "https://schema.org/ContactPoint" .
-
-<file:///github/workspace/logsheets-filtered/sediment_sampling.csv> a schema1:MediaObject ;
-    schema1:description "Filtered logsheet of the sample and event metadata from the sediment sampling events" ;
-    schema1:downloadUrl "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets-filtered/sediment_sampling.csv" ;
-    schema1:encodingFormat "text/csv" ;
-    schema1:keywords "http://purl.obolibrary.org/obo/ENVO_03000033",
-        "https://rs.tdwg.org/terms/Event" .
-
-<file:///github/workspace/logsheets-filtered/water_measured.csv> a schema1:MediaObject ;
-    schema1:description "Filtered logsheet of the environmental measurements from the water sampling events" ;
-    schema1:downloadUrl "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets-filtered/water_measured.csv" ;
-    schema1:encodingFormat "text/csv" ;
-    schema1:keywords "http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement",
-        "http://purl.obolibrary.org/obo/ENVO_06105011" .
-
-<file:///github/workspace/logsheets-filtered/water_observatory.csv> a schema1:MediaObject ;
-    schema1:description "Filtered logsheet of the observatory metadata from the water sampling events" ;
-    schema1:downloadUrl "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets-filtered/water_observatory.csv" ;
-    schema1:encodingFormat "text/csv" ;
-    schema1:keywords "http://purl.obolibrary.org/obo/ENVO_06105011",
-        "https://purl.org/dc/terms/Location",
-        "https://schema.org/ContactPoint" .
-
-<file:///github/workspace/logsheets-filtered/water_sampling.csv> a schema1:MediaObject ;
-    schema1:description "Filtered logsheet of the sample and event metadata from the water sampling events" ;
-    schema1:downloadUrl "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets-filtered/water_sampling.csv" ;
-    schema1:encodingFormat "text/csv" ;
-    schema1:keywords "http://purl.obolibrary.org/obo/ENVO_06105011",
-        "https://rs.tdwg.org/terms/Event" .
-
-<file:///github/workspace/logsheets-transformed/> a schema1:Dataset .
-
-<file:///github/workspace/logsheets-transformed/sediment_measured.csv> a schema1:MediaObject ;
-    schema1:description "Transformed logsheet of the environmental measurements from the sediment sampling events" ;
-    schema1:downloadUrl "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets-transformed/sediment_measured.csv" ;
-    schema1:encodingFormat "text/csv" ;
-    schema1:keywords "http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement",
-        "http://purl.obolibrary.org/obo/ENVO_03000033" .
-
-<file:///github/workspace/logsheets-transformed/sediment_observatory.csv> a schema1:MediaObject ;
-    schema1:description "Transformed logsheet of the observatory metadata from the sediment sampling events" ;
-    schema1:downloadUrl "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets-transformed/sediment_observatory.csv" ;
-    schema1:encodingFormat "text/csv" ;
-    schema1:keywords "http://purl.obolibrary.org/obo/ENVO_03000033",
-        "https://purl.org/dc/terms/Location",
-        "https://schema.org/ContactPoint" .
-
-<file:///github/workspace/logsheets-transformed/sediment_sampling.csv> a schema1:MediaObject ;
-    schema1:description "Transformed logsheet of the sample and event metadata from the sediment sampling events" ;
-    schema1:downloadUrl "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets-transformed/sediment_sampling.csv" ;
-    schema1:encodingFormat "text/csv" ;
-    schema1:keywords "http://purl.obolibrary.org/obo/ENVO_03000033",
-        "https://rs.tdwg.org/terms/Event" .
-
-<file:///github/workspace/logsheets-transformed/water_measured.csv> a schema1:MediaObject ;
-    schema1:description "Transformed logsheet of the environmental measurements from the water sampling events" ;
-    schema1:downloadUrl "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets-transformed/water_measured.csv" ;
-    schema1:encodingFormat "text/csv" ;
-    schema1:keywords "http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement",
-        "http://purl.obolibrary.org/obo/ENVO_06105011" .
-
-<file:///github/workspace/logsheets-transformed/water_observatory.csv> a schema1:MediaObject ;
-    schema1:description "Transformed logsheet of the observatory metadata from the water sampling events" ;
-    schema1:downloadUrl "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets-transformed/water_observatory.csv" ;
-    schema1:encodingFormat "text/csv" ;
-    schema1:keywords "http://purl.obolibrary.org/obo/ENVO_06105011",
-        "https://purl.org/dc/terms/Location",
-        "https://schema.org/ContactPoint" .
-
-<file:///github/workspace/logsheets-transformed/water_sampling.csv> a schema1:MediaObject ;
-    schema1:description "Transformed logsheet of the sample and event metadata from the water sampling events" ;
-    schema1:downloadUrl "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets-transformed/water_sampling.csv" ;
-    schema1:encodingFormat "text/csv" ;
-    schema1:keywords "http://purl.obolibrary.org/obo/ENVO_06105011",
-        "https://rs.tdwg.org/terms/Event" .
-
 <file:///github/workspace/logsheets/> a schema1:Dataset .
+
+<file:///github/workspace/logsheets/filtered/> a schema1:Dataset .
+
+<file:///github/workspace/logsheets/filtered/sediment_measured.csv> a schema1:MediaObject ;
+    schema1:description "Filtered logsheet of the environmental measurements from the sediment sampling events" ;
+    schema1:downloadUrl "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets/filtered/sediment_measured.csv" ;
+    schema1:encodingFormat "text/csv" ;
+    schema1:keywords "http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement",
+        "http://purl.obolibrary.org/obo/ENVO_03000033" .
+
+<file:///github/workspace/logsheets/filtered/sediment_observatory.csv> a schema1:MediaObject ;
+    schema1:description "Filtered logsheet of the observatory metadata from the sediment sampling events" ;
+    schema1:downloadUrl "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets/filtered/sediment_observatory.csv" ;
+    schema1:encodingFormat "text/csv" ;
+    schema1:keywords "http://purl.obolibrary.org/obo/ENVO_03000033",
+        "https://purl.org/dc/terms/Location",
+        "https://schema.org/ContactPoint" .
+
+<file:///github/workspace/logsheets/filtered/sediment_sampling.csv> a schema1:MediaObject ;
+    schema1:description "Filtered logsheet of the sample and event metadata from the sediment sampling events" ;
+    schema1:downloadUrl "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets/filtered/sediment_sampling.csv" ;
+    schema1:encodingFormat "text/csv" ;
+    schema1:keywords "http://purl.obolibrary.org/obo/ENVO_03000033",
+        "https://rs.tdwg.org/terms/Event" .
+
+<file:///github/workspace/logsheets/filtered/water_measured.csv> a schema1:MediaObject ;
+    schema1:description "Filtered logsheet of the environmental measurements from the water sampling events" ;
+    schema1:downloadUrl "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets/filtered/water_measured.csv" ;
+    schema1:encodingFormat "text/csv" ;
+    schema1:keywords "http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement",
+        "http://purl.obolibrary.org/obo/ENVO_06105011" .
+
+<file:///github/workspace/logsheets/filtered/water_observatory.csv> a schema1:MediaObject ;
+    schema1:description "Filtered logsheet of the observatory metadata from the water sampling events" ;
+    schema1:downloadUrl "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets/filtered/water_observatory.csv" ;
+    schema1:encodingFormat "text/csv" ;
+    schema1:keywords "http://purl.obolibrary.org/obo/ENVO_06105011",
+        "https://purl.org/dc/terms/Location",
+        "https://schema.org/ContactPoint" .
+
+<file:///github/workspace/logsheets/filtered/water_sampling.csv> a schema1:MediaObject ;
+    schema1:description "Filtered logsheet of the sample and event metadata from the water sampling events" ;
+    schema1:downloadUrl "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets/filtered/water_sampling.csv" ;
+    schema1:encodingFormat "text/csv" ;
+    schema1:keywords "http://purl.obolibrary.org/obo/ENVO_06105011",
+        "https://rs.tdwg.org/terms/Event" .
 
 <file:///github/workspace/logsheets/sediment_measured.csv> a schema1:MediaObject ;
     schema1:description "Raw logsheet of the environmental measurements from the sediment sampling events" ;
@@ -38033,6 +37965,52 @@
     schema1:downloadUrl "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets/sediment_sampling.csv" ;
     schema1:encodingFormat "text/csv" ;
     schema1:keywords "http://purl.obolibrary.org/obo/ENVO_03000033",
+        "https://rs.tdwg.org/terms/Event" .
+
+<file:///github/workspace/logsheets/transformed/> a schema1:Dataset .
+
+<file:///github/workspace/logsheets/transformed/sediment_measured.csv> a schema1:MediaObject ;
+    schema1:description "Transformed logsheet of the environmental measurements from the sediment sampling events" ;
+    schema1:downloadUrl "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets/transformed/sediment_measured.csv" ;
+    schema1:encodingFormat "text/csv" ;
+    schema1:keywords "http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement",
+        "http://purl.obolibrary.org/obo/ENVO_03000033" .
+
+<file:///github/workspace/logsheets/transformed/sediment_observatory.csv> a schema1:MediaObject ;
+    schema1:description "Transformed logsheet of the observatory metadata from the sediment sampling events" ;
+    schema1:downloadUrl "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets/transformed/sediment_observatory.csv" ;
+    schema1:encodingFormat "text/csv" ;
+    schema1:keywords "http://purl.obolibrary.org/obo/ENVO_03000033",
+        "https://purl.org/dc/terms/Location",
+        "https://schema.org/ContactPoint" .
+
+<file:///github/workspace/logsheets/transformed/sediment_sampling.csv> a schema1:MediaObject ;
+    schema1:description "Transformed logsheet of the sample and event metadata from the sediment sampling events" ;
+    schema1:downloadUrl "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets/transformed/sediment_sampling.csv" ;
+    schema1:encodingFormat "text/csv" ;
+    schema1:keywords "http://purl.obolibrary.org/obo/ENVO_03000033",
+        "https://rs.tdwg.org/terms/Event" .
+
+<file:///github/workspace/logsheets/transformed/water_measured.csv> a schema1:MediaObject ;
+    schema1:description "Transformed logsheet of the environmental measurements from the water sampling events" ;
+    schema1:downloadUrl "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets/transformed/water_measured.csv" ;
+    schema1:encodingFormat "text/csv" ;
+    schema1:keywords "http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement",
+        "http://purl.obolibrary.org/obo/ENVO_06105011" .
+
+<file:///github/workspace/logsheets/transformed/water_observatory.csv> a schema1:MediaObject ;
+    schema1:description "Transformed logsheet of the observatory metadata from the water sampling events" ;
+    schema1:downloadUrl "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets/transformed/water_observatory.csv" ;
+    schema1:encodingFormat "text/csv" ;
+    schema1:keywords "http://purl.obolibrary.org/obo/ENVO_06105011",
+        "https://purl.org/dc/terms/Location",
+        "https://schema.org/ContactPoint" .
+
+<file:///github/workspace/logsheets/transformed/water_sampling.csv> a schema1:MediaObject ;
+    schema1:description "Transformed logsheet of the sample and event metadata from the water sampling events" ;
+    schema1:downloadUrl "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets/transformed/water_sampling.csv" ;
+    schema1:encodingFormat "text/csv" ;
+    schema1:keywords "http://purl.obolibrary.org/obo/ENVO_06105011",
         "https://rs.tdwg.org/terms/Event" .
 
 <file:///github/workspace/logsheets/water_measured.csv> a schema1:MediaObject ;
@@ -38060,34 +38038,34 @@
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/measured/EMOBON_BPNS_So_10> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_10> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=256318"^^xsd:anyURI,
-        "metagenome"^^xsd:string,
-        "micro"^^xsd:string,
-        "sediment [ENVO:00002007]"^^xsd:string .
+    emobon-sampling:bioCommunity "micro"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment [ENVO:00002007]"^^xsd:string ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=256318"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/measured/EMOBON_BPNS_So_15> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_15> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=256318"^^xsd:anyURI,
-        "metagenome"^^xsd:string,
-        "micro"^^xsd:string,
-        "sediment [ENVO:00002007]"^^xsd:string .
+    emobon-sampling:bioCommunity "micro"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment [ENVO:00002007]"^^xsd:string ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=256318"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/measured/EMOBON_BPNS_So_16> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_16> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=256318"^^xsd:anyURI,
-        "metagenome"^^xsd:string,
-        "micro"^^xsd:string,
-        "sediment [ENVO:00002007]"^^xsd:string .
+    emobon-sampling:bioCommunity "micro"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment [ENVO:00002007]"^^xsd:string ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=256318"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/measured/EMOBON_BPNS_So_21> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_21> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=256318"^^xsd:anyURI,
-        "metagenome"^^xsd:string,
-        "micro"^^xsd:string,
-        "sediment [ENVO:00002007]"^^xsd:string .
+    emobon-sampling:bioCommunity "micro"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment [ENVO:00002007]"^^xsd:string ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=256318"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/measured/EMOBON_BPNS_So_210726_micro_1> a prov:Entity,
         sosa:Sample ;
@@ -38140,10 +38118,10 @@
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/measured/EMOBON_BPNS_So_22> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_22> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=256318"^^xsd:anyURI,
-        "metagenome"^^xsd:string,
-        "micro"^^xsd:string,
-        "sediment [ENVO:00002007]"^^xsd:string .
+    emobon-sampling:bioCommunity "micro"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment [ENVO:00002007]"^^xsd:string ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=256318"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/measured/EMOBON_BPNS_So_221027_macro_1> a prov:Entity,
         sosa:Sample ;
@@ -38404,295 +38382,371 @@
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/measured/EMOBON_BPNS_So_27> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_27> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=256318"^^xsd:anyURI,
-        "macro"^^xsd:string,
-        "mimarks-specimen"^^xsd:string,
-        "sediment [ENVO:00002007]"^^xsd:string .
+    emobon-sampling:bioCommunity "macro"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment [ENVO:00002007]"^^xsd:string ;
+    emobon-sampling:investigationType "mimarks-specimen"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=256318"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/measured/EMOBON_BPNS_So_32> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_32> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=256318"^^xsd:anyURI,
-        "meio"^^xsd:string,
-        "mimarks-specimen"^^xsd:string,
-        "sediment [ENVO:00002007]"^^xsd:string .
+    emobon-sampling:bioCommunity "meio"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment [ENVO:00002007]"^^xsd:string ;
+    emobon-sampling:investigationType "mimarks-specimen"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=256318"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/measured/EMOBON_BPNS_So_33> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_33> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI,
-        "metagenome"^^xsd:string,
-        "micro"^^xsd:string,
-        "sediment [ENVO:00002007]"^^xsd:string .
+    emobon-sampling:bioCommunity "micro"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment [ENVO:00002007]"^^xsd:string ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/measured/EMOBON_BPNS_So_34> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_34> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI,
-        "metagenome"^^xsd:string,
-        "micro"^^xsd:string,
-        "sediment [ENVO:00002007]"^^xsd:string .
+    emobon-sampling:bioCommunity "micro"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment [ENVO:00002007]"^^xsd:string ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/measured/EMOBON_BPNS_So_37> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_37> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=256318"^^xsd:anyURI,
-        "metagenome"^^xsd:string,
-        "micro"^^xsd:string,
-        "sediment [ENVO:00002007]"^^xsd:string .
+    emobon-sampling:bioCommunity "micro"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment [ENVO:00002007]"^^xsd:string ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=256318"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/measured/EMOBON_BPNS_So_38> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_38> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=256318"^^xsd:anyURI,
-        "metagenome"^^xsd:string,
-        "micro"^^xsd:string,
-        "sediment [ENVO:00002007]"^^xsd:string .
+    emobon-sampling:bioCommunity "micro"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment [ENVO:00002007]"^^xsd:string ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=256318"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/measured/EMOBON_BPNS_So_5> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_5> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI,
-        "metagenome"^^xsd:string,
-        "micro"^^xsd:string,
-        "sediment [ENVO:00002007]"^^xsd:string .
+    emobon-sampling:bioCommunity "micro"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment [ENVO:00002007]"^^xsd:string ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/measured/EMOBON_BPNS_So_6> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_6> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI,
-        "metagenome"^^xsd:string,
-        "micro"^^xsd:string,
-        "sediment [ENVO:00002007]"^^xsd:string .
+    emobon-sampling:bioCommunity "micro"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment [ENVO:00002007]"^^xsd:string ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/measured/EMOBON_BPNS_So_7> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_7> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI,
-        "metagenome"^^xsd:string,
-        "micro"^^xsd:string,
-        "sediment [ENVO:00002007]"^^xsd:string .
+    emobon-sampling:bioCommunity "micro"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment [ENVO:00002007]"^^xsd:string ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/measured/EMOBON_BPNS_So_8> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_8> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI,
-        "metagenome"^^xsd:string,
-        "micro"^^xsd:string,
-        "sediment [ENVO:00002007]"^^xsd:string .
+    emobon-sampling:bioCommunity "micro"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment [ENVO:00002007]"^^xsd:string ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/measured/EMOBON_BPNS_So_9> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_9> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=256318"^^xsd:anyURI,
-        "metagenome"^^xsd:string,
-        "micro"^^xsd:string,
-        "sediment [ENVO:00002007]"^^xsd:string .
+    emobon-sampling:bioCommunity "micro"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment [ENVO:00002007]"^^xsd:string ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=256318"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_1> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON mimarks-specimen sediment sample from station BPNS collected on 2021-07-01 community collected meio"^^xsd:string ;
     emobon-sampling:enaSampleAccNum ""^^xsd:anyURI ;
-    emobon-sampling:origEmobonId "EMOBON-210701-330-SoSOP3-Meio-R1"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON-210701-330-SoSOP3-Meio-R1"^^xsd:string ;
+    emobon-sampling:sampleReplicate "1"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_10> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON metagenome sediment sample from station BPNS collected on 2021-07-26 community collected micro"^^xsd:string ;
-    emobon-sampling:origEmobonId "EMOBON-210726-330-SoSOP3-Micro-B2"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON-210726-330-SoSOP3-Micro-B2"^^xsd:string ;
+    emobon-sampling:sampleReplicate "blank_2"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_11> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON metagenome sediment sample from station BPNS collected on 2021-08-25 community collected micro"^^xsd:string ;
-    emobon-sampling:origEmobonId "EMOBON-210825-330-SoSOP3-Micro-R1"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON-210825-330-SoSOP3-Micro-R1"^^xsd:string ;
+    emobon-sampling:sampleReplicate "1"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_12> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON metagenome sediment sample from station BPNS collected on 2021-08-25 community collected micro"^^xsd:string ;
     emobon-sampling:enaSampleAccNum ""^^xsd:anyURI ;
-    emobon-sampling:origEmobonId "EMOBON-210825-330-SoSOP3-Micro-R2"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON-210825-330-SoSOP3-Micro-R2"^^xsd:string ;
+    emobon-sampling:sampleReplicate "2"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_13> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON metagenome sediment sample from station BPNS collected on 2021-08-25 community collected micro"^^xsd:string ;
     emobon-sampling:enaSampleAccNum ""^^xsd:anyURI ;
-    emobon-sampling:origEmobonId "EMOBON-210825-330-SoSOP3-Micro-R3"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON-210825-330-SoSOP3-Micro-R3"^^xsd:string ;
+    emobon-sampling:sampleReplicate "3"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_14> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON metagenome sediment sample from station BPNS collected on 2021-08-25 community collected micro"^^xsd:string ;
-    emobon-sampling:origEmobonId "EMOBON-210825-330-SoSOP3-Micro-R4"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON-210825-330-SoSOP3-Micro-R4"^^xsd:string ;
+    emobon-sampling:sampleReplicate "4"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_15> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON metagenome sediment sample from station BPNS collected on 2021-08-25 community collected micro"^^xsd:string ;
-    emobon-sampling:origEmobonId "EMOBON-210825-330-SoSOP3-Micro-B1"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON-210825-330-SoSOP3-Micro-B1"^^xsd:string ;
+    emobon-sampling:sampleReplicate "blank_1"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_16> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON metagenome sediment sample from station BPNS collected on 2021-08-25 community collected micro"^^xsd:string ;
-    emobon-sampling:origEmobonId "EMOBON-210825-330-SoSOP3-Micro-B2"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON-210825-330-SoSOP3-Micro-B2"^^xsd:string ;
+    emobon-sampling:sampleReplicate "blank_2"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_17> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON metagenome sediment sample from station BPNS collected on 2021-10-28 community collected micro"^^xsd:string ;
     emobon-sampling:enaSampleAccNum ""^^xsd:anyURI ;
-    emobon-sampling:origEmobonId "EMOBON-211028-BPNS-So3-Micro-R1"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON-211028-BPNS-So3-Micro-R1"^^xsd:string ;
+    emobon-sampling:sampleReplicate "1"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_18> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON metagenome sediment sample from station BPNS collected on 2021-10-28 community collected micro"^^xsd:string ;
     emobon-sampling:enaSampleAccNum ""^^xsd:anyURI ;
-    emobon-sampling:origEmobonId "EMOBON-211028-BPNS-So3-Micro-R2"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON-211028-BPNS-So3-Micro-R2"^^xsd:string ;
+    emobon-sampling:sampleReplicate "2"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_19> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON metagenome sediment sample from station BPNS collected on 2021-10-28 community collected micro"^^xsd:string ;
-    emobon-sampling:origEmobonId "EMOBON-211028-BPNS-So3-Micro-R3"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON-211028-BPNS-So3-Micro-R3"^^xsd:string ;
+    emobon-sampling:sampleReplicate "3"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_2> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON mimarks-specimen sediment sample from station BPNS collected on 2021-07-01 community collected meio"^^xsd:string ;
     emobon-sampling:enaSampleAccNum ""^^xsd:anyURI ;
-    emobon-sampling:origEmobonId "EMOBON-210701-330-SoSOP3-Meio-R2"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON-210701-330-SoSOP3-Meio-R2"^^xsd:string ;
+    emobon-sampling:sampleReplicate "2"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_20> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON metagenome sediment sample from station BPNS collected on 2021-10-28 community collected micro"^^xsd:string ;
-    emobon-sampling:origEmobonId "EMOBON-211028-BPNS-So3-Micro-R4"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON-211028-BPNS-So3-Micro-R4"^^xsd:string ;
+    emobon-sampling:sampleReplicate "4"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_21> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON metagenome sediment sample from station BPNS collected on 2021-10-28 community collected micro"^^xsd:string ;
-    emobon-sampling:origEmobonId "EMOBON-211028-BPNS-So3-Micro-B1"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON-211028-BPNS-So3-Micro-B1"^^xsd:string ;
+    emobon-sampling:sampleReplicate "blank_1"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_22> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON metagenome sediment sample from station BPNS collected on 2021-10-28 community collected micro"^^xsd:string ;
-    emobon-sampling:origEmobonId "EMOBON-211028-BPNS-So3-Micro-B2"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON-211028-BPNS-So3-Micro-B2"^^xsd:string ;
+    emobon-sampling:sampleReplicate "blank_2"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_23> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON mimarks-specimen sediment sample from station BPNS collected on 2021-10-28 community collected macro"^^xsd:string ;
     emobon-sampling:enaSampleAccNum ""^^xsd:anyURI ;
-    emobon-sampling:origEmobonId "EMOBON-211028-BPNS-So3-Macro-R1"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON-211028-BPNS-So3-Macro-R1"^^xsd:string ;
+    emobon-sampling:sampleReplicate "1"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_24> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON mimarks-specimen sediment sample from station BPNS collected on 2021-10-28 community collected macro"^^xsd:string ;
     emobon-sampling:enaSampleAccNum ""^^xsd:anyURI ;
-    emobon-sampling:origEmobonId "EMOBON-211028-BPNS-So3-Macro-R2"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON-211028-BPNS-So3-Macro-R2"^^xsd:string ;
+    emobon-sampling:sampleReplicate "2"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_25> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON mimarks-specimen sediment sample from station BPNS collected on 2021-10-28 community collected macro"^^xsd:string ;
-    emobon-sampling:origEmobonId "EMOBON-211028-BPNS-So3-Macro-R3"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON-211028-BPNS-So3-Macro-R3"^^xsd:string ;
+    emobon-sampling:sampleReplicate "3"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_26> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON mimarks-specimen sediment sample from station BPNS collected on 2021-10-28 community collected macro"^^xsd:string ;
-    emobon-sampling:origEmobonId "EMOBON-211028-BPNS-So3-Macro-R4"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON-211028-BPNS-So3-Macro-R4"^^xsd:string ;
+    emobon-sampling:sampleReplicate "4"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_27> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON mimarks-specimen sediment sample from station BPNS collected on 2021-10-28 community collected macro"^^xsd:string ;
-    emobon-sampling:origEmobonId "EMOBON-211028-BPNS-So3-Macro-B"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON-211028-BPNS-So3-Macro-B"^^xsd:string ;
+    emobon-sampling:sampleReplicate "blank_1"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_28> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON mimarks-specimen sediment sample from station BPNS collected on 2021-10-28 community collected meio"^^xsd:string ;
     emobon-sampling:enaSampleAccNum ""^^xsd:anyURI ;
-    emobon-sampling:origEmobonId "EMOBON-211028-BPNS-SoSOP3-Meio-R1"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON-211028-BPNS-SoSOP3-Meio-R1"^^xsd:string ;
+    emobon-sampling:sampleReplicate "1"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_29> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON mimarks-specimen sediment sample from station BPNS collected on 2021-10-28 community collected meio"^^xsd:string ;
     emobon-sampling:enaSampleAccNum ""^^xsd:anyURI ;
-    emobon-sampling:origEmobonId "EMOBON-211028-BPNS-SoSOP3-Meio-R2"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON-211028-BPNS-SoSOP3-Meio-R2"^^xsd:string ;
+    emobon-sampling:sampleReplicate "2"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_3> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON mimarks-specimen sediment sample from station BPNS collected on 2021-07-01 community collected meio"^^xsd:string ;
-    emobon-sampling:origEmobonId "EMOBON-210701-330-SoSOP3-Meio-R3"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON-210701-330-SoSOP3-Meio-R3"^^xsd:string ;
+    emobon-sampling:sampleReplicate "3"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_30> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON mimarks-specimen sediment sample from station BPNS collected on 2021-10-28 community collected meio"^^xsd:string ;
-    emobon-sampling:origEmobonId "EMOBON-211028-BPNS-SoSOP3-Meio-R3"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON-211028-BPNS-SoSOP3-Meio-R3"^^xsd:string ;
+    emobon-sampling:sampleReplicate "3"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_31> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON mimarks-specimen sediment sample from station BPNS collected on 2021-10-28 community collected meio"^^xsd:string ;
-    emobon-sampling:origEmobonId "EMOBON-211028-BPNS-SoSOP3-Meio-R4"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON-211028-BPNS-SoSOP3-Meio-R4"^^xsd:string ;
+    emobon-sampling:sampleReplicate "4"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_32> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON mimarks-specimen sediment sample from station BPNS collected on 2021-10-28 community collected meio"^^xsd:string ;
     emobon-sampling:enaSampleAccNum ""^^xsd:anyURI ;
-    emobon-sampling:origEmobonId "EMOBON-211028-BPNS-SoSOP3-Meio-B"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON-211028-BPNS-SoSOP3-Meio-B"^^xsd:string ;
+    emobon-sampling:sampleReplicate "blank_1"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_33> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON metagenome sediment sample from station BPNS collected on 2021-12-23 community collected micro"^^xsd:string ;
     emobon-sampling:enaSampleAccNum ""^^xsd:anyURI ;
-    emobon-sampling:origEmobonId "EMOBON-211223-BPNS-So3-Micro-R1"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON-211223-BPNS-So3-Micro-R1"^^xsd:string ;
+    emobon-sampling:sampleReplicate "1"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_34> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON metagenome sediment sample from station BPNS collected on 2021-12-23 community collected micro"^^xsd:string ;
     emobon-sampling:enaSampleAccNum ""^^xsd:anyURI ;
-    emobon-sampling:origEmobonId "EMOBON-211223-BPNS-So3-Micro-R2"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON-211223-BPNS-So3-Micro-R2"^^xsd:string ;
+    emobon-sampling:sampleReplicate "2"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_35> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON metagenome sediment sample from station BPNS collected on 2021-12-23 community collected micro"^^xsd:string ;
-    emobon-sampling:origEmobonId "EMOBON-211223-BPNS-So3-Micro-R3"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON-211223-BPNS-So3-Micro-R3"^^xsd:string ;
+    emobon-sampling:sampleReplicate "3"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_36> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON metagenome sediment sample from station BPNS collected on 2021-12-23 community collected micro"^^xsd:string ;
-    emobon-sampling:origEmobonId "EMOBON-211223-BPNS-So3-Micro-R4"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON-211223-BPNS-So3-Micro-R4"^^xsd:string ;
+    emobon-sampling:sampleReplicate "4"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_37> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON metagenome sediment sample from station BPNS collected on 2021-12-23 community collected micro"^^xsd:string ;
-    emobon-sampling:origEmobonId "EMOBON-211223-BPNS-So3-Micro-B1"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON-211223-BPNS-So3-Micro-B1"^^xsd:string ;
+    emobon-sampling:sampleReplicate "blank_1"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_38> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON metagenome sediment sample from station BPNS collected on 2021-12-23 community collected micro"^^xsd:string ;
-    emobon-sampling:origEmobonId "EMOBON-211223-BPNS-So3-Micro-B2"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON-211223-BPNS-So3-Micro-B2"^^xsd:string ;
+    emobon-sampling:sampleReplicate "blank_2"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_4> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON mimarks-specimen sediment sample from station BPNS collected on 2021-07-01 community collected meio"^^xsd:string ;
-    emobon-sampling:origEmobonId "EMOBON-210701-330-SoSOP3-Meio-R4"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON-210701-330-SoSOP3-Meio-R4"^^xsd:string ;
+    emobon-sampling:sampleReplicate "4"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_5> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON metagenome sediment sample from station BPNS collected on 2021-07-26 community collected micro"^^xsd:string ;
     emobon-sampling:enaSampleAccNum ""^^xsd:anyURI ;
-    emobon-sampling:origEmobonId "EMOBON-210726-330-SoSOP3-Micro-R1"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON-210726-330-SoSOP3-Micro-R1"^^xsd:string ;
+    emobon-sampling:sampleReplicate "1"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_6> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON metagenome sediment sample from station BPNS collected on 2021-07-26 community collected micro"^^xsd:string ;
     emobon-sampling:enaSampleAccNum ""^^xsd:anyURI ;
-    emobon-sampling:origEmobonId "EMOBON-210726-330-SoSOP3-Micro-R2"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON-210726-330-SoSOP3-Micro-R2"^^xsd:string ;
+    emobon-sampling:sampleReplicate "2"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_7> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON metagenome sediment sample from station BPNS collected on 2021-07-26 community collected micro"^^xsd:string ;
-    emobon-sampling:origEmobonId "EMOBON-210726-330-SoSOP3-Micro-R3"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON-210726-330-SoSOP3-Micro-R3"^^xsd:string ;
+    emobon-sampling:sampleReplicate "3"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_8> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON metagenome sediment sample from station BPNS collected on 2021-07-26 community collected micro"^^xsd:string ;
-    emobon-sampling:origEmobonId "EMOBON-210726-330-SoSOP3-Micro-R4"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON-210726-330-SoSOP3-Micro-R4"^^xsd:string ;
+    emobon-sampling:sampleReplicate "4"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_9> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON metagenome sediment sample from station BPNS collected on 2021-07-26 community collected micro"^^xsd:string ;
-    emobon-sampling:origEmobonId "EMOBON-210726-330-SoSOP3-Micro-B1"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON-210726-330-SoSOP3-Micro-B1"^^xsd:string ;
+    emobon-sampling:sampleReplicate "blank_1"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/measured/EMOBON_BPNS_Wa_210701_0.2um_blank> a prov:Entity,
         sosa:Sample ;
@@ -39063,131 +39117,170 @@
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/measured/EMOBON_BPNS_Wa_45> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/water/sampling/EMOBON_BPNS_Wa_45> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=256318"^^xsd:anyURI,
-        "MilliQ water [ENVO:00003065]"^^xsd:string,
-        "metagenome"^^xsd:string .
+    emobon-sampling:environmentMaterial "MilliQ water [ENVO:00003065]"^^xsd:string ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=256318"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/measured/EMOBON_BPNS_Wa_50> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/water/sampling/EMOBON_BPNS_Wa_50> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=256318"^^xsd:anyURI,
-        "MilliQ water [ENVO:00003065]"^^xsd:string,
-        "metagenome"^^xsd:string .
+    emobon-sampling:environmentMaterial "MilliQ water [ENVO:00003065]"^^xsd:string ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=256318"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/sampling/EMOBON_BPNS_Wa_1> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON metagenome water sample from station BPNS collected on 2021-07-01 size fraction 3-200um"^^xsd:string ;
     emobon-sampling:enaSampleAccNum ""^^xsd:anyURI ;
-    emobon-sampling:origEmobonId "EMOBON 210701 330 WaSOP1 3um R1"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON 210701 330 WaSOP1 3um R1"^^xsd:string ;
+    emobon-sampling:sampleReplicate "1"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/sampling/EMOBON_BPNS_Wa_2> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON metagenome water sample from station BPNS collected on 2021-07-01 size fraction 3-200um"^^xsd:string ;
     emobon-sampling:enaSampleAccNum ""^^xsd:anyURI ;
-    emobon-sampling:origEmobonId "EMOBON 210701 330 WaSOP1 3um R2"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON 210701 330 WaSOP1 3um R2"^^xsd:string ;
+    emobon-sampling:sampleReplicate "2"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/sampling/EMOBON_BPNS_Wa_21> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON metagenome water sample from station BPNS collected on 2021-08-25 size fraction 3-200um"^^xsd:string ;
     emobon-sampling:enaSampleAccNum ""^^xsd:anyURI ;
-    emobon-sampling:origEmobonId "EMOBON 210825 330 WaSOP1 3um R1"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON 210825 330 WaSOP1 3um R1"^^xsd:string ;
+    emobon-sampling:sampleReplicate "1"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/sampling/EMOBON_BPNS_Wa_22> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON metagenome water sample from station BPNS collected on 2021-08-25 size fraction 3-200um"^^xsd:string ;
     emobon-sampling:enaSampleAccNum ""^^xsd:anyURI ;
-    emobon-sampling:origEmobonId "EMOBON 210825 330 WaSOP1 3um R2"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON 210825 330 WaSOP1 3um R2"^^xsd:string ;
+    emobon-sampling:sampleReplicate "2"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/sampling/EMOBON_BPNS_Wa_26> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON metagenome water sample from station BPNS collected on 2021-08-25 size fraction 0.2-3um"^^xsd:string ;
     emobon-sampling:enaSampleAccNum ""^^xsd:anyURI ;
-    emobon-sampling:origEmobonId "EMOBON 210825 330 WaSOP1 0.2um R1"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON 210825 330 WaSOP1 0.2um R1"^^xsd:string ;
+    emobon-sampling:sampleReplicate "1"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/sampling/EMOBON_BPNS_Wa_27> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON metagenome water sample from station BPNS collected on 2021-08-25 size fraction 0.2-3um"^^xsd:string ;
     emobon-sampling:enaSampleAccNum ""^^xsd:anyURI ;
-    emobon-sampling:origEmobonId "EMOBON 210825 330 WaSOP1 0.2um R2"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON 210825 330 WaSOP1 0.2um R2"^^xsd:string ;
+    emobon-sampling:sampleReplicate "2"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/sampling/EMOBON_BPNS_Wa_41> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON metagenome water sample from station BPNS collected on 2021-10-28 size fraction 3-200um"^^xsd:string ;
     emobon-sampling:enaSampleAccNum ""^^xsd:anyURI ;
-    emobon-sampling:origEmobonId "EMOBON 211028 BPNS Wa 3 R1"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON 211028 BPNS Wa 3 R1"^^xsd:string ;
+    emobon-sampling:sampleReplicate "1"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/sampling/EMOBON_BPNS_Wa_42> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON metagenome water sample from station BPNS collected on 2021-10-28 size fraction 3-200um"^^xsd:string ;
     emobon-sampling:enaSampleAccNum ""^^xsd:anyURI ;
-    emobon-sampling:origEmobonId "EMOBON 211028 BPNS Wa 3 R2"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON 211028 BPNS Wa 3 R2"^^xsd:string ;
+    emobon-sampling:sampleReplicate "2"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/sampling/EMOBON_BPNS_Wa_45> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON metagenome water sample from station BPNS collected on 2021-10-28 size fraction 3-200um"^^xsd:string ;
     emobon-sampling:enaSampleAccNum ""^^xsd:anyURI ;
-    emobon-sampling:origEmobonId "EMOBON 211028 BPNS Wa 3 Blank"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON 211028 BPNS Wa 3 Blank"^^xsd:string ;
+    emobon-sampling:sampleReplicate "blank_1"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/sampling/EMOBON_BPNS_Wa_46> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON metagenome water sample from station BPNS collected on 2021-10-28 size fraction 0.2-3um"^^xsd:string ;
     emobon-sampling:enaSampleAccNum ""^^xsd:anyURI ;
-    emobon-sampling:origEmobonId "EMOBON 211028 BPNS Wa 0.2 R1"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON 211028 BPNS Wa 0.2 R1"^^xsd:string ;
+    emobon-sampling:sampleReplicate "1"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/sampling/EMOBON_BPNS_Wa_47> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON metagenome water sample from station BPNS collected on 2021-10-28 size fraction 0.2-3um"^^xsd:string ;
     emobon-sampling:enaSampleAccNum ""^^xsd:anyURI ;
-    emobon-sampling:origEmobonId "EMOBON 211028 BPNS Wa 0.2 R2"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON 211028 BPNS Wa 0.2 R2"^^xsd:string ;
+    emobon-sampling:sampleReplicate "2"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/sampling/EMOBON_BPNS_Wa_50> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON metagenome water sample from station BPNS collected on 2021-10-28 size fraction 0.2-3um"^^xsd:string ;
     emobon-sampling:enaSampleAccNum ""^^xsd:anyURI ;
-    emobon-sampling:origEmobonId "EMOBON 211028 BPNS Wa 0.2 Blank"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON 211028 BPNS Wa 0.2 Blank"^^xsd:string ;
+    emobon-sampling:sampleReplicate "blank_1"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/sampling/EMOBON_BPNS_Wa_6> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON metagenome water sample from station BPNS collected on 2021-07-01 size fraction 0.2-3um"^^xsd:string ;
     emobon-sampling:enaSampleAccNum ""^^xsd:anyURI ;
-    emobon-sampling:origEmobonId "EMOBON 210701 330 WaSOP1 0.2um R2"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON 210701 330 WaSOP1 0.2um R2"^^xsd:string ;
+    emobon-sampling:sampleReplicate "2"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/sampling/EMOBON_BPNS_Wa_61> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON metagenome water sample from station BPNS collected on 2021-12-23 size fraction 3-200um"^^xsd:string ;
     emobon-sampling:enaSampleAccNum ""^^xsd:anyURI ;
-    emobon-sampling:origEmobonId "EMOBON 211223 BPNS Wa 3 R1"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON 211223 BPNS Wa 3 R1"^^xsd:string ;
+    emobon-sampling:sampleReplicate "1"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/sampling/EMOBON_BPNS_Wa_62> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON metagenome water sample from station BPNS collected on 2021-12-23 size fraction 3-200um"^^xsd:string ;
     emobon-sampling:enaSampleAccNum ""^^xsd:anyURI ;
-    emobon-sampling:origEmobonId "EMOBON 211223 BPNS Wa 3 R2"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON 211223 BPNS Wa 3 R2"^^xsd:string ;
+    emobon-sampling:sampleReplicate "2"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/sampling/EMOBON_BPNS_Wa_66> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON metagenome water sample from station BPNS collected on 2021-12-23 size fraction 0.2-3um"^^xsd:string ;
     emobon-sampling:enaSampleAccNum ""^^xsd:anyURI ;
-    emobon-sampling:origEmobonId "EMOBON 211223 BPNS Wa 0.2 R1"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON 211223 BPNS Wa 0.2 R1"^^xsd:string ;
+    emobon-sampling:sampleReplicate "1"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/sampling/EMOBON_BPNS_Wa_67> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON metagenome water sample from station BPNS collected on 2021-12-23 size fraction 0.2-3um"^^xsd:string ;
     emobon-sampling:enaSampleAccNum ""^^xsd:anyURI ;
-    emobon-sampling:origEmobonId "EMOBON 211223 BPNS Wa 0.2 R2"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON 211223 BPNS Wa 0.2 R2"^^xsd:string ;
+    emobon-sampling:sampleReplicate "2"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/sampling/EMOBON_BPNS_Wa_7> a prov:Entity,
         sosa:Sample ;
     dct:description "EMOBON metagenome water sample from station BPNS collected on 2021-07-01 size fraction 0.2-3um"^^xsd:string ;
     emobon-sampling:enaSampleAccNum ""^^xsd:anyURI ;
-    emobon-sampling:origEmobonId "EMOBON 210701 330 WaSOP1 0.2um R1"^^xsd:string .
+    emobon-sampling:origEmobonId "EMOBON 210701 330 WaSOP1 0.2um R1"^^xsd:string ;
+    emobon-sampling:sampleReplicate "1"^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
 
 <http://marineregions.org/mrgid/http%3A%2F%2Fmarineregions.org%2Fmrgid%2F1912> mr:contains <http://marineregions.org/mrgid/http%3A%2F%2Fmarineregions.org%2Fmrgid%2F2350> .
 
 <http://marineregions.org/mrgid/http%3A%2F%2Fmarineregions.org%2Fmrgid%2F26567> mr:isPartOf <http://marineregions.org/mrgid/http%3A%2F%2Fmarineregions.org%2Fmrgid%2F2350> .
 
-<https://data.emobon.embrc.eu/observatory-profile/0.22> a schema1:CreativeWork ;
+<https://data.emobon.embrc.eu/observatory-profile/latest> a schema1:CreativeWork ;
     schema1:name "<name>" .
+
+<https://ror.org/0038zss60> a schema1:ContactPoint ;
+    schema1:email "emobon@embrc.eu" .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/measured/EMOBON_BPNS_So_211223_micro_1> a prov:Entity,
         sosa:Sample ;
@@ -39240,18 +39333,18 @@
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/measured/EMOBON_BPNS_So_35> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_35> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI,
-        "metagenome"^^xsd:string,
-        "micro"^^xsd:string,
-        "sediment [ENVO:00002007]"^^xsd:string .
+    emobon-sampling:bioCommunity "micro"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment [ENVO:00002007]"^^xsd:string ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/measured/EMOBON_BPNS_So_36> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_36> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI,
-        "metagenome"^^xsd:string,
-        "micro"^^xsd:string,
-        "sediment [ENVO:00002007]"^^xsd:string .
+    emobon-sampling:bioCommunity "micro"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment [ENVO:00002007]"^^xsd:string ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_210701_meio_1> a prov:Entity,
         sosa:Sample ;
@@ -59137,17 +59230,6 @@
             schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
             schema:name "Rune Lagaisse"^^xsd:string ] ;
     prov:wasGeneratedBy [ a prov:Activity ;
-            dct:description "Local storage of the collected sample"^^xsd:string ;
-            dct:type "storage"^^xsd:string ;
-            emobon:storageLoc "MSO LifeWatch Lab -80 Freezer"^^xsd:string ;
-            emobon:storageTemp "-80"^^xsd:string ;
-            prov:startedAtTime "2023-04-27"^^xsd:string ;
-            prov:wasAssociatedWith [ a prov:Person,
-                        schema:Person ;
-                    schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
-                    schema:name "Rune Lagaisse"^^xsd:string ] ;
-            prov:wasInformedBy <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_221212_micro_1> ],
-        [ a prov:Activity ;
             dct:description "Storage of sample at sequencing centre for subsequent DNA sequencing"^^xsd:string ;
             dct:type "storage"^^xsd:string ;
             prov:startedAtTime ""^^xsd:string ;
@@ -59176,12 +59258,75 @@
                                                         schema:Person ;
                                                     schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
                                                     schema:name "Rune Lagaisse"^^xsd:string ] ;
-                                            prov:wasInformedBy <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_221212_micro_1> ] ] ] ] ] ;
+                                            prov:wasInformedBy <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_221212_micro_1> ] ] ] ] ],
+        [ a prov:Activity ;
+            dct:description "Local storage of the collected sample"^^xsd:string ;
+            dct:type "storage"^^xsd:string ;
+            emobon:storageLoc "MSO LifeWatch Lab -80 Freezer"^^xsd:string ;
+            emobon:storageTemp "-80"^^xsd:string ;
+            prov:startedAtTime "2023-04-27"^^xsd:string ;
+            prov:wasAssociatedWith [ a prov:Person,
+                        schema:Person ;
+                    schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
+                    schema:name "Rune Lagaisse"^^xsd:string ] ;
+            prov:wasInformedBy <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_221212_micro_1> ] ;
     sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=32644"^^xsd:anyURI,
         "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI,
         "metagenome"^^xsd:string,
         "micro"^^xsd:string,
         "sediment [ENVO:00002007]"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-bpns-crate/water/observatory/BPNS> a emobon-core:Observatory ;
+    dct:isPartOf [ a schema:Project ;
+            emobon-core:enaProjAccNum "https://www.ebi.ac.uk/ena/browser/view/PRJEB51688"^^xsd:anyURI ;
+            schema:description "The EMO BON project"^^xsd:string ;
+            schema:name "EMOBON"^^xsd:string ] ;
+    emobon-core:broadBiome "marine biome [ENVO:00000447]"^^xsd:string,
+        "marine pelagic biome [ENVO:01000023]"^^xsd:string ;
+    emobon-core:enaStudyAccNum "https://www.ebi.ac.uk/ena/browser/view/PRJEB51652"^^xsd:anyURI ;
+    emobon-core:geoLocation [ a sf:Point ;
+            geo:asWKT "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point (51.433331 2.808331)" ] ;
+    emobon-core:hasMixsPackage "water"^^xsd:string ;
+    emobon-core:localBiome "costal water body [ENVO:02000049]"^^xsd:string,
+        "marine pelagic feature [ENVO:01000044]"^^xsd:string,
+        "marine water body [ENVO:00001999]"^^xsd:string ;
+    emobon-core:marineRegion "http://marineregions.org/mrgid/1912"^^xsd:anyURI,
+        "http://marineregions.org/mrgid/2350"^^xsd:anyURI,
+        "http://marineregions.org/mrgid/26567"^^xsd:anyURI ;
+    emobon-core:marineRegionName "Belgian part of the North Sea"^^xsd:string,
+        "North Atlantic Ocean"^^xsd:string,
+        "North Sea"^^xsd:string ;
+    emobon-core:observatoryId "BPNS"^^xsd:string ;
+    emobon-core:observatorySampleId "BPNS Wa"^^xsd:string ;
+    emobon-core:originCountry "Belgium"^^xsd:string ;
+    emobon-core:sampleType <https://data.emobon.embrc.eu/ns/core_vocab#3> ;
+    emobon-core:siteInfo "Station that has historic data going back to 1980’s and has monthly environmental measurements since 2001. Site participated in Ocean Sampling day activities for years 2012 2017 2018 2019 2020 and OSD12x. Parallel genomic biodiversity sampling in 2014 and monthly in 2016. The spring phytoplankton bloom (expressed as chlorophyll a) typically occurs between March to May. A spring diatom community is ‘followed’ by a bloom of Phaeocystis globosa and a summer diatom bloom. (Desmit. et al. 2015). A number of potentially harmful algal species occur such as Pseudo-nitzschia and several dinoflagellate genera (e.g. Prorocentrum Alexandrium..). (Nohe et al. 2019). BPNS is characterised by high antropogenic activity (Intense shipping traffic offshore windmill farms dredging etc.)"^^xsd:string ;
+    emobon-core:waterColumnDepth [ a qudt:QuantityValue ;
+            qudt:numericValue 2.6e+01 ] ;
+    schema:contactPoint [ a emobon-core:Organization ;
+            emobon-core:edmoId "https://edmo.seadatanet.org/report/2248"^^xsd:anyURI ;
+            schema:address [ a schema:PostalAddress ;
+                    schema:addressCountry "Belgium"^^xsd:string ] ;
+            schema:legalName "Katholieke Universiteit Leuven"^^xsd:string ],
+        [ a emobon-core:Organization ;
+            emobon-core:edmoId "https://edmo.seadatanet.org/report/422"^^xsd:anyURI ;
+            schema:address [ a schema:PostalAddress ;
+                    schema:addressCountry "Belgium"^^xsd:string ;
+                    schema:member [ a schema:Person ;
+                            schema:email "klaas.deneudt@vliz.be"^^xsd:string ;
+                            schema:identifier "https://orcid.org/0000-0002-8559-3508"^^xsd:anyURI ;
+                            schema:name "Klaas Deneudt"^^xsd:string ] ] ;
+            schema:legalName "Flanders Marine Institute (VLIZ)"^^xsd:string ],
+        [ a emobon-core:Organization ;
+            emobon-core:edmoId "https://edmo.seadatanet.org/report/449"^^xsd:anyURI ;
+            schema:address [ a schema:PostalAddress ;
+                    schema:addressCountry "Belgium"^^xsd:string ] ;
+            schema:legalName "Ghent University"^^xsd:string ],
+        [ a emobon-core:Organization ;
+            emobon-core:edmoId "https://edmo.seadatanet.org/report/432"^^xsd:anyURI ;
+            schema:address [ a schema:PostalAddress ;
+                    schema:addressCountry "Belgium"^^xsd:string ] ;
+            schema:legalName "Royal Belgian Institute of Natural Sciences"^^xsd:string ] .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/measured/EMOBON_BPNS_So_230216_micro_1> a prov:Entity,
         sosa:Sample ;
@@ -59222,6 +59367,56 @@
         "metagenome"^^xsd:string,
         "micro"^^xsd:string,
         "sediment [ENVO:00002007]"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/observatory/BPNS> a emobon-core:Observatory ;
+    dct:isPartOf [ a schema:Project ;
+            emobon-core:enaProjAccNum "https://www.ebi.ac.uk/ena/browser/view/PRJEB51688"^^xsd:anyURI ;
+            schema:description "The EMO BON project"^^xsd:string ;
+            schema:name "EMOBON"^^xsd:string ] ;
+    emobon-core:broadBiome "marine benthic biome[ENVO_01000024]"^^xsd:string,
+        "marine biome [ENVO:00000447]"^^xsd:string ;
+    emobon-core:enaStudyAccNum "https://www.ebi.ac.uk/ena/browser/view/PRJEB51652"^^xsd:anyURI ;
+    emobon-core:geoLocation [ a sf:Point ;
+            geo:asWKT "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point (51.433331 2.808331)" ] ;
+    emobon-core:hasMixsPackage "sediment"^^xsd:string ;
+    emobon-core:localBiome "shallow_marine_sediment_[ENVO:03000034]"^^xsd:string ;
+    emobon-core:marineRegion "http://marineregions.org/mrgid/1912"^^xsd:anyURI,
+        "http://marineregions.org/mrgid/2350"^^xsd:anyURI,
+        "http://marineregions.org/mrgid/26567"^^xsd:anyURI ;
+    emobon-core:marineRegionName "Belgian part of the North Sea"^^xsd:string,
+        "North Atlantic Ocean"^^xsd:string,
+        "North Sea"^^xsd:string ;
+    emobon-core:observatoryId "BPNS"^^xsd:string ;
+    emobon-core:observatorySampleId "BPNS So"^^xsd:string ;
+    emobon-core:originCountry "Belgium"^^xsd:string ;
+    emobon-core:sampleType <https://data.emobon.embrc.eu/ns/core_vocab#2> ;
+    emobon-core:siteInfo "Station that has historic data going back to 1980’s and has monthly environmental measurements since 2001. Site participated in Ocean Sampling day activities for years 2012; 2017; 2018; 2019; 2020 and OSD12x. Parallel genomic biodiversity sampling in 2014 and monthly in 2016. The spring phytoplankton bloom (expressed as chlorophyll a) typically occurs between March to May. A spring diatom community is ‘followed’ by a bloom of Phaeocystis globosa and a summer diatom bloom. (Desmit. et al. 2015). A number of potentially harmful algal species occur such as Pseudo-nitzschia and several dinoflagellate genera (e.g. Prorocentrum; Alexandrium..). (Nohe et al. 2019). BPNS is characterised by high antropogenic activity (Intense shipping traffic; offshore windmill farms; dredging; etc.)"^^xsd:string ;
+    emobon-core:waterColumnDepth [ a qudt:QuantityValue ;
+            qudt:numericValue 2.6e+01 ] ;
+    schema:contactPoint [ a emobon-core:Organization ;
+            emobon-core:edmoId "https://edmo.seadatanet.org/report/2248"^^xsd:anyURI ;
+            schema:address [ a schema:PostalAddress ;
+                    schema:addressCountry "Belgium"^^xsd:string ] ;
+            schema:legalName "Katholieke Universiteit Leuven"^^xsd:string ],
+        [ a emobon-core:Organization ;
+            emobon-core:edmoId "https://edmo.seadatanet.org/report/422"^^xsd:anyURI ;
+            schema:address [ a schema:PostalAddress ;
+                    schema:addressCountry "Belgium"^^xsd:string ;
+                    schema:member [ a schema:Person ;
+                            schema:email "klaas.deneudt@vliz.be"^^xsd:string ;
+                            schema:identifier "https://orcid.org/0000-0002-8559-3508"^^xsd:anyURI ;
+                            schema:name "Klaas Deneudt"^^xsd:string ] ] ;
+            schema:legalName "Flanders Marine Institute (VLIZ)"^^xsd:string ],
+        [ a emobon-core:Organization ;
+            emobon-core:edmoId "https://edmo.seadatanet.org/report/449"^^xsd:anyURI ;
+            schema:address [ a schema:PostalAddress ;
+                    schema:addressCountry "Belgium"^^xsd:string ] ;
+            schema:legalName "Ghent University"^^xsd:string ],
+        [ a emobon-core:Organization ;
+            emobon-core:edmoId "https://edmo.seadatanet.org/report/432"^^xsd:anyURI ;
+            schema:address [ a schema:PostalAddress ;
+                    schema:addressCountry "Belgium"^^xsd:string ] ;
+            schema:legalName "Royal Belgian Institute of Natural Sciences"^^xsd:string ] .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/measured/EMOBON_BPNS_Wa_211223_0.2um_1> a prov:Entity,
         sosa:Sample ;
@@ -59490,70 +59685,70 @@
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/measured/EMOBON_BPNS_Wa_61> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/water/sampling/EMOBON_BPNS_Wa_61> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=1874687"^^xsd:anyURI,
-        "coastal sea water [ENVO:00002150]"^^xsd:string,
-        "metagenome"^^xsd:string,
+    emobon-sampling:environmentMaterial "coastal sea water [ENVO:00002150]"^^xsd:string,
         "seawater [ENVO:00002149]"^^xsd:string,
-        "surface water [ENVO:00002042]"^^xsd:string .
+        "surface water [ENVO:00002042]"^^xsd:string ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=1874687"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/measured/EMOBON_BPNS_Wa_62> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/water/sampling/EMOBON_BPNS_Wa_62> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=1874687"^^xsd:anyURI,
-        "coastal sea water [ENVO:00002150]"^^xsd:string,
-        "metagenome"^^xsd:string,
+    emobon-sampling:environmentMaterial "coastal sea water [ENVO:00002150]"^^xsd:string,
         "seawater [ENVO:00002149]"^^xsd:string,
-        "surface water [ENVO:00002042]"^^xsd:string .
+        "surface water [ENVO:00002042]"^^xsd:string ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=1874687"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/measured/EMOBON_BPNS_Wa_66> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/water/sampling/EMOBON_BPNS_Wa_66> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=1874687"^^xsd:anyURI,
-        "coastal sea water [ENVO:00002150]"^^xsd:string,
-        "metagenome"^^xsd:string,
+    emobon-sampling:environmentMaterial "coastal sea water [ENVO:00002150]"^^xsd:string,
         "seawater [ENVO:00002149]"^^xsd:string,
-        "surface water [ENVO:00002042]"^^xsd:string .
+        "surface water [ENVO:00002042]"^^xsd:string ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=1874687"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/measured/EMOBON_BPNS_Wa_67> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/water/sampling/EMOBON_BPNS_Wa_67> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=1874687"^^xsd:anyURI,
-        "coastal sea water [ENVO:00002150]"^^xsd:string,
-        "metagenome"^^xsd:string,
+    emobon-sampling:environmentMaterial "coastal sea water [ENVO:00002150]"^^xsd:string,
         "seawater [ENVO:00002149]"^^xsd:string,
-        "surface water [ENVO:00002042]"^^xsd:string .
+        "surface water [ENVO:00002042]"^^xsd:string ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=1874687"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/measured/EMOBON_BPNS_So_11> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_11> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI,
-        "metagenome"^^xsd:string,
-        "micro"^^xsd:string,
-        "sediment [ENVO:00002007]"^^xsd:string .
+    emobon-sampling:bioCommunity "micro"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment [ENVO:00002007]"^^xsd:string ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/measured/EMOBON_BPNS_So_12> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_12> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI,
-        "metagenome"^^xsd:string,
-        "micro"^^xsd:string,
-        "sediment [ENVO:00002007]"^^xsd:string .
+    emobon-sampling:bioCommunity "micro"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment [ENVO:00002007]"^^xsd:string ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/measured/EMOBON_BPNS_So_13> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_13> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI,
-        "metagenome"^^xsd:string,
-        "micro"^^xsd:string,
-        "sediment [ENVO:00002007]"^^xsd:string .
+    emobon-sampling:bioCommunity "micro"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment [ENVO:00002007]"^^xsd:string ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/measured/EMOBON_BPNS_So_14> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_14> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI,
-        "metagenome"^^xsd:string,
-        "micro"^^xsd:string,
-        "sediment [ENVO:00002007]"^^xsd:string .
+    emobon-sampling:bioCommunity "micro"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment [ENVO:00002007]"^^xsd:string ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/measured/EMOBON_BPNS_So_210825_micro_1> a prov:Entity,
         sosa:Sample ;
@@ -59750,50 +59945,50 @@
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/measured/EMOBON_BPNS_So_1> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_1> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=33208"^^xsd:anyURI,
-        "meio"^^xsd:string,
-        "mimarks-specimen"^^xsd:string,
-        "sediment [ENVO:00002007]"^^xsd:string .
+    emobon-sampling:bioCommunity "meio"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment [ENVO:00002007]"^^xsd:string ;
+    emobon-sampling:investigationType "mimarks-specimen"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=33208"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/measured/EMOBON_BPNS_So_17> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_17> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI,
-        "metagenome"^^xsd:string,
-        "micro"^^xsd:string,
-        "sediment [ENVO:00002007]"^^xsd:string .
+    emobon-sampling:bioCommunity "micro"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment [ENVO:00002007]"^^xsd:string ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/measured/EMOBON_BPNS_So_18> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_18> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI,
-        "metagenome"^^xsd:string,
-        "micro"^^xsd:string,
-        "sediment [ENVO:00002007]"^^xsd:string .
+    emobon-sampling:bioCommunity "micro"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment [ENVO:00002007]"^^xsd:string ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/measured/EMOBON_BPNS_So_19> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_19> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI,
-        "metagenome"^^xsd:string,
-        "micro"^^xsd:string,
-        "sediment [ENVO:00002007]"^^xsd:string .
+    emobon-sampling:bioCommunity "micro"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment [ENVO:00002007]"^^xsd:string ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/measured/EMOBON_BPNS_So_2> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_2> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=33208"^^xsd:anyURI,
-        "meio"^^xsd:string,
-        "mimarks-specimen"^^xsd:string,
-        "sediment [ENVO:00002007]"^^xsd:string .
+    emobon-sampling:bioCommunity "meio"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment [ENVO:00002007]"^^xsd:string ;
+    emobon-sampling:investigationType "mimarks-specimen"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=33208"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/measured/EMOBON_BPNS_So_20> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_20> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI,
-        "metagenome"^^xsd:string,
-        "micro"^^xsd:string,
-        "sediment [ENVO:00002007]"^^xsd:string .
+    emobon-sampling:bioCommunity "micro"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment [ENVO:00002007]"^^xsd:string ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/measured/EMOBON_BPNS_So_210701_meio_1> a prov:Entity,
         sosa:Sample ;
@@ -60319,82 +60514,82 @@
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/measured/EMOBON_BPNS_So_23> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_23> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=33208"^^xsd:anyURI,
-        "macro"^^xsd:string,
-        "mimarks-specimen"^^xsd:string,
-        "sediment [ENVO:00002007]"^^xsd:string .
+    emobon-sampling:bioCommunity "macro"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment [ENVO:00002007]"^^xsd:string ;
+    emobon-sampling:investigationType "mimarks-specimen"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=33208"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/measured/EMOBON_BPNS_So_24> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_24> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=33208"^^xsd:anyURI,
-        "macro"^^xsd:string,
-        "mimarks-specimen"^^xsd:string,
-        "sediment [ENVO:00002007]"^^xsd:string .
+    emobon-sampling:bioCommunity "macro"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment [ENVO:00002007]"^^xsd:string ;
+    emobon-sampling:investigationType "mimarks-specimen"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=33208"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/measured/EMOBON_BPNS_So_25> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_25> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=33208"^^xsd:anyURI,
-        "macro"^^xsd:string,
-        "mimarks-specimen"^^xsd:string,
-        "sediment [ENVO:00002007]"^^xsd:string .
+    emobon-sampling:bioCommunity "macro"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment [ENVO:00002007]"^^xsd:string ;
+    emobon-sampling:investigationType "mimarks-specimen"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=33208"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/measured/EMOBON_BPNS_So_26> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_26> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=33208"^^xsd:anyURI,
-        "macro"^^xsd:string,
-        "mimarks-specimen"^^xsd:string,
-        "sediment [ENVO:00002007]"^^xsd:string .
+    emobon-sampling:bioCommunity "macro"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment [ENVO:00002007]"^^xsd:string ;
+    emobon-sampling:investigationType "mimarks-specimen"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=33208"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/measured/EMOBON_BPNS_So_28> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_28> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=33208"^^xsd:anyURI,
-        "meio"^^xsd:string,
-        "mimarks-specimen"^^xsd:string,
-        "sediment [ENVO:00002007]"^^xsd:string .
+    emobon-sampling:bioCommunity "meio"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment [ENVO:00002007]"^^xsd:string ;
+    emobon-sampling:investigationType "mimarks-specimen"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=33208"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/measured/EMOBON_BPNS_So_29> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_29> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=33208"^^xsd:anyURI,
-        "meio"^^xsd:string,
-        "mimarks-specimen"^^xsd:string,
-        "sediment [ENVO:00002007]"^^xsd:string .
+    emobon-sampling:bioCommunity "meio"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment [ENVO:00002007]"^^xsd:string ;
+    emobon-sampling:investigationType "mimarks-specimen"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=33208"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/measured/EMOBON_BPNS_So_3> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_3> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=33208"^^xsd:anyURI,
-        "meio"^^xsd:string,
-        "mimarks-specimen"^^xsd:string,
-        "sediment [ENVO:00002007]"^^xsd:string .
+    emobon-sampling:bioCommunity "meio"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment [ENVO:00002007]"^^xsd:string ;
+    emobon-sampling:investigationType "mimarks-specimen"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=33208"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/measured/EMOBON_BPNS_So_30> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_30> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=33208"^^xsd:anyURI,
-        "meio"^^xsd:string,
-        "mimarks-specimen"^^xsd:string,
-        "sediment [ENVO:00002007]"^^xsd:string .
+    emobon-sampling:bioCommunity "meio"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment [ENVO:00002007]"^^xsd:string ;
+    emobon-sampling:investigationType "mimarks-specimen"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=33208"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/measured/EMOBON_BPNS_So_31> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_31> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=33208"^^xsd:anyURI,
-        "meio"^^xsd:string,
-        "mimarks-specimen"^^xsd:string,
-        "sediment [ENVO:00002007]"^^xsd:string .
+    emobon-sampling:bioCommunity "meio"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment [ENVO:00002007]"^^xsd:string ;
+    emobon-sampling:investigationType "mimarks-specimen"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=33208"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/measured/EMOBON_BPNS_So_4> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_4> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=33208"^^xsd:anyURI,
-        "meio"^^xsd:string,
-        "mimarks-specimen"^^xsd:string,
-        "sediment [ENVO:00002007]"^^xsd:string .
+    emobon-sampling:bioCommunity "meio"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment [ENVO:00002007]"^^xsd:string ;
+    emobon-sampling:investigationType "mimarks-specimen"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=33208"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/measured/EMOBON_BPNS_Wa_220819_0.2um_1> a prov:Entity,
         sosa:Sample ;
@@ -60663,20 +60858,20 @@
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/measured/EMOBON_BPNS_Wa_1> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/water/sampling/EMOBON_BPNS_Wa_1> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=1874687"^^xsd:anyURI,
-        "coastal sea water [ENVO:00002150]"^^xsd:string,
-        "metagenome"^^xsd:string,
+    emobon-sampling:environmentMaterial "coastal sea water [ENVO:00002150]"^^xsd:string,
         "seawater [ENVO:00002149]"^^xsd:string,
-        "surface water [ENVO:00002042]"^^xsd:string .
+        "surface water [ENVO:00002042]"^^xsd:string ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=1874687"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/measured/EMOBON_BPNS_Wa_2> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/water/sampling/EMOBON_BPNS_Wa_2> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=1874687"^^xsd:anyURI,
-        "coastal sea water [ENVO:00002150]"^^xsd:string,
-        "metagenome"^^xsd:string,
+    emobon-sampling:environmentMaterial "coastal sea water [ENVO:00002150]"^^xsd:string,
         "seawater [ENVO:00002149]"^^xsd:string,
-        "surface water [ENVO:00002042]"^^xsd:string .
+        "surface water [ENVO:00002042]"^^xsd:string ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=1874687"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/measured/EMOBON_BPNS_Wa_210701_0.2um_1> a prov:Entity,
         sosa:Sample ;
@@ -61337,65 +61532,65 @@
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/measured/EMOBON_BPNS_Wa_41> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/water/sampling/EMOBON_BPNS_Wa_41> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=1874687"^^xsd:anyURI,
-        "coastal sea water [ENVO:00002150]"^^xsd:string,
-        "metagenome"^^xsd:string,
+    emobon-sampling:environmentMaterial "coastal sea water [ENVO:00002150]"^^xsd:string,
         "seawater [ENVO:00002149]"^^xsd:string,
-        "surface water [ENVO:00002042]"^^xsd:string .
+        "surface water [ENVO:00002042]"^^xsd:string ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=1874687"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/measured/EMOBON_BPNS_Wa_42> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/water/sampling/EMOBON_BPNS_Wa_42> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=1874687"^^xsd:anyURI,
-        "coastal sea water [ENVO:00002150]"^^xsd:string,
-        "metagenome"^^xsd:string,
+    emobon-sampling:environmentMaterial "coastal sea water [ENVO:00002150]"^^xsd:string,
         "seawater [ENVO:00002149]"^^xsd:string,
-        "surface water [ENVO:00002042]"^^xsd:string .
+        "surface water [ENVO:00002042]"^^xsd:string ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=1874687"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/measured/EMOBON_BPNS_Wa_46> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/water/sampling/EMOBON_BPNS_Wa_46> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=1874687"^^xsd:anyURI,
-        "coastal sea water [ENVO:00002150]"^^xsd:string,
-        "metagenome"^^xsd:string,
+    emobon-sampling:environmentMaterial "coastal sea water [ENVO:00002150]"^^xsd:string,
         "seawater [ENVO:00002149]"^^xsd:string,
-        "surface water [ENVO:00002042]"^^xsd:string .
+        "surface water [ENVO:00002042]"^^xsd:string ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=1874687"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/measured/EMOBON_BPNS_Wa_47> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/water/sampling/EMOBON_BPNS_Wa_47> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=1874687"^^xsd:anyURI,
-        "coastal sea water [ENVO:00002150]"^^xsd:string,
-        "metagenome"^^xsd:string,
+    emobon-sampling:environmentMaterial "coastal sea water [ENVO:00002150]"^^xsd:string,
         "seawater [ENVO:00002149]"^^xsd:string,
-        "surface water [ENVO:00002042]"^^xsd:string .
+        "surface water [ENVO:00002042]"^^xsd:string ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=1874687"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/measured/EMOBON_BPNS_Wa_6> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/water/sampling/EMOBON_BPNS_Wa_6> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=1874687"^^xsd:anyURI,
-        "coastal sea water [ENVO:00002150]"^^xsd:string,
-        "metagenome"^^xsd:string,
+    emobon-sampling:environmentMaterial "coastal sea water [ENVO:00002150]"^^xsd:string,
         "seawater [ENVO:00002149]"^^xsd:string,
-        "surface water [ENVO:00002042]"^^xsd:string .
+        "surface water [ENVO:00002042]"^^xsd:string ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=1874687"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/measured/EMOBON_BPNS_Wa_7> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/water/sampling/EMOBON_BPNS_Wa_7> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=1874687"^^xsd:anyURI,
-        "coastal sea water [ENVO:00002150]"^^xsd:string,
-        "metagenome"^^xsd:string,
+    emobon-sampling:environmentMaterial "coastal sea water [ENVO:00002150]"^^xsd:string,
         "seawater [ENVO:00002149]"^^xsd:string,
-        "surface water [ENVO:00002042]"^^xsd:string .
+        "surface water [ENVO:00002042]"^^xsd:string ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=1874687"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/measured/EMOBON_BPNS_Wa_21> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/water/sampling/EMOBON_BPNS_Wa_21> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=1874687"^^xsd:anyURI,
-        "coastal sea water [ENVO:00002150]"^^xsd:string,
-        "metagenome"^^xsd:string,
+    emobon-sampling:environmentMaterial "coastal sea water [ENVO:00002150]"^^xsd:string,
         "seawater [ENVO:00002149]"^^xsd:string,
-        "surface water [ENVO:00002042]"^^xsd:string .
+        "surface water [ENVO:00002042]"^^xsd:string ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=1874687"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/measured/EMOBON_BPNS_Wa_210825_0.2um_1> a prov:Entity,
         sosa:Sample ;
@@ -61536,11 +61731,11 @@
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/measured/EMOBON_BPNS_Wa_22> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/water/sampling/EMOBON_BPNS_Wa_22> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=1874687"^^xsd:anyURI,
-        "coastal sea water [ENVO:00002150]"^^xsd:string,
-        "metagenome"^^xsd:string,
+    emobon-sampling:environmentMaterial "coastal sea water [ENVO:00002150]"^^xsd:string,
         "seawater [ENVO:00002149]"^^xsd:string,
-        "surface water [ENVO:00002042]"^^xsd:string .
+        "surface water [ENVO:00002042]"^^xsd:string ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=1874687"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/measured/EMOBON_BPNS_Wa_220601_0.2um_1> a prov:Entity,
         sosa:Sample ;
@@ -61937,18 +62132,18 @@
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/measured/EMOBON_BPNS_Wa_26> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/water/sampling/EMOBON_BPNS_Wa_26> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=1874687"^^xsd:anyURI,
-        "coastal sea water [ENVO:00002150]"^^xsd:string,
-        "metagenome"^^xsd:string,
+    emobon-sampling:environmentMaterial "coastal sea water [ENVO:00002150]"^^xsd:string,
         "seawater [ENVO:00002149]"^^xsd:string,
-        "surface water [ENVO:00002042]"^^xsd:string .
+        "surface water [ENVO:00002042]"^^xsd:string ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=1874687"^^xsd:anyURI .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/measured/EMOBON_BPNS_Wa_27> a prov:Entity,
         sosa:Sample ;
     sosa:hasResult <http://data.emobon.embrc.eu/observatory-bpns-crate/water/sampling/EMOBON_BPNS_Wa_27> ;
-    sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=1874687"^^xsd:anyURI,
-        "coastal sea water [ENVO:00002150]"^^xsd:string,
-        "metagenome"^^xsd:string,
+    emobon-sampling:environmentMaterial "coastal sea water [ENVO:00002150]"^^xsd:string,
         "seawater [ENVO:00002149]"^^xsd:string,
-        "surface water [ENVO:00002042]"^^xsd:string .
+        "surface water [ENVO:00002042]"^^xsd:string ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=1874687"^^xsd:anyURI .
 

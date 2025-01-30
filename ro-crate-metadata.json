@@ -11,27 +11,18 @@
             "@type": "Dataset",
             "accessURL": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/ro-crate-metadata.json",
             "conformsTo": {
-                "@id": "https://data.emobon.embrc.eu/observatory-profile/0.22"
+                "@id": "https://data.emobon.embrc.eu/observatory-profile/latest"
             },
             "contactPoint": {
-                "@id": "dummyID",
+                "@id": "https://ror.org/0038zss60",
                 "@type": "ContactPoint",
                 "email": "emobon@embrc.eu"
             },
-            "datePublished": "2025-01-30T11:12:58+00:00",
+            "datePublished": "2025-01-30T13:54:59+00:00",
             "description": "This RO-Crate/GitHub repository contains the EMO BON sampling event logsheets from the observatory BPNS",
             "hasPart": [
                 {
-                    "@id": ".gitignore"
-                },
-                {
                     "@id": "README.md"
-                },
-                {
-                    "@id": ".github/workflows/workflow.yml"
-                },
-                {
-                    "@id": "config/workflow_properties.yml"
                 },
                 {
                     "@id": "data-quality-control/dqc.csv"
@@ -41,12 +32,6 @@
                 },
                 {
                     "@id": "data-quality-control/report.csv"
-                },
-                {
-                    "@id": ".github/"
-                },
-                {
-                    "@id": "config/"
                 },
                 {
                     "@id": "data-quality-control/"
@@ -73,46 +58,46 @@
                     "@id": "logsheets/water_sampling.csv"
                 },
                 {
-                    "@id": "logsheets-filtered/"
+                    "@id": "logsheets/filtered/"
                 },
                 {
-                    "@id": "logsheets-filtered/sediment_measured.csv"
+                    "@id": "logsheets/filtered/sediment_measured.csv"
                 },
                 {
-                    "@id": "logsheets-filtered/sediment_observatory.csv"
+                    "@id": "logsheets/filtered/sediment_observatory.csv"
                 },
                 {
-                    "@id": "logsheets-filtered/sediment_sampling.csv"
+                    "@id": "logsheets/filtered/sediment_sampling.csv"
                 },
                 {
-                    "@id": "logsheets-filtered/water_measured.csv"
+                    "@id": "logsheets/filtered/water_measured.csv"
                 },
                 {
-                    "@id": "logsheets-filtered/water_observatory.csv"
+                    "@id": "logsheets/filtered/water_observatory.csv"
                 },
                 {
-                    "@id": "logsheets-filtered/water_sampling.csv"
+                    "@id": "logsheets/filtered/water_sampling.csv"
                 },
                 {
-                    "@id": "logsheets-transformed/"
+                    "@id": "logsheets/transformed/"
                 },
                 {
-                    "@id": "logsheets-transformed/sediment_measured.csv"
+                    "@id": "logsheets/transformed/sediment_measured.csv"
                 },
                 {
-                    "@id": "logsheets-transformed/sediment_observatory.csv"
+                    "@id": "logsheets/transformed/sediment_observatory.csv"
                 },
                 {
-                    "@id": "logsheets-transformed/sediment_sampling.csv"
+                    "@id": "logsheets/transformed/sediment_sampling.csv"
                 },
                 {
-                    "@id": "logsheets-transformed/water_measured.csv"
+                    "@id": "logsheets/transformed/water_measured.csv"
                 },
                 {
-                    "@id": "logsheets-transformed/water_observatory.csv"
+                    "@id": "logsheets/transformed/water_observatory.csv"
                 },
                 {
-                    "@id": "logsheets-transformed/water_sampling.csv"
+                    "@id": "logsheets/transformed/water_sampling.csv"
                 }
             ],
             "keywords": [
@@ -136,33 +121,15 @@
             }
         },
         {
-            "@id": "https://data.emobon.embrc.eu/observatory-profile/0.22",
+            "@id": "https://data.emobon.embrc.eu/observatory-profile/latest",
             "@type": "CreativeWork",
             "name": "<name>"
-        },
-        {
-            "@id": ".gitignore",
-            "@label": "./.gitignore",
-            "@type": "File",
-            "encodingFormat": "text/plain"
         },
         {
             "@id": "README.md",
             "@label": "./README.md",
             "@type": "File",
             "encodingFormat": "text/markdown"
-        },
-        {
-            "@id": ".github/workflows/workflow.yml",
-            "@label": "./.github/workflows/workflow.yml",
-            "@type": "File",
-            "encodingFormat": "application/x-yaml"
-        },
-        {
-            "@id": "config/workflow_properties.yml",
-            "@label": "./config/workflow_properties.yml",
-            "@type": "File",
-            "encodingFormat": "application/x-yaml"
         },
         {
             "@id": "data-quality-control/dqc.csv",
@@ -181,16 +148,6 @@
             "@label": "./data-quality-control/report.csv",
             "@type": "File",
             "encodingFormat": "text/csv"
-        },
-        {
-            "@id": ".github/",
-            "@label": "./.github/",
-            "@type": "Dataset"
-        },
-        {
-            "@id": "config/",
-            "@label": "./config/",
-            "@type": "Dataset"
         },
         {
             "@id": "data-quality-control/",
@@ -277,16 +234,16 @@
             ]
         },
         {
-            "@id": "logsheets-filtered/",
-            "@label": "./logsheets-filtered/",
+            "@id": "logsheets/filtered/",
+            "@label": "./logsheets/filtered/",
             "@type": "Dataset"
         },
         {
-            "@id": "logsheets-filtered/sediment_measured.csv",
-            "@label": "./logsheets-filtered/sediment_measured.csv",
+            "@id": "logsheets/filtered/sediment_measured.csv",
+            "@label": "./logsheets/filtered/sediment_measured.csv",
             "@type": "File",
             "description": "Filtered logsheet of the environmental measurements from the sediment sampling events",
-            "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets-filtered/sediment_measured.csv",
+            "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets/filtered/sediment_measured.csv",
             "encodingFormat": "text/csv",
             "keywords": [
                 "http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement",
@@ -294,11 +251,11 @@
             ]
         },
         {
-            "@id": "logsheets-filtered/sediment_observatory.csv",
-            "@label": "./logsheets-filtered/sediment_observatory.csv",
+            "@id": "logsheets/filtered/sediment_observatory.csv",
+            "@label": "./logsheets/filtered/sediment_observatory.csv",
             "@type": "File",
             "description": "Filtered logsheet of the observatory metadata from the sediment sampling events",
-            "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets-filtered/sediment_observatory.csv",
+            "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets/filtered/sediment_observatory.csv",
             "encodingFormat": "text/csv",
             "keywords": [
                 "https://purl.org/dc/terms/Location",
@@ -307,11 +264,11 @@
             ]
         },
         {
-            "@id": "logsheets-filtered/sediment_sampling.csv",
-            "@label": "./logsheets-filtered/sediment_sampling.csv",
+            "@id": "logsheets/filtered/sediment_sampling.csv",
+            "@label": "./logsheets/filtered/sediment_sampling.csv",
             "@type": "File",
             "description": "Filtered logsheet of the sample and event metadata from the sediment sampling events",
-            "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets-filtered/sediment_sampling.csv",
+            "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets/filtered/sediment_sampling.csv",
             "encodingFormat": "text/csv",
             "keywords": [
                 "https://rs.tdwg.org/terms/Event",
@@ -319,11 +276,11 @@
             ]
         },
         {
-            "@id": "logsheets-filtered/water_measured.csv",
-            "@label": "./logsheets-filtered/water_measured.csv",
+            "@id": "logsheets/filtered/water_measured.csv",
+            "@label": "./logsheets/filtered/water_measured.csv",
             "@type": "File",
             "description": "Filtered logsheet of the environmental measurements from the water sampling events",
-            "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets-filtered/water_measured.csv",
+            "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets/filtered/water_measured.csv",
             "encodingFormat": "text/csv",
             "keywords": [
                 "http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement",
@@ -331,11 +288,11 @@
             ]
         },
         {
-            "@id": "logsheets-filtered/water_observatory.csv",
-            "@label": "./logsheets-filtered/water_observatory.csv",
+            "@id": "logsheets/filtered/water_observatory.csv",
+            "@label": "./logsheets/filtered/water_observatory.csv",
             "@type": "File",
             "description": "Filtered logsheet of the observatory metadata from the water sampling events",
-            "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets-filtered/water_observatory.csv",
+            "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets/filtered/water_observatory.csv",
             "encodingFormat": "text/csv",
             "keywords": [
                 "https://purl.org/dc/terms/Location",
@@ -344,11 +301,11 @@
             ]
         },
         {
-            "@id": "logsheets-filtered/water_sampling.csv",
-            "@label": "./logsheets-filtered/water_sampling.csv",
+            "@id": "logsheets/filtered/water_sampling.csv",
+            "@label": "./logsheets/filtered/water_sampling.csv",
             "@type": "File",
             "description": "Filtered logsheet of the sample and event metadata from the water sampling events",
-            "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets-filtered/water_sampling.csv",
+            "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets/filtered/water_sampling.csv",
             "encodingFormat": "text/csv",
             "keywords": [
                 "https://rs.tdwg.org/terms/Event",
@@ -356,16 +313,16 @@
             ]
         },
         {
-            "@id": "logsheets-transformed/",
-            "@label": "./logsheets-transformed/",
+            "@id": "logsheets/transformed/",
+            "@label": "./logsheets/transformed/",
             "@type": "Dataset"
         },
         {
-            "@id": "logsheets-transformed/sediment_measured.csv",
-            "@label": "./logsheets-transformed/sediment_measured.csv",
+            "@id": "logsheets/transformed/sediment_measured.csv",
+            "@label": "./logsheets/transformed/sediment_measured.csv",
             "@type": "File",
             "description": "Transformed logsheet of the environmental measurements from the sediment sampling events",
-            "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets-transformed/sediment_measured.csv",
+            "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets/transformed/sediment_measured.csv",
             "encodingFormat": "text/csv",
             "keywords": [
                 "http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement",
@@ -373,11 +330,11 @@
             ]
         },
         {
-            "@id": "logsheets-transformed/sediment_observatory.csv",
-            "@label": "./logsheets-transformed/sediment_observatory.csv",
+            "@id": "logsheets/transformed/sediment_observatory.csv",
+            "@label": "./logsheets/transformed/sediment_observatory.csv",
             "@type": "File",
             "description": "Transformed logsheet of the observatory metadata from the sediment sampling events",
-            "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets-transformed/sediment_observatory.csv",
+            "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets/transformed/sediment_observatory.csv",
             "encodingFormat": "text/csv",
             "keywords": [
                 "https://purl.org/dc/terms/Location",
@@ -386,11 +343,11 @@
             ]
         },
         {
-            "@id": "logsheets-transformed/sediment_sampling.csv",
-            "@label": "./logsheets-transformed/sediment_sampling.csv",
+            "@id": "logsheets/transformed/sediment_sampling.csv",
+            "@label": "./logsheets/transformed/sediment_sampling.csv",
             "@type": "File",
             "description": "Transformed logsheet of the sample and event metadata from the sediment sampling events",
-            "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets-transformed/sediment_sampling.csv",
+            "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets/transformed/sediment_sampling.csv",
             "encodingFormat": "text/csv",
             "keywords": [
                 "https://rs.tdwg.org/terms/Event",
@@ -398,11 +355,11 @@
             ]
         },
         {
-            "@id": "logsheets-transformed/water_measured.csv",
-            "@label": "./logsheets-transformed/water_measured.csv",
+            "@id": "logsheets/transformed/water_measured.csv",
+            "@label": "./logsheets/transformed/water_measured.csv",
             "@type": "File",
             "description": "Transformed logsheet of the environmental measurements from the water sampling events",
-            "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets-transformed/water_measured.csv",
+            "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets/transformed/water_measured.csv",
             "encodingFormat": "text/csv",
             "keywords": [
                 "http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement",
@@ -410,11 +367,11 @@
             ]
         },
         {
-            "@id": "logsheets-transformed/water_observatory.csv",
-            "@label": "./logsheets-transformed/water_observatory.csv",
+            "@id": "logsheets/transformed/water_observatory.csv",
+            "@label": "./logsheets/transformed/water_observatory.csv",
             "@type": "File",
             "description": "Transformed logsheet of the observatory metadata from the water sampling events",
-            "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets-transformed/water_observatory.csv",
+            "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets/transformed/water_observatory.csv",
             "encodingFormat": "text/csv",
             "keywords": [
                 "https://purl.org/dc/terms/Location",
@@ -423,11 +380,11 @@
             ]
         },
         {
-            "@id": "logsheets-transformed/water_sampling.csv",
-            "@label": "./logsheets-transformed/water_sampling.csv",
+            "@id": "logsheets/transformed/water_sampling.csv",
+            "@label": "./logsheets/transformed/water_sampling.csv",
             "@type": "File",
             "description": "Transformed logsheet of the sample and event metadata from the water sampling events",
-            "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets-transformed/water_sampling.csv",
+            "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-crate/main/logsheets/transformed/water_sampling.csv",
             "encodingFormat": "text/csv",
             "keywords": [
                 "https://rs.tdwg.org/terms/Event",
