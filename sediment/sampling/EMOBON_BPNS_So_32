@@ -68,10 +68,6 @@
     emobon-sampling:failure 'false'^^xsd:boolean ;
     
     emobon-sampling:filterSizeRange ''^^xsd:string ;
-    emobon-sampling:upperFilterSize [
-        a qudt:QuantityValue ; 
-        qudt:numericValue '0.32'^^xsd:double ; 
-    ] ;
     
     sosa:isSampleOf'sediment [ENVO:00002007]'^^xsd:string;
     sosa:isSampleOf 'mimarks-specimen'^^xsd:string ;
