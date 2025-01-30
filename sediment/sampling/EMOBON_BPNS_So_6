@@ -10,7 +10,6 @@
 @prefix sf: <http://www.opengis.net/ont/sf#> .
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix mr: <http://marineregions.org/ns/ontology#> .
-#@prefix emobon: <http://www.embrc.eu/emobon/EmoBonOntology#> .
 @prefix emobon-sequence: <https://data.emobon.embrc.eu/ns/sequence#> .
 @prefix emobon-core: <https://data.emobon.embrc.eu/ns/core#> .
 @prefix emobon-sampling: <https://data.emobon.embrc.eu/ns/sampling#> .
@@ -37,23 +36,25 @@
         ] ;
     emobon-sampling:tidalStage 'flood_tide'^^xsd:string ;
     
-    emobon-sampling:waterColumnDepth '26'^^xsd:string ; 
-    emobon-sampling:originCountry 'Belgium'^^xsd:string ;
+    emobon-core:waterColumnDepth '26'^^xsd:string ; 
+    emobon-core:originCountry 'Belgium'^^xsd:string ;
     
-    sosa:hasFeatureOfInterest 'sediment [ENVO:00002007]'^^xsd:string;
-    sosa:hasFeatureOfInterest 'metagenome'^^xsd:string ;
-    sosa:hasFeatureOfInterest 'https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755'^^xsd:anyURI ; 
-    sosa:hasFeatureOfInterest 'micro'^^xsd:string ;
+    emobon-sampling:environmentMaterial 'sediment [ENVO:00002007]'^^xsd:string;
+    emobon-sampling:investigationType 'metagenome'^^xsd:string ;
+    emobon-sampling:taxonomicID 'https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755'^^xsd:anyURI ; 
+    emobon-sampling:bioCommunity 'micro'^^xsd:string ;
     
     sosa:hasResult </observatory-bpns-crate/sediment/measured/EMOBON_BPNS_So_6> ;
+    
+    emobon-sampling:linkedToObservatory </observatory-bpns-crate/sediment/observatory/BPNS>  ; 
 .
 </observatory-bpns-crate/sediment/measured/EMOBON_BPNS_So_6>
     a sosa:Sample, prov:Entity ;
     
-    sosa:isSampleOf 'sediment [ENVO:00002007]'^^xsd:string;
-    sosa:isSampleOf 'metagenome'^^xsd:string ;
-    sosa:isSampleOf 'https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755'^^xsd:anyURI ; 
-    sosa:isSampleOf 'micro'^^xsd:string ;
+    emobon-sampling:environmentMaterial 'sediment [ENVO:00002007]'^^xsd:string;
+    emobon-sampling:investigationType 'metagenome'^^xsd:string ;
+    emobon-sampling:taxonomicID 'https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755'^^xsd:anyURI ; 
+    emobon-sampling:bioCommunity 'micro'^^xsd:string ;
     
     sosa:hasResult <> ;
 .
@@ -64,15 +65,17 @@
     
     dct:description 'EMOBON metagenome sediment sample from station BPNS collected on 2021-07-26 community collected micro'^^xsd:string ;
     emobon-sampling:enaSampleAccNum ''^^xsd:anyURI ; 
-    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^anyURI ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI ;
     emobon-sampling:sampleReplicate '2'^^xsd:string ;
+    emobon-sampling:longStorage &#39;false&#39;^^xsd:boolean ;
+    emobon-sampling:failure &#39;false&#39;^^xsd:boolean ;
     
     emobon-sampling:filterSizeRange ''^^xsd:string ;
     
-    sosa:isSampleOf'sediment [ENVO:00002007]'^^xsd:string;
-    sosa:isSampleOf 'metagenome'^^xsd:string ;
-    sosa:isSampleOf 'https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755'^^xsd:anyURI ; 
-    sosa:isSampleOf 'micro'^^xsd:string ;
+    emobon-sampling:environmentMaterial'sediment [ENVO:00002007]'^^xsd:string;
+    emobon-sampling:investigationType 'metagenome'^^xsd:string ;
+    emobon-sampling:taxonomicID 'https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755'^^xsd:anyURI ; 
+    emobon-sampling:bioCommunity 'micro'^^xsd:string ;
 
     
     prov:wasAssociatedWith [
