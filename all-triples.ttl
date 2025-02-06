@@ -7180,16 +7180,16 @@
         [ a sosa:Procedure ;
             rdfs:label "SoSOP3"^^xsd:string ],
         [ a sosa:Procedure ;
+            rdfs:label "SoSOP3"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "SoSOP3"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "SoSOP3"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "SoSOP3"^^xsd:string ],
+        [ a sosa:Procedure ;
             rdfs:label "SoSOP3"^^xsd:string ;
             rdfs:comment "Tube broke"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "SoSOP3"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "SoSOP3"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "SoSOP3"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "SoSOP3"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "SoSOP3"^^xsd:string ],
         [ a sosa:Procedure ;
@@ -7223,18 +7223,6 @@
         "2021-10-28"^^xsd:string ;
     prov:wasAssociatedWith [ a prov:Person,
                 schema:Person ;
-            schema:identifier "https://orcid.org/0000-0002-5662-5689"^^xsd:anyURI ;
-            schema:name "Lara Macheriotou"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
-            schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
-            schema:name "Sander Delacauw"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
-            schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
-            schema:name "Sander Delacauw"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
             schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
             schema:name "Sander Delacauw"^^xsd:string ],
         [ a prov:Person,
@@ -7253,18 +7241,6 @@
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
             schema:name "Sander Delacauw"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
-            schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
-            schema:name "Sander Delacauw"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
-            schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
-            schema:name "Sander Delacauw"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
-            schema:identifier "https://orcid.org/0000-0002-5662-5689"^^xsd:anyURI ;
-            schema:name "Lara Macheriotou"^^xsd:string ],
         [ a prov:Person,
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
@@ -7295,18 +7271,6 @@
             schema:name "Sander Delacauw"^^xsd:string ],
         [ a prov:Person,
                 schema:Person ;
-            schema:identifier "https://orcid.org/0000-0002-5662-5689"^^xsd:anyURI ;
-            schema:name "Lara Macheriotou"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
-            schema:identifier "https://orcid.org/0000-0002-5662-5689"^^xsd:anyURI ;
-            schema:name "Lara Macheriotou"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
-            schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
-            schema:name "Sander Delacauw"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
             schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
             schema:name "Sander Delacauw"^^xsd:string ],
         [ a prov:Person,
@@ -7323,12 +7287,48 @@
             schema:name "Sander Delacauw"^^xsd:string ],
         [ a prov:Person,
                 schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
+            schema:name "Sander Delacauw"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
+            schema:name "Sander Delacauw"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
+            schema:name "Sander Delacauw"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
             schema:identifier "https://orcid.org/0000-0002-5662-5689"^^xsd:anyURI ;
             schema:name "Lara Macheriotou"^^xsd:string ],
         [ a prov:Person,
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
             schema:name "Sander Delacauw"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-5662-5689"^^xsd:anyURI ;
+            schema:name "Lara Macheriotou"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
+            schema:name "Sander Delacauw"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-5662-5689"^^xsd:anyURI ;
+            schema:name "Lara Macheriotou"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-5662-5689"^^xsd:anyURI ;
+            schema:name "Lara Macheriotou"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
+            schema:name "Sander Delacauw"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-5662-5689"^^xsd:anyURI ;
+            schema:name "Lara Macheriotou"^^xsd:string ],
         [ a prov:Person,
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
@@ -7641,9 +7641,6 @@
     sosa:resultTime "2022-03-22"^^xsd:string ;
     sosa:usedProcedure [ a sosa:Procedure ;
             rdfs:label "SoSOP3"^^xsd:string ;
-            rdfs:comment "Tube broke, Problem with underway data"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "SoSOP3"^^xsd:string ;
             rdfs:comment "Problem with underway data"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "SoSOP3"^^xsd:string ;
@@ -7656,7 +7653,10 @@
             rdfs:comment "Problem with underway data"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "SoSOP3"^^xsd:string ;
-            rdfs:comment "Problem with underway data"^^xsd:string ] .
+            rdfs:comment "Problem with underway data"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "SoSOP3"^^xsd:string ;
+            rdfs:comment "Tube broke, Problem with underway data"^^xsd:string ] .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/BPNS_So_220420> a prov:Activity,
         sosa:Sampling ;
@@ -7800,12 +7800,12 @@
     prov:startedAtTime "2022-06-01"^^xsd:string ;
     prov:wasAssociatedWith [ a prov:Person,
                 schema:Person ;
-            schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
-            schema:name "Rune Lagaisse"^^xsd:string ],
+            schema:identifier "https://orcid.org/0000-0002-5662-5689"^^xsd:anyURI ;
+            schema:name "Lara Macheriotou"^^xsd:string ],
         [ a prov:Person,
                 schema:Person ;
-            schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
-            schema:name "Rune Lagaisse"^^xsd:string ],
+            schema:identifier "https://orcid.org/0000-0002-5662-5689"^^xsd:anyURI ;
+            schema:name "Lara Macheriotou"^^xsd:string ],
         [ a prov:Person,
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0002-5662-5689"^^xsd:anyURI ;
@@ -7814,14 +7814,6 @@
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
             schema:name "Rune Lagaisse"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
-            schema:identifier "https://orcid.org/0000-0002-5662-5689"^^xsd:anyURI ;
-            schema:name "Lara Macheriotou"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
-            schema:identifier "https://orcid.org/0000-0002-5662-5689"^^xsd:anyURI ;
-            schema:name "Lara Macheriotou"^^xsd:string ],
         [ a prov:Person,
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
@@ -7838,6 +7830,14 @@
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0002-5662-5689"^^xsd:anyURI ;
             schema:name "Lara Macheriotou"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
+            schema:name "Rune Lagaisse"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
+            schema:name "Rune Lagaisse"^^xsd:string ],
         [ a prov:Person,
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
@@ -8230,24 +8230,8 @@
     prov:startedAtTime "2023-04-25"^^xsd:string ;
     prov:wasAssociatedWith [ a prov:Person,
                 schema:Person ;
-            schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
-            schema:name "Rune Lagaisse"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
             schema:identifier "https://orcid.org/0000-0002-5662-5689"^^xsd:anyURI ;
             schema:name "Lara Macheriotou"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
-            schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
-            schema:name "Rune Lagaisse"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
-            schema:identifier "https://orcid.org/0000-0002-5662-5689"^^xsd:anyURI ;
-            schema:name "Lara Macheriotou"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
-            schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
-            schema:name "Rune Lagaisse"^^xsd:string ],
         [ a prov:Person,
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0002-5662-5689"^^xsd:anyURI ;
@@ -8274,6 +8258,14 @@
             schema:name "Lara Macheriotou"^^xsd:string ],
         [ a prov:Person,
                 schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-5662-5689"^^xsd:anyURI ;
+            schema:name "Lara Macheriotou"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-5662-5689"^^xsd:anyURI ;
+            schema:name "Lara Macheriotou"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
             schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
             schema:name "Rune Lagaisse"^^xsd:string ],
         [ a prov:Person,
@@ -8282,8 +8274,16 @@
             schema:name "Lara Macheriotou"^^xsd:string ],
         [ a prov:Person,
                 schema:Person ;
-            schema:identifier "https://orcid.org/0000-0002-5662-5689"^^xsd:anyURI ;
-            schema:name "Lara Macheriotou"^^xsd:string ],
+            schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
+            schema:name "Rune Lagaisse"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
+            schema:name "Rune Lagaisse"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
+            schema:name "Rune Lagaisse"^^xsd:string ],
         [ a prov:Person,
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0002-5662-5689"^^xsd:anyURI ;
@@ -8362,6 +8362,17 @@
     prov:startedAtTime "2023-06-21"^^xsd:string ;
     prov:wasAssociatedWith [ a prov:Person,
                 schema:Person ;
+            schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
+            schema:name "Rune Lagaisse"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
+            schema:name "Rune Lagaisse"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:name "Annelien Rigaux"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
             schema:name "Annelien Rigaux"^^xsd:string ],
         [ a prov:Person,
                 schema:Person ;
@@ -8375,14 +8386,6 @@
             schema:name "Annelien Rigaux"^^xsd:string ],
         [ a prov:Person,
                 schema:Person ;
-            schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
-            schema:name "Rune Lagaisse"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
-            schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
-            schema:name "Rune Lagaisse"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
             schema:name "Annelien Rigaux"^^xsd:string ],
         [ a prov:Person,
                 schema:Person ;
@@ -8395,10 +8398,7 @@
         [ a prov:Person,
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
-            schema:name "Rune Lagaisse"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
-            schema:name "Annelien Rigaux"^^xsd:string ] ;
+            schema:name "Rune Lagaisse"^^xsd:string ] ;
     sosa:hasFeatureOfInterest "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=32644"^^xsd:anyURI,
         "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=33208"^^xsd:anyURI,
         "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI,
@@ -35642,14 +35642,6 @@
     sosa:resultTime "2021-07-01"^^xsd:date,
         "2021-07-01"^^xsd:string ;
     sosa:usedProcedure [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ;
-            rdfs:comment "Since the pump and the filtration units had not yet arrived 20L of water was taken and frozen. These were filtered 8 weeks later."^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ;
-            rdfs:comment "Since the pump and the filtration units had not yet arrived 20L of water was taken and frozen. These were filtered 8 weeks later."^^xsd:string ],
-        [ a sosa:Procedure ;
             rdfs:label "WaSOP2"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ;
@@ -35657,6 +35649,8 @@
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ;
             rdfs:comment "Since the pump and the filtration units had not yet arrived 20L of water was taken and frozen. These were filtered 8 weeks later."^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP3"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP2"^^xsd:string ],
         [ a sosa:Procedure ;
@@ -35674,6 +35668,21 @@
             rdfs:label "WaSOP1"^^xsd:string ;
             rdfs:comment "Since the pump and the filtration units had not yet arrived 20L of water was taken and frozen. These were filtered 8 weeks later."^^xsd:string ],
         [ a sosa:Procedure ;
+            rdfs:label "WaSOP3"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ;
+            rdfs:comment "Since the pump and the filtration units had not yet arrived 20L of water was taken and frozen. These were filtered 8 weeks later."^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP3"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP3"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ;
+            rdfs:comment "Since the pump and the filtration units had not yet arrived 20L of water was taken and frozen. These were filtered 8 weeks later."^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ;
+            rdfs:comment "Since the pump and the filtration units had not yet arrived 20L of water was taken and frozen. These were filtered 8 weeks later."^^xsd:string ],
+        [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ;
             rdfs:comment "Since the pump and the filtration units had not yet arrived 20L of water was taken and frozen. These were filtered 8 weeks later."^^xsd:string ],
         [ a sosa:Procedure ;
@@ -35682,19 +35691,10 @@
             rdfs:label "WaSOP1"^^xsd:string ;
             rdfs:comment "Since the pump and the filtration units had not yet arrived 20L of water was taken and frozen. These were filtered 8 weeks later."^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ;
-            rdfs:comment "Since the pump and the filtration units had not yet arrived 20L of water was taken and frozen. These were filtered 8 weeks later."^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ;
-            rdfs:comment "Since the pump and the filtration units had not yet arrived 20L of water was taken and frozen. These were filtered 8 weeks later."^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ],
-        [ a sosa:Procedure ;
             rdfs:label "WaSOP2"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ],
+            rdfs:label "WaSOP1"^^xsd:string ;
+            rdfs:comment "Since the pump and the filtration units had not yet arrived 20L of water was taken and frozen. These were filtered 8 weeks later."^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP2"^^xsd:string ],
         [ a sosa:Procedure ;
@@ -35861,17 +35861,7 @@
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
+            rdfs:label "WaSOP3"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
@@ -35881,11 +35871,31 @@
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ],
+            rdfs:label "WaSOP2"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP2"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP3"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP3"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP2"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP3"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP3"^^xsd:string ],
         [ a sosa:Procedure ;
@@ -35893,17 +35903,7 @@
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP2"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP2"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP2"^^xsd:string ] ;
+            rdfs:label "WaSOP1"^^xsd:string ] ;
     emobon-core:originCountry "Belgium"^^xsd:string ;
     emobon-core:waterColumnDepth "26"^^xsd:string ;
     emobon-sampling:bioCommunity ""^^xsd:string ;
@@ -36070,19 +36070,9 @@
     sosa:usedProcedure [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
             rdfs:label "WaSOP2"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP2"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
@@ -36092,7 +36082,19 @@
         [ a sosa:Procedure ;
             rdfs:label "WaSOP3"^^xsd:string ],
         [ a sosa:Procedure ;
+            rdfs:label "WaSOP3"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP3"^^xsd:string ],
+        [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP3"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP3"^^xsd:string ],
         [ a sosa:Procedure ;
@@ -36102,21 +36104,19 @@
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
             rdfs:label "WaSOP2"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ],
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP2"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ] ;
     emobon-core:originCountry "Belgium"^^xsd:string ;
@@ -36167,22 +36167,6 @@
             schema:name "Sander Delacauw"^^xsd:string ],
         [ a prov:Person,
                 schema:Person ;
-            schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
-            schema:name "Sander Delacauw"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
-            schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
-            schema:name "Rune Lagaisse"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
-            schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
-            schema:name "Sander Delacauw"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
-            schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
-            schema:name "Sander Delacauw"^^xsd:string ],
-        [ a prov:Person,
-                schema:Person ;
             schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
             schema:name "Rune Lagaisse"^^xsd:string ],
         [ a prov:Person,
@@ -36219,12 +36203,12 @@
             schema:name "Sander Delacauw"^^xsd:string ],
         [ a prov:Person,
                 schema:Person ;
-            schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
-            schema:name "Rune Lagaisse"^^xsd:string ],
+            schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
+            schema:name "Sander Delacauw"^^xsd:string ],
         [ a prov:Person,
                 schema:Person ;
-            schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
-            schema:name "Rune Lagaisse"^^xsd:string ],
+            schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
+            schema:name "Sander Delacauw"^^xsd:string ],
         [ a prov:Person,
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
@@ -36233,6 +36217,22 @@
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
             schema:name "Sander Delacauw"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
+            schema:name "Rune Lagaisse"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
+            schema:name "Sander Delacauw"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
+            schema:name "Rune Lagaisse"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
+            schema:name "Rune Lagaisse"^^xsd:string ],
         [ a prov:Person,
                 schema:Person ;
             schema:identifier "https://orcid.org/0000-0002-5400-2891"^^xsd:anyURI ;
@@ -36275,26 +36275,11 @@
     sosa:resultTime "2021-12-23"^^xsd:date,
         "2021-12-23"^^xsd:string ;
     sosa:usedProcedure [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ;
-            rdfs:comment "depth was not acquired from the CTD measurement but it was estimated from the researchers"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ;
+            rdfs:label "WaSOP2"^^xsd:string ;
             rdfs:comment "depth was not acquired from the CTD measurement but it was estimated from the researchers"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP2"^^xsd:string ;
             rdfs:comment "depth was not acquired from the CTD measurement but it was estimated from the researchers"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ;
-            rdfs:comment "sample was taking by hauling buckets of surface water; depth was not acquired from the CTD measurement but it was estimated from the researchers"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ;
-            rdfs:comment "sample was taking by hauling buckets of surface water; depth was not acquired from the CTD measurement but it was estimated from the researchers"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ;
-            rdfs:comment "sample was taking by hauling buckets of surface water; depth was not acquired from the CTD measurement but it was estimated from the researchers"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ;
-            rdfs:comment "sample was taking by hauling buckets of surface water; depth was not acquired from the CTD measurement but it was estimated from the researchers"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP3"^^xsd:string ;
             rdfs:comment "depth was not acquired from the CTD measurement but it was estimated from the researchers"^^xsd:string ],
@@ -36305,7 +36290,10 @@
             rdfs:label "WaSOP1"^^xsd:string ;
             rdfs:comment "sample was taking by hauling buckets of surface water; depth was not acquired from the CTD measurement but it was estimated from the researchers"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP2"^^xsd:string ;
+            rdfs:label "WaSOP1"^^xsd:string ;
+            rdfs:comment "sample was taking by hauling buckets of surface water; depth was not acquired from the CTD measurement but it was estimated from the researchers"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP3"^^xsd:string ;
             rdfs:comment "depth was not acquired from the CTD measurement but it was estimated from the researchers"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP2"^^xsd:string ;
@@ -36314,8 +36302,14 @@
             rdfs:label "WaSOP1"^^xsd:string ;
             rdfs:comment "sample was taking by hauling buckets of surface water; depth was not acquired from the CTD measurement but it was estimated from the researchers"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP2"^^xsd:string ;
+            rdfs:label "WaSOP3"^^xsd:string ;
             rdfs:comment "depth was not acquired from the CTD measurement but it was estimated from the researchers"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ;
+            rdfs:comment "sample was taking by hauling buckets of surface water; depth was not acquired from the CTD measurement but it was estimated from the researchers"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ;
+            rdfs:comment "sample was taking by hauling buckets of surface water; depth was not acquired from the CTD measurement but it was estimated from the researchers"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ;
             rdfs:comment "sample was taking by hauling buckets of surface water; depth was not acquired from the CTD measurement but it was estimated from the researchers"^^xsd:string ],
@@ -36335,14 +36329,20 @@
             rdfs:label "WaSOP3"^^xsd:string ;
             rdfs:comment "depth was not acquired from the CTD measurement but it was estimated from the researchers"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ;
-            rdfs:comment "depth was not acquired from the CTD measurement but it was estimated from the researchers"^^xsd:string ],
+            rdfs:label "WaSOP1"^^xsd:string ;
+            rdfs:comment "sample was taking by hauling buckets of surface water; depth was not acquired from the CTD measurement but it was estimated from the researchers"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP2"^^xsd:string ;
             rdfs:comment "depth was not acquired from the CTD measurement but it was estimated from the researchers"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ;
             rdfs:comment "sample was taking by hauling buckets of surface water; depth was not acquired from the CTD measurement but it was estimated from the researchers"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP2"^^xsd:string ;
+            rdfs:comment "depth was not acquired from the CTD measurement but it was estimated from the researchers"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP3"^^xsd:string ;
+            rdfs:comment "depth was not acquired from the CTD measurement but it was estimated from the researchers"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ;
             rdfs:comment "sample was taking by hauling buckets of surface water; depth was not acquired from the CTD measurement but it was estimated from the researchers"^^xsd:string ] ;
@@ -36478,6 +36478,22 @@
     sosa:usedProcedure [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
+            rdfs:label "WaSOP3"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP2"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP2"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP2"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
             rdfs:label "WaSOP2"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
@@ -36486,14 +36502,6 @@
         [ a sosa:Procedure ;
             rdfs:label "WaSOP3"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP2"^^xsd:string ],
-        [ a sosa:Procedure ;
             rdfs:label "WaSOP2"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
@@ -36504,17 +36512,9 @@
         [ a sosa:Procedure ;
             rdfs:label "WaSOP3"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP2"^^xsd:string ],
-        [ a sosa:Procedure ;
             rdfs:label "WaSOP3"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP2"^^xsd:string ] .
+            rdfs:label "WaSOP1"^^xsd:string ] .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/sampling/BPNS_Wa_220420> a prov:Activity,
         sosa:Sampling ;
@@ -36639,8 +36639,14 @@
             rdfs:label "WaSOP3"^^xsd:string ;
             rdfs:comment "Failed; extreme bloom conditions"^^xsd:string ],
         [ a sosa:Procedure ;
+            rdfs:label "WaSOP3"^^xsd:string ;
+            rdfs:comment "Failed; extreme bloom conditions"^^xsd:string ],
+        [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ;
             rdfs:comment "Extreme bloom conditions; pipes kept busting; exact volume filtered unknown"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP2"^^xsd:string ;
+            rdfs:comment "Failed; extreme bloom conditions"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ;
             rdfs:comment "Extreme bloom conditions; pipes kept busting; exact volume filtered unknown"^^xsd:string ],
@@ -36654,11 +36660,8 @@
             rdfs:label "WaSOP3"^^xsd:string ;
             rdfs:comment "Failed; extreme bloom conditions"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ;
-            rdfs:comment "Extreme bloom conditions; pipes kept busting; exact volume filtered unknown"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ;
-            rdfs:comment "Extreme bloom conditions; pipes kept busting; exact volume filtered unknown"^^xsd:string ],
+            rdfs:label "WaSOP2"^^xsd:string ;
+            rdfs:comment "Failed; extreme bloom conditions"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP2"^^xsd:string ;
             rdfs:comment "Failed; extreme bloom conditions"^^xsd:string ],
@@ -36668,18 +36671,15 @@
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ;
             rdfs:comment "Extreme bloom conditions; pipes kept busting; exact volume filtered unknown"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP2"^^xsd:string ;
-            rdfs:comment "Failed; extreme bloom conditions"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP3"^^xsd:string ;
             rdfs:comment "Failed; extreme bloom conditions"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ;
-            rdfs:comment "Failed; extreme bloom conditions"^^xsd:string ],
+            rdfs:label "WaSOP1"^^xsd:string ;
+            rdfs:comment "Extreme bloom conditions; pipes kept busting; exact volume filtered unknown"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP2"^^xsd:string ;
-            rdfs:comment "Failed; extreme bloom conditions"^^xsd:string ],
+            rdfs:label "WaSOP1"^^xsd:string ;
+            rdfs:comment "Extreme bloom conditions; pipes kept busting; exact volume filtered unknown"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ;
             rdfs:comment "Extreme bloom conditions; pipes kept busting; exact volume filtered unknown"^^xsd:string ],
@@ -36817,15 +36817,32 @@
         "WP2"^^xsd:string ;
     sosa:resultTime "2022-06-01"^^xsd:string ;
     sosa:usedProcedure [ a sosa:Procedure ;
+            rdfs:label "WaSOP3"^^xsd:string ;
+            rdfs:comment "bloom; filtrations failed; nothing went through filter after 1h of filtration; discarded top water but did freeze samples (visible material on top)"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
             rdfs:label "WaSOP2"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
             rdfs:label "WaSOP2"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP3"^^xsd:string ;
+            rdfs:comment "bloom; filtrations failed; nothing went through filter after 1h of filtration; discarded top water but did freeze samples (visible material on top)"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP3"^^xsd:string ;
+            rdfs:comment "bloom; filtrations failed; nothing went through filter after 1h of filtration; discarded top water but did freeze samples (visible material on top)"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP2"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
@@ -36836,20 +36853,6 @@
         [ a sosa:Procedure ;
             rdfs:label "WaSOP2"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ;
-            rdfs:comment "bloom; filtrations failed; nothing went through filter after 1h of filtration; discarded top water but did freeze samples (visible material on top)"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP2"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ;
-            rdfs:comment "bloom; filtrations failed; nothing went through filter after 1h of filtration; discarded top water but did freeze samples (visible material on top)"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
             rdfs:label "WaSOP2"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP3"^^xsd:string ;
@@ -36857,10 +36860,7 @@
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ;
-            rdfs:comment "bloom; filtrations failed; nothing went through filter after 1h of filtration; discarded top water but did freeze samples (visible material on top)"^^xsd:string ] .
+            rdfs:label "WaSOP1"^^xsd:string ] .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/sampling/BPNS_Wa_220819> a prov:Activity,
         sosa:Sampling ;
@@ -36984,21 +36984,11 @@
     sosa:usedProcedure [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ],
-        [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP2"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP2"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP2"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP2"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
@@ -37008,17 +36998,27 @@
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ],
-        [ a sosa:Procedure ;
             rdfs:label "WaSOP2"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP3"^^xsd:string ],
+        [ a sosa:Procedure ;
             rdfs:label "WaSOP3"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP2"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP3"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP2"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP2"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ] .
 
@@ -37142,23 +37142,7 @@
         "WP2"^^xsd:string ;
     sosa:resultTime "2022-10-27"^^xsd:string ;
     sosa:usedProcedure [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ],
-        [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP2"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP2"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP2"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
@@ -37168,19 +37152,35 @@
         [ a sosa:Procedure ;
             rdfs:label "WaSOP3"^^xsd:string ],
         [ a sosa:Procedure ;
+            rdfs:label "WaSOP2"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP3"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP3"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP3"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP2"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP2"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP2"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
             rdfs:label "WaSOP2"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
+            rdfs:label "WaSOP3"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ] .
+            rdfs:label "WaSOP1"^^xsd:string ] .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/sampling/BPNS_Wa_221212> a prov:Activity,
         sosa:Sampling ;
@@ -37302,46 +37302,44 @@
         "WP2"^^xsd:string ;
     sosa:resultTime "2022-12-12"^^xsd:string ;
     sosa:usedProcedure [ a sosa:Procedure ;
+            rdfs:label "WaSOP2"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ;
+            rdfs:comment "label faded; random relabel; might be 3um R3 or 3um R4 or blank 0.2um or blank 3"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP3"^^xsd:string ],
+        [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ;
             rdfs:comment "label faded; random relabel; might be 3um R1 or 3um R2 or 0.2um R2"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP3"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ;
             rdfs:comment "label faded; random relabel; might be 3um R3 or 3um R4 or blank 0.2um or blank 3, no shield yet"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
+            rdfs:label "WaSOP1"^^xsd:string ;
+            rdfs:comment "label faded; random relabel; might be 3um R1 or 3um R2 or 0.2um R2"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP2"^^xsd:string ],
         [ a sosa:Procedure ;
+            rdfs:label "WaSOP3"^^xsd:string ],
+        [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP2"^^xsd:string ],
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ;
+            rdfs:comment "label faded; random relabel; might be 3um R1 or 3um R2 or 0.2um R2"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ;
             rdfs:comment "label faded; random relabel; might be 3um R3 or 3um R4 or blank 0.2um or blank 3"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP2"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ;
             rdfs:comment "label faded; random relabel; might be 3um R3 or 3um R4 or blank 0.2um or blank 3, no shield yet"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ;
-            rdfs:comment "label faded; random relabel; might be 3um R3 or 3um R4 or blank 0.2um or blank 3"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP2"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ;
-            rdfs:comment "label faded; random relabel; might be 3um R1 or 3um R2 or 0.2um R2"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ;
-            rdfs:comment "label faded; random relabel; might be 3um R1 or 3um R2 or 0.2um R2"^^xsd:string ],
+            rdfs:label "WaSOP3"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP3"^^xsd:string ;
             rdfs:comment "ran out of filters; used alternative 0.22µm"^^xsd:string ],
@@ -37349,7 +37347,9 @@
             rdfs:label "WaSOP2"^^xsd:string ;
             rdfs:comment "ran out of filters; used alternative 0.22µm"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ] .
+            rdfs:label "WaSOP2"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP2"^^xsd:string ] .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/sampling/BPNS_Wa_230216> a prov:Activity,
         sosa:Sampling ;
@@ -37471,21 +37471,42 @@
         "WP2"^^xsd:string ;
     sosa:resultTime "2023-02-16"^^xsd:string ;
     sosa:usedProcedure [ a sosa:Procedure ;
-            rdfs:label "WaSOP2"^^xsd:string ;
+            rdfs:label "WaSOP1"^^xsd:string ;
             rdfs:comment "no shield yet"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP2"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ;
-            rdfs:comment "no shield yet"^^xsd:string ],
+            rdfs:label "WaSOP3"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ;
             rdfs:comment "no shield yet"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP3"^^xsd:string ],
         [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP3"^^xsd:string ;
+            rdfs:comment "no shield yet"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP2"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ;
+            rdfs:comment "no shield yet"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP3"^^xsd:string ;
+            rdfs:comment "no shield yet"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ;
+            rdfs:comment "no shield yet"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP2"^^xsd:string ;
+            rdfs:comment "no shield yet"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP2"^^xsd:string ;
+            rdfs:comment "no shield yet"^^xsd:string ],
+        [ a sosa:Procedure ;
             rdfs:label "WaSOP3"^^xsd:string ;
             rdfs:comment "no shield yet"^^xsd:string ],
         [ a sosa:Procedure ;
@@ -37500,28 +37521,7 @@
             rdfs:label "WaSOP1"^^xsd:string ;
             rdfs:comment "no shield yet"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ;
-            rdfs:comment "no shield yet"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP2"^^xsd:string ;
-            rdfs:comment "no shield yet"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ;
-            rdfs:comment "no shield yet"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ;
-            rdfs:comment "no shield yet"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ;
-            rdfs:comment "no shield yet"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ] .
+            rdfs:label "WaSOP1"^^xsd:string ] .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/water/sampling/BPNS_Wa_230621> a prov:Activity,
         sosa:Sampling ;
@@ -37645,6 +37645,18 @@
     sosa:usedProcedure [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
+            rdfs:label "WaSOP3"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP3"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP2"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP3"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
             rdfs:label "WaSOP2"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
@@ -37659,27 +37671,15 @@
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP2"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ],
-        [ a sosa:Procedure ;
             rdfs:label "WaSOP2"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ],
-        [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP3"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP2"^^xsd:string ] .
 
@@ -37805,13 +37805,9 @@
     sosa:usedProcedure [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP1"^^xsd:string ],
+            rdfs:label "WaSOP3"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP2"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ],
-        [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
@@ -37827,11 +37823,9 @@
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ],
-        [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP3"^^xsd:string ],
+            rdfs:label "WaSOP2"^^xsd:string ],
         [ a sosa:Procedure ;
             rdfs:label "WaSOP3"^^xsd:string ],
         [ a sosa:Procedure ;
@@ -37839,14 +37833,20 @@
         [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
+            rdfs:label "WaSOP3"^^xsd:string ],
+        [ a sosa:Procedure ;
             rdfs:label "WaSOP1"^^xsd:string ],
         [ a sosa:Procedure ;
-            rdfs:label "WaSOP2"^^xsd:string ] .
+            rdfs:label "WaSOP3"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP3"^^xsd:string ],
+        [ a sosa:Procedure ;
+            rdfs:label "WaSOP1"^^xsd:string ] .
 
 <file:///github/workspace/> a schema1:Dataset ;
     dct:conformsTo <https://data.emobon.embrc.eu/observatory-profile/latest> ;
     schema1:contactPoint <https://ror.org/0038zss60> ;
-    schema1:datePublished "2025-02-06T11:20:27+00:00" ;
+    schema1:datePublished "2025-02-06T14:05:17+00:00" ;
     schema1:description "This RO-Crate/GitHub repository contains the EMO BON sampling event logsheets from the observatory BPNS" ;
     schema1:hasPart <file:///github/workspace/README.md>,
         <file:///github/workspace/data-quality-control/>,
@@ -59230,6 +59230,17 @@
             schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
             schema:name "Rune Lagaisse"^^xsd:string ] ;
     prov:wasGeneratedBy [ a prov:Activity ;
+            dct:description "Local storage of the collected sample"^^xsd:string ;
+            dct:type "storage"^^xsd:string ;
+            emobon:storageLoc "MSO LifeWatch Lab -80 Freezer"^^xsd:string ;
+            emobon:storageTemp "-80"^^xsd:string ;
+            prov:startedAtTime "2023-04-27"^^xsd:string ;
+            prov:wasAssociatedWith [ a prov:Person,
+                        schema:Person ;
+                    schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
+                    schema:name "Rune Lagaisse"^^xsd:string ] ;
+            prov:wasInformedBy <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_221212_micro_1> ],
+        [ a prov:Activity ;
             dct:description "Storage of sample at sequencing centre for subsequent DNA sequencing"^^xsd:string ;
             dct:type "storage"^^xsd:string ;
             prov:startedAtTime ""^^xsd:string ;
@@ -59258,18 +59269,7 @@
                                                         schema:Person ;
                                                     schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
                                                     schema:name "Rune Lagaisse"^^xsd:string ] ;
-                                            prov:wasInformedBy <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_221212_micro_1> ] ] ] ] ],
-        [ a prov:Activity ;
-            dct:description "Local storage of the collected sample"^^xsd:string ;
-            dct:type "storage"^^xsd:string ;
-            emobon:storageLoc "MSO LifeWatch Lab -80 Freezer"^^xsd:string ;
-            emobon:storageTemp "-80"^^xsd:string ;
-            prov:startedAtTime "2023-04-27"^^xsd:string ;
-            prov:wasAssociatedWith [ a prov:Person,
-                        schema:Person ;
-                    schema:identifier "https://orcid.org/0000-0001-9191-9140"^^xsd:anyURI ;
-                    schema:name "Rune Lagaisse"^^xsd:string ] ;
-            prov:wasInformedBy <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_221212_micro_1> ] ;
+                                            prov:wasInformedBy <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling/EMOBON_BPNS_So_221212_micro_1> ] ] ] ] ] ;
     sosa:isSampleOf "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=32644"^^xsd:anyURI,
         "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI,
         "metagenome"^^xsd:string,
