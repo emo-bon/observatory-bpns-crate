@@ -28,6 +28,9 @@
                     "@id": "data-quality-control/dqc.csv"
                 },
                 {
+                    "@id": "all-triples.ttl"
+                },
+                {
                     "@id": "data-quality-control/logfile"
                 },
                 {
@@ -316,6 +319,11 @@
             "@id": "logsheets/transformed/",
             "@label": "./logsheets/transformed/",
             "@type": "Dataset"
+        },
+        {
+            "@id": "all-triples.ttl",
+            "@label": "all-triples.ttl",
+            "@type": "File"
         },
         {
             "@id": "logsheets/transformed/sediment_measured.csv",
