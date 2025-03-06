@@ -20,6 +20,8 @@
 <> 
     a sosa:Sample, prov:Entity ;
     
+    sosa:isResultOf </observatory-bpns-crate/sediment/sampling-event/BPNS_So_210825> ;
+    
     emobon-sampling:origEmobonId 'EMOBON-210825-330-SoSOP3-Micro-R2'^^xsd:string ; 
     
     dct:description 'EMOBON metagenome sediment sample from station BPNS collected on 2021-08-25 community collected micro'^^xsd:string ;

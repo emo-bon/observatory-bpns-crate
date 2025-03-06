@@ -44,7 +44,5 @@
     emobon-sampling:taxonomicID 'https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755'^^xsd:anyURI ; 
     emobon-sampling:bioCommunity 'micro'^^xsd:string ;
     
-    sosa:hasResult </observatory-bpns-crate/sediment/sample/EMOBON_BPNS_So_17> ;
-    
     emobon-sampling:linkedToObservatory </observatory-bpns-crate/sediment/observatory/BPNS>  ; 
 .
