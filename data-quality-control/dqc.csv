@@ -203,7 +203,6 @@ datatype mismatch,so,contact_orcid,1,0000-0002-8559-3508,https://orcid.org/0000-
 datatype mismatch,so,loc_broad_ocean_mrgid,1,1912,http://marineregions.org/mrgid/1912,,/github/workspace/logsheets/filtered/sediment_observatory.csv,XSDAnyURI,False
 datatype mismatch,so,loc_loc_mrgid,1,26567,http://marineregions.org/mrgid/26567,,/github/workspace/logsheets/filtered/sediment_observatory.csv,XSDAnyURI,False
 datatype mismatch,so,loc_regional_mrgid,1,2350,http://marineregions.org/mrgid/2350,,/github/workspace/logsheets/filtered/sediment_observatory.csv,XSDAnyURI,False
-datatype mismatch,so,ENA_accession_number_project,1,PRJEB51652,https://www.ebi.ac.uk/ena/browser/view/PRJEB51652,,/github/workspace/logsheets/filtered/sediment_observatory.csv,XSDAnyURI,False
 datatype mismatch,so,ENA_accession_number_umbrella,1,PRJEB51688,https://www.ebi.ac.uk/ena/browser/view/PRJEB51688,,/github/workspace/logsheets/filtered/sediment_observatory.csv,XSDAnyURI,False
 missing value,ss,ENA_accession_number_sample,1,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDAnyURI,False
 missing value,ss,ENA_accession_number_sample,2,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDAnyURI,False
