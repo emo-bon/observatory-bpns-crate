@@ -40,7 +40,5 @@
     emobon-sampling:taxonomicID 'https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=1874687'^^xsd:anyURI ; 
     emobon-sampling:bioCommunity ''^^xsd:string ;
     
-    sosa:hasResult </observatory-bpns-crate/water/sample/EMOBON_BPNS_Wa_41> ;
-    
     emobon-sampling:linkedToObservatory </observatory-bpns-crate/water/observatory/BPNS>  ; 
 .

@@ -17,6 +17,8 @@
 <> 
     a sosa:Sample, prov:Entity ;
     
+    sosa:isResultOf </observatory-bpns-crate/water/sampling-event/BPNS_Wa_210701> ;
+    
     emobon-sampling:origEmobonId 'EMOBON 210701 330 WaSOP1 0.2um R1'^^xsd:string ; 
     
     dct:description 'EMOBON metagenome water sample from station BPNS collected on 2021-07-01 size fraction 0.2-3um'^^xsd:string ;
