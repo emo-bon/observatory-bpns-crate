@@ -93,15 +93,15 @@
 .
 
 
-<http://marineregions.org/mrgid/http%3A%2F%2Fmarineregions.org%2Fmrgid%2F1912>
-    mr:contains <http://marineregions.org/mrgid/http%3A%2F%2Fmarineregions.org%2Fmrgid%2F2350> ;
+<http://marineregions.org/mrgid/http://marineregions.org/mrgid/1912>
+    mr:contains <http://marineregions.org/mrgid/> ;
 .
 
-<http://marineregions.org/mrgid/http%3A%2F%2Fmarineregions.org%2Fmrgid%2F2350>
-    mr:contains <http://marineregions.org/mrgid/http%3A%2F%2Fmarineregions.org%2Fmrgid%2F26567> ;
-    mr:isPartOf <http://marineregions.org/mrgid/http%3A%2F%2Fmarineregions.org%2Fmrgid%2F1912> ; 
+<http://marineregions.org/mrgid/http://marineregions.org/mrgid/2350>
+    mr:contains <http://marineregions.org/mrgid/http://marineregions.org/mrgid/26567> ;
+    mr:isPartOf <http://marineregions.org/mrgid/http://marineregions.org/mrgid/1912> ; 
 .
 
-<http://marineregions.org/mrgid/http%3A%2F%2Fmarineregions.org%2Fmrgid%2F26567>
-    mr:isPartOf <http://marineregions.org/mrgid/http%3A%2F%2Fmarineregions.org%2Fmrgid%2F2350> ;
+<http://marineregions.org/mrgid/http://marineregions.org/mrgid/26567>
+    mr:isPartOf <http://marineregions.org/mrgid/http://marineregions.org/mrgid/2350> ;
 .
