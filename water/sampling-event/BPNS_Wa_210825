@@ -13,7 +13,7 @@
 @prefix emobon-sequence: <https://data.emobon.embrc.eu/ns/sequence#> .
 @prefix emobon-core: <https://data.emobon.embrc.eu/ns/core#> .
 @prefix emobon-sampling: <https://data.emobon.embrc.eu/ns/sampling#> .
-@base <http://data.emobon.embrc.eu/observatory-bpns-crate/water/sample/EMOBON_BPNS_Wa_21> . </observatory-bpns-crate/water/sampling-event/BPNS_Wa_210825>
+@base <http://data.emobon.embrc.eu/observatory-bpns-crate/water/sampling-event/BPNS_Wa_210825> . <>
     a sosa:Sampling, prov:Activity ;  
     
     dct:type "sampling"^^xsd:string ;
@@ -40,7 +40,7 @@
     emobon-sampling:taxonomicID 'https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=1874687'^^xsd:anyURI ; 
     emobon-sampling:bioCommunity ''^^xsd:string ;
     
-    sosa:hasResult <> ;
+    sosa:hasResult </observatory-bpns-crate/water/sample/EMOBON_BPNS_Wa_21> ;
     
     emobon-sampling:linkedToObservatory </observatory-bpns-crate/water/observatory/BPNS>  ; 
 .

@@ -16,8 +16,8 @@
 
 
 
-@base <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sample/EMOBON_BPNS_So_1> . 
-</observatory-bpns-crate/sediment/sampling-event/BPNS_So_210701> 
+@base <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sampling-event/BPNS_So_210701> . 
+<> 
     a sosa:Sampling, prov:Activity ;  
     
     dct:type "sampling"^^xsd:string ;
@@ -44,7 +44,7 @@
     emobon-sampling:taxonomicID 'https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=33208'^^xsd:anyURI ; 
     emobon-sampling:bioCommunity 'meio'^^xsd:string ;
     
-    sosa:hasResult <> ;
+    sosa:hasResult </observatory-bpns-crate/sediment/sample/EMOBON_BPNS_So_1> ;
     
     emobon-sampling:linkedToObservatory </observatory-bpns-crate/sediment/observatory/BPNS>  ; 
 .
