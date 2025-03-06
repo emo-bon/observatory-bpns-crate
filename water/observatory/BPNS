@@ -18,7 +18,7 @@
 
 <> 
     a emobon-core:Observatory ; 
-    emobon-core:sampleType <https://data.emobon.embrc.eu/ns/core_vocab#3> ; 
+    emobon-core:sampleType <https://data.emobon.embrc.eu/ns/core_vocab#water> ;
     emobon-core:observatoryId 'BPNS'^^xsd:string ;
     emobon-core:observatorySampleId 'BPNS Wa'^^xsd:string ; 
 
