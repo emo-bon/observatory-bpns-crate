@@ -18,7 +18,7 @@
 
 <> 
     a emobon-core:Observatory ; 
-    emobon-core:sampleType <https://data.emobon.embrc.eu/ns/core_vocab#2> ; 
+    emobon-core:sampleType <https://data.emobon.embrc.eu/ns/core_vocab#soil> ;
     emobon-core:observatoryId 'BPNS'^^xsd:string ;
     emobon-core:observatorySampleId 'BPNS So'^^xsd:string ; 
 
@@ -88,20 +88,19 @@
             qudt:numericValue '26.0'^^xsd:double ;
         ] ;
     emobon-core:originCountry 'Belgium'^^xsd:string ;
-    emobon-core:enaStudyAccNum 'https://www.ebi.ac.uk/ena/browser/view/PRJEB51652'^^xsd:anyURI ;
     emobon-core:hasMixsPackage 'sediment'^^xsd:string ; 
 .
 
 
-<http://marineregions.org/mrgid/http%3A%2F%2Fmarineregions.org%2Fmrgid%2F1912>
-    mr:contains <http://marineregions.org/mrgid/http%3A%2F%2Fmarineregions.org%2Fmrgid%2F2350> ;
+<http://marineregions.org/mrgid/http://marineregions.org/mrgid/1912>
+    mr:contains <http://marineregions.org/mrgid/> ;
 .
 
-<http://marineregions.org/mrgid/http%3A%2F%2Fmarineregions.org%2Fmrgid%2F2350>
-    mr:contains <http://marineregions.org/mrgid/http%3A%2F%2Fmarineregions.org%2Fmrgid%2F26567> ;
-    mr:isPartOf <http://marineregions.org/mrgid/http%3A%2F%2Fmarineregions.org%2Fmrgid%2F1912> ; 
+<http://marineregions.org/mrgid/http://marineregions.org/mrgid/2350>
+    mr:contains <http://marineregions.org/mrgid/http://marineregions.org/mrgid/26567> ;
+    mr:isPartOf <http://marineregions.org/mrgid/http://marineregions.org/mrgid/1912> ; 
 .
 
-<http://marineregions.org/mrgid/http%3A%2F%2Fmarineregions.org%2Fmrgid%2F26567>
-    mr:isPartOf <http://marineregions.org/mrgid/http%3A%2F%2Fmarineregions.org%2Fmrgid%2F2350> ;
+<http://marineregions.org/mrgid/http://marineregions.org/mrgid/26567>
+    mr:isPartOf <http://marineregions.org/mrgid/http://marineregions.org/mrgid/2350> ;
 .
