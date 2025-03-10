@@ -30,6 +30,7 @@
         a sosa:Procedure ;
         rdfs:label 'WaSOP1'^^xsd:string ;
         rdfs:comment 'sample was taking by hauling buckets of surface water; depth was not acquired from the CTD measurement but it was estimated from the researchers'^^xsd:string ;
+        rdfs:seeAlso "http://dx.doi.org/10.25607/OBP-1653"^^xsd:anyURI ;
         ] ;
     emobon-sampling:tidalStage 'ebb_tide'^^xsd:string ;
     
