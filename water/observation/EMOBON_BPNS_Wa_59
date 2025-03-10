@@ -27,6 +27,7 @@
 
     sosa:hasResult [
         a sosa:Result , qudt:QuantityValue ;
+        qudt:numericValue '40.7024'^^xsd:double ;
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/MSCM/> ; 
     ] ;
     schema:measurementTechnique 'CTD'^^xsd:string ;
@@ -43,6 +44,7 @@
 
     sosa:hasResult [
         a sosa:Result , qudt:QuantityValue ;
+        qudt:numericValue '1.025277'^^xsd:double ;
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGMC/> ; 
     ] ;
     schema:measurementTechnique 'CTD'^^xsd:string ;
@@ -59,6 +61,7 @@
 
     sosa:hasResult [
         a sosa:Result , qudt:QuantityValue ;
+        qudt:numericValue '8.14'^^xsd:double ;
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ; 
     ] ;
     schema:measurementTechnique 'CTD'^^xsd:string ;
@@ -75,6 +78,7 @@
 
     sosa:hasResult [
         a sosa:Result , qudt:QuantityValue ;
+        qudt:numericValue '4.37'^^xsd:double ;
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ; 
     ] ;
     schema:measurementTechnique 'SEAL QuAAtro analysis system + Skalar AutoAnalyser system'^^xsd:string ;
@@ -91,6 +95,7 @@
 
     sosa:hasResult [
         a sosa:Result , qudt:QuantityValue ;
+        qudt:numericValue '0.42'^^xsd:double ;
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ; 
     ] ;
     schema:measurementTechnique 'SEAL QuAAtro analysis system + Skalar AutoAnalyser system'^^xsd:string ;
@@ -107,6 +112,7 @@
 
     sosa:hasResult [
         a sosa:Result , qudt:QuantityValue ;
+        qudt:numericValue '1.00014803849'^^xsd:double ;
         qudt:unit <https://qudt.org/vocab/unit/ATM> ; 
     ] ;
     schema:measurementTechnique 'CTD'^^xsd:string ;
@@ -123,6 +129,7 @@
 
     sosa:hasResult [
         a sosa:Result , qudt:QuantityValue ;
+        qudt:numericValue '33.846'^^xsd:double ;
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ; 
     ] ;
     schema:measurementTechnique 'CTD'^^xsd:string ;
@@ -139,6 +146,7 @@
 
     sosa:hasResult [
         a sosa:Result , qudt:QuantityValue ;
+        qudt:numericValue '14.088'^^xsd:double ;
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ; 
     ] ;
     schema:measurementTechnique 'CTD'^^xsd:string ;
@@ -155,6 +163,7 @@
 
     sosa:hasResult [
         a sosa:Result , qudt:QuantityValue ;
+        qudt:numericValue '33.855'^^xsd:double ;
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ; 
     ] ;
     schema:measurementTechnique 'CTD'^^xsd:string ;
@@ -171,6 +180,7 @@
 
     sosa:hasResult [
         a sosa:Result , qudt:QuantityValue ;
+        qudt:numericValue '14.097'^^xsd:double ;
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ; 
     ] ;
     schema:measurementTechnique 'CTD'^^xsd:string ;
