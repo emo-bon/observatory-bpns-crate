@@ -26,8 +26,9 @@
     
     dct:description 'EMOBON mimarks-specimen sediment sample from station BPNS collected on 2021-10-28 community collected meio'^^xsd:string ;
     emobon-sampling:enaSampleAccNum ''^^xsd:anyURI ; 
-    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI ;
     emobon-sampling:sampleReplicate '1'^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI ; 
+    schema:additionalType core_vocab:fieldSample ;
     emobon-sampling:longStorage 'false'^^xsd:boolean ;
     emobon-sampling:failureComment ''^^xsd:string ;
     

@@ -21,9 +21,10 @@
     
     emobon-sampling:origEmobonId 'EMOBON 211223 BPNS Wa 3 R3'^^xsd:string ; 
     
-    dct:description 'EMOBON metagenome water sample from station BPNS collected on 2021-12-23 size fraction 3-200um'^^xsd:string ; 
-    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI ;
+    dct:description 'EMOBON metagenome water sample from station BPNS collected on 2021-12-23 size fraction 3-200um'^^xsd:string ;
     emobon-sampling:sampleReplicate '3'^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI ; 
+    schema:additionalType core_vocab:fieldSample ;
     emobon-sampling:longStorage 'true'^^xsd:boolean ; 
     emobon-sampling:failure 'true'^^xsd:boolean ;
     
