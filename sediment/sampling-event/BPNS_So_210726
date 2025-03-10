@@ -33,6 +33,7 @@
     sosa:usedProcedure [
         a sosa:Procedure ;
         rdfs:label 'SoSOP3'^^xsd:string ;
+        rdfs:seeAlso "http://dx.doi.org/10.25607/OBP-1653"^^xsd:anyURI ;
         ] ;
     emobon-sampling:tidalStage 'flood_tide'^^xsd:string ;
     

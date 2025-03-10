@@ -30,6 +30,7 @@
         a sosa:Procedure ;
         rdfs:label 'WaSOP1'^^xsd:string ;
         rdfs:comment 'Since the pump and the filtration units had not yet arrived 20L of water was taken and frozen. These were filtered 8 weeks later.'^^xsd:string ;
+        rdfs:seeAlso "http://dx.doi.org/10.25607/OBP-1653"^^xsd:anyURI ;
         ] ;
     emobon-sampling:tidalStage 'ebb_tide'^^xsd:string ;
     

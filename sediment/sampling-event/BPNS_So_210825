@@ -34,6 +34,7 @@
         a sosa:Procedure ;
         rdfs:label 'SoSOP3'^^xsd:string ;
         rdfs:comment 'Tube broke'^^xsd:string ;
+        rdfs:seeAlso "http://dx.doi.org/10.25607/OBP-1653"^^xsd:anyURI ;
         ] ;
     emobon-sampling:tidalStage 'ebb_tide'^^xsd:string ;
     

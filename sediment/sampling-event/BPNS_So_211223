@@ -34,6 +34,7 @@
         a sosa:Procedure ;
         rdfs:label 'SoSOP3'^^xsd:string ;
         rdfs:comment 'Problem with underway data'^^xsd:string ;
+        rdfs:seeAlso "http://dx.doi.org/10.25607/OBP-1653"^^xsd:anyURI ;
         ] ;
     emobon-sampling:tidalStage 'ebb_tide'^^xsd:string ;
     
