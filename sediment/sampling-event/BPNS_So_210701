@@ -38,11 +38,13 @@
     emobon-sampling:tidalStage 'ebb_tide'^^xsd:string ; 
     emobon-sampling:minSamplingDepth [
         a qudt:QuantityValue ;
-        qudt:numericValue '23.09'^^xsd:double ; 
+        qudt:numericValue '23.09'^^xsd:double ;
+        qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/ULAA/> ; 
         ] ; 
     emobon-sampling:maxSamplingDepth [
         a qudt:QuantityValue ;
-        qudt:numericValue '23.09'^^xsd:double ; 
+        qudt:numericValue '23.09'^^xsd:double ;
+        qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/ULAA/> ; 
         ] ;
     
     emobon-core:waterColumnDepth '26'^^xsd:string ; 

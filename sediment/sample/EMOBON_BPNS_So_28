@@ -39,6 +39,7 @@
     emobon-sampling:lowerFilterSize [
         a qudt:QuantityValue ; 
         qudt:numericValue '32.0'^^xsd:double ; 
+        qudt:unit <https://vocab.nerc.ac.uk/collection/P06/current/UXMM/> ;
     ] ;
     
     emobon-sampling:environmentMaterial'sediment [ENVO:00002007]'^^xsd:string;
@@ -82,6 +83,7 @@
                 emobon-sampling:storageTemp [
                     a qudt:QuantityValue ; 
                     qudt:numericValue '-20.0'^^xsd:double ; 
+                    qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ;
                 ] ;
 
                 prov:wasInformedBy [
@@ -105,6 +107,7 @@
                         emobon-sampling:storageTemp [
                             a qudt:QuantityValue ; 
                             qudt:numericValue '-20.0'^^xsd:double ; 
+                            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ;
                         ] ;
                         emobon-sampling:storageLoc 'UGent MarBiol Freezer #11, Box#65'^^xsd:string ;
                         prov:wasInformedBy <> ; 

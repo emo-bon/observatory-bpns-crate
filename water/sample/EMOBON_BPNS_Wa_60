@@ -30,15 +30,18 @@
     emobon-sampling:hasSampleSize [
         a qudt:QuantityValue ; 
         qudt:numericValue '0.25'^^xsd:double ; 
+        qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/ULIT/> ;
     ] ;
     emobon-sampling:filterSizeRange '200'^^xsd:string ;
     emobon-sampling:lowerFilterSize [
         a qudt:QuantityValue ; 
         qudt:numericValue '200.0'^^xsd:double ; 
+        qudt:unit <https://vocab.nerc.ac.uk/collection/P06/current/UXMM/> ;
     ] ;
     emobon-sampling:filtrationTime [
         a qudt:QuantityValue ; 
         qudt:numericValue '0.166667'^^xsd:string ;
+        qudt:unit <https://vocab.nerc.ac.uk/collection/P06/current/UHOR/> ;
     ] ;
     emobon-sampling:membrCut 'false'^^xsd:boolean ;
     
@@ -74,6 +77,7 @@
         emobon-sampling:storageTemp [
             a qudt:QuantityValue ; 
             qudt:numericValue '-80.0'^^xsd:double ; 
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ;
         ] ;
         emobon-sampling:storageLoc 'MSO LifeWatch Lab -80 Freezer'^^xsd:string ;
         prov:wasInformedBy <> ;

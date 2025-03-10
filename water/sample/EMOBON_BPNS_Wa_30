@@ -30,19 +30,23 @@
     emobon-sampling:hasSampleSize [
         a qudt:QuantityValue ; 
         qudt:numericValue '7.0'^^xsd:double ; 
+        qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/ULIT/> ;
     ] ;
     emobon-sampling:filterSizeRange '0.2-3'^^xsd:string ;
     emobon-sampling:upperFilterSize [
         a qudt:QuantityValue ; 
         qudt:numericValue '3.0'^^xsd:double ; 
+        qudt:unit <https://vocab.nerc.ac.uk/collection/P06/current/UXMM/> ;
     ] ;
     emobon-sampling:lowerFilterSize [
         a qudt:QuantityValue ; 
         qudt:numericValue '0.2'^^xsd:double ; 
+        qudt:unit <https://vocab.nerc.ac.uk/collection/P06/current/UXMM/> ;
     ] ;
     emobon-sampling:filtrationTime [
         a qudt:QuantityValue ; 
         qudt:numericValue '0.033333'^^xsd:string ;
+        qudt:unit <https://vocab.nerc.ac.uk/collection/P06/current/UHOR/> ;
     ] ;
     emobon-sampling:membrCut 'false'^^xsd:boolean ;
     
@@ -78,6 +82,7 @@
         emobon-sampling:storageTemp [
             a qudt:QuantityValue ; 
             qudt:numericValue '-80.0'^^xsd:double ; 
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ;
         ] ;
         emobon-sampling:storageLoc 'MSO LifeWatch Lab -80 Freezer'^^xsd:string ;
         prov:wasInformedBy <> ;
