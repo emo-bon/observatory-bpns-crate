@@ -22,9 +22,10 @@
     emobon-sampling:origEmobonId 'EMOBON 211028 BPNS Wa 0.2 Blank'^^xsd:string ; 
     
     dct:description 'EMOBON metagenome water sample from station BPNS collected on 2021-10-28 size fraction 0.2-3um'^^xsd:string ;
-    emobon-sampling:enaSampleAccNum ''^^xsd:anyURI ; 
-    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI ;
+    emobon-sampling:enaSampleAccNum ''^^xsd:anyURI ;
     emobon-sampling:sampleReplicate 'blank_1'^^xsd:string ;
+    schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI ; 
+    schema:additionalType core_vocab:blankSample ;
     emobon-sampling:longStorage 'false'^^xsd:boolean ; 
     emobon-sampling:failure 'true'^^xsd:boolean ;
     emobon-sampling:failureComment 'blank; non-quantifiable DNA after extraction'^^xsd:string ;
