@@ -27,6 +27,7 @@
     
     sosa:hasResult [
         a sosa:Result , qudt:QuantityValue ;
+        qudt:numericValue '5.96'^^xsd:double ;
     ] ;
     schema:measurementTechnique 'Hanna Instruments 991001 ph meter'^^xsd:string ;
     sosa:hasFeatureOfInterest </observatory-bpns-crate/sediment/sample/EMOBON_BPNS_So_35> ; 
@@ -42,6 +43,7 @@
     
     sosa:hasResult [
         a sosa:Result , qudt:QuantityValue ;
+        qudt:numericValue '5.96'^^xsd:double ;
     ] ;
     schema:measurementTechnique 'Hanna Instruments 991001 ph meter'^^xsd:string ;
     sosa:hasFeatureOfInterest </observatory-bpns-crate/sediment/sample/EMOBON_BPNS_So_35> ; 

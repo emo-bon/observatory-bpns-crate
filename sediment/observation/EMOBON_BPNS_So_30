@@ -27,6 +27,7 @@
     
     sosa:hasResult [
         a sosa:Result , qudt:QuantityValue ;
+        qudt:numericValue '8.14'^^xsd:double ;
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ;
     ] ;
     schema:measurementTechnique 'CTD'^^xsd:string ;
@@ -43,6 +44,7 @@
     
     sosa:hasResult [
         a sosa:Result , qudt:QuantityValue ;
+        qudt:numericValue '7.0'^^xsd:double ;
     ] ;
     schema:measurementTechnique 'Hanna Instruments 991001 ph meter'^^xsd:string ;
     sosa:hasFeatureOfInterest </observatory-bpns-crate/sediment/sample/EMOBON_BPNS_So_30> ; 
@@ -58,6 +60,7 @@
     
     sosa:hasResult [
         a sosa:Result , qudt:QuantityValue ;
+        qudt:numericValue '7.0'^^xsd:double ;
     ] ;
     schema:measurementTechnique 'Hanna Instruments 991001 ph meter'^^xsd:string ;
     sosa:hasFeatureOfInterest </observatory-bpns-crate/sediment/sample/EMOBON_BPNS_So_30> ; 
@@ -73,6 +76,7 @@
     
     sosa:hasResult [
         a sosa:Result , qudt:QuantityValue ;
+        qudt:numericValue '1.00014803849'^^xsd:double ;
         qudt:unit <https://qudt.org/vocab/unit/ATM> ;
     ] ;
     schema:measurementTechnique 'CTD'^^xsd:string ;
@@ -89,6 +93,7 @@
     
     sosa:hasResult [
         a sosa:Result , qudt:QuantityValue ;
+        qudt:numericValue '33.855'^^xsd:double ;
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ;
     ] ;
     schema:measurementTechnique 'CTD'^^xsd:string ;
@@ -105,6 +110,7 @@
     
     sosa:hasResult [
         a sosa:Result , qudt:QuantityValue ;
+        qudt:numericValue '14.097'^^xsd:double ;
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ;
     ] ;
     schema:measurementTechnique 'CTD'^^xsd:string ;
@@ -121,6 +127,7 @@
     
     sosa:hasResult [
         a sosa:Result , qudt:QuantityValue ;
+        qudt:numericValue '14.099'^^xsd:double ;
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ;
     ] ;
     schema:measurementTechnique 'CTD'^^xsd:string ;

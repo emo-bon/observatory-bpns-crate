@@ -27,6 +27,7 @@
     
     sosa:hasResult [
         a sosa:Result , qudt:QuantityValue ;
+        qudt:numericValue '7.19'^^xsd:double ;
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ;
     ] ;
     schema:measurementTechnique 'CTD'^^xsd:string ;
@@ -43,6 +44,7 @@
     
     sosa:hasResult [
         a sosa:Result , qudt:QuantityValue ;
+        qudt:numericValue '1.01100419442'^^xsd:double ;
         qudt:unit <https://qudt.org/vocab/unit/ATM> ;
     ] ;
     schema:measurementTechnique 'CTD'^^xsd:string ;
@@ -59,6 +61,7 @@
     
     sosa:hasResult [
         a sosa:Result , qudt:QuantityValue ;
+        qudt:numericValue '33.348'^^xsd:double ;
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ;
     ] ;
     schema:measurementTechnique 'CTD'^^xsd:string ;
@@ -75,6 +78,7 @@
     
     sosa:hasResult [
         a sosa:Result , qudt:QuantityValue ;
+        qudt:numericValue '18.919'^^xsd:double ;
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ;
     ] ;
     schema:measurementTechnique 'CTD'^^xsd:string ;
@@ -91,6 +95,7 @@
     
     sosa:hasResult [
         a sosa:Result , qudt:QuantityValue ;
+        qudt:numericValue '18.814'^^xsd:double ;
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ;
     ] ;
     schema:measurementTechnique 'CTD'^^xsd:string ;
