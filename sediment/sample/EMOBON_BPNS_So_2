@@ -35,6 +35,7 @@
     emobon-sampling:hasSampleSize [
         a qudt:QuantityValue ; 
         qudt:numericValue '470.0'^^xsd:double ; 
+        qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGRM/> ;
     ] ;
     emobon-sampling:lowerFilterSize [
         a qudt:QuantityValue ; 
