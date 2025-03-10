@@ -32,7 +32,6 @@
     emobon-sampling:failure 'true'^^xsd:boolean ;
     emobon-sampling:failureComment 'low yields; seq library prep failed'^^xsd:string ;
     
-    emobon-sampling:filterSizeRange ''^^xsd:string ;
     
     emobon-sampling:environmentMaterial'sediment [ENVO:00002007]'^^xsd:string;
     emobon-sampling:investigationType 'metagenome'^^xsd:string ;

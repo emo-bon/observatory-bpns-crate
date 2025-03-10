@@ -30,7 +30,6 @@
     emobon-sampling:longStorage 'true'^^xsd:boolean ;
     emobon-sampling:failure 'true'^^xsd:boolean ;
     
-    emobon-sampling:filterSizeRange ''^^xsd:string ;
     
     emobon-sampling:environmentMaterial'sediment [ENVO:00002007]'^^xsd:string;
     emobon-sampling:investigationType 'mimarks-specimen'^^xsd:string ;

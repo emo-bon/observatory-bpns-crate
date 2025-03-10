@@ -34,7 +34,6 @@
         a qudt:QuantityValue ; 
         qudt:numericValue '405.0'^^xsd:double ; 
     ] ;
-    emobon-sampling:filterSizeRange ''^^xsd:string ;
     emobon-sampling:lowerFilterSize [
         a qudt:QuantityValue ; 
         qudt:numericValue '32.0'^^xsd:double ; 
