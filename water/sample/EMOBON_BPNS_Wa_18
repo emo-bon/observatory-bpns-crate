@@ -13,6 +13,7 @@
 @prefix emobon-sequence: <https://data.emobon.embrc.eu/ns/sequence#> .
 @prefix emobon-core: <https://data.emobon.embrc.eu/ns/core#> .
 @prefix emobon-sampling: <https://data.emobon.embrc.eu/ns/sampling#> .
+@prefix core_vocab: <https://data.emobon.embrc.eu/ns/core_vocab#> .
 @base <http://data.emobon.embrc.eu/observatory-bpns-crate/water/sample/EMOBON_BPNS_Wa_18> .
 <> 
     a sosa:Sample, prov:Entity ;
@@ -48,7 +49,8 @@
     
     emobon-sampling:environmentMaterial 'seawater [ENVO:00002149]'^^xsd:string, 'coastal sea water [ENVO:00002150]'^^xsd:string;
     emobon-sampling:investigationType 'metagenome'^^xsd:string ;
-    emobon-sampling:taxonomicID 'https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=1874687'^^xsd:anyURI ; 
+    emobon-sampling:taxonomicID 'https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=1874687'^^xsd:anyURI ;
+    emobon-sampling:taxonomicName 'marine plankton metagenome'^^xsd:string ;
     emobon-sampling:bioCommunity ''^^xsd:string ;
 
     
