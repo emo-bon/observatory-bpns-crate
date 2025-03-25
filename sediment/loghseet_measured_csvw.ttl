@@ -26,4 +26,474 @@ ex:logsheet_metadata
 # Define the table schema
 ex:LogsheetSchema a csvw:TableSchema ; 
     csvw:column
+    <_:alkalinity> ,
+    <_:ammonium> ,
+    <_:bac_prod> ,
+    <_:biomass> ,
+    <_:chem_administration> ,
+    <_:chlorophyll> ,
+    <_:conduc> ,
+    <_:density> ,
+    <_:diss_carb_dioxide> ,
+    <_:diss_inorg_carb> ,
+    <_:diss_org_carb> ,
+    <_:diss_org_nitro> ,
+    <_:diss_oxygen> ,
+    <_:down_par> ,
+    <_:magnesium> ,
+    <_:methane> ,
+    <_:n_alkanes> ,
+    <_:nitrate> ,
+    <_:nitrite> ,
+    <_:organism_count> ,
+    <_:oxy_stat_samp> ,
+    <_:part_org_carb> ,
+    <_:part_org_nitro> ,
+    <_:particle_class> ,
+    <_:petroleum_hydrocarb> ,
+    <_:ph> ,
+    <_:ph> ,
+    <_:phaeopigments> ,
+    <_:phaeopigments> ,
+    <_:phosphate> ,
+    <_:pigments> ,
+    <_:porosity> ,
+    <_:pressure> ,
+    <_:primary_prod> ,
+    <_:redox_potential> ,
+    <_:sea_subsurf_salinity> ,
+    <_:sea_subsurf_temp> ,
+    <_:sea_surf_salinity> ,
+    <_:sea_surf_temp> ,
+    <_:sediment_temp> ,
+    <_:silicate> ,
+    <_:sulfate> ,
+    <_:sulfate> ,
+    <_:sulfide> ,
+    <_:turbidity> ,
+    <_:turbidity_method> ,
+    <_:water_current> ,
 .
+<_:alkalinity>
+    a csvw:Column ;
+    csvw:titles "'alkalinity'^^xsd:string" ;
+    csvw:name 'alkalinity'^^xsd:string ;
+    
+    dct:description 'Alkalinity, the ability of a solution to neutralize acids to the equivalence point of carbonate or bicarbonate'^^xsd:string ;
+
+    csvw:datatype 'xsd:float'^^xsd:string ;
+    csvw:propertyUrl 'http://vocab.nerc.ac.uk/collection/P01/current/ALKYZZXX/'^^xsd:anyURI ;
+<_:ammonium>
+    a csvw:Column ;
+    csvw:titles "'ammonium'^^xsd:string" ;
+    csvw:name 'ammonium'^^xsd:string ;
+    
+    dct:description 'Concentration of ammonium in the sample'^^xsd:string ;
+
+    csvw:datatype 'xsd:float'^^xsd:string ;
+    csvw:propertyUrl 'http://vocab.nerc.ac.uk/collection/P35/current/EPC00009/'^^xsd:anyURI ;
+<_:bac_prod>
+    a csvw:Column ;
+    csvw:titles "'bac_prod'^^xsd:string" ;
+    csvw:name 'bac_prod'^^xsd:string ;
+    
+    dct:description 'Bacterial production in the water column measured by isotope uptake'^^xsd:string ;
+
+    csvw:datatype 'xsd:float'^^xsd:string ;
+    csvw:propertyUrl 'http://vocab.nerc.ac.uk/collection/P02/current/UPTH/'^^xsd:anyURI ;
+<_:biomass>
+    a csvw:Column ;
+    csvw:titles "'biomass'^^xsd:string" ;
+    csvw:name 'biomass'^^xsd:string ;
+    
+    dct:description 'Amount of biomass; should include the name for the part of biomass measured, e.g. Microbial, total. Can include multiple measurements. Different entries are separated by ;'^^xsd:string ;
+
+    csvw:datatype 'xsd:list'^^xsd:string ;
+    csvw:propertyUrl 'https://data.emobon.embrc.eu/ns/observableproperty_vocab#Biomass'^^xsd:anyURI ;
+<_:chem_administration>
+    a csvw:Column ;
+    csvw:titles "'chem_administration'^^xsd:string" ;
+    csvw:name 'chem_administration'^^xsd:string ;
+    
+    dct:description 'List of chemical compounds administered to the host or site where sampling occurred, and when (e.g. Antibiotics, n fertilizer, air filter); can include multiple compounds. For chemical entities of biological interest ontology (chebi) (v 163), http://purl.bioontology.org/ontology/chebi'^^xsd:string ;
+
+    csvw:datatype 'xsd:list'^^xsd:string ;
+    csvw:propertyUrl 'https://data.emobon.embrc.eu/ns/observableproperty_vocab#Chem_Administration'^^xsd:anyURI ;
+<_:chlorophyll>
+    a csvw:Column ;
+    csvw:titles "'chlorophyll'^^xsd:string" ;
+    csvw:name 'chlorophyll'^^xsd:string ;
+    
+    dct:description 'Concentration of chlorophyll-a'^^xsd:string ;
+
+    csvw:datatype 'xsd:float'^^xsd:string ;
+    csvw:propertyUrl 'http://vocab.nerc.ac.uk/collection/S27/current/CS002896/'^^xsd:anyURI ;
+<_:conduc>
+    a csvw:Column ;
+    csvw:titles "'conduc'^^xsd:string" ;
+    csvw:name 'conduc'^^xsd:string ;
+    
+    dct:description 'Electrical conductivity of water'^^xsd:string ;
+
+    csvw:datatype 'xsd:float'^^xsd:string ;
+    csvw:propertyUrl 'http://vocab.nerc.ac.uk/collection/P01/current/CNDCZZ01/'^^xsd:anyURI ;
+<_:density>
+    a csvw:Column ;
+    csvw:titles "'density'^^xsd:string" ;
+    csvw:name 'density'^^xsd:string ;
+    
+    dct:description 'Density of the sample, which is its mass per unit volume (aka volumetric mass density)'^^xsd:string ;
+
+    csvw:datatype 'xsd:float'^^xsd:string ;
+    csvw:propertyUrl 'http://vocab.nerc.ac.uk/collection/P02/current/SIGT/'^^xsd:anyURI ;
+<_:diss_carb_dioxide>
+    a csvw:Column ;
+    csvw:titles "'diss_carb_dioxide'^^xsd:string" ;
+    csvw:name 'diss_carb_dioxide'^^xsd:string ;
+    
+    dct:description 'Concentration of dissolved carbon dioxide in the sample or liquid portion of the sample'^^xsd:string ;
+
+    csvw:datatype 'xsd:float'^^xsd:string ;
+    csvw:propertyUrl 'http://vocab.nerc.ac.uk/collection/P01/current/CO2AQXXX/'^^xsd:anyURI ;
+<_:diss_inorg_carb>
+    a csvw:Column ;
+    csvw:titles "'diss_inorg_carb'^^xsd:string" ;
+    csvw:name 'diss_inorg_carb'^^xsd:string ;
+    
+    dct:description 'Dissolved inorganic carbon concentration in the sample, typically measured after filtering the sample using a 0.45 micrometer filter'^^xsd:string ;
+
+    csvw:datatype 'xsd:float'^^xsd:string ;
+    csvw:propertyUrl 'http://vocab.nerc.ac.uk/collection/P01/current/TCO2ZZXX/'^^xsd:anyURI ;
+<_:diss_org_carb>
+    a csvw:Column ;
+    csvw:titles "'diss_org_carb'^^xsd:string" ;
+    csvw:name 'diss_org_carb'^^xsd:string ;
+    
+    dct:description 'Concentration of dissolved organic carbon in the sample, liquid portion of the sample, or aqueous phase of the fluid'^^xsd:string ;
+
+    csvw:datatype 'xsd:float'^^xsd:string ;
+    csvw:propertyUrl 'http://vocab.nerc.ac.uk/collection/P02/current/DOCC/'^^xsd:anyURI ;
+<_:diss_org_nitro>
+    a csvw:Column ;
+    csvw:titles "'diss_org_nitro'^^xsd:string" ;
+    csvw:name 'diss_org_nitro'^^xsd:string ;
+    
+    dct:description 'Dissolved organic nitrogen concentration measured as; total dissolved nitrogen - NH4 - NO3 - NO2'^^xsd:string ;
+
+    csvw:datatype 'xsd:float'^^xsd:string ;
+    csvw:propertyUrl 'http://vocab.nerc.ac.uk/collection/P01/current/MDMAP009/'^^xsd:anyURI ;
+<_:diss_oxygen>
+    a csvw:Column ;
+    csvw:titles "'diss_oxygen'^^xsd:string" ;
+    csvw:name 'diss_oxygen'^^xsd:string ;
+    
+    dct:description 'Concentration of dissolved oxygen'^^xsd:string ;
+
+    csvw:datatype 'xsd:float'^^xsd:string ;
+    csvw:propertyUrl 'http://vocab.nerc.ac.uk/collection/P01/current/DOXMZZXX/%20'^^xsd:anyURI ;
+<_:down_par>
+    a csvw:Column ;
+    csvw:titles "'down_par'^^xsd:string" ;
+    csvw:name 'down_par'^^xsd:string ;
+    
+    dct:description 'Visible waveband radiance and irradiance measurements in the water column'^^xsd:string ;
+
+    csvw:datatype 'xsd:float'^^xsd:string ;
+    csvw:propertyUrl 'http://vocab.nerc.ac.uk/collection/P02/current/VSRW/%20'^^xsd:anyURI ;
+<_:magnesium>
+    a csvw:Column ;
+    csvw:titles "'magnesium'^^xsd:string" ;
+    csvw:name 'magnesium'^^xsd:string ;
+    
+    dct:description 'Concentration of magnesium in the sample'^^xsd:string ;
+
+    csvw:datatype 'xsd:float'^^xsd:string ;
+    csvw:propertyUrl 'http://vocab.nerc.ac.uk/collection/P01/current/RWS00024/'^^xsd:anyURI ;
+<_:methane>
+    a csvw:Column ;
+    csvw:titles "'methane'^^xsd:string" ;
+    csvw:name 'methane'^^xsd:string ;
+    
+    dct:description 'Methane (gas) amount or concentration at the time of sampling'^^xsd:string ;
+
+    csvw:datatype 'xsd:float'^^xsd:string ;
+    csvw:propertyUrl 'http://vocab.nerc.ac.uk/collection/P01/current/CH4CGMMX/'^^xsd:anyURI ;
+<_:n_alkanes>
+    a csvw:Column ;
+    csvw:titles "'n_alkanes'^^xsd:string" ;
+    csvw:name 'n_alkanes'^^xsd:string ;
+    
+    dct:description 'Concentration of n-alkanes; can include multiple n-alkanes'^^xsd:string ;
+
+    csvw:datatype 'xsd:list '^^xsd:string ;
+    csvw:propertyUrl 'http://vocab.nerc.ac.uk/collection/P02/current/DALK/'^^xsd:anyURI ;
+<_:nitrate>
+    a csvw:Column ;
+    csvw:titles "'nitrate'^^xsd:string" ;
+    csvw:name 'nitrate'^^xsd:string ;
+    
+    dct:description 'Concentration of nitrate in the sample'^^xsd:string ;
+
+    csvw:datatype 'xsd:float'^^xsd:string ;
+    csvw:propertyUrl 'http://vocab.nerc.ac.uk/collection/P01/current/NTRAZZXX/'^^xsd:anyURI ;
+<_:nitrite>
+    a csvw:Column ;
+    csvw:titles "'nitrite'^^xsd:string" ;
+    csvw:name 'nitrite'^^xsd:string ;
+    
+    dct:description 'Concentration of nitrite in the sample'^^xsd:string ;
+
+    csvw:datatype 'xsd:float'^^xsd:string ;
+    csvw:propertyUrl 'http://vocab.nerc.ac.uk/collection/P01/current/NTRIZZXX/'^^xsd:anyURI ;
+<_:organism_count>
+    a csvw:Column ;
+    csvw:titles "'organism_count'^^xsd:string" ;
+    csvw:name 'organism_count'^^xsd:string ;
+    
+    dct:description 'Total cell count of any organism (or group of organisms) per volume of sample, should include name of organism followed by count. The method that was used for the enumeration (e.g. qPCR, atp, mpn, etc.) Should also be provided. (example: total prokaryotes; 3.5e7 cells per ml; qpcr)'^^xsd:string ;
+
+    csvw:datatype 'xsd:list'^^xsd:string ;
+    csvw:propertyUrl 'https://genomicsstandardsconsortium.github.io/mixs/0000103/'^^xsd:anyURI ;
+<_:oxy_stat_samp>
+    a csvw:Column ;
+    csvw:titles "'oxy_stat_samp'^^xsd:string" ;
+    csvw:name 'oxy_stat_samp'^^xsd:string ;
+    
+    dct:description 'Oxygenation status of sample. Indicate if the sample is anaerobic by adding "Y" if anaerobic and "N" if not'^^xsd:string ;
+
+    csvw:datatype 'xsd:string'^^xsd:string ;
+    csvw:propertyUrl 'http://purl.obolibrary.org/obo/ENVO_00002045'^^xsd:anyURI ;
+<_:part_org_carb>
+    a csvw:Column ;
+    csvw:titles "'part_org_carb'^^xsd:string" ;
+    csvw:name 'part_org_carb'^^xsd:string ;
+    
+    dct:description 'Concentration of particulate organic carbon'^^xsd:string ;
+
+    csvw:datatype 'xd:float'^^xsd:string ;
+    csvw:propertyUrl 'http://vocab.nerc.ac.uk/collection/P35/current/EPC00157/'^^xsd:anyURI ;
+<_:part_org_nitro>
+    a csvw:Column ;
+    csvw:titles "'part_org_nitro'^^xsd:string" ;
+    csvw:name 'part_org_nitro'^^xsd:string ;
+    
+    dct:description 'Concentration of particulate organic nitrogen'^^xsd:string ;
+
+    csvw:datatype 'xsd:float'^^xsd:string ;
+    csvw:propertyUrl 'http://vocab.nerc.ac.uk/collection/P09/current/PONP/'^^xsd:anyURI ;
+<_:particle_class>
+    a csvw:Column ;
+    csvw:titles "'particle_class'^^xsd:string" ;
+    csvw:name 'particle_class'^^xsd:string ;
+    
+    dct:description 'Particles are classified, based on their size, into six general categories:clay, silt, sand, gravel, cobbles, and boulders; should include amount of particle preceded by the name of the particle type; can include multiple values'^^xsd:string ;
+
+    csvw:datatype 'xsd:list '^^xsd:string ;
+    csvw:propertyUrl 'http://vocab.nerc.ac.uk/collection/P21/current/MS7778/'^^xsd:anyURI ;
+<_:petroleum_hydrocarb>
+    a csvw:Column ;
+    csvw:titles "'petroleum_hydrocarb'^^xsd:string" ;
+    csvw:name 'petroleum_hydrocarb'^^xsd:string ;
+    
+    dct:description 'Concentration of petroleum hydrocarbon'^^xsd:string ;
+
+    csvw:datatype 'xd:float'^^xsd:string ;
+    csvw:propertyUrl 'http://vocab.nerc.ac.uk/collection/P01/current/TPHFIWAT/'^^xsd:anyURI ;
+<_:ph>
+    a csvw:Column ;
+    csvw:titles "'ph'^^xsd:string" ;
+    csvw:name 'ph'^^xsd:string ;
+    
+    dct:description 'Ph measurement of the sample, or liquid portion of sample, or aqueous phase of the fluid'^^xsd:string ;
+
+    csvw:datatype 'xsd:float'^^xsd:string ;
+    csvw:propertyUrl 'http://vocab.nerc.ac.uk/collection/S06/current/S0600278/'^^xsd:anyURI ;
+<_:ph>
+    a csvw:Column ;
+    csvw:titles "'ph'^^xsd:string" ;
+    csvw:name 'ph'^^xsd:string ;
+    
+    dct:description 'Ph measurement of the sample, or liquid portion of sample, or aqueous phase of the fluid'^^xsd:string ;
+
+    csvw:datatype 'xsd:float'^^xsd:string ;
+    csvw:propertyUrl 'http://vocab.nerc.ac.uk/collection/S06/current/S0600278/'^^xsd:anyURI ;
+<_:phaeopigments>
+    a csvw:Column ;
+    csvw:titles "'phaeopigments'^^xsd:string" ;
+    csvw:name 'phaeopigments'^^xsd:string ;
+    
+    dct:description 'Phaeopigment measurement value in microgram per liter (ug/l)'^^xsd:string ;
+
+    csvw:datatype 'xsd:list'^^xsd:string ;
+    csvw:propertyUrl 'http://vocab.nerc.ac.uk/collection/P09/current/PHTF/'^^xsd:anyURI ;
+<_:phaeopigments>
+    a csvw:Column ;
+    csvw:titles "'phaeopigments'^^xsd:string" ;
+    csvw:name 'phaeopigments'^^xsd:string ;
+    
+    dct:description 'Phaeopigment measurement value in microgram per liter (ug/l)'^^xsd:string ;
+
+    csvw:datatype 'xsd:list'^^xsd:string ;
+    csvw:propertyUrl 'http://vocab.nerc.ac.uk/collection/P09/current/PHAS/'^^xsd:anyURI ;
+<_:phosphate>
+    a csvw:Column ;
+    csvw:titles "'phosphate'^^xsd:string" ;
+    csvw:name 'phosphate'^^xsd:string ;
+    
+    dct:description 'Concentration of phosphate'^^xsd:string ;
+
+    csvw:datatype 'xsd:float'^^xsd:string ;
+    csvw:propertyUrl 'http://vocab.nerc.ac.uk/collection/P02/current/PHOS/%20'^^xsd:anyURI ;
+<_:pigments>
+    a csvw:Column ;
+    csvw:titles "'pigments'^^xsd:string" ;
+    csvw:name 'pigments'^^xsd:string ;
+    
+    dct:description 'Pigment measurement value in microgram per liter (ug/l)'^^xsd:string ;
+
+    csvw:datatype 'xsd:list'^^xsd:string ;
+    csvw:propertyUrl 'http://vocab.nerc.ac.uk/collection/C67/current/PIGX/'^^xsd:anyURI ;
+<_:porosity>
+    a csvw:Column ;
+    csvw:titles "'porosity'^^xsd:string" ;
+    csvw:name 'porosity'^^xsd:string ;
+    
+    dct:description 'Porosity of deposited sediment is volume of voids divided by the total volume of sample'^^xsd:string ;
+
+    csvw:datatype 'xsd:float'^^xsd:string ;
+    csvw:propertyUrl 'http://vocab.nerc.ac.uk/collection/P02/current/WCWT/'^^xsd:anyURI ;
+<_:pressure>
+    a csvw:Column ;
+    csvw:titles "'pressure'^^xsd:string" ;
+    csvw:name 'pressure'^^xsd:string ;
+    
+    dct:description 'In situ pressure to which the sample is subject to, in atmospheres'^^xsd:string ;
+
+    csvw:datatype 'xsd:float'^^xsd:string ;
+    csvw:propertyUrl 'http://vocab.nerc.ac.uk/collection/S06/current/S0600274/'^^xsd:anyURI ;
+<_:primary_prod>
+    a csvw:Column ;
+    csvw:titles "'primary_prod'^^xsd:string" ;
+    csvw:name 'primary_prod'^^xsd:string ;
+    
+    dct:description 'Measurement of primary production, generally measured as isotope uptake'^^xsd:string ;
+
+    csvw:datatype 'xsd:float'^^xsd:string ;
+    csvw:propertyUrl 'http://vocab.nerc.ac.uk/collection/P02/current/PPRD/'^^xsd:anyURI ;
+<_:redox_potential>
+    a csvw:Column ;
+    csvw:titles "'redox_potential'^^xsd:string" ;
+    csvw:name 'redox_potential'^^xsd:string ;
+    
+    dct:description 'Redox potential, measured relative to a hydrogen cell, indicating oxidation or reduction potential'^^xsd:string ;
+
+    csvw:datatype 'xsd:float'^^xsd:string ;
+    csvw:propertyUrl 'http://vocab.nerc.ac.uk/collection/P09/current/REDS/'^^xsd:anyURI ;
+<_:sea_subsurf_salinity>
+    a csvw:Column ;
+    csvw:titles "'sea_subsurf_salinity'^^xsd:string" ;
+    csvw:name 'sea_subsurf_salinity'^^xsd:string ;
+    
+    dct:description 'Subsurface salinity at the time of sampling. Salinity is the total concentration of all dissolved salts in a water sample. While salinity can be measured by a complete chemical analysis, this method is difficult and time consuming. More often, it is instead derived from the conductivity measurement. This is known as practical salinity. These derivations compare the specific conductance of the sample to a salinity standard such as seawater. Indicate in the next field if practical salinity was measured'^^xsd:string ;
+
+    csvw:datatype 'xsd:float'^^xsd:string ;
+    csvw:propertyUrl 'https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Sampledepth'^^xsd:anyURI ;
+<_:sea_subsurf_temp>
+    a csvw:Column ;
+    csvw:titles "'sea_subsurf_temp'^^xsd:string" ;
+    csvw:name 'sea_subsurf_temp'^^xsd:string ;
+    
+    dct:description 'Sea subsurface temperature at the sampled depth at the time of sampling'^^xsd:string ;
+
+    csvw:datatype 'xsd:float'^^xsd:string ;
+    csvw:propertyUrl 'https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Sampledepth'^^xsd:anyURI ;
+<_:sea_surf_salinity>
+    a csvw:Column ;
+    csvw:titles "'sea_surf_salinity'^^xsd:string" ;
+    csvw:name 'sea_surf_salinity'^^xsd:string ;
+    
+    dct:description 'Seasurface salinity at the time of sampling. Salinity is the total concentration of all dissolved salts in a water sample. While salinity can be measured by a complete chemical analysis, this method is difficult and time consuming. More often, it is instead derived from the conductivity measurement. This is known as practical salinity. These derivations compare the specific conductance of the sample to a salinity standard such as seawater. Indicate in the next field if practical salinity was measured'^^xsd:string ;
+
+    csvw:datatype 'xsd:float'^^xsd:string ;
+    csvw:propertyUrl 'https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface'^^xsd:anyURI ;
+<_:sea_surf_temp>
+    a csvw:Column ;
+    csvw:titles "'sea_surf_temp'^^xsd:string" ;
+    csvw:name 'sea_surf_temp'^^xsd:string ;
+    
+    dct:description 'Sea surface temperature at the time of sampling'^^xsd:string ;
+
+    csvw:datatype 'xsd:float'^^xsd:string ;
+    csvw:propertyUrl 'https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface'^^xsd:anyURI ;
+<_:sediment_temp>
+    a csvw:Column ;
+    csvw:titles "'sediment_temp'^^xsd:string" ;
+    csvw:name 'sediment_temp'^^xsd:string ;
+    
+    dct:description 'Sediment temperature at the top 0-5 cm at the time of sampling'^^xsd:string ;
+
+    csvw:datatype 'xsd:float'^^xsd:string ;
+    csvw:propertyUrl 'https://vocab.lternet.edu/vocab/vocab/index.php?tema=530'^^xsd:anyURI ;
+<_:silicate>
+    a csvw:Column ;
+    csvw:titles "'silicate'^^xsd:string" ;
+    csvw:name 'silicate'^^xsd:string ;
+    
+    dct:description 'Concentration of silicate'^^xsd:string ;
+
+    csvw:datatype 'xsd:float'^^xsd:string ;
+    csvw:propertyUrl 'http://vocab.nerc.ac.uk/collection/P02/current/SLCA/%20'^^xsd:anyURI ;
+<_:sulfate>
+    a csvw:Column ;
+    csvw:titles "'sulfate'^^xsd:string" ;
+    csvw:name 'sulfate'^^xsd:string ;
+    
+    dct:description 'Concentration of sulfate in the sample'^^xsd:string ;
+
+    csvw:datatype 'xsd:float'^^xsd:string ;
+    csvw:propertyUrl 'http://vocab.nerc.ac.uk/collection/P01/current/SPHTMAXX/'^^xsd:anyURI ;
+<_:sulfate>
+    a csvw:Column ;
+    csvw:titles "'sulfate'^^xsd:string" ;
+    csvw:name 'sulfate'^^xsd:string ;
+    
+    dct:description 'Concentration of sulfate in the sample'^^xsd:string ;
+
+    csvw:datatype 'xsd:float'^^xsd:string ;
+    csvw:propertyUrl 'http://vocab.nerc.ac.uk/collection/P01/current/SO4XCLP1/'^^xsd:anyURI ;
+<_:sulfide>
+    a csvw:Column ;
+    csvw:titles "'sulfide'^^xsd:string" ;
+    csvw:name 'sulfide'^^xsd:string ;
+    
+    dct:description 'Concentration of sulfide in the sample'^^xsd:string ;
+
+    csvw:datatype 'xsd:float'^^xsd:string ;
+    csvw:propertyUrl 'https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sulfide_Conc'^^xsd:anyURI ;
+<_:turbidity>
+    a csvw:Column ;
+    csvw:titles "'turbidity'^^xsd:string" ;
+    csvw:name 'turbidity'^^xsd:string ;
+    
+    dct:description 'Measure of the amount of cloudiness or haziness in water caused by individual particles'^^xsd:string ;
+
+    csvw:datatype 'xsd:float'^^xsd:string ;
+    csvw:propertyUrl 'http://vocab.nerc.ac.uk/collection/P01/current/TURBXXXX/'^^xsd:anyURI ;
+<_:turbidity_method>
+    a csvw:Column ;
+    csvw:titles "'turbidity_method '^^xsd:string" ;
+    csvw:name 'turbidity_method '^^xsd:string ;
+    
+    dct:description 'Method for measuring turbidity'^^xsd:string ;
+
+    csvw:datatype 'xsd:string'^^xsd:string ;
+    csvw:propertyUrl 'NA'^^xsd:anyURI ;
+<_:water_current>
+    a csvw:Column ;
+    csvw:titles "'water_current'^^xsd:string" ;
+    csvw:name 'water_current'^^xsd:string ;
+    
+    dct:description 'Measurement of magnitude and direction of flow within a fluid'^^xsd:string ;
+
+    csvw:datatype 'xsd:float'^^xsd:string ;
+    csvw:propertyUrl 'http://vocab.nerc.ac.uk/collection/P02/current/RFVL/'^^xsd:anyURI ;
