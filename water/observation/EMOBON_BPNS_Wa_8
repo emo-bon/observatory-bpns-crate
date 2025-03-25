@@ -13,10 +13,10 @@
 @prefix emobon-sequence: <https://data.emobon.embrc.eu/ns/sequence#> .
 @prefix emobon-core: <https://data.emobon.embrc.eu/ns/core#> .
 @prefix emobon-sampling: <https://data.emobon.embrc.eu/ns/sampling#> .
+@prefix core_vocab: <https://data.emobon.embrc.eu/ns/core_vocab#> .
 
 
 @base <http://data.emobon.embrc.eu/observatory-bpns-crate/water/observation/EMOBON_BPNS_Wa_8> . 
-
 <#conduc>
     a sosa:Observation, schema:Observation ;
     sosa:observedProperty [
@@ -33,7 +33,6 @@
     schema:measurementTechnique 'CTD'^^xsd:string ;
     sosa:hasFeatureOfInterest </observatory-bpns-crate/water/sample/EMOBON_BPNS_Wa_8> ; 
 .
-
 <#density>
     a sosa:Observation, schema:Observation ;
     sosa:observedProperty [
@@ -50,7 +49,6 @@
     schema:measurementTechnique 'CTD'^^xsd:string ;
     sosa:hasFeatureOfInterest </observatory-bpns-crate/water/sample/EMOBON_BPNS_Wa_8> ; 
 .
-
 <#diss_oxygen>
     a sosa:Observation, schema:Observation ;
     sosa:observedProperty [
@@ -67,7 +65,6 @@
     schema:measurementTechnique 'CTD'^^xsd:string ;
     sosa:hasFeatureOfInterest </observatory-bpns-crate/water/sample/EMOBON_BPNS_Wa_8> ; 
 .
-
 <#nitrate>
     a sosa:Observation, schema:Observation ;
     sosa:observedProperty [
@@ -84,7 +81,6 @@
     schema:measurementTechnique 'SEAL QuAAtro analysis system + Skalar AutoAnalyser system'^^xsd:string ;
     sosa:hasFeatureOfInterest </observatory-bpns-crate/water/sample/EMOBON_BPNS_Wa_8> ; 
 .
-
 <#nitrite>
     a sosa:Observation, schema:Observation ;
     sosa:observedProperty [
@@ -101,7 +97,6 @@
     schema:measurementTechnique 'SEAL QuAAtro analysis system + Skalar AutoAnalyser system'^^xsd:string ;
     sosa:hasFeatureOfInterest </observatory-bpns-crate/water/sample/EMOBON_BPNS_Wa_8> ; 
 .
-
 <#pressure>
     a sosa:Observation, schema:Observation ;
     sosa:observedProperty [
@@ -118,12 +113,11 @@
     schema:measurementTechnique 'CTD'^^xsd:string ;
     sosa:hasFeatureOfInterest </observatory-bpns-crate/water/sample/EMOBON_BPNS_Wa_8> ; 
 .
-
 <#sea_subsurf_salinity>
     a sosa:Observation, schema:Observation ;
     sosa:observedProperty [
         a sosa:ObservableProperty ; 
-        dct:identifier <http://vocab.nerc.ac.uk/collection/A05/current/EV_SALIN/> ;
+        dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Sampledepth> ;
         rdfs:label 'sea_subsurf_salinity'^^xsd:string ; 
     ] ;
 
@@ -135,12 +129,11 @@
     schema:measurementTechnique 'CTD'^^xsd:string ;
     sosa:hasFeatureOfInterest </observatory-bpns-crate/water/sample/EMOBON_BPNS_Wa_8> ; 
 .
-
 <#sea_subsurf_temp>
     a sosa:Observation, schema:Observation ;
     sosa:observedProperty [
         a sosa:ObservableProperty ; 
-        dct:identifier <http://vocab.nerc.ac.uk/collection/P02/current/TEMP/> ;
+        dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Sampledepth> ;
         rdfs:label 'sea_subsurf_temp'^^xsd:string ; 
     ] ;
 
@@ -152,12 +145,11 @@
     schema:measurementTechnique 'CTD'^^xsd:string ;
     sosa:hasFeatureOfInterest </observatory-bpns-crate/water/sample/EMOBON_BPNS_Wa_8> ; 
 .
-
 <#sea_surf_salinity>
     a sosa:Observation, schema:Observation ;
     sosa:observedProperty [
         a sosa:ObservableProperty ; 
-        dct:identifier <http://vocab.nerc.ac.uk/collection/A05/current/EV_SALIN/> ;
+        dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ;
         rdfs:label 'sea_surf_salinity'^^xsd:string ; 
     ] ;
 
@@ -169,12 +161,11 @@
     schema:measurementTechnique 'CTD'^^xsd:string ;
     sosa:hasFeatureOfInterest </observatory-bpns-crate/water/sample/EMOBON_BPNS_Wa_8> ; 
 .
-
 <#sea_surf_temp>
     a sosa:Observation, schema:Observation ;
     sosa:observedProperty [
         a sosa:ObservableProperty ; 
-        dct:identifier <http://vocab.nerc.ac.uk/collection/P02/current/TEMP/> ;
+        dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ;
         rdfs:label 'sea_surf_temp'^^xsd:string ; 
     ] ;
 
@@ -186,7 +177,6 @@
     schema:measurementTechnique 'CTD'^^xsd:string ;
     sosa:hasFeatureOfInterest </observatory-bpns-crate/water/sample/EMOBON_BPNS_Wa_8> ; 
 .
-
 <#silicate>
     a sosa:Observation, schema:Observation ;
     sosa:observedProperty [
