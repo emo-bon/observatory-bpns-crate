@@ -14,11 +14,14 @@
 @prefix emobon-core: <https://data.emobon.embrc.eu/ns/core#> .
 @prefix emobon-sampling: <https://data.emobon.embrc.eu/ns/sampling#> .
 @prefix core_vocab: <https://data.emobon.embrc.eu/ns/core_vocab#> .
+@prefix csvw: <http://www.w3.org/ns/csvw#>.
 
 
 @base <http://data.emobon.embrc.eu/observatory-bpns-crate/water/observation/EMOBON_BPNS_Wa_21> . 
 <#chlorophyll>
-    a sosa:Observation, schema:Observation ;
+    a sosa:Observation, schema:Observation , csvw:Cell ;
+    csvw:column <http://data.emobon.embrc.eu/measured_metadata_schema#col_chlorophyll> ;
+    csvw:row <EMOBON_BPNS_Wa_21> ;
     sosa:observedProperty [
         a sosa:ObservableProperty ; 
         dct:identifier <http://vocab.nerc.ac.uk/collection/S27/current/CS002896/> ;
@@ -34,7 +37,9 @@
     sosa:hasFeatureOfInterest </observatory-bpns-crate/water/sample/EMOBON_BPNS_Wa_21> ; 
 .
 <#conduc>
-    a sosa:Observation, schema:Observation ;
+    a sosa:Observation, schema:Observation , csvw:Cell ;
+    csvw:column <http://data.emobon.embrc.eu/measured_metadata_schema#col_conduc> ;
+    csvw:row <EMOBON_BPNS_Wa_21> ;
     sosa:observedProperty [
         a sosa:ObservableProperty ; 
         dct:identifier <http://vocab.nerc.ac.uk/collection/P01/current/CNDCZZ01/> ;
@@ -50,7 +55,9 @@
     sosa:hasFeatureOfInterest </observatory-bpns-crate/water/sample/EMOBON_BPNS_Wa_21> ; 
 .
 <#density>
-    a sosa:Observation, schema:Observation ;
+    a sosa:Observation, schema:Observation , csvw:Cell ;
+    csvw:column <http://data.emobon.embrc.eu/measured_metadata_schema#col_density> ;
+    csvw:row <EMOBON_BPNS_Wa_21> ;
     sosa:observedProperty [
         a sosa:ObservableProperty ; 
         dct:identifier <http://vocab.nerc.ac.uk/collection/P02/current/SIGT/> ;
@@ -66,7 +73,9 @@
     sosa:hasFeatureOfInterest </observatory-bpns-crate/water/sample/EMOBON_BPNS_Wa_21> ; 
 .
 <#diss_oxygen>
-    a sosa:Observation, schema:Observation ;
+    a sosa:Observation, schema:Observation , csvw:Cell ;
+    csvw:column <http://data.emobon.embrc.eu/measured_metadata_schema#col_diss_oxygen> ;
+    csvw:row <EMOBON_BPNS_Wa_21> ;
     sosa:observedProperty [
         a sosa:ObservableProperty ; 
         dct:identifier <http://vocab.nerc.ac.uk/collection/P01/current/DOXMZZXX/> ;
@@ -82,7 +91,9 @@
     sosa:hasFeatureOfInterest </observatory-bpns-crate/water/sample/EMOBON_BPNS_Wa_21> ; 
 .
 <#nitrate>
-    a sosa:Observation, schema:Observation ;
+    a sosa:Observation, schema:Observation , csvw:Cell ;
+    csvw:column <http://data.emobon.embrc.eu/measured_metadata_schema#col_nitrate> ;
+    csvw:row <EMOBON_BPNS_Wa_21> ;
     sosa:observedProperty [
         a sosa:ObservableProperty ; 
         dct:identifier <http://vocab.nerc.ac.uk/collection/P01/current/NTRAZZXX/> ;
@@ -98,7 +109,9 @@
     sosa:hasFeatureOfInterest </observatory-bpns-crate/water/sample/EMOBON_BPNS_Wa_21> ; 
 .
 <#nitrite>
-    a sosa:Observation, schema:Observation ;
+    a sosa:Observation, schema:Observation , csvw:Cell ;
+    csvw:column <http://data.emobon.embrc.eu/measured_metadata_schema#col_nitrite> ;
+    csvw:row <EMOBON_BPNS_Wa_21> ;
     sosa:observedProperty [
         a sosa:ObservableProperty ; 
         dct:identifier <http://vocab.nerc.ac.uk/collection/P01/current/NTRIZZXX/> ;
@@ -114,7 +127,9 @@
     sosa:hasFeatureOfInterest </observatory-bpns-crate/water/sample/EMOBON_BPNS_Wa_21> ; 
 .
 <#pressure>
-    a sosa:Observation, schema:Observation ;
+    a sosa:Observation, schema:Observation , csvw:Cell ;
+    csvw:column <http://data.emobon.embrc.eu/measured_metadata_schema#col_pressure> ;
+    csvw:row <EMOBON_BPNS_Wa_21> ;
     sosa:observedProperty [
         a sosa:ObservableProperty ; 
         dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600274/> ;
@@ -130,7 +145,9 @@
     sosa:hasFeatureOfInterest </observatory-bpns-crate/water/sample/EMOBON_BPNS_Wa_21> ; 
 .
 <#sea_subsurf_salinity>
-    a sosa:Observation, schema:Observation ;
+    a sosa:Observation, schema:Observation , csvw:Cell ;
+    csvw:column <http://data.emobon.embrc.eu/measured_metadata_schema#col_sea_subsurf_salinity> ;
+    csvw:row <EMOBON_BPNS_Wa_21> ;
     sosa:observedProperty [
         a sosa:ObservableProperty ; 
         dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Sampledepth> ;
@@ -146,7 +163,9 @@
     sosa:hasFeatureOfInterest </observatory-bpns-crate/water/sample/EMOBON_BPNS_Wa_21> ; 
 .
 <#sea_subsurf_temp>
-    a sosa:Observation, schema:Observation ;
+    a sosa:Observation, schema:Observation , csvw:Cell ;
+    csvw:column <http://data.emobon.embrc.eu/measured_metadata_schema#col_sea_subsurf_temp> ;
+    csvw:row <EMOBON_BPNS_Wa_21> ;
     sosa:observedProperty [
         a sosa:ObservableProperty ; 
         dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Sampledepth> ;
@@ -162,7 +181,9 @@
     sosa:hasFeatureOfInterest </observatory-bpns-crate/water/sample/EMOBON_BPNS_Wa_21> ; 
 .
 <#sea_surf_salinity>
-    a sosa:Observation, schema:Observation ;
+    a sosa:Observation, schema:Observation , csvw:Cell ;
+    csvw:column <http://data.emobon.embrc.eu/measured_metadata_schema#col_sea_surf_salinity> ;
+    csvw:row <EMOBON_BPNS_Wa_21> ;
     sosa:observedProperty [
         a sosa:ObservableProperty ; 
         dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ;
@@ -178,7 +199,9 @@
     sosa:hasFeatureOfInterest </observatory-bpns-crate/water/sample/EMOBON_BPNS_Wa_21> ; 
 .
 <#sea_surf_temp>
-    a sosa:Observation, schema:Observation ;
+    a sosa:Observation, schema:Observation , csvw:Cell ;
+    csvw:column <http://data.emobon.embrc.eu/measured_metadata_schema#col_sea_surf_temp> ;
+    csvw:row <EMOBON_BPNS_Wa_21> ;
     sosa:observedProperty [
         a sosa:ObservableProperty ; 
         dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ;
@@ -194,7 +217,9 @@
     sosa:hasFeatureOfInterest </observatory-bpns-crate/water/sample/EMOBON_BPNS_Wa_21> ; 
 .
 <#silicate>
-    a sosa:Observation, schema:Observation ;
+    a sosa:Observation, schema:Observation , csvw:Cell ;
+    csvw:column <http://data.emobon.embrc.eu/measured_metadata_schema#col_silicate> ;
+    csvw:row <EMOBON_BPNS_Wa_21> ;
     sosa:observedProperty [
         a sosa:ObservableProperty ; 
         dct:identifier <http://vocab.nerc.ac.uk/collection/P02/current/SLCA/> ;
