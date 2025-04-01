@@ -35,7 +35,7 @@
     emobon-sampling:failureComment ''^^xsd:string ;
     
     
-    emobon-sampling:environmentMaterial'sediment [ENVO:00002007]'^^xsd:string;
+    emobon-sampling:environmentMaterial'sediment%20%5BENVO:00002007%5D'^^xsd:anyURI;
     emobon-sampling:investigationType 'mimarks-specimen'^^xsd:string ;
     emobon-sampling:taxonomicID 'https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=33208'^^xsd:anyURI ;
     emobon-sampling:taxonomicName 'Metazoa'^^xsd:string ;

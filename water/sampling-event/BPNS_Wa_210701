@@ -49,7 +49,7 @@
     emobon-core:waterColumnDepth '26'^^xsd:string ; 
     emobon-core:originCountry 'Belgium'^^xsd:string ;
     
-    emobon-sampling:environmentMaterial 'seawater [ENVO:00002149]'^^xsd:string, 'coastal sea water [ENVO:00002150]'^^xsd:string, 'surface water [ENVO:00002042]'^^xsd:string;
+    emobon-sampling:environmentMaterial 'seawater%20%5BENVO:00002149%5D'^^xsd:anyURI, 'coastal%20sea%20water%20%5BENVO:00002150%5D'^^xsd:anyURI, 'surface%20water%20%5BENVO:00002042%5D'^^xsd:anyURI;
     emobon-sampling:investigationType 'metagenome'^^xsd:string ;
     emobon-sampling:taxonomicID 'https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=1874687'^^xsd:anyURI ;
     emobon-sampling:taxonomicName 'marine plankton metagenome'^^xsd:string ;
