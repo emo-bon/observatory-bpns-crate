@@ -54,7 +54,7 @@
     ] ;
     emobon-sampling:membrCut 'false'^^xsd:boolean ;
     
-    emobon-sampling:environmentMaterial 'MilliQ water [ENVO:00003065]'^^xsd:string;
+    emobon-sampling:environmentMaterial 'MilliQ%20water%20%5BENVO:00003065%5D'^^xsd:anyURI;
     emobon-sampling:investigationType 'metagenome'^^xsd:string ;
     emobon-sampling:taxonomicID 'https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=256318'^^xsd:anyURI ;
     emobon-sampling:taxonomicName 'metagenome'^^xsd:string ;
