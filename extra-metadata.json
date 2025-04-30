@@ -74,6 +74,10 @@
                     "description": "The folder containing the all logsheets from this observatory"
                 },
                 {
+                    "@id": "all-triples.ttl",
+                    "@type": "File"
+                },
+                {
                     "@id": "logsheets/raw/",
                     "@type": "Dataset",
                     "description":"The folder containing the logsheets harvested from the EMO BON google drive"
@@ -311,6 +315,10 @@
             "email": "klaas.deneudt@vliz.be",
             "identifier": "https://orcid.org/0000-0002-8559-3508",
             "affiliation": "_:VLIZ"
+        },
+        {
+            "@id": "all-triples.ttl",
+            "@type": "File"
         },
         {
             "@id":"_:OpSci",
