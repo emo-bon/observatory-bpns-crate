@@ -224,6 +224,66 @@ missing value,sediment,sampling,failure_comment,24,<empty>,\,/github/workspace/l
 missing value,sediment,sampling,failure_comment,28,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 missing value,sediment,sampling,failure_comment,29,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 missing value,sediment,sampling,failure_comment,32,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+missing value,water,measured,sea_subsurf_salinity,376,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,mandatory
+missing value,water,measured,sea_subsurf_salinity,377,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,mandatory
+missing value,water,measured,sea_subsurf_salinity,378,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,mandatory
+missing value,water,measured,sea_subsurf_salinity,379,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,mandatory
+missing value,water,measured,sea_subsurf_salinity,380,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,mandatory
+missing value,water,measured,sea_subsurf_salinity,381,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,mandatory
+missing value,water,measured,sea_subsurf_salinity,382,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,mandatory
+missing value,water,measured,sea_subsurf_salinity,383,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,mandatory
+missing value,water,measured,sea_subsurf_salinity,384,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,mandatory
+missing value,water,measured,sea_subsurf_salinity,385,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,mandatory
+missing value,water,measured,sea_subsurf_salinity_method,376,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,mandatory
+missing value,water,measured,sea_subsurf_salinity_method,377,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,mandatory
+missing value,water,measured,sea_subsurf_salinity_method,378,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,mandatory
+missing value,water,measured,sea_subsurf_salinity_method,379,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,mandatory
+missing value,water,measured,sea_subsurf_salinity_method,380,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,mandatory
+missing value,water,measured,sea_subsurf_salinity_method,381,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,mandatory
+missing value,water,measured,sea_subsurf_salinity_method,382,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,mandatory
+missing value,water,measured,sea_subsurf_salinity_method,383,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,mandatory
+missing value,water,measured,sea_subsurf_salinity_method,384,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,mandatory
+missing value,water,measured,sea_subsurf_salinity_method,385,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,mandatory
+missing value,water,measured,sea_subsurf_temp,376,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,mandatory
+missing value,water,measured,sea_subsurf_temp,377,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,mandatory
+missing value,water,measured,sea_subsurf_temp,378,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,mandatory
+missing value,water,measured,sea_subsurf_temp,379,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,mandatory
+missing value,water,measured,sea_subsurf_temp,380,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,mandatory
+missing value,water,measured,sea_subsurf_temp,381,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,mandatory
+missing value,water,measured,sea_subsurf_temp,382,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,mandatory
+missing value,water,measured,sea_subsurf_temp,383,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,mandatory
+missing value,water,measured,sea_subsurf_temp,384,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,mandatory
+missing value,water,measured,sea_subsurf_temp,385,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,mandatory
+missing value,water,measured,sea_subsurf_temp_method,376,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,mandatory
+missing value,water,measured,sea_subsurf_temp_method,377,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,mandatory
+missing value,water,measured,sea_subsurf_temp_method,378,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,mandatory
+missing value,water,measured,sea_subsurf_temp_method,379,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,mandatory
+missing value,water,measured,sea_subsurf_temp_method,380,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,mandatory
+missing value,water,measured,sea_subsurf_temp_method,381,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,mandatory
+missing value,water,measured,sea_subsurf_temp_method,382,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,mandatory
+missing value,water,measured,sea_subsurf_temp_method,383,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,mandatory
+missing value,water,measured,sea_subsurf_temp_method,384,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,mandatory
+missing value,water,measured,sea_subsurf_temp_method,385,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,mandatory
+missing value,water,measured,sea_surf_temp,376,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,mandatory
+missing value,water,measured,sea_surf_temp,377,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,mandatory
+missing value,water,measured,sea_surf_temp,378,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,mandatory
+missing value,water,measured,sea_surf_temp,379,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,mandatory
+missing value,water,measured,sea_surf_temp,380,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,mandatory
+missing value,water,measured,sea_surf_temp,381,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,mandatory
+missing value,water,measured,sea_surf_temp,382,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,mandatory
+missing value,water,measured,sea_surf_temp,383,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,mandatory
+missing value,water,measured,sea_surf_temp,384,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,mandatory
+missing value,water,measured,sea_surf_temp,385,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,mandatory
+missing value,water,measured,sea_surf_temp_method,376,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,mandatory
+missing value,water,measured,sea_surf_temp_method,377,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,mandatory
+missing value,water,measured,sea_surf_temp_method,378,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,mandatory
+missing value,water,measured,sea_surf_temp_method,379,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,mandatory
+missing value,water,measured,sea_surf_temp_method,380,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,mandatory
+missing value,water,measured,sea_surf_temp_method,381,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,mandatory
+missing value,water,measured,sea_surf_temp_method,382,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,mandatory
+missing value,water,measured,sea_surf_temp_method,383,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,mandatory
+missing value,water,measured,sea_surf_temp_method,384,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,mandatory
+missing value,water,measured,sea_surf_temp_method,385,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,mandatory
 datatype mismatch,water,measured,silicate,41,Expected 12-2024,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,optional
 datatype mismatch,water,measured,silicate,42,Expected 12-2024,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,optional
 datatype mismatch,water,measured,silicate,43,Expected 12-2024,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,optional
@@ -240,6 +300,16 @@ datatype mismatch,water,measured,silicate,56,Expected 12-2024,\,/github/workspac
 datatype mismatch,water,measured,silicate,57,Expected 12-2024,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,optional
 datatype mismatch,water,measured,silicate,58,Expected 12-2024,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,optional
 datatype mismatch,water,measured,silicate,59,Expected 12-2024,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,optional
+missing value,water,measured,source_mat_id,376,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,mandatory
+missing value,water,measured,source_mat_id,377,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,mandatory
+missing value,water,measured,source_mat_id,378,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,mandatory
+missing value,water,measured,source_mat_id,379,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,mandatory
+missing value,water,measured,source_mat_id,380,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,mandatory
+missing value,water,measured,source_mat_id,381,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,mandatory
+missing value,water,measured,source_mat_id,382,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,mandatory
+missing value,water,measured,source_mat_id,383,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,mandatory
+missing value,water,measured,source_mat_id,384,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,mandatory
+missing value,water,measured,source_mat_id,385,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,mandatory
 missing value,water,sampling,ENA_accession_number_sample,1,<empty>,\,/github/workspace/logsheets/filtered/water_sampling.csv,XSDAnyURI,mandatory
 missing value,water,sampling,ENA_accession_number_sample,2,<empty>,\,/github/workspace/logsheets/filtered/water_sampling.csv,XSDAnyURI,mandatory
 missing value,water,sampling,ENA_accession_number_sample,6,<empty>,\,/github/workspace/logsheets/filtered/water_sampling.csv,XSDAnyURI,mandatory
