@@ -15,6 +15,7 @@
 @prefix emobon-sampling: <https://data.emobon.embrc.eu/ns/sampling#> .
 @prefix core_vocab: <https://data.emobon.embrc.eu/ns/core_vocab#> .
 @prefix csvw: <http://www.w3.org/ns/csvw#>.
+
 @base <http://data.emobon.embrc.eu/observatory-bpns-crate/water/sample/EMOBON_BPNS_Wa_156> .
 <> 
     a sosa:Sample, prov:Entity ;
@@ -48,11 +49,10 @@
     ] ;
     emobon-sampling:membrCut 'false'^^xsd:boolean ;
     
-    emobon-sampling:environmentMaterial 'seawater%20%5BENVO:00002149%5D'^^xsd:anyURI, 'coastal%20sea%20water%20%5BENVO:00002150%5D'^^xsd:anyURI;
+    emobon-sampling:environmentMaterial <http://purl.obolibrary.org/obo/ENVO_00002149>, <http://purl.obolibrary.org/obo/ENVO_00002150>;
     emobon-sampling:investigationType 'metagenome'^^xsd:string ;
     emobon-sampling:taxonomicID 'https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=1874687'^^xsd:anyURI ;
     emobon-sampling:taxonomicName 'marine plankton metagenome'^^xsd:string ;
-    emobon-sampling:bioCommunity ''^^xsd:string ;
 
     
     prov:wasAssociatedWith [

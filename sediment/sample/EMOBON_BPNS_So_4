@@ -16,8 +16,6 @@
 @prefix core_vocab: <https://data.emobon.embrc.eu/ns/core_vocab#> .
 @prefix csvw: <http://www.w3.org/ns/csvw#>.
 
-
-
 @base <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sample/EMOBON_BPNS_So_4> . 
 <> 
     a sosa:Sample, prov:Entity ;
@@ -44,7 +42,7 @@
         qudt:unit <https://vocab.nerc.ac.uk/collection/P06/current/UXMM/> ;
     ] ;
     
-    emobon-sampling:environmentMaterial'sediment%20%5BENVO:00002007%5D'^^xsd:anyURI;
+    emobon-sampling:environmentMaterial<http://purl.obolibrary.org/obo/ENVO_00002007>;
     emobon-sampling:investigationType 'mimarks-specimen'^^xsd:string ;
     emobon-sampling:taxonomicID 'https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=33208'^^xsd:anyURI ;
     emobon-sampling:taxonomicName 'Metazoa'^^xsd:string ;
@@ -78,7 +76,7 @@
             qudt:numericValue '-20.0'^^xsd:double ; 
             qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ;
         ] ;
-        emobon-sampling:storageLoc 'UGent MarBiol Freezer #11, Box#65'^^xsd:string ;
+        emobon-sampling:storageLoc 'UGent MarBiol Freezer #4, Box#61'^^xsd:string ;
         prov:wasInformedBy <> ;
     ] ;
 .

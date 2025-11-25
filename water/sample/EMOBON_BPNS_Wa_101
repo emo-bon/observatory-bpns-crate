@@ -15,6 +15,7 @@
 @prefix emobon-sampling: <https://data.emobon.embrc.eu/ns/sampling#> .
 @prefix core_vocab: <https://data.emobon.embrc.eu/ns/core_vocab#> .
 @prefix csvw: <http://www.w3.org/ns/csvw#>.
+
 @base <http://data.emobon.embrc.eu/observatory-bpns-crate/water/sample/EMOBON_BPNS_Wa_101> .
 <> 
     a sosa:Sample, prov:Entity ;
@@ -24,12 +25,10 @@
     emobon-sampling:origEmobonId 'EMOBON 220420 BPNS Wa 3 R1'^^xsd:string ; 
     
     dct:description 'EMOBON metagenome water sample from station BPNS collected on 2022-04-20 size fraction 3-200um'^^xsd:string ;
-    emobon-sampling:enaSampleAccNum ''^^xsd:anyURI ;
     emobon-sampling:sampleReplicate '1'^^xsd:string ;
     schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI ; 
     schema:additionalType core_vocab:fieldSample ;
     emobon-sampling:longStorage 'false'^^xsd:boolean ;
-    emobon-sampling:failureComment ''^^xsd:string ;
     emobon-sampling:hasSampleSize [
         a qudt:QuantityValue ; 
         qudt:numericValue '1.5'^^xsd:double ; 
@@ -53,11 +52,10 @@
     ] ;
     emobon-sampling:membrCut 'true'^^xsd:boolean ;
     
-    emobon-sampling:environmentMaterial 'seawater%20%5BENVO:00002149%5D'^^xsd:anyURI, 'coastal%20sea%20water%20%5BENVO:00002150%5D'^^xsd:anyURI, 'surface%20water%20%5BENVO:00002042%5D'^^xsd:anyURI;
+    emobon-sampling:environmentMaterial <http://purl.obolibrary.org/obo/ENVO_00002149>, <http://purl.obolibrary.org/obo/ENVO_00002150>, <http://purl.obolibrary.org/obo/ENVO_00002042>;
     emobon-sampling:investigationType 'metagenome'^^xsd:string ;
     emobon-sampling:taxonomicID 'https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=1874687'^^xsd:anyURI ;
     emobon-sampling:taxonomicName 'marine plankton metagenome'^^xsd:string ;
-    emobon-sampling:bioCommunity ''^^xsd:string ;
 
     
     prov:wasAssociatedWith [

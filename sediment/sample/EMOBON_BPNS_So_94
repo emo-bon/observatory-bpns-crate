@@ -16,8 +16,6 @@
 @prefix core_vocab: <https://data.emobon.embrc.eu/ns/core_vocab#> .
 @prefix csvw: <http://www.w3.org/ns/csvw#>.
 
-
-
 @base <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sample/EMOBON_BPNS_So_94> . 
 <> 
     a sosa:Sample, prov:Entity ;
@@ -26,16 +24,14 @@
     
     emobon-sampling:origEmobonId 'EMOBON-221212-BPNS-So3-Micro-R1'^^xsd:string ; 
     
-    dct:description 'EMOBON metagenome sediment sample from station BPNS collected on 2022-12-12 community collected micro'^^xsd:string ;
-    emobon-sampling:enaSampleAccNum ''^^xsd:anyURI ; 
+    dct:description 'EMOBON metagenome sediment sample from station BPNS collected on 2022-12-12 community collected micro'^^xsd:string ; 
     emobon-sampling:sampleReplicate '1'^^xsd:string ;
     schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI ; 
     schema:additionalType core_vocab:fieldSample ;
     emobon-sampling:longStorage 'false'^^xsd:boolean ;
-    emobon-sampling:failureComment ''^^xsd:string ;
     
     
-    emobon-sampling:environmentMaterial'sediment%20%5BENVO:00002007%5D'^^xsd:anyURI;
+    emobon-sampling:environmentMaterial<http://purl.obolibrary.org/obo/ENVO_00002007>;
     emobon-sampling:investigationType 'metagenome'^^xsd:string ;
     emobon-sampling:taxonomicID 'https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755'^^xsd:anyURI ;
     emobon-sampling:taxonomicName 'marine sediment metagenome'^^xsd:string ;
