@@ -1,11 +1,11 @@
 jobs:
   job:
     env:
-      DATA_QUALITY_CONTROL_ASSIGNEE: isanti
+      DATA_QUALITY_CONTROL_ASSIGNEE: github-actions[bot]
       DATA_QUALITY_CONTROL_THRESHOLD_DATE: '2022-12-31'
       GITHUB_REPOSITORY: ${{ github.repository }}
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      HARD_LOGSHEET_URL: https://docs.google.com/spreadsheets/d/1qhp2osFgZ9xuHg59AzwCAw2AoVjl3m8OEO5ou_oZOqg/edit?usp=sharing
+      HARD_LOGSHEET_URL: ""
       RDF_AGGREGATOR_GLOB: sediment/**/*:ttl,water/**/*:ttl,ro-crate-metadata.json:json-ld
       ROCRATE_PROFILE_URI: https://data.emobon.embrc.eu/observatory-profile/latest
       SEDIMENT_LOGSHEET_URL: https://docs.google.com/spreadsheets/d/1zc0bZdpl-Eoi35lI_5BGkElbscplyQRyNPLkSgeEyEQ/edit?usp=sharing
