@@ -17,6 +17,7 @@
 @prefix csvw: <http://www.w3.org/ns/csvw#>.
 
 
+
 @base <http://data.emobon.embrc.eu/observatory-bpns-crate/water/observation/EMOBON_BPNS_Wa_197> . 
 <#chlorophyll>
     a sosa:Observation, schema:Observation , csvw:Cell ;
@@ -77,7 +78,7 @@
     sosa:hasResult [
         a sosa:Result , qudt:QuantityValue ;
         qudt:numericValue '9.149678'^^xsd:double ;
-        qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ; 
+        qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/KGUM/> ; 
     ] ;
     schema:measurementTechnique 'CTD'^^xsd:string ;
     sosa:hasFeatureOfInterest </observatory-bpns-crate/water/sample/EMOBON_BPNS_Wa_197> ; 

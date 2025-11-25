@@ -15,8 +15,13 @@
 @prefix emobon-sampling: <https://data.emobon.embrc.eu/ns/sampling#> .
 @prefix core_vocab: <https://data.emobon.embrc.eu/ns/core_vocab#> .
 @prefix csvw: <http://www.w3.org/ns/csvw#>.
-
 @base <http://data.emobon.embrc.eu/observatory-bpns-crate/water/observatory/BPNS> . 
+
+http://data.emobon.embrc.eu/observatory-bpns-crate/water/observatory/BPNS<#observatory_collection>
+    a schema:Organization ;
+
+    schema:member  http://data.emobon.embrc.eu/observatory-bpns-crate/water/observatory/<BPNS> ;
+.
 
 <> 
     a emobon-core:Observatory ; 
@@ -28,11 +33,12 @@
         a schema:Project ;
         schema:name 'EMOBON'^^xsd:string ;
         schema:description "The EMO BON project"^^xsd:string ;
-        emobon-core:enaProjAccNum 'https://www.ebi.ac.uk/ena/browser/view/PRJEB51688'^^xsd:anyURI ;
+        emobon-core:enaProjAccNum 'https://identifiers.org/ena.embl:PRJEB51688'^^xsd:anyURI ;
     ] ;
+    dct:rightsHolder <5669> ;
     emobon-core:siteInfo 'Station that has historic data going back to 1980’s and has monthly environmental measurements since 2001. Site participated in Ocean Sampling day activities for years 2012 2017 2018 2019 2020 and OSD12x. Parallel genomic biodiversity sampling in 2014 and monthly in 2016. The spring phytoplankton bloom (expressed as chlorophyll a) typically occurs between March to May. A spring diatom community is ‘followed’ by a bloom of Phaeocystis globosa and a summer diatom bloom. (Desmit. et al. 2015). A number of potentially harmful algal species occur such as Pseudo-nitzschia and several dinoflagellate genera (e.g. Prorocentrum Alexandrium..). (Nohe et al. 2019). BPNS is characterised by high antropogenic activity (Intense shipping traffic offshore windmill farms dredging etc.)'^^xsd:string ;
-    emobon-core:broadBiome  'marine%20biome%20%5BENVO:00000447%5D'^^xsd:anyURI,  'marine%20pelagic%20biome%20%5BENVO:01000023%5D'^^xsd:anyURI;
-    emobon-core:localBiome 'marine%20pelagic%20feature%20%5BENVO:01000044%5D'^^xsd:anyURI, 'marine%20water%20body%20%5BENVO:00001999%5D'^^xsd:anyURI, 'costal%20water%20body%20%5BENVO:02000049%5D'^^xsd:anyURI;
+    emobon-core:broadBiome  'http://purl.obolibrary.org/obo/ENVO_00000447'^^xsd:anyURI,  'http://purl.obolibrary.org/obo/ENVO_01000023'^^xsd:anyURI;
+    emobon-core:localBiome 'http://purl.obolibrary.org/obo/ENVO_01000044'^^xsd:anyURI, 'http://purl.obolibrary.org/obo/ENVO_00001999'^^xsd:anyURI, 'http://purl.obolibrary.org/obo/ENVO_02000049'^^xsd:anyURI;
     emobon-core:marineRegionName 'North Atlantic Ocean'^^xsd:string ;
     emobon-core:marineRegion 'http://marineregions.org/mrgid/1912'^^xsd:anyURI ;
     emobon-core:marineRegionName 'North Sea'^^xsd:string ;
@@ -55,6 +61,7 @@
             schema:name 'Klaas Deneudt'^^xsd:string ;
             schema:email 'klaas.deneudt@vliz.be'^^xsd:string ;
             schema:identifier 'https://orcid.org/0000-0002-8559-3508'^^xsd:anyURI ;
+             
         ]
         ] ; 
     ] ; 
@@ -91,20 +98,26 @@
             qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/ULAA/> ;
         ] ;
     emobon-core:originCountry 'Belgium'^^xsd:string ;
-    emobon-core:enaStudyAccNum 'https://www.ebi.ac.uk/ena/browser/view/PRJEB51652'^^xsd:anyURI ;
+    emobon-core:enaStudyAccNum 'https://identifiers.org/ena.embl:PRJEB51652'^^xsd:anyURI ;
     emobon-core:hasMixsPackage 'water'^^xsd:string ; 
 .
 
 
-<http://marineregions.org/mrgid/http://marineregions.org/mrgid/1912>
-    mr:contains <http://marineregions.org/mrgid/> ;
+<http://marineregions.org/mrgid/1912>
+    mr:contains <http://marineregions.org/mrgid/2350> ;
 .
 
-<http://marineregions.org/mrgid/http://marineregions.org/mrgid/2350>
-    mr:contains <http://marineregions.org/mrgid/http://marineregions.org/mrgid/26567> ;
-    mr:isPartOf <http://marineregions.org/mrgid/http://marineregions.org/mrgid/1912> ; 
+<http://marineregions.org/mrgid/2350>
+    mr:contains <http://marineregions.org/mrgid/26567> ;
+    mr:isPartOf <http://marineregions.org/mrgid/1912> ; 
 .
 
-<http://marineregions.org/mrgid/http://marineregions.org/mrgid/26567>
-    mr:isPartOf <http://marineregions.org/mrgid/http://marineregions.org/mrgid/2350> ;
+<http://marineregions.org/mrgid/26567>
+    mr:isPartOf <http://marineregions.org/mrgid/2350> ;
+.
+
+<5669> 
+    a schema:Organization  ;
+    schema:name 'European Marine Biological Resource Centre'^^xsd:string ; 
+    schema:email '5669'^^xsd:anyURI ; 
 .

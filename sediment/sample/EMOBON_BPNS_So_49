@@ -16,8 +16,6 @@
 @prefix core_vocab: <https://data.emobon.embrc.eu/ns/core_vocab#> .
 @prefix csvw: <http://www.w3.org/ns/csvw#>.
 
-
-
 @base <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sample/EMOBON_BPNS_So_49> . 
 <> 
     a sosa:Sample, prov:Entity ;
@@ -34,7 +32,7 @@
     emobon-sampling:failure 'true'^^xsd:boolean ;
     
     
-    emobon-sampling:environmentMaterial'sediment%20%5BENVO:00002007%5D'^^xsd:anyURI;
+    emobon-sampling:environmentMaterial<http://purl.obolibrary.org/obo/ENVO_00002007>;
     emobon-sampling:investigationType 'metagenome'^^xsd:string ;
     emobon-sampling:taxonomicID 'https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=256318'^^xsd:anyURI ;
     emobon-sampling:taxonomicName 'metagenome'^^xsd:string ;
