@@ -7,13 +7,8 @@
 @prefix qudt: <http://qudt.org/schema/qudt/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <https://schema.org/> .
-@prefix schema1: <http://schema.org/> .
 @prefix sosa: <http://www.w3.org/ns/sosa/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-
-<file:///github/workspace/ro-crate-metadata.json> a schema1:CreativeWork ;
-    dct:conformsTo <https://w3id.org/ro/crate/1.2> ;
-    schema1:about <file:///github/workspace/> .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/observation/EMOBON_BPNS_So_1#diss_oxygen> a csvw:Cell,
         sosa:Observation,
@@ -23894,9 +23889,6 @@
             rdfs:label "silicate"^^xsd:string ;
             dct:identifier <http://vocab.nerc.ac.uk/collection/P02/current/SLCA/> ] ;
     schema:measurementTechnique "SEAL QuAAtro analysis system + Skalar AutoAnalyser system"^^xsd:string .
-
-<file:///github/workspace/> a schema1:Dataset ;
-    schema1:datePublished "2026-08-20T08:52:08+00:00" .
 
 <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/sample/EMOBON_BPNS_So_10> a prov:Entity,
         sosa:Sample ;
