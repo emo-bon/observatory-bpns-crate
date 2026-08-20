@@ -3,10 +3,7 @@
     "@graph": [
         {
             "@id": "./",
-            "@type": [
-                "Dataset",
-                "http://www.w3.org/ns/dcat#Dataset"
-            ],
+            "@type": "Dataset",
             "datePublished": "2023-06-23",
             "dct:relation": {
                 "@id": "https://github.com/emo-bon/sequencing-data"
@@ -14,18 +11,12 @@
             "description": "The sampling activity logsheets for this given observatory",
             "hasPart": [
                 "all-triples.ttl",
-                "sema-workspace/templates/hard_observatory.ldt.ttl",
-                "sema-workspace/templates/hard_sample.ttl",
-                "sema-workspace/templates/hard_sampling.ttl",
-                "sema-workspace/templates/includes/prefixes.ttl",
-                "sema-workspace/templates/sediment_measured.ldt.ttl",
-                "sema-workspace/templates/sediment_observatory.ldt.ttl",
-                "sema-workspace/templates/sediment_sample.ldt.ttl",
-                "sema-workspace/templates/sediment_sampling.ldt.ttl",
-                "sema-workspace/templates/water_measured.ldt.ttl",
-                "sema-workspace/templates/water_observatory.ldt.ttl",
-                "sema-workspace/templates/water_sample.ldt.ttl",
-                "sema-workspace/templates/water_sampling.ldt.ttl"
+                "logsheets/transformed/sediment_measured.csv",
+                "logsheets/transformed/sediment_observatory.csv",
+                "logsheets/transformed/sediment_sampling.csv",
+                "logsheets/transformed/water_measured.csv",
+                "logsheets/transformed/water_observatory.csv",
+                "logsheets/transformed/water_sampling.csv"
             ],
             "http://www.w3.org/ns/dcat#contactPoint": {
                 "@id": "https://orcid.org/0000-0002-8559-3508"
@@ -97,72 +88,42 @@
             "name": "Flanders Marine Institute"
         },
         {
+            "@id": "logsheets/transformed/sediment_measured.csv",
+            "@type": "File",
+            "encodingFormat": "text/csv"
+        },
+        {
+            "@id": "logsheets/transformed/sediment_observatory.csv",
+            "@type": "File",
+            "encodingFormat": "text/csv"
+        },
+        {
+            "@id": "logsheets/transformed/sediment_sampling.csv",
+            "@type": "File",
+            "encodingFormat": "text/csv"
+        },
+        {
+            "@id": "logsheets/transformed/water_measured.csv",
+            "@type": "File",
+            "encodingFormat": "text/csv"
+        },
+        {
+            "@id": "logsheets/transformed/water_observatory.csv",
+            "@type": "File",
+            "encodingFormat": "text/csv"
+        },
+        {
+            "@id": "logsheets/transformed/water_sampling.csv",
+            "@type": "File",
+            "encodingFormat": "text/csv"
+        },
+        {
             "@id": "ro-crate-metadata.json",
             "@type": "CreativeWork",
             "about": "./",
             "conformsTo": {
                 "@id": "https://w3id.org/ro/crate/1.2"
             }
-        },
-        {
-            "@id": "sema-workspace/templates/hard_observatory.ldt.ttl",
-            "@type": "File",
-            "encodingFormat": "text/turtle"
-        },
-        {
-            "@id": "sema-workspace/templates/hard_sample.ttl",
-            "@type": "File",
-            "encodingFormat": "text/turtle"
-        },
-        {
-            "@id": "sema-workspace/templates/hard_sampling.ttl",
-            "@type": "File",
-            "encodingFormat": "text/turtle"
-        },
-        {
-            "@id": "sema-workspace/templates/includes/prefixes.ttl",
-            "@type": "File",
-            "encodingFormat": "text/turtle"
-        },
-        {
-            "@id": "sema-workspace/templates/sediment_measured.ldt.ttl",
-            "@type": "File",
-            "encodingFormat": "text/turtle"
-        },
-        {
-            "@id": "sema-workspace/templates/sediment_observatory.ldt.ttl",
-            "@type": "File",
-            "encodingFormat": "text/turtle"
-        },
-        {
-            "@id": "sema-workspace/templates/sediment_sample.ldt.ttl",
-            "@type": "File",
-            "encodingFormat": "text/turtle"
-        },
-        {
-            "@id": "sema-workspace/templates/sediment_sampling.ldt.ttl",
-            "@type": "File",
-            "encodingFormat": "text/turtle"
-        },
-        {
-            "@id": "sema-workspace/templates/water_measured.ldt.ttl",
-            "@type": "File",
-            "encodingFormat": "text/turtle"
-        },
-        {
-            "@id": "sema-workspace/templates/water_observatory.ldt.ttl",
-            "@type": "File",
-            "encodingFormat": "text/turtle"
-        },
-        {
-            "@id": "sema-workspace/templates/water_sample.ldt.ttl",
-            "@type": "File",
-            "encodingFormat": "text/turtle"
-        },
-        {
-            "@id": "sema-workspace/templates/water_sampling.ldt.ttl",
-            "@type": "File",
-            "encodingFormat": "text/turtle"
         }
     ]
 }
