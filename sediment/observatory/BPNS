@@ -17,10 +17,10 @@
 @prefix csvw: <http://www.w3.org/ns/csvw#>.
 @base <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/observatory/BPNS> . 
 
-http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/observatory/BPNS<#observatory_collection>
+<http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/observatory/BPNS#observatory_collection>
     a schema:Organization ;
 
-    schema:member  http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/observatory/<BPNS> ;
+    schema:member  <http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/observatory/BPNS> ;
 .
 
 <> 

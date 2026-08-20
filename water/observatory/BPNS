@@ -20,7 +20,7 @@
 http://data.emobon.embrc.eu/observatory-bpns-crate/water/observatory/BPNS<#observatory_collection>
     a schema:Organization ;
 
-    schema:member  http://data.emobon.embrc.eu/observatory-bpns-crate/water/observatory/<BPNS> ;
+    schema:member  <http://data.emobon.embrc.eu/observatory-bpns-crate/water/observatory/BPNS> ;
 .
 
 <> 
