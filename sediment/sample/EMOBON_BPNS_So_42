@@ -28,8 +28,8 @@
     emobon-sampling:sampleReplicate '4'^^xsd:string ;
     schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI ; 
     schema:additionalType core_vocab:fieldSample ;
-    emobon-sampling:longStorage 'true'^^xsd:boolean ;
     emobon-sampling:failure 'true'^^xsd:boolean ;
+    emobon-sampling:failureComment 'Tube broke, Problem with underway data'^^xsd:string ;
     
     
     emobon-sampling:environmentMaterial<http://purl.obolibrary.org/obo/ENVO_00002007>;

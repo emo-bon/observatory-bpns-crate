@@ -58,9 +58,9 @@ http://data.emobon.embrc.eu/observatory-bpns-crate/water/observatory/BPNS<#obser
             schema:addressCountry 'Belgium'^^xsd:string ; 
         schema:member [
             a schema:Person ;
-            schema:name 'Klaas Deneudt'^^xsd:string ;
-            schema:email 'klaas.deneudt@vliz.be'^^xsd:string ;
-            schema:identifier 'https://orcid.org/0000-0002-8559-3508'^^xsd:anyURI ;
+            schema:name 'Hanneloor Heynderickx'^^xsd:string ;
+            schema:email 'hanneloor.heynderickx@vliz.be'^^xsd:string ;
+            schema:identifier 'https://orcid.org/0000-0002-5611-837X'^^xsd:anyURI ;
              
         ]
         ] ; 

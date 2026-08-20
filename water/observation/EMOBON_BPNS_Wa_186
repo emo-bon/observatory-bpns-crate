@@ -135,7 +135,7 @@
     a sosa:Observation, schema:Observation , csvw:Cell ;
     sosa:observedProperty [
         a sosa:ObservableProperty ; 
-        dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Sampledepth> ;
+        dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#salSampledepth> ;
         rdfs:label 'sea_subsurf_salinity'^^xsd:string ; 
     ] ;
 
@@ -151,7 +151,7 @@
     a sosa:Observation, schema:Observation , csvw:Cell ;
     sosa:observedProperty [
         a sosa:ObservableProperty ; 
-        dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Sampledepth> ;
+        dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#tempSampledepth> ;
         rdfs:label 'sea_subsurf_temp'^^xsd:string ; 
     ] ;
 
@@ -167,7 +167,7 @@
     a sosa:Observation, schema:Observation , csvw:Cell ;
     sosa:observedProperty [
         a sosa:ObservableProperty ; 
-        dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ;
+        dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#salSurface> ;
         rdfs:label 'sea_surf_salinity'^^xsd:string ; 
     ] ;
 
@@ -183,7 +183,7 @@
     a sosa:Observation, schema:Observation , csvw:Cell ;
     sosa:observedProperty [
         a sosa:ObservableProperty ; 
-        dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ;
+        dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#tempSurface> ;
         rdfs:label 'sea_surf_temp'^^xsd:string ; 
     ] ;
 

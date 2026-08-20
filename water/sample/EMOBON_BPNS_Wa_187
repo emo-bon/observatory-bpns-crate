@@ -28,7 +28,9 @@
     emobon-sampling:sampleReplicate '2'^^xsd:string ;
     schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI ; 
     schema:additionalType core_vocab:fieldSample ;
-    emobon-sampling:longStorage 'false'^^xsd:boolean ;
+    emobon-sampling:longStorage 'false'^^xsd:boolean ; 
+    emobon-sampling:failure 'true'^^xsd:boolean ;
+    emobon-sampling:failureComment 'Non quantifiable DNA; no seq library'^^xsd:string ;
     
     emobon-sampling:hasSampleSize [
         a qudt:QuantityValue ; 
@@ -67,22 +69,20 @@
         a prov:Person, schema:Person ;
         schema:name 'Rune Lagaisse'^^xsd:string ;
         schema:identifier 'https://orcid.org/0000-0001-9191-9140'^^xsd:anyURI ;
-    ] , [
-        a prov:Person, schema:Person ;
-    ] ; 
+    ]  ; 
     prov:wasGeneratedBy [
         a prov:Activity ;
         dct:type "storage"^^xsd:string ; 
         dct:description "Storage of sample at sequencing centre for subsequent DNA sequencing"^^xsd:string ; 
-        prov:startedAtTime '2024-04-01'^^xsd:date ; 
+        prov:startedAtTime '2024-04-18'^^xsd:date ; 
         
         prov:wasInformedBy [
             
             a prov:Activity ;
             dct:type "transport"^^xsd:string ; 
             dct:description "Shipping of sample from HMBRC HQ to sequencing centre"^^xsd:string ; 
-            prov:startedAtTime '2024-04-01'^^xsd:date ;
-            prov:endedAtTime '2024-04-01'^^xsd:date ;
+            prov:startedAtTime '2024-04-17'^^xsd:date ;
+            prov:endedAtTime '2024-04-18'^^xsd:date ;
             
             prov:wasInformedBy [
                 

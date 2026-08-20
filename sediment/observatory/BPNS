@@ -37,7 +37,7 @@ http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/observatory/BPNS<#ob
     ] ;
     dct:rightsHolder <5669> ;
     emobon-core:siteInfo 'Station that has historic data going back to 1980’s and has monthly environmental measurements since 2001. Site participated in Ocean Sampling day activities for years 2012; 2017; 2018; 2019; 2020 and OSD12x. Parallel genomic biodiversity sampling in 2014 and monthly in 2016. The spring phytoplankton bloom (expressed as chlorophyll a) typically occurs between March to May. A spring diatom community is ‘followed’ by a bloom of Phaeocystis globosa and a summer diatom bloom. (Desmit. et al. 2015). A number of potentially harmful algal species occur such as Pseudo-nitzschia and several dinoflagellate genera (e.g. Prorocentrum; Alexandrium..). (Nohe et al. 2019). BPNS is characterised by high antropogenic activity (Intense shipping traffic; offshore windmill farms; dredging; etc.)'^^xsd:string ;
-    emobon-core:broadBiome  'marine%20biome%20%5BENVO:00000447%5D'^^xsd:anyURI,  'marine%20benthic%20biome%5BENVO_01000024%5D'^^xsd:anyURI;
+    emobon-core:broadBiome  'http://purl.obolibrary.org/obo/ENVO_00000447'^^xsd:anyURI,  'http://purl.obolibrary.org/obo/ENVO_01000024'^^xsd:anyURI;
     emobon-core:localBiome 'http://purl.obolibrary.org/obo/ENVO_03000034'^^xsd:anyURI;
     emobon-core:marineRegionName 'North Atlantic Ocean'^^xsd:string ;
     emobon-core:marineRegion 'http://marineregions.org/mrgid/1912'^^xsd:anyURI ;
@@ -102,6 +102,7 @@ http://data.emobon.embrc.eu/observatory-bpns-crate/sediment/observatory/BPNS<#ob
             qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/ULAA/> ;
         ] ;
     emobon-core:originCountry 'Belgium'^^xsd:string ;
+    emobon-core:enaStudyAccNum 'https://identifiers.org/ena.embl:PRJEB51652'^^xsd:anyURI ;
     emobon-core:hasMixsPackage 'sediment'^^xsd:string ; 
 
 

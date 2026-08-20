@@ -25,11 +25,12 @@
     emobon-sampling:origEmobonId 'EMOBON 210701 330 WaSOP1 0.2um R1'^^xsd:string ; 
     
     dct:description 'EMOBON metagenome water sample from station BPNS collected on 2021-07-01 size fraction 0.2-3um'^^xsd:string ;
+    emobon-sampling:enaSampleAccNum 'https://identifiers.org/ena.embl:ERS16590013'^^xsd:anyURI ;
     emobon-sampling:sampleReplicate '1'^^xsd:string ;
     schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI ; 
     schema:additionalType core_vocab:fieldSample ;
-    emobon-sampling:longStorage 'false'^^xsd:boolean ; 
-    emobon-sampling:failure 'false'^^xsd:boolean ;
+    emobon-sampling:longStorage 'false'^^xsd:boolean ;
+    emobon-sampling:failureComment 'seawater was frozen; a month later when the filter holders arrived, seawater was brought to RT and filtered; there is a small chance that the reads generated for R1 might be for R2 and vice versa.'^^xsd:string ;
     
     emobon-sampling:hasSampleSize [
         a qudt:QuantityValue ; 

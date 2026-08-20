@@ -28,8 +28,7 @@
     emobon-sampling:sampleReplicate '1'^^xsd:string ;
     schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI ; 
     schema:additionalType core_vocab:fieldSample ;
-    emobon-sampling:longStorage 'true'^^xsd:boolean ; 
-    emobon-sampling:failure 'true'^^xsd:boolean ;
+    emobon-sampling:longStorage 'true'^^xsd:boolean ;
     
     emobon-sampling:hasSampleSize [
         a qudt:QuantityValue ; 

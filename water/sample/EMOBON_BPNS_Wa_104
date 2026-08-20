@@ -28,8 +28,8 @@
     emobon-sampling:sampleReplicate '4'^^xsd:string ;
     schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI ; 
     schema:additionalType core_vocab:fieldSample ;
-    emobon-sampling:longStorage 'true'^^xsd:boolean ; 
-    emobon-sampling:failure 'true'^^xsd:boolean ;
+    emobon-sampling:longStorage 'true'^^xsd:boolean ;
+    
     emobon-sampling:hasSampleSize [
         a qudt:QuantityValue ; 
         qudt:numericValue '1.5'^^xsd:double ; 
@@ -67,9 +67,7 @@
         a prov:Person, schema:Person ;
         schema:name 'Rune Lagaisse'^^xsd:string ;
         schema:identifier 'https://orcid.org/0000-0001-9191-9140'^^xsd:anyURI ;
-    ] , [
-        a prov:Person, schema:Person ;
-    ] ; 
+    ]  ; 
     prov:wasGeneratedBy [
         a prov:Activity ;
         dct:type "storage"^^xsd:string ; 

@@ -29,7 +29,6 @@
     schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI ; 
     schema:additionalType core_vocab:blankSample ;
     emobon-sampling:longStorage 'false'^^xsd:boolean ;
-    emobon-sampling:failure 'true'^^xsd:boolean ;
     
     emobon-sampling:lowerFilterSize [
         a qudt:QuantityValue ; 

@@ -31,6 +31,7 @@
     emobon-sampling:longStorage 'false'^^xsd:boolean ; 
     emobon-sampling:failure 'true'^^xsd:boolean ;
     emobon-sampling:failureComment 'blank; non-quantifiable DNA after extraction'^^xsd:string ;
+    
     emobon-sampling:hasSampleSize [
         a qudt:QuantityValue ; 
         qudt:numericValue '10.0'^^xsd:double ; 

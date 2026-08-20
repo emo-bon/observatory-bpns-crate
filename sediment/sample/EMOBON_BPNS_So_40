@@ -29,6 +29,7 @@
     schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI ; 
     schema:additionalType core_vocab:fieldSample ;
     emobon-sampling:longStorage 'false'^^xsd:boolean ;
+    emobon-sampling:failure 'false'^^xsd:boolean ;
     
     
     emobon-sampling:environmentMaterial<http://purl.obolibrary.org/obo/ENVO_00002007>;
@@ -51,15 +52,15 @@
         a prov:Activity ;
         dct:type "storage"^^xsd:string ; 
         dct:description "Storage of sample at sequencing centre for subsequent DNA sequencing"^^xsd:string ; 
-        prov:startedAtTime '2023-07-18'^^xsd:date ; 
+        prov:startedAtTime '2023-06-01'^^xsd:date ; 
         
         prov:wasInformedBy [
             
             a prov:Activity ;
             dct:type "transport"^^xsd:string ; 
             dct:description "Shipping of sample from HMBRC HQ to sequencing centre"^^xsd:string ; 
-            prov:startedAtTime '2023-07-18'^^xsd:date ;
-            prov:endedAtTime '2023-07-18'^^xsd:date ;
+            prov:startedAtTime '2023-06-01'^^xsd:date ;
+            prov:endedAtTime '2023-06-01'^^xsd:date ;
             prov:wasInformedBy [
                 
                 a prov:Activity ;

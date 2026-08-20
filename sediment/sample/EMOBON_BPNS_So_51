@@ -29,6 +29,7 @@
     schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI ; 
     schema:additionalType core_vocab:fieldSample ;
     emobon-sampling:longStorage 'false'^^xsd:boolean ;
+    emobon-sampling:failure 'false'^^xsd:boolean ;
     
     
     emobon-sampling:environmentMaterial<http://purl.obolibrary.org/obo/ENVO_00002007>;

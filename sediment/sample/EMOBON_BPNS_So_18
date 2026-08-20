@@ -24,7 +24,8 @@
     
     emobon-sampling:origEmobonId 'EMOBON-211028-BPNS-So3-Micro-R2'^^xsd:string ; 
     
-    dct:description 'EMOBON metagenome sediment sample from station BPNS collected on 2021-10-28 community collected micro'^^xsd:string ; 
+    dct:description 'EMOBON metagenome sediment sample from station BPNS collected on 2021-10-28 community collected micro'^^xsd:string ;
+    emobon-sampling:enaSampleAccNum 'https://identifiers.org/ena.embl:ERS20535374'^^xsd:anyURI ; 
     emobon-sampling:sampleReplicate '2'^^xsd:string ;
     schema:additionalType "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI ; 
     schema:additionalType core_vocab:fieldSample ;
