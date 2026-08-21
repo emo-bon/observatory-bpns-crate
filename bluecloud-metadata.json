@@ -16,19 +16,6 @@
                 "@id": "urn:temporal:coverage"
             },
             "dct:title": "Marine genomic sampling (meta)data from EMO BON Observation Network - station BPNS, Belgium",
-            "description": "The sampling activity logsheets for this given observatory",
-            "hasPart": [
-                "all-triples.ttl",
-                "logsheets/transformed/sediment_measured.csv",
-                "logsheets/transformed/sediment_observatory.csv",
-                "logsheets/transformed/sediment_sampling.csv",
-                "logsheets/transformed/water_measured.csv",
-                "logsheets/transformed/water_observatory.csv",
-                "logsheets/transformed/water_sampling.csv"
-            ],
-            "http://www.w3.org/ns/dcat#contactPoint": {
-                "@id": "https://orcid.org/0000-0002-8559-3508"
-            },
             "https://schema.org/contributor": [
                 {
                     "@id": "https://orcid.org/0000-0002-5662-5689"
@@ -196,32 +183,9 @@
             "license": {
                 "@id": "https://creativecommons.org/licenses/by/4.0/"
             },
-            "maintainer": [
-                {
-                    "@id": "https://www.embrc.eu/emo-bon"
-                },
-                {
-                    "@id": "https://orcid.org/0000-0002-8559-3508"
-                }
-            ],
-            "name": "observatory-bpns-crate",
-            "provider": [
-                {
-                    "@id": "https://www.vliz.be"
-                },
-                {
-                    "@id": "https://www.ugent.be"
-                }
-            ],
             "publisher": {
-                "@id": "https://www.embrc.eu/emo-bon"
-            },
-            "temporalCoverage": "2021-07-01/2024-10-22"
-        },
-        {
-            "@id": "all-triples.ttl",
-            "@type": "File",
-            "encodingFormat": "text/turtle"
+                "@id": "https://edmo.seadatanet.org/report/5669"
+            }
         },
         {
             "@id": "http://purl.obolibrary.org/obo/ENVO_00000447",
@@ -523,15 +487,6 @@
             "https://schema.org/name": "Lara Macheriotou"
         },
         {
-            "@id": "https://orcid.org/0000-0002-8559-3508",
-            "@type": "Person",
-            "affiliation": {
-                "@id": "https://www.vliz.be"
-            },
-            "email": "klaas.deneudt@vliz.be",
-            "name": "Klaas Deneudt"
-        },
-        {
             "@id": "https://orcid.org/0000-0002-8781-7915",
             "@type": "https://schema.org/Person",
             "https://schema.org/identifier": {
@@ -549,12 +504,6 @@
             "https://schema.org/propertyID": {
                 "@id": "https://vocab.lternet.edu/vocab/vocab/index.php?tema=530"
             }
-        },
-        {
-            "@id": "https://www.embrc.eu/emo-bon",
-            "@type": "Project",
-            "email": "emobon@embrc.eu",
-            "name": "EMO BON"
         },
         {
             "@id": "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=1874687",
@@ -587,46 +536,6 @@
                 "@id": "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"
             },
             "https://schema.org/name": "marine sediment metagenome"
-        },
-        {
-            "@id": "https://www.ugent.be",
-            "@type": "Organization",
-            "name": "Ghent University"
-        },
-        {
-            "@id": "https://www.vliz.be",
-            "@type": "Organization",
-            "name": "Flanders Marine Institute"
-        },
-        {
-            "@id": "logsheets/transformed/sediment_measured.csv",
-            "@type": "File",
-            "encodingFormat": "text/csv"
-        },
-        {
-            "@id": "logsheets/transformed/sediment_observatory.csv",
-            "@type": "File",
-            "encodingFormat": "text/csv"
-        },
-        {
-            "@id": "logsheets/transformed/sediment_sampling.csv",
-            "@type": "File",
-            "encodingFormat": "text/csv"
-        },
-        {
-            "@id": "logsheets/transformed/water_measured.csv",
-            "@type": "File",
-            "encodingFormat": "text/csv"
-        },
-        {
-            "@id": "logsheets/transformed/water_observatory.csv",
-            "@type": "File",
-            "encodingFormat": "text/csv"
-        },
-        {
-            "@id": "logsheets/transformed/water_sampling.csv",
-            "@type": "File",
-            "encodingFormat": "text/csv"
         },
         {
             "@id": "ro-crate-metadata.json",
