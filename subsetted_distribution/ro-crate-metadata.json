@@ -1,0 +1,314 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.2/context",
+    "@graph": [
+        {
+            "@id": "./",
+            "@type": "Dataset",
+            "about": [
+                {
+                    "@id": "https://inspire.ec.europa.eu/metadata-codelist/TopicCategory/biota"
+                },
+                {
+                    "@id": "https://www.embrc.eu/emo-bon/"
+                }
+            ],
+            "citation": {
+                "@id": "European Marine Biological Research Centre (EMBRC), European Marine Omics Biodiversity Observation Network (EMO BON), Metadata logsheets for Marine genomic sampling metadata from EMO BON Observation Network [station EMOBON-BE; Belgium], 2026, https\\://data.emobon.embrc.eu/observatory-bpns-crate/, emobon@embrc.eu"
+            },
+            "creator": [
+                {
+                    "@id": "https://edmo.seadatanet.org/report/https://edmo.seadatanet.org/report/422"
+                },
+                {
+                    "@id": "https://edmo.seadatanet.org/report/https://edmo.seadatanet.org/report/449"
+                },
+                {
+                    "@id": "https://edmo.seadatanet.org/report/https://edmo.seadatanet.org/report/432"
+                },
+                {
+                    "@id": "https://edmo.seadatanet.org/report/https://edmo.seadatanet.org/report/2248"
+                }
+            ],
+            "dateModified": "2026-10-19",
+            "datePublished": "2026-10-19",
+            "description": "Here you will find all the data collected from the log sheets produced by the European Marine Omics Biodiversity Observation Network (EMO BON) observatory EMOBON-BE for their water, sediment sampling activities. Log sheets are filled by the observatory during and after their sampling event, and every few months they are harvested, curated, and processed. The samples are sent for genomics processing: the raw genomic data can be found in ENA under PRJEB51688. The download from this metadata record is a copy of the sampling log sheets for all events for which sequences are available in ENA. It also includes a link to the website where you can find additional information and browse all other data.",
+            "hasPart": [
+                "all-triples.ttl",
+                "logsheets/"
+            ],
+            "identifier": [
+                {
+                    "@id": "https://data.emobon.embrc.eu/observatory-bpns-crate/"
+                },
+                {
+                    "@id": "https://github.com/emo-bon/observatory-bpns-crate/releases/tag/bluecloud-ENA-latest"
+                }
+            ],
+            "instrument": [
+                "CTD",
+                "Hanna Instruments 991001 ph meter",
+                "SEAL QuAAtro analysis system + Skalar AutoAnalyser system",
+                "HPLC"
+            ],
+            "keywords": [
+                "marine genomics",
+                "European Marine Omics Biodiversity Observation Network",
+                "EMO BON",
+                "Biota",
+                "EMOBON-BE"
+            ],
+            "license": {
+                "@id": "https://creativecommons.org/licenses/by/4.0/"
+            },
+            "name": "Marine genomic sampling metadata from EMO BON Observation Network [station EMOBON-BE; Belgium]",
+            "publisher": {
+                "@id": "https://www.embrc.eu/emo-bon/"
+            },
+            "spatialCoverage": {
+                "@id": "_:spatialCoverage"
+            },
+            "temporalCoverage": "2026-10-19/2026-10-19",
+            "url": {
+                "@id": "https://data.emobon.embrc.eu/observatory-bpns-crate/"
+            },
+            "variableMeasured": [
+                {
+                    "@id": "_:param_0"
+                },
+                {
+                    "@id": "_:param_1"
+                },
+                {
+                    "@id": "_:param_2"
+                },
+                {
+                    "@id": "_:param_3"
+                },
+                {
+                    "@id": "_:param_4"
+                },
+                {
+                    "@id": "_:param_5"
+                },
+                {
+                    "@id": "_:param_6"
+                },
+                {
+                    "@id": "_:param_7"
+                },
+                {
+                    "@id": "_:param_8"
+                },
+                {
+                    "@id": "_:param_9"
+                },
+                {
+                    "@id": "_:param_10"
+                },
+                {
+                    "@id": "_:param_11"
+                },
+                {
+                    "@id": "_:param_12"
+                },
+                {
+                    "@id": "_:param_13"
+                }
+            ]
+        },
+        {
+            "@id": "_:geoBbox",
+            "@type": "GeoShape",
+            "box": "51.433331 2.808331 51.433331 2.808331"
+        },
+        {
+            "@id": "_:param_0",
+            "@type": "PropertyValue",
+            "name": "nitrite",
+            "propertyID": {
+                "@id": "http://vocab.nerc.ac.uk/collection/P01/current/NTRIZZXX/"
+            }
+        },
+        {
+            "@id": "_:param_1",
+            "@type": "PropertyValue",
+            "name": "diss_oxygen",
+            "propertyID": {
+                "@id": "http://vocab.nerc.ac.uk/collection/P01/current/DOXMZZXX/"
+            }
+        },
+        {
+            "@id": "_:param_10",
+            "@type": "PropertyValue",
+            "name": "conduc",
+            "propertyID": {
+                "@id": "http://vocab.nerc.ac.uk/collection/P01/current/CNDCZZ01/"
+            }
+        },
+        {
+            "@id": "_:param_11",
+            "@type": "PropertyValue",
+            "name": "sea_subsurf_salinity",
+            "propertyID": {
+                "@id": "https://data.emobon.embrc.eu/ns/observableproperty_vocab#salSampledepth"
+            }
+        },
+        {
+            "@id": "_:param_12",
+            "@type": "PropertyValue",
+            "name": "pressure",
+            "propertyID": {
+                "@id": "http://vocab.nerc.ac.uk/collection/S06/current/S0600274/"
+            }
+        },
+        {
+            "@id": "_:param_13",
+            "@type": "PropertyValue",
+            "name": "sea_surf_temp",
+            "propertyID": {
+                "@id": "https://data.emobon.embrc.eu/ns/observableproperty_vocab#tempSurface"
+            }
+        },
+        {
+            "@id": "_:param_2",
+            "@type": "PropertyValue",
+            "name": "sea_subsurf_temp",
+            "propertyID": {
+                "@id": "https://data.emobon.embrc.eu/ns/observableproperty_vocab#tempSampledepth"
+            }
+        },
+        {
+            "@id": "_:param_3",
+            "@type": "PropertyValue",
+            "name": "sea_surf_salinity",
+            "propertyID": {
+                "@id": "https://data.emobon.embrc.eu/ns/observableproperty_vocab#salSurface"
+            }
+        },
+        {
+            "@id": "_:param_4",
+            "@type": "PropertyValue",
+            "name": "chlorophyll",
+            "propertyID": {
+                "@id": "http://vocab.nerc.ac.uk/collection/S27/current/CS002896/"
+            }
+        },
+        {
+            "@id": "_:param_5",
+            "@type": "PropertyValue",
+            "name": "silicate",
+            "propertyID": {
+                "@id": "http://vocab.nerc.ac.uk/collection/P02/current/SLCA/"
+            }
+        },
+        {
+            "@id": "_:param_6",
+            "@type": "PropertyValue",
+            "name": "nitrate",
+            "propertyID": {
+                "@id": "http://vocab.nerc.ac.uk/collection/P01/current/NTRAZZXX/"
+            }
+        },
+        {
+            "@id": "_:param_7",
+            "@type": "PropertyValue",
+            "name": "density",
+            "propertyID": {
+                "@id": "http://vocab.nerc.ac.uk/collection/P02/current/SIGT/"
+            }
+        },
+        {
+            "@id": "_:param_8",
+            "@type": "PropertyValue",
+            "name": "sediment_temp",
+            "propertyID": {
+                "@id": "https://vocab.lternet.edu/vocab/vocab/index.php?tema=530"
+            }
+        },
+        {
+            "@id": "_:param_9",
+            "@type": "PropertyValue",
+            "name": "ph",
+            "propertyID": {
+                "@id": "http://vocab.nerc.ac.uk/collection/S06/current/S0600278/"
+            }
+        },
+        {
+            "@id": "_:spatialCoverage",
+            "@type": "Place",
+            "geo": {
+                "@id": "_:geoBbox"
+            },
+            "name": "EMOBON-BE [Belgium]"
+        },
+        {
+            "@id": "all-triples.ttl",
+            "@type": "File",
+            "name": "all-triples.ttl"
+        },
+        {
+            "@id": "https://edmo.seadatanet.org/report/https://edmo.seadatanet.org/report/2248",
+            "@type": "Organization",
+            "name": "Katholieke Universiteit Leuven",
+            "url": {
+                "@id": "https://edmo.seadatanet.org/report/https://edmo.seadatanet.org/report/2248"
+            }
+        },
+        {
+            "@id": "https://edmo.seadatanet.org/report/https://edmo.seadatanet.org/report/422",
+            "@type": "Organization",
+            "name": "Flanders Marine Institute (VLIZ)",
+            "url": {
+                "@id": "https://edmo.seadatanet.org/report/https://edmo.seadatanet.org/report/422"
+            }
+        },
+        {
+            "@id": "https://edmo.seadatanet.org/report/https://edmo.seadatanet.org/report/432",
+            "@type": "Organization",
+            "name": "Royal Belgian Institute of Natural Sciences",
+            "url": {
+                "@id": "https://edmo.seadatanet.org/report/https://edmo.seadatanet.org/report/432"
+            }
+        },
+        {
+            "@id": "https://edmo.seadatanet.org/report/https://edmo.seadatanet.org/report/449",
+            "@type": "Organization",
+            "name": "Ghent University",
+            "url": {
+                "@id": "https://edmo.seadatanet.org/report/https://edmo.seadatanet.org/report/449"
+            }
+        },
+        {
+            "@id": "https://inspire.ec.europa.eu/metadata-codelist/TopicCategory/biota",
+            "@type": "DefinedTerm",
+            "inDefinedTermSet": {
+                "@id": "https://inspire.ec.europa.eu/metadata-codelist/TopicCategory"
+            },
+            "name": "Biota",
+            "url": {
+                "@id": "https://inspire.ec.europa.eu/metadata-codelist/TopicCategory/biota"
+            }
+        },
+        {
+            "@id": "https://www.embrc.eu/emo-bon/",
+            "@type": "Project",
+            "name": "EMO BON",
+            "url": {
+                "@id": "https://www.embrc.eu/emo-bon/"
+            }
+        },
+        {
+            "@id": "logsheets/",
+            "@type": "Dataset",
+            "name": "logsheets"
+        },
+        {
+            "@id": "ro-crate-metadata.json",
+            "@type": "CreativeWork",
+            "about": "./",
+            "conformsTo": {
+                "@id": "https://w3id.org/ro/crate/1.2"
+            }
+        }
+    ]
+}

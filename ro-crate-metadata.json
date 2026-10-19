@@ -49,86 +49,86 @@
             },
             "https://schema.org/instrument": [
                 "Bucket",
-                "Niskin Bottle",
-                "Van Veen Grab"
+                "Van Veen Grab",
+                "Niskin Bottle"
             ],
             "https://schema.org/keywords": [
                 {
                     "@id": "http://purl.obolibrary.org/obo/ENVO_01000023"
                 },
-                {
-                    "@id": "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=1874687"
-                },
-                {
-                    "@id": "http://purl.obolibrary.org/obo/ENVO_00002042"
-                },
-                {
-                    "@id": "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=256318"
-                },
-                {
-                    "@id": "http://purl.obolibrary.org/obo/ENVO_00002150"
-                },
-                "metagenome",
-                {
-                    "@id": "http://purl.obolibrary.org/obo/ENVO_02000049"
-                },
-                {
-                    "@id": "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"
-                },
-                {
-                    "@id": "https://inspire.ec.europa.eu/metadata-codelist/TopicCategory/biota"
-                },
-                {
-                    "@id": "http://purl.obolibrary.org/obo/ENVO_00003065"
-                },
-                {
-                    "@id": "http://purl.obolibrary.org/obo/ENVO_01000044"
-                },
-                "marine sediment metagenome",
-                "Metazoa",
                 "marine plankton metagenome",
                 {
-                    "@id": "http://purl.obolibrary.org/obo/ENVO_00002149"
-                },
-                {
-                    "@id": "http://purl.obolibrary.org/obo/ENVO_00000447"
-                },
-                {
-                    "@id": "http://purl.obolibrary.org/obo/ENVO_03000034"
-                },
-                {
-                    "@id": "http://purl.obolibrary.org/obo/ENVO_01000024"
+                    "@id": "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"
                 },
                 {
                     "@id": "http://purl.obolibrary.org/obo/ENVO_00002007"
                 },
                 {
-                    "@id": "http://purl.obolibrary.org/obo/ENVO_00001999"
+                    "@id": "http://purl.obolibrary.org/obo/ENVO_00002042"
+                },
+                {
+                    "@id": "http://purl.obolibrary.org/obo/ENVO_01000044"
+                },
+                "Metazoa",
+                "marine sediment metagenome",
+                "metagenome",
+                {
+                    "@id": "http://purl.obolibrary.org/obo/ENVO_00003065"
+                },
+                {
+                    "@id": "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=1874687"
+                },
+                {
+                    "@id": "http://purl.obolibrary.org/obo/ENVO_01000024"
+                },
+                {
+                    "@id": "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=256318"
+                },
+                {
+                    "@id": "http://purl.obolibrary.org/obo/ENVO_00000447"
+                },
+                {
+                    "@id": "http://purl.obolibrary.org/obo/ENVO_00002150"
+                },
+                {
+                    "@id": "http://purl.obolibrary.org/obo/ENVO_03000034"
                 },
                 {
                     "@id": "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=33208"
+                },
+                {
+                    "@id": "http://purl.obolibrary.org/obo/ENVO_00001999"
+                },
+                {
+                    "@id": "http://purl.obolibrary.org/obo/ENVO_00002149"
+                },
+                {
+                    "@id": "http://purl.obolibrary.org/obo/ENVO_02000049"
+                },
+                {
+                    "@id": "https://inspire.ec.europa.eu/metadata-codelist/TopicCategory/biota"
                 }
             ],
             "https://schema.org/measurementTechnique": [
+                "HPLC",
+                "SEAL QuAAtro analysis system + Skalar AutoAnalyser system",
                 "CTD",
                 "LLG PH METER 5",
-                "SEAL QuAAtro analysis system + Skalar AutoAnalyser system",
-                "HPLC",
                 "Hanna Instruments 991001 ph meter"
             ],
             "https://schema.org/name": "Marine genomic sampling (meta)data from EMO BON Observation Network - station BPNS, Belgium",
             "https://schema.org/provider": [
                 {
-                    "@id": "https://edmo.seadatanet.org/report/432"
-                },
-                {
                     "@id": "https://edmo.seadatanet.org/report/422"
                 },
                 {
-                    "@id": "https://edmo.seadatanet.org/report/449"
+                    "@id": "https://edmo.seadatanet.org/report/2248"
                 },
                 {
-                    "@id": "https://edmo.seadatanet.org/report/2248"
+                    "@id": "https://edmo.seadatanet.org/report/432"
+                },
+                {
+                    "@id": "https://edmo.seadatanet.org/report/449"
                 }
             ],
             "https://schema.org/publisher": {
@@ -140,46 +140,46 @@
             "https://schema.org/temporalCoverage": "2021-07-01/2021-12-23",
             "https://schema.org/variableMeasured": [
                 {
-                    "@id": "http://vocab.nerc.ac.uk/collection/P01/current/CNDCZZ01/"
+                    "@id": "http://vocab.nerc.ac.uk/collection/P02/current/SIGT/"
                 },
                 {
-                    "@id": "http://vocab.nerc.ac.uk/collection/P01/current/NTRAZZXX/"
-                },
-                {
-                    "@id": "http://vocab.nerc.ac.uk/collection/P01/current/DOXMZZXX/"
-                },
-                {
-                    "@id": "http://vocab.nerc.ac.uk/collection/S06/current/S0600278/"
-                },
-                {
-                    "@id": "https://data.emobon.embrc.eu/ns/observableproperty_vocab#salSurface"
+                    "@id": "https://data.emobon.embrc.eu/ns/observableproperty_vocab#tempSampledepth"
                 },
                 {
                     "@id": "https://data.emobon.embrc.eu/ns/observableproperty_vocab#tempSurface"
                 },
                 {
-                    "@id": "http://vocab.nerc.ac.uk/collection/P02/current/SIGT/"
-                },
-                {
-                    "@id": "https://vocab.lternet.edu/vocab/vocab/index.php?tema=530"
-                },
-                {
                     "@id": "http://vocab.nerc.ac.uk/collection/S06/current/S0600274/"
-                },
-                {
-                    "@id": "https://data.emobon.embrc.eu/ns/observableproperty_vocab#salSampledepth"
-                },
-                {
-                    "@id": "http://vocab.nerc.ac.uk/collection/P02/current/SLCA/"
-                },
-                {
-                    "@id": "https://data.emobon.embrc.eu/ns/observableproperty_vocab#tempSampledepth"
                 },
                 {
                     "@id": "http://vocab.nerc.ac.uk/collection/P01/current/NTRIZZXX/"
                 },
                 {
                     "@id": "http://vocab.nerc.ac.uk/collection/S27/current/CS002896/"
+                },
+                {
+                    "@id": "http://vocab.nerc.ac.uk/collection/P01/current/DOXMZZXX/"
+                },
+                {
+                    "@id": "https://vocab.lternet.edu/vocab/vocab/index.php?tema=530"
+                },
+                {
+                    "@id": "https://data.emobon.embrc.eu/ns/observableproperty_vocab#salSampledepth"
+                },
+                {
+                    "@id": "http://vocab.nerc.ac.uk/collection/P01/current/CNDCZZ01/"
+                },
+                {
+                    "@id": "http://vocab.nerc.ac.uk/collection/P01/current/NTRAZZXX/"
+                },
+                {
+                    "@id": "http://vocab.nerc.ac.uk/collection/P02/current/SLCA/"
+                },
+                {
+                    "@id": "http://vocab.nerc.ac.uk/collection/S06/current/S0600278/"
+                },
+                {
+                    "@id": "https://data.emobon.embrc.eu/ns/observableproperty_vocab#salSurface"
                 }
             ],
             "keywords": [
@@ -644,13 +644,13 @@
             "@type": "https://schema.org/Place",
             "dct:isPartOf": [
                 {
+                    "@id": "http://marineregions.org/mrgid/2350"
+                },
+                {
                     "@id": "http://marineregions.org/mrgid/26567"
                 },
                 {
                     "@id": "http://marineregions.org/mrgid/1912"
-                },
-                {
-                    "@id": "http://marineregions.org/mrgid/2350"
                 }
             ],
             "geosparql:hasGeometry": {
